@@ -2,26 +2,32 @@ import { useState } from "react";
 import "./App.css";
 import generateQuestion from "./questionGenerator";
 import Home from "./home";
+import Question from "./questionCard";
 
 function App() {
   const [currentQuestions, setCurrentQuestions] = useState([]);
+  const [examDetails, setExamDetails] = useState({
+    paper: "gte",
+    no_of_questions: "10",
+    score: 0,
+    new_exam: true,
+  });
   return (
     <>
-      <Home setQuestion={setCurrentQuestions} questions={generateQuestion} />
-      <section>
-        {currentQuestions.map((questionObj) => {
-          return (
-            <section key={questionObj["key"]}>
-              <h3>{questionObj["question"]}</h3>
-              <ul>
-                {questionObj["choices"].map((choice, index) => {
-                  return <li key={index}>{choice}</li>;
-                })}
-              </ul>
-            </section>
-          );
-        })}
-      </section>
+      {examDetails.new_exam ? (
+        <Home
+          setQuestion={setCurrentQuestions}
+          questions={generateQuestion}
+          setDetails={setExamDetails}
+          details={examDetails}
+        />
+      ) : (
+        <Question
+          currentQuestions={currentQuestions}
+          details={examDetails}
+          setDetails={setExamDetails}
+        />
+      )}
     </>
   );
 }
