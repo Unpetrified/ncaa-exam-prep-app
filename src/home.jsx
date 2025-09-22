@@ -28,7 +28,9 @@ function ExamForm({ setDetails, details, questions, setQuestions }) {
   function startExam(e) {
     e.preventDefault();
 
-    setQuestions(questions(parseInt(details["no_of_questions"])));
+    setQuestions(
+      questions(parseInt(details["no_of_questions"]), details["paper"])
+    );
 
     const newDetails = { ...details };
     newDetails["new_exam"] = false;
