@@ -1,0 +1,1832 @@
+export default function generateQuestion(num_of_questions) {
+  const questionBank = {
+    "The primary function of the cabin pressurization system outflow valve is to:":
+      {
+        answer: "maintain the desired cabin pressure",
+        choices: [
+          "provide protection against overpressurization",
+          "maintain the desired cabin pressure",
+          "maintain the same cabin air pressure at all altitudes",
+        ],
+      },
+    "Which best describes cabin differential pressure?": {
+      answer: "Difference between the ambient and internal air pressure",
+      choices: [
+        "Difference between cabin flight altitude pressure and Mean Sea Level pressure",
+        "Difference between the ambient and internal air pressure",
+        "Difference between cabin pressure controller setting and actual cabin pressure",
+      ],
+    },
+    "On some cabin pressurization systems, pressurization on the ground is restricted by the":
+      {
+        answer: "main landing gear operated switch",
+        choices: [
+          "main landing gear operated switch",
+          "cabin pressure regulator",
+          "negative pressure-relief valve",
+        ],
+      },
+    "What is the purpose of a mixing valve in a compressor bleed air air-conditioning system?":
+      {
+        answer: "Control the supply of hot, cool, and cold air",
+        choices: [
+          "Control the supply of hot, cool, and cold air",
+          "Distribute conditioned air evenly to all parts of the cabin",
+          "Combine ram air with conditioned air",
+        ],
+      },
+    "The principal types of hydraulic fluid used in aircraft systems are:": {
+      answer: "Vegetable, phosphate ester and mineral based",
+      choices: [
+        "Butalene, polyvinyl and mineral based",
+        "Vegetable, phosphate ester and mineral based",
+        "Viscous naphthalene, mineral based",
+      ],
+    },
+    "The purpose of a hydraulic actuator is:": {
+      answer: "To transform fluid flow into linear or rotary motion",
+      choices: [
+        "To act physically during fluid flow",
+        "To actuate hydraulic motions",
+        "To transform fluid flow into linear or rotary motion",
+      ],
+    },
+    "The purpose of a restrictor in a hydraulic system is to restrict:": {
+      answer: "The rate of operation of a service component",
+      choices: [
+        "The rate of build-up of hydraulic pressure",
+        "The distance of travel of a hydraulic actuator",
+        "The rate of operation of a service component",
+      ],
+    },
+    "The function of an accumulator in a hydraulic system is to:": {
+      answer: "Store hydraulic fluid under pressure",
+      choices: [
+        "Relieve excess pressure from the system",
+        "Store hydraulic fluid under pressure",
+        "Collect air from the hydraulic fluid thus reducing the requirement for frequent bleeding",
+      ],
+    },
+    "In the diluter demand oxygen regulator, when does the demand valve operate?":
+      {
+        answer: "When the user breathes",
+        choices: [
+          "When the diluter control is set at normal",
+          "When the user demands 100 percent oxygen",
+          "When the user breathes",
+        ],
+      },
+    "The primary difference between aviation breathing oxygen and other types of commercially available compressed oxygen is that:":
+      {
+        answer:
+          "aviation breathing oxygen has had all the water vapour removed",
+        choices: [
+          "the other types are usually somewhat less than 99.5 percent pure oxygen",
+          "aviation breathing oxygen has had all the water vapour removed",
+          "aviation breathing oxygen has a higher percentage of water vapour to help prevent drying of a person's breathing passages and possible dehydration",
+        ],
+      },
+    "Pneumatic systems utilize": {
+      answer: "relief valves",
+      choices: ["return lines", "relief valves", "diluter valves"],
+    },
+    "What type of selector valve is one of the most commonly used in hydraulic systems to provide for  simultaneous  flow of fluid into and out of a connected actuating unit?":
+      {
+        answer: "Four-port, closed-center valve",
+        choices: [
+          "Four-port, closed-center valve",
+          "Three-port, four-way valve",
+          "Two-port, open-center valve",
+        ],
+      },
+    "Generally, the first step in removing an accumulator from an aircraft is to:":
+      {
+        answer: "relieve system pressure",
+        choices: [
+          "relieve system pressure",
+          "discharge the preload",
+          "drain the reservoir",
+        ],
+      },
+    "The internal resistance of a fluid which tends to prevent it from flowing is called:":
+      {
+        answer: "viscosity",
+        choices: ["volatility", "viscosity", "acidity"],
+      },
+    "Contact between dissimilar metals, which may lead to corrosion, may be prevented":
+      {
+        answer: "By applying zinc chromate between the two faces",
+        choices: [
+          "By fitting bonding strips between the two faces",
+          "By applying chromic acid to the two faces",
+          "By applying zinc chromate between the two faces",
+        ],
+      },
+    "Mercury attack on aluminum alloys can be recognized visually by": {
+      answer: "A grayish powder, fuzzy deposits, or whiskery growth",
+      choices: [
+        "A grayish powder, fuzzy deposits, or whiskery growth",
+        "A yellowish stain or coating",
+        "A black stain turning to reddish powder",
+      ],
+    },
+    "Heavy corrosion deposits on clad aluminum alloys should be removed": {
+      answer: "Chemically by use of phosphoric acid",
+      choices: [
+        "Mechanically using a pneumatic vibrator",
+        "Chemically by use of trichloroethylene",
+        "Chemically by use of phosphoric acid",
+      ],
+    },
+    "When an aircraft's oxygen system has developed a leak, the lines and fittings should be":
+      {
+        answer:
+          "bubble tested with a special soap solution manufactured specifically for this purpose",
+        choices: [
+          "removed and replaced",
+          "inspected using a special oxygen system dye penetrant",
+          "bubble tested with a special soap solution manufactured specifically for this purpose",
+        ],
+      },
+    "When silica gel has absorbed moisture the colour changes to:": {
+      answer: "pink",
+      choices: ["blue", "white", "pink"],
+    },
+    "Exfoliation corrosion is sometimes referred to as": {
+      answer: "Layer corrosion",
+      choices: [
+        "Layer corrosion",
+        "Sub surface corrosion",
+        "Filiform corrosion",
+      ],
+    },
+    "Which of the following lists only desirable properties of a good hydraulic fluid?":
+      {
+        answer:
+          "Low viscosity, chemical stability, high flash point, high fire point",
+        choices: [
+          "High viscosity, low flash point, chemical stability, high fire point",
+          "High flash point, low viscosity, chemical stability, low fire point",
+          "Low viscosity, chemical stability, high flash point, high fire point",
+        ],
+      },
+    "The pressure source for power brakes is:": {
+      answer: "the main hydraulic system",
+      choices: [
+        "the main hydraulic system",
+        "the power brake reservoir",
+        "a master cylinder",
+      ],
+    },
+    "The purpose of a  relief valve  in a brake system is to:": {
+      answer: "compensate for thermal expansion",
+      choices: [
+        "reduce pressure for brake application",
+        "prevent the tyre from skidding",
+        "compensate for thermal expansion",
+      ],
+    },
+    "At which component in an air-cycle cooling system does air undergo a pressure and temperature drop?":
+      {
+        answer: "Expansion turbine",
+        choices: [
+          "Expansion turbine",
+          "Primary heat exchanger",
+          "Refrigerator bypass valve",
+        ],
+      },
+    "Corrosion may be identified on a magnesium alloy component": {
+      answer: "By a grey powder, accompanied by pitting",
+      choices: [
+        "By a red powder, accompanied by blistering",
+        "By a green powder, accompanied by pitting",
+        "By a grey powder, accompanied by pitting",
+      ],
+    },
+    "Quick-disconnect couplings in hydraulic systems provide a means of:": {
+      answer:
+        "quickly connecting and disconnecting hydraulic lines without loss of fluid or entrance of air into the system",
+      choices: [
+        "easily replacing hydraulic lines in areas where leaks are common",
+        "quickly connecting and disconnecting hydraulic lines and eliminate the possibility of contaminates entering the system",
+        "quickly connecting and disconnecting hydraulic lines without loss of fluid or entrance of air into the system",
+      ],
+    },
+    "A non-destructive testing technique which is suitable for light aluminum alloys is":
+      {
+        answer: "Ultrasonic",
+        choices: ["Magnetic flow", "Ultrasonic", "Electroflux"],
+      },
+    "Which of the following N.D.T. techniques  cannot  be used on a component manufactured from  austenitic stainless steel ?":
+      {
+        answer: "Magnetic-particle",
+        choices: ["Penetrant dye", "Magnetic-particle", "Hot oil and chalk"],
+      },
+    "If a non-ferrous metal being examined by chemical test turns black when caustic soda is applied to the surface, metal is":
+      {
+        answer: "Duralumin",
+        choices: ["Aluminum", "Alclad", "Duralumin"],
+      },
+    "Zinc chromate applied between faying surfaces will": {
+      answer: "Inhibit dissimilar metal (electrolytic) corrosion",
+      choices: [
+        "Improve bonding between them",
+        "Improve adhesion thus relieving the amount of",
+        "Inhibit dissimilar metal (electrolytic) corrosion",
+      ],
+    },
+    "In the autopilot system, the  position transmitter  senses": {
+      answer: "The angular displacement of a control",
+      choices: [
+        "The actual rate of roll, pitches, and yaws",
+        "An indication of the static and dynamic surface pressure",
+        "The angular displacement of a control",
+      ],
+    },
+    "To repair an integral fuel tank you should use": {
+      answer: "Rivets",
+      choices: ["Rivets", "Bronzing", "Welding"],
+    },
+    "Hot compressor bleed air operates the conditioned air system on some turbine aircraft, how is cold air supplied?":
+      {
+        answer: "By the air cycle machine turbine",
+        choices: [
+          "By the air cycle machine turbine",
+          "By the flow control unit",
+          "By the ram cycle cooling unit",
+        ],
+      },
+    "What test is used to determine the serviceability of an oxygen cylinder?":
+      {
+        answer: "Pressure test with water",
+        choices: [
+          "Pressure test with manometer",
+          "Pressure test with nitrogen",
+          "Pressure test with water",
+        ],
+      },
+    "Extension of an oleo shock strut is measured to determine the:": {
+      answer: "proper operating position of the strut",
+      choices: [
+        "amount of oil in the strut",
+        "physical condition of the strut itself",
+        "proper operating position of the strut",
+      ],
+    },
+    "In an aircraft anti-skid system, the electrical solenoid": {
+      answer: "Relieves the pressure to the brakes of the affected wheels",
+      choices: [
+        "Allows less brake pressure by allowing a shuttling of the brake booster",
+        "Relieves the pressure to the brakes of the affected wheels",
+        "Immediately creates a transfer of pressure to the unaffected wheel brakes",
+      ],
+    },
+    "During aircraft operation, a wheel brake fire occurs. Which of the following should be used to extinguish this type of fire?":
+      {
+        answer: "dry chemicals",
+        choices: [
+          "dry chemicals",
+          "moist chemicals",
+          "Foam similar as that used to coat the runway in case of an aircraft wheels up landing",
+        ],
+      },
+    "What is windshear?": {
+      answer:
+        "It can have both horizontal and vertical components and consists of large volumes of air that moves in different and usually opposite direction",
+      choices: [
+        "A phenomenon that can occur anywhere within the atmosphere",
+        "It can have both horizontal and vertical components and consists of large volumes of air that moves in different and usually opposite direction",
+        "None of the above",
+      ],
+    },
+    "Windshear warning conditions are caused by": {
+      answer: "Large tailwinds and down drafts",
+      choices: [
+        "Up drafts and temperature increase",
+        "Large tailwinds and down drafts",
+        "Rain, thunderstorm accompany with hail storm",
+      ],
+    },
+    "Skydrol fluid is protected completely from environmental effect": {
+      answer: "By storing in quart cans which are hermetically sealed",
+      choices: [
+        "By storing in quart cans which are hermetically sealed",
+        "By storing in large containers which are hermetically sealed",
+        "Storage form has nothing to do with the environment",
+      ],
+    },
+    "Which statement is correct about analyzing skydrol?": {
+      answer:
+        "if stored in containers other than hermetically sealed cans then it should be analyzed between three to five years",
+      choices: [
+        "skydrol should be analyzed when stored in containers between two to three years",
+        "if stored in containers other than hermetically sealed cans then it should be analyzed between three to five years",
+        "it should be analyzed after five years",
+      ],
+    },
+    "What controls the inflation sequence in a pneumatic deicer boot system?": {
+      answer: "Distribution valve",
+      choices: ["Shuttle valve", "Vacuum pump", "Distribution valve"],
+    },
+    "Which of the following regulates the vacuum of the air pump to hold the deicing boots deflated when the pneumatic deicing system is off?":
+      {
+        answer: "Suction relief valve",
+        choices: [
+          "Distributor valve",
+          "Pressure regulator",
+          "Suction relief valve",
+        ],
+      },
+    "Which statement is true about spilled skydrol?": {
+      answer:
+        "paint rubber as well as plastic materials will disintegrate when in contact with skydrol",
+      choices: [
+        "paint rubber as well as plastic materials will disintegrate when in contact with skydrol",
+        "clothing will mostly not be affected. Further cleaning can be done using Freon, alcohol, mec.",
+        "All are correct",
+      ],
+    },
+    "Cabin heating systems that utilize an exhaust heat exchanger as a source of Heated air":
+      {
+        answer: "All are correct",
+        choices: [
+          "should be checked frequently for leaks of exhaust gases",
+          "should be checked with a carbon monoxide testing instrument",
+          "All are correct",
+        ],
+      },
+    "The primary purpose of the autopilot is to": {
+      answer: "Relieves the pilot of undue stress during long period of flight",
+      choices: [
+        "Hold a predetermined heading of the aircraft under adverse wing conditions",
+        "Relieves the pilot of undue stress during long period of flight",
+        "Aid the pilot when the actual landing (not simulated) on the runway",
+      ],
+    },
+    "You are instructed to check a fire extinguisher bottle for full charge. You can determine the amount of content by":
+      {
+        answer: "Weighing the bottle",
+        choices: [
+          "checking the pressure of extinguisher bottle",
+          "checking the height of the content by looking through the sight gage",
+          "Weighing the bottle",
+        ],
+      },
+    "A shock wave is a very thin region in which there is a sudden decrease of":
+      {
+        answer: "Velocity",
+        choices: ["Pressure", "Velocity", "Temperature"],
+      },
+    "What may be used to clean deicer boots?": {
+      answer: "Soap and water",
+      choices: ["Unleaded gasoline or Jet A fuel", "Naphtha", "Soap and water"],
+    },
+    "The purpose of aircraft wing dihedral is to increase": {
+      answer: "Lateral stability",
+      choices: [
+        "Lateral stability",
+        "Longitudinal stability",
+        "Lift coefficient of the wing",
+      ],
+    },
+    "Stall warning systems are generally designed to begin warning the pilot when a stall":
+      {
+        answer: "is imminent",
+        choices: [
+          "is imminent",
+          "is starting to occur",
+          "first affects the outboard portions of the wings",
+        ],
+      },
+    "Which repair would require a landing gear retraction test?": {
+      answer: "Gear downlock microswitch",
+      choices: [
+        "Landing gear safety switch",
+        "Red warning light bulb",
+        "Gear downlock microswitch",
+      ],
+    },
+    "Which of the following conditions is most likely to cause the landing gear warning signal to sound?":
+      {
+        answer: "Landing gear not locked down and throttle",
+        choices: [
+          "Landing gear locked down and throttle advanced",
+          "Landing gear locked down and throttle retarded",
+          "Landing gear not locked down and throttle",
+        ],
+      },
+    "Landing gear warning systems usually provide which of the following indications?":
+      {
+        answer:
+          "Red light for unsafe gear, green light for gear down, no light for gear up",
+        choices: [
+          "Red light for unsafe gear, no light for gear down, green light for gear up",
+          "Green light for gear up and down, red light for unsafe gear",
+          "Red light for unsafe gear, green light for gear down, no light for gear up",
+        ],
+      },
+    "When removing ground power from an aircraft after starting engines": {
+      answer:
+        "the ground power supply should be switched off before removing the ground power supply plug",
+      choices: [
+        "removal of the ground power plug always automatically transfers power to the aircraft system",
+        "the ground power supply should be switched off before removing the ground power supply plug",
+        "the ground power unit will automatically stop on removal of the ground power plug",
+      ],
+    },
+    "When the generator field is supplied through the battery master switch, if the switch is selected off whilst the engine is running":
+      {
+        answer:
+          "the generator will continue to produce power since it is self-sustaining",
+        choices: [
+          "the generator will continue to produce power since it is self-sustaining",
+          "the generator will be de-excited and hence cease producing power",
+          "the generator will only continue to produce power if the engine is above idle since the generator is then self-sustaining",
+        ],
+      },
+    "Since electrical supply taken from a bus-bar are in parallel, isolating some of the services would":
+      {
+        answer: "reduce the current consumption from the bus-bar",
+        choices: [
+          "reduce the current consumption from the bus-bar",
+          "not affect the current consumption, it would reduce the voltage",
+          "increase the current consumption from the bus-bar",
+        ],
+      },
+    "When towing a large aircraft": {
+      answer: "a person should be in the cockpit to operate the brakes",
+      choices: [
+        "a person should be in the cockpit to watch for obstructions",
+        "persons should be stationed at the nose, each wingtip, and the empennage at all times",
+        "a person should be in the cockpit to operate the brakes",
+      ],
+    },
+    "When checking the  bonding  of a component which is anodically treated against corrosion the":
+      {
+        answer:
+          "Anodic film must be penetrated to ensure good contact of the test probes",
+        choices: [
+          "resistance of the anodic film is negligible and may be ignored",
+          "resistance of the anodic film is negligible and may be ignored",
+          "Anodic film must be penetrated to ensure good contact of the test probes",
+        ],
+      },
+    "When resistor are in parallel": {
+      answer: "the total resistance is smaller than the smallest resistor",
+      choices: [
+        "the total resistance is smaller than the smallest resistor",
+        "the total resistance is larger than the smallest resistor",
+        "the total resistance is the sum of all resistor",
+      ],
+    },
+    "If a Ni-Cad battery overheats, it is an indication of": {
+      answer: "thermal runaway",
+      choices: [
+        "thermal runaway",
+        "the generator not being connected to the bus-bar",
+        "too low generator voltage regulator setting",
+      ],
+    },
+    "The result of an insulation resistance test of an electrical cable": {
+      answer:
+        "may vary with the weather conditions under which the aircraft is tested",
+      choices: [
+        "also indicates continuity of the cable",
+        "may vary with the weather conditions under which the aircraft is tested",
+        "will always be infinity if the cable is correctly installed",
+      ],
+    },
+    "A hydraulic system operational check during ground runup of an aircraft indicates that the wing flaps cannot be lowered using the main hydraulic system, but can be lowered by using the emergency hand pump. Which is the most likely cause?":
+      {
+        answer: "The fluid level in the reservoir is low",
+        choices: [
+          "The flap selector valve has a severe internal leak",
+          "The pressure accumulator is not supplying pressure to the system",
+          "The fluid level in the reservoir is low",
+        ],
+      },
+    "The tube of an airplane tyre should be lined up with": {
+      answer: "the valve core of the tube at the red dot on the tyre",
+      choices: [
+        "the red dot on the tyre",
+        "the line that indicates a possible slippage of the tyre on the wheel",
+        "the valve core of the tube at the red dot on the tyre",
+      ],
+    },
+    "After bleeding the brakes, an engineer finds they are still spongy. This is probably caused by":
+      {
+        answer: "flexible hose that has deteriorated",
+        choices: [
+          "extremely rigid flexible hose installed in the brake system",
+          "flexible hose that has deteriorated",
+          "incorrect fluid in the brake system",
+        ],
+      },
+    "The name of the hydraulic valve that opens the landing gear door prior to landing gear extension is":
+      {
+        answer: "sequence valve",
+        choices: [
+          "sequence valve",
+          "gear-door time lag valve",
+          "time lag extension valve",
+        ],
+      },
+    "If the compressor fails, which of the following prevents loss of cabin pressurization":
+      {
+        answer: "a check valve (one-way valve) in the air duct",
+        choices: [
+          "air that is available from the secondary system",
+          "a check valve (one-way valve) in the air duct",
+          "the secondary cabin outflow valve",
+        ],
+      },
+    "When checking for oxygen leaks, you should use": {
+      answer: "a soap solution specially prepared for this purpose",
+      choices: [
+        "a high flash-point mineral solution",
+        "a soap solution specially prepared for this purpose",
+        "any suitable solution that will be compatible since oxygen is not inflammable",
+      ],
+    },
+    "Which of the following instruments normally have operating range and unit markings?":
+      {
+        answer: "airspeed indicator and CHT",
+        choices: [
+          "directional gyro and airspeed indicator",
+          "cylinder head temperature gage (CHT) and altimeter",
+          "airspeed indicator and CHT",
+        ],
+      },
+    "A ditching control is used to:": {
+      answer: "close all valves and inlets",
+      choices: [
+        "close all valves and inlets",
+        "rapidly inflate floatation bags",
+        "rapidly depressurize the cabin",
+      ],
+    },
+    "The purpose of a mass flow controller is to:": {
+      answer:
+        "ensure that a constant mass of air is delivery to the cabin at all times",
+      choices: [
+        "ensure that a constant mass of air is delivery to the cabin at all times",
+        "allow the pilot to select the desire cabin altitude",
+        "ensure that there is an adequate supply of cool air through the heat exchangers",
+      ],
+    },
+    "Which of the following statements concerning humidity is correct?": {
+      answer: "humidity increases with increasing temperature",
+      choices: [
+        "humidity decreases with decreasing temperature",
+        "humidity increases with decreasing temperature",
+        "humidity increases with increasing temperature",
+      ],
+    },
+    "Electrically driven discharge valves are usually equipped with more than one motor. The reason for this is:":
+      {
+        answer:
+          "to provide a means of back up if a particular motor or its electrical supply fails",
+        choices: [
+          "to provide the extra power needed to drive large valve against the high mass of air used in large jets",
+          "that more motors provide for finer adjustment of the valve position",
+          "to provide a means of back up if a particular motor or its electrical supply fails",
+        ],
+      },
+    "When a mechanical linkage passes through pressure bulkheads it:": {
+      answer: "must always be pressure sealed",
+      choices: [
+        "must always be pressure sealed",
+        "need only be sealed if motion is linear",
+        "need only be sealed if motion is rotary",
+      ],
+    },
+    "Failure of the normal maximum differential control is catered for by fitting:":
+      {
+        answer: "safety relief valves",
+        choices: [
+          "safety relief valves",
+          "inward relief valves",
+          "altitude selector valves",
+        ],
+      },
+    "During a normal pressurized climb following Take-off:": {
+      answer: "the cabin ROC is less than the aircraft's ROC",
+      choices: [
+        "the cabin ROC is less than the aircraft's ROC",
+        "the cabin ROC is more than the aircraft's ROC",
+        "the ROC is constant",
+      ],
+    },
+    "Cabin pressurization is achieved by:": {
+      answer: "controlling the amount of air release from the cabin",
+      choices: [
+        "controlling the supply of air to the cabin",
+        "controlling the amount of air release from the cabin",
+        "varying the output of the compressor",
+      ],
+    },
+    "In a pneumatic pressurization system, positive pressure signals from the controller will cause":
+      {
+        answer: "the discharge valve to move towards open",
+        choices: [
+          "the discharge valve to move towards closed",
+          "the discharge valve to move towards open",
+          "an excessive rate of cabin air discharge",
+        ],
+      },
+    "In pressurized aircraft, temperature control is mainly achieved by:": {
+      answer: "extracting heat from the pressurizing air",
+      choices: [
+        "adding heat to the pressurizing air",
+        "extracting heat from the pressurizing air",
+        "varying the cabin pressure",
+      ],
+    },
+    "The purpose of a spill valve is to:": {
+      answer:
+        "release excess air being delivered at sea level and the lower altitude",
+      choices: [
+        "Provide additional heat by creating back pressure",
+        "release excess air being delivered at sea level and the lower altitude",
+        "relieve excess pressure in the air supply ducting",
+      ],
+    },
+    "Ball bearings accept mainly": {
+      answer: "Radial loads",
+      choices: ["Tangential loads", "Axial and radial loads", "Radial loads"],
+    },
+    "A right angled triangle has sides of 3 and 4 units, the other side will be:":
+      {
+        answer: "5 units",
+        choices: ["6 units", "5 units", "4 units"],
+      },
+    "The fraction 3/8 as a decimal is": {
+      answer: "0.375",
+      choices: ["0.375", "0.250", "0.240"],
+    },
+    "The solution to 0.75 x 0.003 is:": {
+      answer: "0.0025",
+      choices: ["0.0025", "0.0225", "3.00225"],
+    },
+    "Dimpling is a process of:": {
+      answer:
+        "indenting thin sheet material around a drilled hole to accommodate a counter sunk rivet",
+      choices: [
+        "stop drilling a crack",
+        "anodising aluminium surface to prevent corrosion",
+        "indenting thin sheet material around a drilled hole to accommodate a counter sunk rivet",
+      ],
+    },
+    "At high speed an aircraft will produce": {
+      answer: "more profile drag than induced drag",
+      choices: [
+        "more profile drag than induced drag",
+        "more induced drag than profile drag",
+        "about the same profile drag as induced drag",
+      ],
+    },
+    "The desire effect of using winglets on an aircraft wingtips is to": {
+      answer: "increase the lift to drag ratio",
+      choices: [
+        "increase the lift to drag ratio",
+        "reduce the aspect ratio",
+        "optimize wing dihedral and improve lateral stability",
+      ],
+    },
+    "The purpose of stall strips on airplane wings is to": {
+      answer: "ensure that the wing root areas stall first",
+      choices: [
+        "increase lift in the areas of installation",
+        "prevent stall in the areas of installation",
+        "ensure that the wing root areas stall first",
+      ],
+    },
+    "Nicks around the edge of the head of a bolt indicates": {
+      answer: "High tensile steel",
+      choices: ["Light alloy", "High tensile steel", "Low tensile steel"],
+    },
+    "A laminar boundary layer will produce": {
+      answer: "less skin friction drag than a turbulent one",
+      choices: [
+        "more skin friction drag than a turbulent one",
+        "less skin friction drag than a turbulent one",
+        "the same skin friction drag as a turbulent one",
+      ],
+    },
+    "Aerodynamic balance is used to:": {
+      answer: "Make the flying controls easier to move",
+      choices: [
+        "Prevent flutter of the flying controls",
+        "Make the flying controls easier to move",
+        "Reduce the control load to zero",
+      ],
+    },
+    "In a differential aileron system:": {
+      answer: "the aileron moves further up than down",
+      choices: [
+        "the aileron moves further up than down",
+        "the aileron moves further down than up",
+        "the leading edge of the up going aileron",
+      ],
+    },
+    "The boundary layer of a body in a moving airstreams is:": {
+      answer:
+        "A layer of air over the surface where the air is retarded by the effect of friction",
+      choices: [
+        "A thin layer of air over the surface where the air is stationary",
+        "A layer of separated flow where the air is turbulent",
+        "A layer of air over the surface where the air is retarded by the effect of friction",
+      ],
+    },
+    "On an aircraft fitted with spoilers for lateral control, roll to the Right is caused by":
+      {
+        answer:
+          "The Right spoiler extending, and the Left spoiler remaining retracted",
+        choices: [
+          "The Right spoiler extending, and the Left spoiler remaining retracted",
+          "The Left spoiler extending, and the Right spoiler remaining retracted",
+          "Both spoilers extending",
+        ],
+      },
+    "The identification of the horn for the landing gear and the stall warning is achieved by:":
+      {
+        answer: "Pulsing the stall warning horn",
+        choices: [
+          "Pulsing the gear warning horn",
+          "Using horns of different notes",
+          "Pulsing the stall warning horn",
+        ],
+      },
+    "Over pressure is usually caused by:": {
+      answer: "The HP Shut Off Valve seized open",
+      choices: [
+        "Engine r.p.m. too high",
+        "Excessive bleeds switched on",
+        "The HP Shut Off Valve seized open",
+      ],
+    },
+    "Engine air used for air conditioning and pressurization is usually called:":
+      {
+        answer: "bleed air",
+        choices: ["compressed air", "ram air", "bleed air"],
+      },
+    "The exhaust heater system uses:": {
+      answer: "Ram air to heat the cabin",
+      choices: [
+        "Charge air to heat the cabin",
+        "Ram air to heat the cabin",
+        "Compressor air to heat the cabin",
+      ],
+    },
+    "To ensure the correct mixing of the conditioned air, mixing chamber has:":
+      {
+        answer: "Jet pumps",
+        choices: ["Jet pumps", "Baffles", "Swirl devices"],
+      },
+    "The water extractor is normally located:": {
+      answer: "Between the cold air unit and the outlet to the cabin",
+      choices: [
+        "Before the cold air unit",
+        "Between the cold air unit and the outlet to the cabin",
+        "Between the cold air unit compressor and turbine",
+      ],
+    },
+    "What does a rectifier do?": {
+      answer: "Changes AC to DC",
+      choices: ["Changes DC to AC", "Reduces voltage", "Changes AC to DC"],
+    },
+    "When AC generators are operated in parallel, the;": {
+      answer: "Frequency and voltage must be equal.",
+      choices: [
+        "Amperes and voltage must be equal",
+        "Amperes and frequency must be equal",
+        "Frequency and voltage must be equal.",
+      ],
+    },
+    "Grounding means electrically connecting a conductive object to the primary structure. One purpose of this is to;":
+      {
+        answer: "Prevent the development of radio frequency potentials",
+        choices: [
+          "Prevent the development of radio frequency potentials",
+          "Prevent current return path",
+          "Allow static charge accumulation",
+        ],
+      },
+    "The primary considerations when selecting a cable is;": {
+      answer: "Current carrying capacity and the allowable voltage drop",
+      choices: [
+        "The voltage and the amperage of the load it must carry",
+        "System voltage and cable length",
+        "Current carrying capacity and the allowable voltage drop",
+      ],
+    },
+    "A battery generator system provides direct current. On installation requiring AC from the battery generator system, it is necessary to have;":
+      {
+        answer: "An inverter",
+        choices: [
+          "Variable resistor between the battery and the generator",
+          "Transformer",
+          "An inverter",
+        ],
+      },
+    "The purpose of a rectifier in an electrical system to change;": {
+      answer: "AC to DC",
+      choices: ["DC to AC", "AC to DC", "Frequency to AC"],
+    },
+    "Removal of air from a hydraulic system is usually accomplished by;": {
+      answer:
+        "By operating the various hydraulic components through several cycles",
+      choices: [
+        "Automatic bleed valves on each individual component during the system operation",
+        "Allowing the system to be inoperative for several hours",
+        "By operating the various hydraulic components through several cycles",
+      ],
+    },
+    "Which characteristics apply to aircraft hydraulic fluid;": {
+      answer: "All are correct",
+      choices: [
+        "About 80% operating efficiency (20% loss due to fluid friction) and Light weight",
+        "All are correct",
+        "Simple to inspect and Minimum maintenance requirement",
+      ],
+    },
+    "Pressure is the term used to describe force per unit area. Pressure is usually expressed as;":
+      {
+        answer: "Pounds per square inch",
+        choices: [
+          "Pounds per inch",
+          "Pounds per square inch",
+          "Pounds per cubic inch",
+        ],
+      },
+    "If two actuating cylinders which have the same cross sectional area but different length of stroke are connected to the same source of hydraulic pressure, the pressure applied will exert;":
+      {
+        answer: "Equal amount of force and will move at the same rate of speed",
+        choices: [
+          "Different amount of force but will move at the same rate of speed",
+          "Equal amount of force and will move at the same rate of speed",
+          "Equal amount of force and will move at different rate of speed",
+        ],
+      },
+    "Using a hand pump, a force of 100 psi has been built up in a hydraulic system.":
+      {
+        answer: "100 PSI",
+        choices: [
+          "The hand pump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuating cylinder 2inch in diameter.",
+          "What is the pressure in the line between the hand pump and the actuating cylinder?",
+          "150 PSI",
+          "100 PSI",
+          "200 PSI",
+        ],
+      },
+    "A cross flow valve which is designed to bypass fluid from one side of an actuating cylinder to the other is commonly found in which of these systems?":
+      {
+        answer: "Landing gear system",
+        choices: [
+          "Flap overload system",
+          "Landing gear system",
+          "Engine cowl flap system",
+        ],
+      },
+    "To prevent external and internal leakages in an aircraft hydraulics system, the commonly used type of seal is the?":
+      {
+        answer: "O ring seal",
+        choices: ["O ring seal", "Gasket seal", "Chevron seals"],
+      },
+    "What type of packings should be used in a hydraulic component to be installed in a system containing skydrol?":
+      {
+        answer: "Packing materials made of ester based fluids",
+        choices: [
+          "AN packings made of neoprene",
+          "Packing materials made of ester based fluids",
+          "AN packings made of natural rubber",
+        ],
+      },
+    "The installation of a new metal hydraulic line should be made with;": {
+      answer:
+        "Enough bends to allow the tube to expand and contract with temperature changes and to absorb vibrations",
+      choices: [
+        "A straight tube to withstand the shocks and vibrations to which it will be subjected to",
+        "Enough bends to allow the tube to expand and contract with temperature changes and to absorb vibrations",
+        "A straight tube to permit proper alignment of the fitting and thereby reduce fluid loss through leakage",
+      ],
+    },
+    "When servicing aircraft hydraulic system ": {
+      answer: "All are correct",
+      choices: [
+        "ii. hydraulic fluids for aircrafts are dyed a specific color for each type of fluid.",
+        "use the fluid type specified in the aircraft manufacturers maintenance manual or on the instruction plate affix to the reservoir or unit.",
+        "All are correct",
+      ],
+    },
+    "Which of the following is adversely affected by atmospheric humidity if left unprotected?":
+      {
+        answer: "Skydrol hydraulic fluid",
+        choices: [
+          "MIL-H5606 hydraulic fluid",
+          "Skydrol hydraulic fluid",
+          "None of the above",
+        ],
+      },
+    "Which of these is a characteristic of synthetic base hydraulic fluid?": {
+      answer: "High flash point",
+      choices: ["Low flash point", "Low water retention", "High flash point"],
+    },
+    "Two hydraulic fluids commonly used in civil aircraft are;": {
+      answer: "Mineral base and phosphate ester base",
+      choices: [
+        "Mineral base and phosphate ester base",
+        "Mixed mineral bas and phosphate ester base",
+        "Petroleum base and mixed phosphate ester base",
+      ],
+    },
+    "If an aircraft hydraulic system requires a mineral based fluid but phosphate ester base fluid is used, what will be the effect on the system?":
+      {
+        answer:
+          "Low viscosity, chemical stability, high flash point and high fire point",
+        choices: [
+          "System will be contaminated, fluid will not blend, and seals will  fail",
+          "No effect",
+          "System will be contaminated, fluid will not blend, and the there will be no seal failure",
+        ],
+      },
+    "What is used to flush a system serviced with MIL-H5606": {
+      answer:
+        "System will be contaminated, fluid will not blend, and seals will fail",
+      choices: [
+        "Naphta or varsol",
+        "Laquer thinner or trichloroethylene",
+        "Methyl ethyl ketone or kerosene",
+      ],
+    },
+    "Phosphate ester base hydraulic fluid is susceptible to contamination from;":
+      {
+        answer: "Naphta or varsol",
+        choices: [
+          "Ethylene propylene elastomers",
+          "Teflon seal materials",
+          "Water in the atmosphere",
+        ],
+      },
+    "Hydraulic system thermal relief valves are set to open when;": {
+      answer: "Higher pressure than the system pressure relief valve",
+      choices: [
+        "Lower pressure than the system pressure regulator",
+        "Lower pressure than the system pressure relief valve",
+        "Higher pressure than the system pressure relief valve",
+      ],
+    },
+    "Quick disconnect couplings in a hydraulic system provides a means of;": {
+      answer:
+        "Quickly connecting and disconnecting hydraulic lines without loss of fluid or air entering the system",
+      choices: [
+        "Easily replacing lines in areas where leaks are common",
+        "Quickly connecting and disconnecting hydraulic lines and eliminating possibility of contaminates entering the system.",
+        "Quickly connecting and disconnecting hydraulic lines without loss of fluid or air entering the system",
+      ],
+    },
+    "What device on a hydraulic system with a constant delivery pump allows circulation of fluid when no demands are on the system?":
+      {
+        answer: "Pressure regulator",
+        choices: [
+          "Pressure regulator",
+          "Pressure relief valve",
+          "Shuttle valve",
+        ],
+      },
+    "The purpose of an orifice check valve is to;": {
+      answer: "Restricts flow in one direction but allow free flow in another",
+      choices: [
+        "Restricts flow in one direction but allow free flow in another",
+        "Relieve pressure in a sensitive component",
+        "Relieve pressure in one direction and prevent flow in the other direction.",
+      ],
+    },
+    "Which of these allows free fluid flow I one direction and no flow in the other direction?":
+      {
+        answer: "Check valve",
+        choices: ["Check valve", "Metering piston", "Shutoff valve"],
+      },
+    "The component in the hydraulic system that is used to direct fluid flow is the;":
+      {
+        answer: "Selector valve",
+        choices: ["Check valve", "Orifice check valve", "Selector valve"],
+      },
+    "Generally the first step in removing an accumulator from a hydraulic system is to;":
+      {
+        answer: "Discharge the preload pressure",
+        choices: [
+          "Drain the reservoir",
+          "Relief the system pressure",
+          "Discharge the preload pressure",
+        ],
+      },
+    "The primary purpose of a hydraulic actuating unit is to transform;": {
+      answer: "Fluid motion into mechanical pressure and back again",
+      choices: [
+        "Fluid pressure to useful work",
+        "Fluid motion into mechanical pressure and back again",
+        "Energy from one form to another",
+      ],
+    },
+    "The primary function of flap overload valve is to;": {
+      answer:
+        "Prevent the flaps from being lowered at airspeeds which will impose excessive structural loads",
+      choices: [
+        "Boost normal system pressure to the flaps in order to overcome the air loads acting on the relatively large flap area",
+        "Prevent the flaps from being lowered at airspeeds which will impose excessive structural loads",
+        "Cause the flap segments located on opposite side of the aircraft center line to extend and retract together so that the aircraft will not become aerodynamically unbalanced to the extent that it becomes uncontrollable",
+      ],
+    },
+    "The unit which transforms fluid pressure into linear motion is called the;":
+      {
+        answer: "Actuating cylinder",
+        choices: ["Accumulator", "Actuating cylinder", "Hydraulic pump"],
+      },
+    "If it is necessary to adjust several pressure regulating valves in a hydraulic system, what particular sequence, if any should be followed?":
+      {
+        answer: "Units with the highest pressure settings should be adjusted",
+        choices: [
+          "Units are independent of each other, therefore no particular sequence should be followed",
+          "Units most distant from the hydraulic pump should be adjusted",
+          "Units with the highest pressure settings should be adjusted",
+        ],
+      },
+    "After installation of a rebuilt hydraulic hand pump, it is found that the handle cannot move in the pumping direction (pressure stroke). The most likely cause is an incorrectly installed what?":
+      {
+        answer: "Hand pump outport check valve",
+        choices: [
+          "Hand pump outport check valve",
+          "Hand pump inport check valve",
+          "Inport/outport orifice check valve",
+        ],
+      },
+    "The hydraulic unit that allows one action to follow another in a definite order is called?":
+      {
+        answer: "Sequence valve",
+        choices: ["Selector valve", "Shuttle valve", "Sequence valve"],
+      },
+    "The purpose of a hydraulic pressure regulator is to;": {
+      answer:
+        "Relief the pump of its load when no actuating units are being operated",
+      choices: [
+        "Prevent the system pressure from rising above a preset value due to thermal expansion",
+        "Relief the pump of its load when no actuating units are being operated",
+        "Boost the pressure in the portions of the system",
+      ],
+    },
+    "A hydraulic accumulator is charged with an air preload of 1000 psi.": {
+      answer: "1000psi",
+      choices: [
+        "when the hydraulic system pressure of 300psi is developed, the pressure on the airside will read?",
+        "4000psi",
+        "3000psi",
+        "1000psi",
+      ],
+    },
+    "How is the air in a hydraulic accumulator system prevented from entering fluid system?":
+      {
+        answer:
+          "By physically separating the air chamber from the oil chamber with a flexible or movable separator",
+        choices: [
+          "By including a valve that automatically closes when the fluid level lowers to a preset amount",
+          "By physically separating the air chamber from the oil chamber with a flexible or movable separator",
+          "By forcing the air/oil mixture through a centrifugal separating chamber that prevents the air from leaving the chamber.",
+        ],
+      },
+    "After a hydraulic accumulator has been installed and air charged, the main hydraulic system pressure gauge will not show hydraulic pressure reading until;":
+      {
+        answer: "Air pressure has become equal to the fluid pressure",
+        choices: [
+          "The fluid side of the accumulator has been charged",
+          "At least one selector valve has been actuated to allow fluid flow to the fluid side of the accumulator",
+          "Air pressure has become equal to the fluid pressure",
+        ],
+      },
+    "Before removing the filler cap of a pressurized hydraulic accumulator,": {
+      answer: "Relief the air pressure",
+      choices: [
+        "Relief the hydraulic system pressure",
+        "Relief the air pressure",
+        "Actuate several components in the system",
+      ],
+    },
+    "A hydraulic motor converts fluid pressure to;": {
+      answer: "Rotary motion",
+      choices: ["Linear motion", "Rotary motion", "Angular motion"],
+    },
+    "In most modern hydraulically operated landing gear system, the order of door and fairing operation is controlled by?":
+      {
+        answer: "Sequence valve",
+        choices: ["Sequence valve", "Micro switches", "Shuttle valve"],
+      },
+    "The hydraulic component that automatically directs fluid from either normal operation or an emergency source to an actuating cylinder is called;":
+      {
+        answer: "Shuttle valve",
+        choices: ["Bypass valve", "Cross feed valve", "Shuttle valve"],
+      },
+    "Relief valves are used in pneumatic systems as;": {
+      answer: "Damage preventing units",
+      choices: [
+        "Damage preventing units",
+        "For one direction flow control",
+        "To reduce the rate of airflow",
+      ],
+    },
+    "The air that is expended or no longer needed in a pneumatic system is usually;":
+      {
+        answer: "Exhausted or dumped, usually overboard",
+        choices: [
+          "Returned to the compressor",
+          "Exhausted or dumped, usually overboard",
+          "Charged or pressurized for use in a next operating cycle",
+        ],
+      },
+    "To prevent a rapid extension of oleo shock strut after initial compression resulting from landing impact,":
+      {
+        answer:
+          "Various types of valves and orifices are used which restrict the reverse fluid flow",
+        choices: [
+          "Various types of valves and orifices are used which restrict the reverse fluid flow",
+          "The air is forced through restricted orifice in the reverse direction",
+          "The metering pin gradually reduces the size of the orifice as the shock strut extends",
+        ],
+      },
+    "The metering pin in an oleo shock strut functions to;": {
+      answer: "Retard the flow of oil as the struts are compressed",
+      choices: [
+        "Retard the flow of oil as the struts are compressed",
+        "Meter the proper amount of air in the strut",
+        "Lock the struts in the down position",
+      ],
+    },
+    "After performing a maintenance on an aircraft's landing gear system which may have affected the systems operation, it is usually necessary to;":
+      {
+        answer: "Make an operational check with the aircraft on jacks",
+        choices: [
+          "Make an operational check with the aircraft on jacks",
+          "Re-inspect the area after the first flight",
+          "Conduct a test flight",
+        ],
+      },
+    "The fusible plugs installed in some aircraft wheels are designed to;": {
+      answer: "Melt at a specific elevated temperature",
+      choices: [
+        "Melt at a specific elevated temperature",
+        "Prevent over inflation",
+        "Indicate tyre tread separation",
+      ],
+    },
+    "Over inflated tyres may cause damage to the;": {
+      answer: "Wheel flange",
+      choices: ["Wheel flange", "Brake lining", "Wheel hub"],
+    },
+    "What is the purpose of torque link connected to the cylinder and piston of an oleo shock strut?":
+      {
+        answer: "Hold the strut in place",
+        choices: [
+          "Limit compression stroke",
+          "Maintain correct wheel alignment",
+          "Hold the strut in place",
+        ],
+      },
+    "When an air/oil type of landing gear shock strut is used, the initial shock of landing is cushioned by?":
+      {
+        answer: "The fluid being forced through a metered opening",
+        choices: [
+          "Compression of the fluid",
+          "The fluid being forced through a metered opening",
+          "Compression of the air charge",
+        ],
+      },
+    "The purpose of a sequence valve in a hydraulic retractable landing gear system is to?":
+      {
+        answer: "Operate of the landing gear and gear doors in proper order",
+        choices: [
+          "Prevent heavy landing form falling too rapidly upon extension",
+          "Provide a means of disconnecting the normal source of hydraulic and connecting the emergency system",
+          "Operate of the landing gear and gear doors in proper order",
+        ],
+      },
+    "When servicing an air/oil shock strut with MIL-5606, the strut should be?":
+      {
+        answer: "Collapsed and the fluid serviced at the filler opening",
+        choices: [
+          "Collapsed and the fluid serviced at the filler opening",
+          "Partially extended and the fluid added at the filler opening",
+          "Fully extended and the fluid added at the filler opening",
+        ],
+      },
+    "If the extended longitudinal axis of a main landing gear wheel assemblies intersect aft of the aircraft, the wheel is said to have;":
+      {
+        answer: "Toe-out",
+        choices: ["Negative camber", "Toe-out", "Toe-in"],
+      },
+    "What is the function of a Cam installed in the nose gear shock strut?": {
+      answer: "Straighten the nose wheel upon retraction",
+      choices: [
+        "To provide steering of the nose wheel on ground",
+        "Straighten the nose wheel upon retraction",
+        "Provides an internal shimmy",
+      ],
+    },
+    "Extension of oleo shock strut is done to determine the;": {
+      answer: "Physical condition of the shock strut",
+      choices: [
+        "Physical condition of the shock strut",
+        "Amount of oil in the strut",
+        "Proper operating condition of the strut",
+      ],
+    },
+    "When an empty shock strut is filled with fluid, care should be taken to extend and compress the strut at least two times to;":
+      {
+        answer: "Ensure proper packing ring seating and to expel air bubbles.",
+        choices: [
+          "Ensure proper packing ring seating and to expel air bubbles.",
+          "Force out any excess fluid",
+          "Thoroughly lubricate the piston rod",
+        ],
+      },
+    "A landing gear position and indicating system will provide a warning in the cockpit when?":
+      {
+        answer: "Retarded and the gears not locked down",
+        choices: [
+          "Advanced and the gears are down and locked",
+          "Retarded and the gears down and locked",
+          "Retarded and the gears not locked down",
+        ],
+      },
+    'In brake service work, the term "Brakes Bleeding" is the process of?': {
+      answer:
+        "Withdrawing fluid from the system for the purpose of removing air that has been trapped in the system.",
+      choices: [
+        "Replacing small amount of fluid in the reservoir",
+        "Withdrawing air only from the system",
+        "Withdrawing fluid from the system for the purpose of removing air that has been trapped in the system.",
+      ],
+    },
+    "When bleeding aircraft brakes, one of the indications that the air has been purged out is;":
+      {
+        answer: "Firm brake pedals",
+        choices: [
+          "Full brake pedal travel",
+          "Partial brake pedal travel",
+          "Firm brake pedals",
+        ],
+      },
+    "Aircraft brakes requiring a large volume of fluid to operate the brakes generally;":
+      {
+        answer: "Use power brake control valves",
+        choices: [
+          "Use power brake control valves",
+          "Do not use brake system accumulators",
+          "Use independent master cylinder systems",
+        ],
+      },
+    "The pressure source for power brake system is the?": {
+      answer: "Main hydraulics system",
+      choices: [
+        "Main hydraulics system",
+        "A master cylinder",
+        "Power brake reservoir",
+      ],
+    },
+    "Which statement is true as regarding an aircraft equipped with a hydraulically operated multiple disc type of brake assemblies?":
+      {
+        answer: "Do not set parking brakes when brakes are hot.",
+        choices: [
+          "There are is minimum or maximum clearance check required due to the use of self compensating cylinder assemblies.",
+          "No parking brake provisions are possible for this type of brake assembly",
+          "Do not set parking brakes when brakes are hot.",
+        ],
+      },
+    "Why do most manufacturers recommend that the tubes in newly installed tires be first inflated, fully deflated and then re-inflated to proper pressure?":
+      {
+        answer: "To allow the tube to properly position itself in the tire",
+        choices: [
+          "To eliminate all the air between the tube and the inside of the tire.",
+          "To allow the tube to properly position itself in the tire",
+          "To test the entire assembly for leaks",
+        ],
+      },
+    "A stripe mark applied to a wheel rim and extending up to the sidewall of the tube type tire is a?":
+      {
+        answer: "Slippage mark",
+        choices: [
+          "Wheel weight reference mark",
+          "Wheel to tire balance mark",
+          "Slippage mark",
+        ],
+      },
+    "Aircraft tire pressures should be checked;": {
+      answer: "As soon as possible after each flight",
+      choices: [
+        "Using only a push-on stick type gauge having 1-pound increment",
+        "At least once a week or more often",
+        "As soon as possible after each flight",
+      ],
+    },
+    "What is the function of a fusible plug in an aircraft main wheel assembly?":
+      {
+        answer:
+          "Allows the tire to safely deflate to prevent the tire from bursting in case high temperature build up",
+        choices: [
+          "Allows the tire to safely deflate to prevent the tire from bursting in case high temperature build up",
+          "Melts to allow only the tube from bursting internally",
+          "Is an anti skid system component.",
+        ],
+      },
+    "The best safeguard against heat buildup in aircraft tires are?": {
+      answer:
+        "Short ground rolls, slow taxi speed, minimum braking and proper inflation.",
+      choices: [
+        "Proper tire inflation, minimum braking, and ground rolls into the wind.",
+        "Proper inflation, minimum braking, and long ground rolls",
+        "Short ground rolls, slow taxi speed, minimum braking and proper inflation.",
+      ],
+    },
+    "Shines are used o some aircraft nose tires;": {
+      answer: "Help deflect water away from the fuselage",
+      choices: [
+        "Help deflect water away from the fuselage",
+        "Help to reduce the effect of hydroplaning",
+        "Help nose gear extension at higher air speeds",
+      ],
+    },
+    "How long should you wait before checking the tire pressure after a flight?":
+      {
+        answer: "At least 2hrs (3hrs in hot weather)",
+        choices: [
+          "At least 3hrs (4hrs in hot weather)",
+          "At least 2hrs (3hrs in hot weather)",
+          "At least 4hrs (5hrs in hot weather)",
+        ],
+      },
+    "Excessive wear on the shoulder of an aircraft tire is an indication of?": {
+      answer: "Under inflation",
+      choices: ["Excessive toe-out", "Over inflation", "Under inflation"],
+    },
+    "Excessive wear on the crown (center of the tread) of an aircraft tire is an indication of?":
+      {
+        answer: "Over inflation",
+        choices: ["Over inflation", "Excessive toe out", "Incorrect camber"],
+      },
+    "The purpose of antiskid generators is to?": {
+      answer: "Measure wheel rotation speed and any speed changes",
+      choices: [
+        "Measure wheel rotation speed and any speed changes",
+        "Monitor hydraulic pressure applied to the brakes",
+        "Indicate when tire skid develops",
+      ],
+    },
+    "An antiskid system is a?": {
+      answer: "Electro hydraulic system",
+      choices: [
+        "Hydraulic system",
+        "Electric system",
+        "Electro hydraulic system",
+      ],
+    },
+    "Antiskid systems are generally armed by?": {
+      answer: "A switch in the cockpit",
+      choices: [
+        "The rotation of the wheel above a certain speed",
+        "A centrifugal switch",
+        "A switch in the cockpit",
+      ],
+    },
+    "i. When an aircraft is slowed below approximately 20MPH, the antiskid system automatically disengages to allow the pilot full manual control of the brakes for maneuvering and parking.\nii. an antiskid system consists basically of three components; a wheel speed sensor, a control box and a control valve\nRegarding the above statement;":
+      {
+        answer: "Both i. and ii. are correct",
+        choices: [
+          "Only i. is correct",
+          "Both i. and ii. are correct",
+          "Only ii. is correct",
+        ],
+      },
+    "In an antiskid system, wheel skid is detected by?": {
+      answer: "An electrical sensor",
+      choices: [
+        "Sudden rise in brake pressure",
+        "A discriminator",
+        "An electrical sensor",
+      ],
+    },
+    "Which of the following functions does a skid control system do?\nNormal skid control,\nNormal braking\nFail safe protection\nLocked wheel skid control\nTouchdown protection\nTakeoff protection":
+      {
+        answer: "1, 3, 4 and 5",
+        choices: ["1, 2, 5 and 6", "1, 3, 4 and 5", "1, 2, 3 and 4"],
+      },
+    "At what point in the landing operation does normal skid control performs its normal operation?":
+      {
+        answer: "When wheel rotation deceleration indicates an impending skid",
+        choices: [
+          "When wheel rotation deceleration indicates an impending skid",
+          "Anytime the wheel is rotating",
+          "When wheel rotation indicates hydroplaning",
+        ],
+      },
+    "The primary purpose of a takeoff warning system is to alert the crew that a monitored flight control is not properly set prior to takeoff.":
+      {
+        answer: "Thrust lever",
+        choices: [
+          "The system is activated by;",
+          "Thrust lever",
+          "80 knots airspeed sensor",
+          "An ignition system switch not set for takeoff",
+        ],
+      },
+    "Which of the following is most likely to cause landing gear warning system to sound?":
+      {
+        answer: "Landing gear not locked down and throttle retarded",
+        choices: [
+          "Landing gear locked down and throttle retarded",
+          "Landing gear not locked down and throttle retarded",
+          "Landing gear locked down and throttle advanced",
+        ],
+      },
+    "Landing gear warning system usually provides which of the following indications?":
+      {
+        answer:
+          "Red light for unsafe gear, green light for gear down and no light for gear up",
+        choices: [
+          "Green light for gear up and down, red light for an unsafe gear",
+          "Red light for unsafe gear, green light for gear down and no light for gear up",
+          "Red light for unsafe gear, green light for gear up and no light for gear down",
+        ],
+      },
+    "i. An aircraft airspeed indicator measures the differential pressure between pitot and static pressure surrounding the aircraft at any moment of flight\nii. an airspeed indicator measures the differential pressure between the pitot and the cabin air pressure at moment of flight":
+      {
+        answer: "Only i. is correct",
+        choices: [
+          "Both i. and ii. are correct",
+          "Only ii. is correct",
+          "Only i. is correct",
+        ],
+      },
+    "What will be the result if the instrument static pressure becomes disconnected inside a pressurized cabin during a cruise flight?":
+      {
+        answer: "The altimeter and the airspeed indicator will both read low",
+        choices: [
+          "The altimeter will read low and the airspeed indicator will read high",
+          "The altimeter and the airspeed indicator will both read low",
+          "The altimeter and the airspeed indicator will both read high.",
+        ],
+      },
+    "Magnetic compass bowls are filled with a liquid to?": {
+      answer: "Dampen oscillation of the float",
+      choices: [
+        "Dampen oscillation of the float",
+        "Reduce deviation errors",
+        "Retard precision of the float",
+      ],
+    },
+    "A turn coordinate reads;": {
+      answer: "Both yaw and roll",
+      choices: [
+        "Both yaw and roll",
+        "The need for correction in pitch and bank",
+        "The longitudinal attitude of an aircraft in both climb and descent",
+      ],
+    },
+    "Turbine engines EGT are measured using": {
+      answer: "Chromel/alumel thermocouple",
+      choices: [
+        "Iron/constantan thermocouple",
+        "Chromel/alumel thermocouple",
+        "Ratiometer electrical resistance thermometers",
+      ],
+    },
+    "Fuel flow transmitters are designed to transmit data": {
+      answer: "Electrically",
+      choices: ["Mechanically", "Using fluid power", "Electrically"],
+    },
+    "Data transmitted between components in an EFIS are converted into": {
+      answer: "Digital signal",
+      choices: ["Digital signal", "Analog signal", "Carrier wave signal"],
+    },
+    "A radar altimeter determines altitude by?": {
+      answer: "Transmitting a signal and receiving back a reflected signal",
+      choices: [
+        "Means of a transponder interrogation",
+        "Receiving signals transmitted from a ground radar station",
+        "Transmitting a signal and receiving back a reflected signal",
+      ],
+    },
+    "A radar altimeter indicates?": {
+      answer: "Altitude above ground level",
+      choices: [
+        "Altitude above ground level",
+        "Altitude above sea level",
+        "Flight level (pressure) altitude",
+      ],
+    },
+    "When flags such as NAV, HDG or GS appear on the HIS, the indication is?": {
+      answer: "Function is inoperative",
+      choices: [
+        "That function is operative",
+        "Function is inoperative",
+        "To call attention to deviation from the desired setting, or flight path, or heading etc.",
+      ],
+    },
+    "The green arc on an aircraft temperature gauge indicates?": {
+      answer: "The desirable temperature range",
+      choices: [
+        "An instrument is not calibrated",
+        "A low unsafe temperature gauge",
+        "The desirable temperature range",
+      ],
+    },
+    "A certified mechanic with an Airframe and Power plant rating;": {
+      answer: "May not perform minor repairs on instruments",
+      choices: [
+        "May perform minor repairs on aircraft instruments",
+        "May not perform minor repairs on instruments",
+        "May perform minor repairs and minor alteration on aircraft instruments",
+      ],
+    },
+    "An aircraft instrument panel is electrically bonded to aircraft structure to;":
+      {
+        answer: "Provide current return path",
+        choices: [
+          "Act as a restraint strap",
+          "Provide current return path",
+          "Aid in panel installation",
+        ],
+      },
+    "In general, the purpose of an aircraft transponder is to;": {
+      answer:
+        "Receive an interrogation signal from a ground station and automatically send a signal back",
+      choices: [
+        "Continually transmit speed, altitude, heading etc information to ATC",
+        "Monitor speed, heading , altimeter when ever auto pilot is engaged",
+        "Receive an interrogation signal from a ground station and automatically send a signal back",
+      ],
+    },
+    "What is the primary purpose of an auto pilot?": {
+      answer:
+        "To relieve the pilot of control of the aircraft during a long period of flight",
+      choices: [
+        "To fly a more precise course for the pilot",
+        "To obtain all the navigational aid possible for an extended over water flight",
+        "To relieve the pilot of control of the aircraft during a long period of flight",
+      ],
+    },
+    "A fully integrated auto pilot controls the aircraft around how many axis?":
+      {
+        answer: "Three",
+        choices: ["Four", "Two", "Three"],
+      },
+    "Dutch roll, a combination of yaw and roll oscillation that affects many swept back wing aircrafts is counteracted by?":
+      {
+        answer: "A yaw damper system",
+        choices: [
+          "A yaw damper system",
+          "An aileron damper system",
+          "A flight director system",
+        ],
+      },
+    "When installing pneumatic surface-bonded type deicer boot system,": {
+      answer: "Remove all paint from the area to be covered with the boots",
+      choices: [
+        "Apply a solution of glycerin and water between the rubber and the wing skin",
+        "Apply a silastic compound between the boot and the wing skin",
+        "Remove all paint from the area to be covered with the boots",
+      ],
+    },
+    "What controls the inflation sequence of the deicer boots?": {
+      answer: "Distributor valve",
+      choices: ["Vacuum pump", "Shuttle valve", "Distributor valve"],
+    },
+    "Which of the following regulates the vacuum of the air pump to hold down the deicer boots deflated to the skin of the aircraft wing when the pneumatic deicing system is off?":
+      {
+        answer: "Suction relief valve",
+        choices: ["Distributor", "Pressure regulator", "Suction relief valve"],
+      },
+    "What may be used to clean the surface of the deicer boots?": {
+      answer: "Soap and water",
+      choices: ["Unleaded gasoline or Jet A1 fuel", "Naptha", "Soap and water"],
+    },
+    "Some aircrafts are protected from airframe icing by heating the leading edges of the aerofoil and intake ducts.":
+      {
+        answer: "Whenever icing conditions are first expected or anticipated",
+        choices: [
+          "When is this of anti-icing usually operated?",
+          "Whenever icing conditions are first expected or anticipated",
+          "In symmetric cycles during icing conditions to remove ice as it accumulates",
+          "Continuously while the aircraft is in flight",
+        ],
+      },
+    "How do deicer boots help in help remove ice accumulations?": {
+      answer: "By breaking up ice formations",
+      choices: [
+        "By allowing only a thin layer of ice to build up",
+        "By preventing the formation of ice",
+        "By breaking up ice formations",
+      ],
+    },
+    "Why are deicer boots alternately inflated?": {
+      answer: "Alternate inflation keeps air disturbance to a minimum",
+      choices: [
+        "Alternate inflation does not affect or disturb airflow",
+        "Alternate inflation keeps air disturbance to a minimum",
+        "Alternate inflation of deicer boots reliefs the load on the air pump",
+      ],
+    },
+    "What should be used to melt the ice in a turbine engine if the compressor is immobile due to ice?":
+      {
+        answer: "Hot air",
+        choices: ["Anti icing fluid", "Deicing fluid", "Hot air"],
+      },
+    "Why should a chemical rain repellant not be used on the wind shield?": {
+      answer: "It will restrict visibility",
+      choices: [
+        "It will cause glass crazing",
+        "It will etch the glass",
+        "It will restrict visibility",
+      ],
+    },
+    "The cabin pressure of an aircraft is maintained at the selected altitude value in-flight by?":
+      {
+        answer: "Controlling the rate at which air leaves the cabin",
+        choices: [
+          "Controlling the airflow rate",
+          "Controlling the rate at which air leaves the cabin",
+          "Inflating door seals and recirculating conditioned air in the cabin",
+        ],
+      },
+    "What controls the operation of the cabin pressure regulator?": {
+      answer: "Cabin altitude",
+      choices: [
+        "Cabin altitude",
+        "Bleed air pressure",
+        "Compression air pressure",
+      ],
+    },
+    "The purpose of a dump valve in a pressurized aircraft cabin is to relief?":
+      {
+        answer: "All positive pressure from the cabin",
+        choices: [
+          "Negative pressure differential",
+          "Pressure in excess of the maximum",
+          "All positive pressure from the cabin",
+        ],
+      },
+    "Altitude controller maintains cabin altitude by modulation of the;": {
+      answer: "Outflow valve",
+      choices: [
+        "Outflow valve",
+        "Safety valve",
+        "Safety valve and outflow valve",
+      ],
+    },
+    "How is the cabin pressure in a pressurized aircraft cabin usually controlled?":
+      {
+        answer:
+          "By an automatic outflow valve that dumps all the pressure in excess of the amount for which is set",
+        choices: [
+          "By an automatic outflow valve that dumps all the pressure in excess of the amount for which is set",
+          "By a pressure sensitive valve that controls the output pressure of the pressurization pump",
+          "By a pressure sensitive switch that causes the pressurization pump to turn off",
+        ],
+      },
+    "What component of a pressurization system prevents the cabin altitude from becoming higher than the aircraft altitude?":
+      {
+        answer: "Negative pressure relief valve",
+        choices: [
+          "Negative pressure relief valve",
+          "Cabin rate of descent control",
+          "Positive pressure relief valve",
+        ],
+      },
+    "On some cabin pressurization systems, pressurization on ground is restricted by the?":
+      {
+        answer: "Main landing gear operated switch",
+        choices: [
+          "Main landing gear operated switch",
+          "Negative pressure relief valve",
+          "Cabin pressure regulator",
+        ],
+      },
+    "If the cabin rate of climb is too great, the control should be adjusted to cause the;":
+      {
+        answer: "outflow valve to close faster",
+        choices: [
+          "Cabin compressor speed to decrease",
+          "outflow valve to close slower",
+          "outflow valve to close faster",
+        ],
+      },
+    "the  primary function of the cabin pressurization system outflow valve is to?":
+      {
+        answer: "Maintain the desired cabin pressure",
+        choices: [
+          "Maintain the same cabin air pressure at all altitudes",
+          "Maintain the desired cabin pressure",
+          "Provide protection against over pressurization",
+        ],
+      },
+    "Which of these best describe differential pressure?": {
+      answer: "Difference between ambient and internal pressure",
+      choices: [
+        "Difference between ambient and internal pressure",
+        "Difference between cabin pressure controller setting and the actual cabin pressure",
+        "Difference between cabin flight altitude pressure and mean sea level pressure",
+      ],
+    },
+    "Entrained water in aviation turbine fuel is hazard because of its susceptibility to freezing as it passes through the filters.":
+      {
+        answer: "Anti-icing fuel additives and fuel heaters",
+        choices: [
+          "What are common ways of preventing such hazards?",
+          "Micro mesh fuel strainers and fuel heaters",
+          "Anti-icing fuel additives and fuel heaters",
+          "High velocity fuel pumps and fuel heaters",
+        ],
+      },
+    "Why are jet fuels more susceptible to water contamination than aviation gasoline?":
+      {
+        answer: "Jet fuel has a higher viscosity than gasoline",
+        choices: [
+          "Jet fuel is lighter than gasoline therefore water is easily suspended",
+          "Condensation is greater because of higher volatility of jet fuels",
+          "Jet fuel has a higher viscosity than gasoline",
+        ],
+      },
+    "How does temperature affect fuel weight?": {
+      answer: "Cold fuel is heavier per gallon",
+      choices: [
+        "Warm fuel is heavier per gallon",
+        "Temperature has no effect",
+        "Cold fuel is heavier per gallon",
+      ],
+    },
+    "The primary purpose of an aircraft fuel jettisoning system is to quickly achieve a;":
+      {
+        answer: "Lower landing weight",
+        choices: [
+          "Lower landing weight",
+          "Reduce fire hazard",
+          "Balance fuel load",
+        ],
+      },
+    "An electrical type of fuel indicating system consists of an indicator in cockpit and a?":
+      {
+        answer: "Float operated transmitter installed in the tank",
+        choices: [
+          "Float operated transmitter installed in the tank",
+          "Float operated receiver installed in the tank",
+          "Float resting on the surface of the fuel tank",
+        ],
+      },
+    "Smoke detectors which use a measurement of light transmissibility in the air are called?":
+      {
+        answer: "Photoelectric devices",
+        choices: [
+          "Visual devices",
+          "Electromechanical devices",
+          "Photoelectric devices",
+        ],
+      },
+    "The proper fire extinguishing agent used on aircraft brakes is the?": {
+      answer: "Dry powder chemical",
+      choices: ["Dry powder chemical", "Water", "Carbon dioxide"],
+    },
+    "A fire extinguisher bottle can be checked to determine its charge by?": {
+      answer: "Weighing the container and its content",
+      choices: [
+        "Attaching a remote pressure gauge",
+        "Weighing the container and its content",
+        "A hydrostatic check",
+      ],
+    },
+  };
+
+  let questionList = [],
+    keysUsed = [];
+
+  // 1. Get all keys
+  const keys = Object.keys(questionBank);
+
+  // 2. Pick a random key
+  while (questionList.length < num_of_questions) {
+    const randomIndex = Math.floor(Math.random() * keys.length);
+
+    const randomKey = keys[randomIndex];
+
+    // prevent duplicate questions
+    if (keysUsed.includes(randomKey)) continue;
+    keysUsed.push(randomKey);
+
+    let lastKey = keysUsed[keysUsed.length - 1],
+      questionObject = {
+        question: lastKey,
+        answer: questionBank[randomKey].answer,
+        choices: questionBank[randomKey].choices,
+        key: crypto.randomUUID(),
+      };
+
+    questionList.push(questionObject);
+  }
+  return questionList;
+}
