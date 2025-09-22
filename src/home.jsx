@@ -27,10 +27,11 @@ function ExamForm({ setDetails, details, questions, setQuestions }) {
 
   function startExam(e) {
     e.preventDefault();
-
-    setQuestions(
-      questions(parseInt(details["no_of_questions"]), details["paper"])
-    );
+    details["no_of_questions"] === "all"
+      ? setQuestions(questions(details["no_of_questions"], details["paper"]))
+      : setQuestions(
+          questions(parseInt(details["no_of_questions"]), details["paper"])
+        );
 
     const newDetails = { ...details };
     newDetails["new_exam"] = false;
@@ -52,6 +53,7 @@ function ExamForm({ setDetails, details, questions, setQuestions }) {
           <option value="20">20</option>
           <option value="50">50</option>
           <option value="100">100</option>
+          <option value="all">All</option>
         </select>
         <input type="submit" value="Start Exam" />
       </form>
