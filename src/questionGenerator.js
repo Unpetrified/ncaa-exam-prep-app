@@ -1,5 +1,1563 @@
 export default function generateQuestion(num_of_questions) {
   const questionBank = {
+    "As a subsonic aircraft speeds-up, its Centre of Pressure.": {
+      answer: "moves aft.",
+      choices: ["moves forward.", "moves aft.", "is unaffected."],
+    },
+    "If an aircraft is yawing to the left, where would you position the trim tab on the rudder?.":
+      {
+        answer: "To the left.",
+        choices: ["To the centre.", "To the right.", "To the left."],
+      },
+    "If an aircraft is flying with a left wing low, where would you move the left aileron trim tab?.":
+      {
+        answer: "Up.",
+        choices: [
+          "Down.",
+          "Up.",
+          "Moving the aileron trim tab will not correct the situation.",
+        ],
+      },
+    "Extending a leading edge slat will have what effect on the angle of attack of a wing?.":
+      {
+        answer: "Decrease the angle of attack.",
+        choices: [
+          "Increase the angle of attack",
+          "Decrease the angle of attack.",
+          "No effect on angle of attack.",
+        ],
+      },
+    "If an aircraft is yawing left, the trim tab on the rudder would be positioned.":
+      {
+        answer: "left, moving the rudder right.",
+        choices: [
+          "left, moving the rudder right.",
+          "to the centre.",
+          "to the right, moving the rudder left.",
+        ],
+      },
+    "Composite materials are bonded by.": {
+      answer: "special paint.",
+      choices: ["aluminium wire.", "special paint.", "copper wire."],
+    },
+    "The bonding lead to a remote aircraft component must be.": {
+      answer: "0.25 in wide and 22 AWG.",
+      choices: ["0.5 in wide.", "22 AWG.", "0.25 in wide and 22 AWG."],
+    },
+    "at force is an I-Beam subjected to?.": {
+      answer: "Bending.",
+      choices: ["Tension.", "Bending.", "Shear."],
+    },
+    "Precise points are located on an aircraft by a system of.": {
+      answer: "frame stations, water lines and buttock lines.",
+      choices: [
+        "frame stations, vertical lines and lateral lines.",
+        "longitudinal, vertical and lateral lines.",
+        "frame stations, water lines and buttock lines.",
+      ],
+    },
+    "Which of the following is an example of a fail safe structure?.": {
+      answer: "Stringer.",
+      choices: ["Spar.", "Longeron.", "Stringer."],
+    },
+    "In the ATA 100 zonal system the passenger entry door will have a designation of.":
+      {
+        answer: "800.",
+        choices: ["800.", "600.", "400."],
+      },
+    "The ground cable must be.": {
+      answer: "single strand copper wire 0.5 in. cross sectional area.",
+      choices: [
+        "single strand copper wire 0.5 in. cross sectional area.",
+        "copper stranded 0.5 in. cross sectional area.",
+        "single strand 18 AWG.",
+      ],
+    },
+    "Where on the aircraft is FS245, RWS45?.": {
+      answer:
+        "245 inches from the datum line of the aircraft and 45 inches from the centreline of the right wing.",
+      choices: [
+        "245 inches from the nose of the aircraft and 45 inches from the tip of the right wing.",
+        "245 inches from the datum line of the aircraft and 45 inches from the centreline of the right wing.",
+        "245 inches from the nose of the aircraft and 45 inches from the centreline of the right wing.",
+      ],
+    },
+    "Semi-monocoque construction.": {
+      answer: "offers good damage resistance.",
+      choices: [
+        "utilizes the safe-life design concept.",
+        "is used only for the fuselage.",
+        "offers good damage resistance.",
+      ],
+    },
+    "Most radio aerials are.": {
+      answer: "bonded.",
+      choices: ["not bonded.", "bonded.", "insulated from the fuselage."],
+    },
+    "The various parts of the aircraft airframe are maintained at the same potential by.":
+      {
+        answer: "bonding",
+        choices: ["bonding", "earthing.", "static wicks."],
+      },
+    "The cross sectional area of a secondary conductor must be not less than.":
+      {
+        answer: "18 SWG for a single wire",
+        choices: [
+          "18 SWG for a single wire",
+          "22 SWG x 0.25.",
+          "22 SWG x 0.5.",
+        ],
+      },
+    "The main forces on an aircraft structure are.": {
+      answer: "tension, compression, torsion and shear.",
+      choices: [
+        "tension, compression, torsion and shear.",
+        "tension, compression, torsion and strain.",
+        "tension, compression, twisting and shear.",
+      ],
+    },
+    "The life of the structure is counted by.": {
+      answer: "pressurization cycle.",
+      choices: ["landings.", "pressurization cycle.", "flying hours."],
+    },
+    "What are buttock lines?.": {
+      answer: "Measurements from the centre line.",
+      choices: [
+        "Measurements from the centre line.",
+        "Horizontal measurement lines.",
+        "Vertical measurement lines.",
+      ],
+    },
+    "Aircraft fibreglass panels are protected against lighting strikes, partially by.":
+      {
+        answer: "conductive paint.",
+        choices: ["non-conductive paint.", "bonding.", "conductive paint."],
+      },
+    "Stringers are used in which of the following types of aircraft fuselage construction?.":
+      {
+        answer: "Semi-monocoque",
+        choices: ["Semi-monocoque", "Truss type.", "Monocoque."],
+      },
+    "What load is a tie rod designed to accept?.": {
+      answer: "Tensile.",
+      choices: ["Bending.", "Tensile.", "Torsion."],
+    },
+    "Fuselage station numbers are measured from the front of the aircraft in.":
+      {
+        answer: "inches.",
+        choices: ["feet.", "inches.", "feet and inches."],
+      },
+    "Which parts of the aircraft are classified secondary structures?": {
+      answer:
+        "These parts of the airframe are highly stressed but if damaged will not cause failure of the aircraft.",
+      choices: [
+        "These parts of the airframe are highly stressed but if damaged will not cause failure of the aircraft.",
+        "These parts of the airframe are highly stressed and if damaged may cause failure of the aircraft and loss of life.",
+        "These are lightly stressed parts such as fairings, wheel shields and minor component brackets etc.",
+      ],
+    },
+    "Structure with built in redundancy is called.": {
+      answer: "failsafe.",
+      choices: ["double safe.", "failsafe.", "safe life."],
+    },
+    "A piece of structure which must be replaced at a specified number of cycles, flying hours or years, regardless of its physical condition is what type of item?.":
+      {
+        answer: "Safe-life.",
+        choices: ["Safe-life.", "Fail-safe.", "Condition monitored."],
+      },
+    "To prevent a system being affected by high current flows after a lightning strike to a composite aircraft, electricity is discharged through.":
+      {
+        answer: "electrically connected primary conductors.",
+        choices: [
+          "a sprayed coat of conductive paint.",
+          "a sprayed coat of non-conductive paint.",
+          "electrically connected primary conductors.",
+        ],
+      },
+    "An aircraft structure, having multiple load paths, is known as a.": {
+      answer: "fail-safe design.",
+      choices: ["monocoque design", "fail-safe design.", "safe-life design."],
+    },
+    "If a redundant structure fails it becomes.": {
+      answer: "safe-life.",
+      choices: ["safe-life", "fatigued.", "failsafe."],
+    },
+    "The measurement of the fuselage perpendicular to horizontal plane measured in inches from bottom of the fuselage is.":
+      {
+        answer: "water line.",
+        choices: ["butt line.", "water line.", "fuselage station."],
+      },
+    "What are the four stresses to be considered when building an aircraft?.": {
+      answer: "Compression, Torsion, Tension, Shear.",
+      choices: [
+        "Compression, Tension, Torsion, Stress.",
+        "Compression, Torsion, Stress, Strain.",
+        "Compression, Torsion, Tension, Shear.",
+      ],
+    },
+    "What kind of seal is used on firewall bulkheads?.": {
+      answer: "Fire-proof grommets.",
+      choices: ["None is required.", "Fire-proof grommets.", "Soft rubber"],
+    },
+    "he two stages in a good adhesive bond are.": {
+      answer: "wetting and Setting.",
+      choices: [
+        "wetting and gripping.",
+        "wetting and Setting.",
+        "spreading and setting.",
+      ],
+    },
+    "Prior to aluminium alloy bonding, we use.": {
+      answer: "acid etch.",
+      choices: ["acid etch.", "alkaline etch.", "solvent etch."],
+    },
+    "The purpose of a primer is to.": {
+      answer: "help bonding of the topcoat.",
+      choices: [
+        "provide flexible surface for the top coat.",
+        "help bonding of the topcoat.",
+        "provide shiny surface for the topcoat.",
+      ],
+    },
+    "In semi-monocoque construction, compression loads are taken by.": {
+      answer: "stringers.",
+      choices: ["stringers.", "bulkheads.", "frames."],
+    },
+    "What material can be chromated as a protection against corrosion?.": {
+      answer: "Magnesium alloys.",
+      choices: ["Aluminium alloys.", "Ferrous alloys.", "Magnesium alloys."],
+    },
+    "When carrying out a symmetry check on a large aircraft, what method of measurement is normally used?.":
+      {
+        answer: "Steel tape and spring balance.",
+        choices: [
+          "Lateral alignment method.",
+          "Longitudinal alignment method.",
+          "Steel tape and spring balance.",
+        ],
+      },
+    "The primary purpose of sealant in use in pressurised aircraft is.": {
+      answer: "to seal the cabin.",
+      choices: [
+        "to seal the cabin.",
+        "to prevent corrosion.",
+        "to provide external streamlining.",
+      ],
+    },
+    "Why is a joggle joint used?.": {
+      answer: "Smooth contour of surface.",
+      choices: [
+        "Smooth contour of surface.",
+        "Added strength.",
+        "So countersunk rivets do not need to be used.",
+      ],
+    },
+    "Skin panels may be strengthened by.": {
+      answer: "stringers.",
+      choices: ["stringers.", "struts.", "cleats."],
+    },
+    "One of the advantages of the semi-monocoque construction is that it.": {
+      answer: "shares the loads.",
+      choices: [
+        "is easier to manufacture.",
+        "shares the loads.",
+        "takes all the loads in the skin.",
+      ],
+    },
+    "If an aircraft has alkaline batteries, the battery compartment drain pipes will be.":
+      {
+        answer: "stainless steel.",
+        choices: ["aluminium alloy.", "stainless steel.", "plastic."],
+      },
+    "An overweight landing is one in which the aircraft has.": {
+      answer: "too much kinetic energy on landing.",
+      choices: [
+        "a missed placed centre of gravity on landing.",
+        "too much kinetic energy on landing.",
+        "an excessive fuel load on take-off.",
+      ],
+    },
+    "Symmetry checks should be carried out.": {
+      answer: "in the hanger with the aircraft on jacks.",
+      choices: [
+        "in the hangar with the aircraft on its wheels.",
+        "on the ramp with the aircraft on its wheels.",
+        "in the hanger with the aircraft on jacks.",
+      ],
+    },
+    "The purpose of a wash primer and primer is to.": {
+      answer: "help bonding for top-coat.",
+      choices: [
+        "help bonding for top-coat.",
+        "provide more aerodynamic finish for top-coat.",
+        "provide a flexible surface for top-coat.",
+      ],
+    },
+    "The maximum permissible bow in a steel tube is.": {
+      answer: "1 in 600.",
+      choices: ["1 in 400.", "1 in 600.", "1 in 200."],
+    },
+    "Buckling in a semi-monocoque structure is prevented by.": {
+      answer: "stringers.",
+      choices: ["longerons.", "bulkheads.", "stringers."],
+    },
+    "What opposes buckling in a semi-monocoque structure?.": {
+      answer: "Stringers.",
+      choices: ["Stringers.", "Bulkheads.", "Frames"],
+    },
+    "In a monocoque structure, which component carries the majority of the loads?.":
+      {
+        answer: "Skin.",
+        choices: ["Longerons.", "Stringers", "Skin."],
+      },
+    "Why is a joggle joint used?": {
+      answer: "Smooth contour of surface",
+      choices: [
+        "So countersunk rivets do not need to be used.",
+        "Smooth contour of surface",
+        "Added strength",
+      ],
+    },
+    "In a fully monocoque fuselage, all the loads are carried by the.": {
+      answer: "skin.",
+      choices: ["longerons.", "frames.", "skin."],
+    },
+    "A spar web will take loads in.": {
+      answer: "shear.",
+      choices: ["bending.", "tension.", "shear."],
+    },
+    "A wing's leading edge would have provisions and linkages for slats and.": {
+      answer: "leading edge flaps.",
+      choices: ["leading edge flaps.", "trailing edge flaps.", "slots."],
+    },
+    "The main undercarriage is attached to the.": {
+      answer: "aircraft structure",
+      choices: ["aircraft structure.", "rear main spar.", "front main spar."],
+    },
+    "The final coat of sealing in a integral fuel tank is called.": {
+      answer: "brush coat.",
+      choices: ["fillet.", "interfay.", "brush coat."],
+    },
+    "The web of an 'l' beam takes mainly which type of load?.": {
+      answer: "Shear.",
+      choices: ["Shear.", "Tension.", "Bending."],
+    },
+    "A flying control mass balance weight.": {
+      answer:
+        "tends to move the control surface C of G close to the hinge line.",
+      choices: [
+        "tends to move the control surface C of G forward of the hinge line.",
+        "tends to move the control surface C of G close to the hinge line.",
+        "keeps the control surface C of G as close to the trailing edge as possible.",
+      ],
+    },
+    "Aerodynamic balance.": {
+      answer: "will reduce aerodynamic loading.",
+      choices: [
+        "will reduce aerodynamic loading.",
+        "will cause CP to move towards the trailing edge and cause instability.",
+        "will cause CP to move towards the trailing edge and cause instability.",
+      ],
+    },
+    "Flutter can be reduced by using.": {
+      answer: "mass balancing.",
+      choices: ["servo tabs.", "mass balancing.", "a horn balance."],
+    },
+    "In the flightdeck of a pressurised aircraft, there is a gauge that shows.":
+      {
+        answer: "cabin differential pressure",
+        choices: [
+          "cabin differential pressure",
+          "cabin pressure altitude.",
+          "aircraft altitude.",
+        ],
+      },
+    "The function of an air mass flow control valve is to.": {
+      answer:
+        "maintain a reasonably constant air mass flow into the cabin at all altitudes.",
+      choices: [
+        "ensure that system differential pressure is not exceeded.",
+        "maintain a reasonably constant air mass flow into the cabin at all altitudes.",
+        "control the airflow out of the cabin.",
+      ],
+    },
+    "A water separator would be installed in a pressurization system to.": {
+      answer: "extract surplus water from the charge air.",
+      choices: [
+        "collect any rain accompanying the ram air.",
+        "extract surplus water from the charge air.",
+        "extract water from the cabin air before it is discharged to atmosphere.",
+      ],
+    },
+    "International markings for air conditioning pipelines are.": {
+      answer: "dots.",
+      choices: ["triangles.", "rectangles.", "dots."],
+    },
+    "How much air is required for the Flight Deck?.": {
+      answer: "10 cubic feet/minute.",
+      choices: [
+        "10 lbs/minute.",
+        "Whatever the captain sets.",
+        "10 cubic feet/minute.",
+      ],
+    },
+    "Where does the GCU gets its power?.": {
+      answer: "PMG.",
+      choices: ["RAT.", "Battery.", "PMG."],
+    },
+    "Voltage is controlled by.": {
+      answer: "the voltage regulator.",
+      choices: [
+        "the constant speed drive.",
+        "the voltage regulator.",
+        "the swashplate.",
+      ],
+    },
+    "Distilled water should be added to a ni-cad battery.": {
+      answer: "only in the battery workshop.",
+      choices: [
+        "only in the battery workshop.",
+        "at any time.",
+        "when fully charged.",
+      ],
+    },
+    "What would you use to neutralise nicad battery spillage?.": {
+      answer: "Boric acid",
+      choices: ["Boric acid", "Distilled water.", "Bicarbonate of soda."],
+    },
+    "CSD warning lights on the flight deck normally indicate.": {
+      answer: "low oil pressure, high oil temperature.",
+      choices: [
+        "high oil pressure, low oil temperaturelow oil pressure, high oil temperature.",
+        "low oil pressure, low oil temperature.",
+        "low oil pressure, high oil temperature.",
+      ],
+    },
+    "The output frequency of a hydraulically driven standby generator is controlled by.":
+      {
+        answer: "an hydraulically actuated swash plate.",
+        choices: [
+          "an hydraulically actuated swash plate.",
+          "a CSD.",
+          "an IDG.",
+        ],
+      },
+    "An AC generator used with a CSD.": {
+      answer:
+        "needs a voltage controller to maintain voltage with increasing load.",
+      choices: [
+        "needs a voltage controller to maintain voltage with increasing load.",
+        "does not need a voltage controller because current is kept constant.",
+        "does not need a voltage controller because voltage is kept constant.",
+      ],
+    },
+    "Trip signals for a GCR are.": {
+      answer: "differential protection and undervoltage.",
+      choices: [
+        "overfrequency and undervoltage.",
+        "differential protection and undervoltage.",
+        "underfrequency and overcurrent.",
+      ],
+    },
+    "Abnormal CSD operation is monitored on the flight deck by observing indications of.":
+      {
+        answer: "high oil temperature / low oil pressure.",
+        choices: [
+          "low oil quantity / low oil temperature.",
+          "high oil temperature / low oil pressure.",
+          "High oil temperature / low oil quantity.",
+        ],
+      },
+    "Wires in hot temperature areas should be bound with.": {
+      answer: "Teflon.",
+      choices: ["Teflon.", "Nomex.", "PVC."],
+    },
+    "When the temperature increases in a lead acid battery, the SG will.": {
+      answer: "decrease.",
+      choices: ["decrease.", "increase.", "remain the same."],
+    },
+    "Control of hydraulically powered emergency electrical generator frequency is.":
+      {
+        answer: "by angle of swash plate.",
+        choices: ["by CSU.", "by angle of swash plate.", "by IDG."],
+      },
+    "Topping up a Ni-Cad battery in situ.": {
+      answer: "is not allowed",
+      choices: [
+        "is not allowed",
+        "is only allowed in the shop.",
+        "is permitted.",
+      ],
+    },
+    "Generator brush bedding.": {
+      answer: "should be done on the aircraft.",
+      choices: [
+        "should only be done if 50% of the width and 80% of the length is already being done.",
+        "should not be done on the aircraft.",
+      ],
+    },
+    "Pitot tubes are heated by.": {
+      answer: "AC or DC",
+      choices: ["DC.", "AC.", "AC or DC"],
+    },
+    "When resetting the CSD on the ground, the engine should be.": {
+      answer: "stationary.",
+      choices: ["rotating at Nsync.", "rotating at idle.", "stationary."],
+    },
+    "One of the main purposes of a CSD is to.": {
+      answer: "enable generators to be paralleled.",
+      choices: [
+        "prevent engine overload.",
+        "enable generators to be paralleled.",
+        "maintain constant load on the generator.",
+      ],
+    },
+    "If voltage and frequency of the generator drop to zero in flight, it would be an indication that the.":
+      {
+        answer: "CSD driveshaft had sheared.",
+        choices: [
+          "bus tie interlock is inoperative.",
+          "CSD driveshaft had sheared.",
+          "phase sequence detection circuit has operated.",
+        ],
+      },
+    "What is the small pin on the DC ground power connector?.": {
+      answer: "Positive to external power relay.",
+      choices: [
+        "Positive to external power relay.",
+        "Positive to battery relay.",
+        "Ground or earth.",
+      ],
+    },
+    "The small pins in the power connector plug are.": {
+      answer: "positive.",
+      choices: ["negative.", "neutral.", "positive."],
+    },
+    "AC generator output indications are measured in.": {
+      answer: "KVA & KW.",
+      choices: ["KVA & KW.", "KW & KVAR.", "KW."],
+    },
+    "The trimmer resister in a carbon pile volts regulator is.": {
+      answer: "in series with the generator volts coil.",
+      choices: [
+        "in series with the generator field.",
+        "in series with the generator volts coil.",
+        "in parallel with the generator volts coil.",
+      ],
+    },
+    "In nickel-cadmium batteries, a rise in cell temperature.": {
+      answer: "causes a decrease in internal resistance",
+      choices: [
+        "causes an increase in internal resistance.",
+        "increases cell voltage.",
+        "causes a decrease in internal resistance",
+      ],
+    },
+    "In a delta connected generator.": {
+      answer: "line volts equals phase volts",
+      choices: [
+        "line volts equals 1.73 phase volts.",
+        "phase volts equals 1.73 line volts.",
+        "line volts equals phase volts",
+      ],
+    },
+    "The specific gravity of the electrolyte in a lead-acid battery.": {
+      answer:
+        "changes with the state of charge and is therefore a measure of the state of charge.",
+      choices: [
+        "remains constant with changes in the state of charge but is a useful guide to the amount of acid contained in the electrolyte.",
+        "remains substantially constant regardless of the state of charge and is not therefore a guide to the state of charge.",
+        "changes with the state of charge and is therefore a measure of the state of charge.",
+      ],
+    },
+    "When using A.C. power on the bus bar you require 28V D.C. for battery charging.":
+      {
+        answer: "an A.C. transformer and rectifier would be required.",
+        choices: [
+          "an A.C. inverter would be required.",
+          "an A.C. transformer and rectifier would be required.",
+          "a D.C. transformer and rectifier would be required.",
+        ],
+      },
+    "When checking a nicad battery in situ for serviceability.": {
+      answer:
+        "a load is applied to the battery and the voltmeter reading noted.",
+      choices: [
+        "a load is applied to the battery and the voltmeter reading noted.",
+        "a hydrometer must be used.",
+        "the electrical circuits must be isolated before installing shorting strips.",
+      ],
+    },
+    "A DC generator will be connected to the busbar after the RCCO contacts close due to.":
+      {
+        answer: "increasing generator voltage.",
+        choices: [
+          "increasing battery voltage.",
+          "increasing generator voltage.",
+          "a differential voltage of 0.5V battery voltage higher than generator.",
+        ],
+      },
+    "Spillage of a lead acid electrolyte is detected by.": {
+      answer: "indicating paper that turns red.",
+      choices: [
+        "indicating paper that turns red.",
+        "indicating paper that turns blue.",
+        "litmus paper that turns black.",
+      ],
+    },
+    "To restore electrolyte after spillage.": {
+      answer:
+        "add a mixture of acid and water of the same s.g. as that in the battery.",
+      choices: [
+        "add a mixture of acid and water of the same s.g. as that in the battery.",
+        "add acid only.",
+        "add distilled water only.",
+      ],
+    },
+    "When a DC generator fails, the pilot will receive the following indications:-.":
+      {
+        answer: "Zero current on the ammeter and a red PFWL.",
+        choices: [
+          "Rising voltage and current discharge with a red PFWL.",
+          "An audio bell and red PFWL.",
+          "Zero current on the ammeter and a red PFWL.",
+        ],
+      },
+    "A battery for use on aircraft must have a capacity of.": {
+      answer: "0.8.",
+      choices: ["0.8.", "0.5.", "0.9."],
+    },
+    "When connecting aircraft batteries, the last lead to connect is the.": {
+      answer: "negative",
+      choices: ["negative", "positive earth.", "positive."],
+    },
+    "What is monitored in a constant speed drive?.": {
+      answer: "HI oil temperature and low oil press.",
+      choices: [
+        "HI oil temperature and low oil press.",
+        "Low oil press and CSD speed.",
+        "Low oil temperature and low oil press.",
+      ],
+    },
+    "The CSD or IDG speed governor setting.": {
+      answer: "is adjusted with the engine stationary.",
+      choices: [
+        "is adjusted with the engine running.",
+        "is adjusted with the engine stationary.",
+        "is not allowed to be adjusted.",
+      ],
+    },
+    "The APU generator can normally be.": {
+      answer:
+        "used during flight as a back up supply if the main aircraft supply fails.",
+      choices: [
+        "connected in parallel with the aircraft's main generators.",
+        "used during flight as a back up supply if the main aircraft supply fails.",
+        "connected in parallel with the ground power supply.",
+      ],
+    },
+    "Cargo and baggage compartments in which a fire is completely confined come under.":
+      {
+        answer: "Class D.",
+        choices: ["Class A.", "Class B. Class D", "Class B."],
+      },
+    "How often are life jackets inspected?.": {
+      answer: "In accordance with the manufacturers specification.",
+      choices: [
+        "In accordance with the manufacturers specification.",
+        "In accordance with the AMM.",
+        "Every 12 months.",
+      ],
+    },
+    "Toilets must have a smoke detection.": {
+      answer: "light in the cockpit.",
+      choices: [
+        "aural and visual warning in the main cabin.",
+        "light in the cockpit.",
+        "connected to a pump to pump the smoke out.",
+      ],
+    },
+    "Where would you find information on life-raft deployment?.": {
+      answer: "Cabin operations manual.",
+      choices: [
+        "JARs.",
+        "Cabin safety on-board card.",
+        "Cabin operations manual.",
+      ],
+    },
+    "A fire that can be put out by a crew member in a cargo bay is in a.": {
+      answer: "class B compensation",
+      choices: [
+        "class A compensation.",
+        "class D compensation.",
+        "class B compensation",
+      ],
+    },
+    "Lavatories must have, in the disposal container.": {
+      answer:
+        "Freon extinguisher with black ball markings indicating when discharged.",
+      choices: [
+        "Freon extinguisher with white ball markings indicating when discharged.",
+        "Freon extinguisher with black ball markings indicating when discharged.",
+        "water/glycol extinguisher with white ball markings indicating when discharged.",
+      ],
+    },
+    "A fire detection loop must be capable of.": {
+      answer: "using master warning visual and aural signals.",
+      choices: [
+        "using master warning visual and aural signals.",
+        "detecting fire/overheat condition within 5 seconds and extinguishing such that after 30 seconds the condition is no longer present.",
+        "using master warning visual signals only.",
+      ],
+    },
+    "A Systron-Donner fire detection system uses.": {
+      answer: "helium gas.",
+      choices: ["helium gas.", "oxygen gas.", "nitrogen gas."],
+    },
+    "A toilet is fitted with thermal protection.": {
+      answer:
+        "to protect against the dangers of smoke and fire in the event of an overheat.",
+      choices: [
+        "to protect against freezing at altitude.",
+        "to protect against the dangers of smoke and fire in the event of an overheat.",
+        "to protect against continuous flushing.",
+      ],
+    },
+    "What external warning is there for an APU fire?.": {
+      answer: "Both aural and a red light",
+      choices: ["Aural.", "Both aural and a red light", "Red light."],
+    },
+    "Engine fire bottle pressure switches are operated by.": {
+      answer: "DC.",
+      choices: ["AC or DC.", "DC.", "AC."],
+    },
+    "Toilet fire detection issues can be found in.": {
+      answer: "AWN 83.",
+      choices: ["AWN 83.", "CAAIPs.", "AWN 80."],
+    },
+    "A cargo compartment which will contain a fire itself and ventilate is a class.":
+      {
+        answer: "B.",
+        choices: ["A.", "B.", "C."],
+      },
+    "In a toilet smoke condition, what would be the indication?.": {
+      answer: "Either a light or an audible warning in the cabin.",
+      choices: [
+        "Either a light or an audible warning in the cabin.",
+        "Light in the cabin.",
+        "Audible warning in the cabin.",
+      ],
+    },
+    "How many fire extinguishers are required on an aircraft having 401 - 500 passengers?.":
+      {
+        answer: "6.",
+        choices: ["6.", "8.", "5."],
+      },
+    "The bearing used in a fibre pulley is.": {
+      answer: "a ball bearing.",
+      choices: ["a ball bearing.", "a roller bearing.", "a plain bearing."],
+    },
+    "A horn balance on a control will.": {
+      answer: "increase degree of movement at high speed.",
+      choices: [
+        "increase degree of movement at high speed.",
+        "decrease degree of movement at low speed.",
+        "decrease degree of movement at high speed.",
+      ],
+    },
+    "To avoid moments bending the root of the wing, the aircraft will be fitted with.":
+      {
+        answer: "symmetrical flight control trim.",
+        choices: [
+          "Integrated fuel monitoring system.",
+          "symmetrical flight control trim.",
+          "automatic trim control for controlled turns and rudder movements.",
+        ],
+      },
+    "A yaw damper gain could be fitted with.": {
+      answer: "increased sensitivity for increased speed.",
+      choices: [
+        "decreases sensitivity for decreased speed.",
+        "increased sensitivity for increased speed.",
+        "decreases sensitivity for increased speed.",
+      ],
+    },
+    "Stick shaker activates at a speed which is above the stalling speed by.": {
+      answer: "7%.",
+      choices: ["4%.", "7%.", "10.321%."],
+    },
+    "A wing mounted stall warning vane.": {
+      answer: "moves up at impending stall.",
+      choices: [
+        "moves down at impending stall.",
+        "moves up at impending stall.",
+        "gives a visual indication of impending stall.",
+      ],
+    },
+    "Mass balance weights are used to.": {
+      answer: "counteract a flutter on control surfaces.",
+      choices: [
+        "balance the trailing edge of flying control surfaces.",
+        "counteract a flutter on control surfaces.",
+        "balance the tabs.",
+      ],
+    },
+    "Active load control uses.": {
+      answer: "aileron and spoiler.",
+      choices: [
+        "elevator and aileron.",
+        "aileron and spoiler.",
+        "aileron and spoiler.",
+      ],
+    },
+    "The purpose of the autopilot servo-motor torque setting is to.": {
+      answer: "prevent control surface runaway.",
+      choices: [
+        "protect the servo motor.",
+        "damp the system oscillation.",
+        "prevent control surface runaway.",
+      ],
+    },
+    "In a fully Fly By Wire Aircraft, ground spoilers are deployed automatically when the aircraft is on ground and.":
+      {
+        answer: "thrust reversers are deployed.",
+        choices: [
+          "brakes are deployed.",
+          "thrust reversers are deployed.",
+          "weight on ground switch is activated.",
+        ],
+      },
+    "In a fully Fly By Wire aircraft, rudder trim is nulled by the.": {
+      answer: "Flight Augmentation Computers.",
+      choices: [
+        "Flight Augmentation Computers.",
+        "electric flight control unit.",
+        "Flight Guidance and Management Computer.",
+      ],
+    },
+    "Pitch trimming in autopilot is initiated by.": {
+      answer: "continued pitch input.",
+      choices: [
+        "C of G movement.",
+        "pitch of aircraft in cruise.",
+        "continued pitch input.",
+      ],
+    },
+    "On a fly-by-wire aircraft, what controls stabilizer trim?.": {
+      answer: "ELAC and SEC.",
+      choices: ["SEC.", "ELAC and SEC.", "ELAC."],
+    },
+    "Flutter can be prevented by.": {
+      answer: "mass balance.",
+      choices: ["mass balance.", "trim tabs.", "balance panels."],
+    },
+    "In a fully fly by wire system, if the elevator loses all electrical power.":
+      {
+        answer: "servos remain stationary and provide damping.",
+        choices: [
+          "servos lock at last position.",
+          "servos remain stationary and provide damping.",
+          "servos move to neutral and lock.",
+        ],
+      },
+    "How is automatic angle of attack protection provided?.": {
+      answer: "Autothrottle applying more power.",
+      choices: [
+        "Fast/Slow indication.",
+        "Reduce flap deployment.",
+        "Autothrottle applying more power.",
+      ],
+    },
+    "A single failure of fly by wire.": {
+      answer: "has no effect on the aircraft's operation.",
+      choices: [
+        "will reduce the operational height and speed.",
+        "will limit the flight profile.",
+        "has no effect on the aircraft's operation.",
+      ],
+    },
+    "How is the stabiliser automatically controlled in normal manual operation?.":
+      {
+        answer: "Mach/Speed Trim.",
+        choices: ["Mach/Speed Trim.", "Pitch Trim.", "Electric Trim."],
+      },
+    "A differential aileron system is designed to.": {
+      answer: "prevent adverse yaw.",
+      choices: [
+        "minimise flutter.",
+        "prevent adverse yaw.",
+        "compensate for aileron reversal.",
+      ],
+    },
+    "An artificial feel system is required.": {
+      answer: "for power operated control systems.",
+      choices: [
+        "for power assisted control systems.",
+        "for proportional control systems.",
+        "for power operated control systems.",
+      ],
+    },
+    "A tandem P.F.C.U.": {
+      answer: "has the actuator rams co-axial.",
+      choices: [
+        "has the actuator rams co-axial.",
+        "has two control surfaces under its control.",
+        "has the actuator rams parallel.",
+      ],
+    },
+    "What is the purpose of a differential Frise aileron?.": {
+      answer: "To increase the drag to increase the rate of yaw and turn.",
+      choices: [
+        "To decrease the drag and decrease the rate of yaw and turn.",
+        "Has no effect on rate of yaw and turn.",
+        "To increase the drag to increase the rate of yaw and turn.",
+      ],
+    },
+    "An artificial feel system is necessary in a powered flying control system to.":
+      {
+        answer: "provide the pilot with simulated stick forces.",
+        choices: [
+          "Increasing the sensitivity of the control system.",
+          "provide the pilot with simulated stick forces.",
+          "prevent overloading of the power control units.",
+        ],
+      },
+    "In the event of hydraulic failure in a power control system, a requirement of the manual reversion is that it must be.":
+      {
+        answer: "automatic and instantaneous.",
+        choices: [
+          "operated by the standby hydraulic system.",
+          "automatic and instantaneous.",
+          "possible, but not recommended.",
+        ],
+      },
+    "The purpose of control cable regulators is to.": {
+      answer: "maintain preset cable tensions during flight.",
+      choices: [
+        "maintain preset cable tensions during flight.",
+        "compensate for high temperature only.",
+        "compensate for low temperature only.",
+      ],
+    },
+    "Range of movements of power operated flying control surfaces are limited by.":
+      {
+        answer: "mechanical stops in the control system.",
+        choices: [
+          "travel of the jack body.",
+          "mechanical stops in the control system.",
+          "travel of the jack ram.",
+        ],
+      },
+    "A stick shaker is a device which.": {
+      answer: "vibrates the control column near stalling speed.",
+      choices: [
+        "helps extricate an aircraft from soft ground.",
+        "gives a short period of extra lift to assist take off.",
+        "vibrates the control column near stalling speed.",
+      ],
+    },
+    "A servo tab is operated.": {
+      answer:
+        "directly by the pilot to produce forces which in turn move the main control surfaces.",
+      choices: [
+        "directly by the pilot to produce forces which in turn move the main control surfaces.",
+        "by a trim wheel and moves in the opposite direction to the main control surfaces when moved.",
+        "automatically, and moves in the same direction as the main control surfaces.",
+      ],
+    },
+    "When spoilers are used asymmetrically, they combine with.": {
+      answer: "ailerons.",
+      choices: ["ailerons.", "elevators.", "rudder."],
+    },
+    "What is used to correct any tendency of the aircraft to move towards an undesirable flight attitude?.":
+      {
+        answer: "Trim tabs",
+        choices: ["Trim tabs", "Spring tabs.", "Balance tabs."],
+      },
+    "With hydraulic ram operated flying controls, when the pressure is reduced to zero, the flying control surfaces.":
+      {
+        answer: "droop.",
+        choices: [
+          "stay at neutral.",
+          "droop.",
+          "remain in the position they were when power was removed.",
+        ],
+      },
+    "Powered flying control actuators.": {
+      answer: "transmit pilot input to the control surfaces.",
+      choices: [
+        "are operated by the autopilot only.",
+        "transmit pilot input to the control surfaces.",
+        "provide feedback to the pilot.",
+      ],
+    },
+    "A stick shaker operates.": {
+      answer: "at the onset of the stall.",
+      choices: ["after the stall.", "at the onset of the stall."],
+    },
+    "In a power assisted flight control system, the feel required is normally supplied by.":
+      {
+        answer: "air loads on the control surfaces.",
+        choices: [
+          "Q feel.",
+          "air loads on the control surfaces.",
+          "stretching springs.",
+        ],
+      },
+    'Irreversibility of a fully powered control surface is provided by.".': {
+      answer: "a nulling of the servo valve.",
+      choices: [
+        "a nulling of the servo valve.",
+        "air loads on the control surface.",
+        "the jack ram being attached to structure.",
+      ],
+    },
+    "Q feel units use.": {
+      answer: "pitot and static pressures.",
+      choices: [
+        "pitot pressure only.",
+        "pitot and static pressures.",
+        "static pressure only.",
+      ],
+    },
+    "Spoiler panels are positioned so that when deployed.": {
+      answer: "pitch trim is not affected.",
+      choices: [
+        "pitch trim is not affected.",
+        "no yaw takes place.",
+        "roll will not occur.",
+      ],
+    },
+    "Spoiler panels are controlled by.": {
+      answer: "aeleron control wheel and speed brake lever.",
+      choices: [
+        "the aileron control wheel and speed brake lever.",
+        "a speed brake lever only.",
+        "the aileron control wheel only.",
+      ],
+    },
+    "A lift transducer is normally fitted.": {
+      answer: "on the leading edge of the wing.",
+      choices: [
+        "on the elevator control system.",
+        "to the nose area of the aircraft.",
+        "on the leading edge of the wing.",
+      ],
+    },
+    '"If electrical power is removed from a fly by wire spoiler system, the spoiler panels.".':
+      {
+        answer: "go to down if any are not already down.",
+        choices: [
+          "go to down if any are not already down.",
+          "go to full up.",
+          "remain where they are.",
+        ],
+      },
+    "In a fly-by-wire control system, the follow-up transducer is fitted to.": {
+      answer: "the hydraulic actuator.",
+      choices: [
+        "the control system computer.",
+        "the hydraulic actuator.",
+        "the pilots input.",
+      ],
+    },
+    "Asymmetric flap operation is prevented to keep to a minimum the tendancy of.":
+      {
+        answer: "rolling",
+        choices: ["yawing.", "rolling", "pitch changes."],
+      },
+    "A differential aileron control is one which gives.": {
+      answer: "a larger aileron up travel than down.",
+      choices: [
+        "a larger aileron up travel than down.",
+        "the down-going aileron more travel than the up-going one.",
+        "equal aileron travel in each direction, but variable for stick movement.",
+      ],
+    },
+    "When the control column is moved back and the hand-wheel turned to the left.":
+      {
+        answer: "the left aileron moves up and the elevators move up.",
+        choices: [
+          "the elevators move down and the left aileron moves down.",
+          "the left aileron moves up and the elevators move up.",
+          "the elevators move up and the left aileron moves down.",
+        ],
+      },
+    "A series type yaw damper.": {
+      answer: "moves the rudder only.",
+      choices: [
+        "moves the rudder and the ailerons to damp out Dutch roll.",
+        "moves the rudder pedals and the rudder.",
+        "moves the rudder only.",
+      ],
+    },
+    "When an aileron trim control in the cockpit is moved to counteract a tendency to fly left wing low, an aileron trim tab fitted to the port aileron will.":
+      {
+        answer:
+          "move up and this will cause the left aileron to move down and the right aileron to move up.",
+        choices: [
+          "move up and cause the left aileron to move down but the right aileron will remain neutral.",
+          "move up and cause the left aileron to move down and the right aileron to move down to a lesser degree.",
+          "move up and this will cause the left aileron to move down and the right aileron to move up.",
+        ],
+      },
+    "You have adjusted the elevator trim tab to correct for nose heavy. What was the direction of travel of the trim tab?.":
+      {
+        answer: "The elevator trim tab has moved down.",
+        choices: [
+          "The port elevator tab has moved up and starboard moved down.",
+          "The elevator trim tab has moved up.",
+          "The elevator trim tab has moved down.",
+        ],
+      },
+    "Pulleys in a flight control system are made from.": {
+      answer: "Tufnol or aluminium alloy.",
+      choices: ["brass.", "stainless steel.", "Tufnol or aluminium alloy."],
+    },
+    "A tension regulator in the flight control cable system of a large all metal aircraft is used primarily to.":
+      {
+        answer: "retain a set tension.",
+        choices: [
+          "retain a set tension.",
+          "increase cable tension in cold weather.",
+          "decrease cable tension in cold weather.",
+        ],
+      },
+    "An interrupter arm incorporated in a flying control locking mechanism.": {
+      answer: "restricts movement of the throttles.",
+      choices: [
+        "locks the ailerons and elevators.",
+        "restricts movement of the throttles.",
+        "dampens the rudder movement.",
+      ],
+    },
+    "The alpha vane signal can be fed to ____________ when the aircraft is close to stall.":
+      {
+        answer: "throttle lever.",
+        choices: ["flap position.", "fast/slow switch.", "throttle lever."],
+      },
+    "Moving the elevator trim wheel fully aft, then the.": {
+      answer: "aircraft tends to go nose up.",
+      choices: [
+        "aircraft tends to go nose down.",
+        "aircraft tends to go nose up.",
+        "aircraft tends to roll to the right.",
+      ],
+    },
+    "The effect of the rudder on an aircraft can be increased by.": {
+      answer:
+        "increasing the distance of the control surfaces from the aircraft's centre of gravity.",
+      choices: [
+        "increasing the distance of the control surfaces from the aircraft's centre of gravity.",
+        "increasing the altitude of the aircraft.",
+        "decreasing the velocity of the aircraft.",
+      ],
+    },
+    "A fuel crossfeed valve is usually in.": {
+      answer: "the closed position.",
+      choices: [
+        "the closed position.",
+        "the open position.",
+        "its last position.",
+      ],
+    },
+    "Sliding couplings in fuel systems are used on.": {
+      answer: "air or vapour systems.",
+      choices: [
+        "low pressure systems.",
+        "high pressure systems.",
+        "air or vapour systems.",
+      ],
+    },
+    "A fuel cross-feed valve is lubricated.": {
+      answer: "by the fuel.",
+      choices: ["by internal cooling.", "by air.", "by the fuel."],
+    },
+    "Fuel cross feed valves are operated by the.": {
+      answer: "28 V DC bus.",
+      choices: ["28 V DC bus.", "115 V AC.", "battery."],
+    },
+    "Fuel systems that are interconnected must have.": {
+      answer: "air spaces interconnected.",
+      choices: [
+        "separate venting for each tank.",
+        "no airspace.",
+        "air spaces interconnected.",
+      ],
+    },
+    "As fuel level increases, system capacitance.": {
+      answer: "increases",
+      choices: ["decreases.", "no change.", "increases"],
+    },
+    "When refuelling.": {
+      answer: "it is important not to fill the expansion space in the tank.",
+      choices: [
+        "the fuel nozzle will automatically cut off the supply when the tank is full.",
+        "it is important not to fill the expansion space in the tank.",
+        "it is important to fill the expansion space in the tank.",
+      ],
+    },
+    "When using Biopor microbial fuel growth treatment.": {
+      answer: "it is added to the fuel and burnt.",
+      choices: [
+        "it is added to the fuel and burnt.",
+        "it is applied dry and left.",
+        "it is applied wet and flushed out.",
+      ],
+    },
+    "Microbial growth is.": {
+      answer: "brown black slime.",
+      choices: ["red dots.", "brown black slime.", "green sludge."],
+    },
+    "Bladder type fuel tanks are secured by.": {
+      answer: "press type rivets.",
+      choices: ["bolts.", "contact adhesive.", "press type rivets."],
+    },
+    "In biologically contaminated fuel, corrosion takes place.": {
+      answer: "below the fungal colonies.",
+      choices: [
+        "below the fungal colonies.",
+        "the top of the tank.",
+        "the bottom 2 inches of the tank.",
+      ],
+    },
+    "In a fuel system with interconnected vents.": {
+      answer: "the expansion space must be 2% of the tank capacity.",
+      choices: [
+        "an expansion space is not required.",
+        "the expansion space must be 2% of the tank capacity.",
+        "the expansion space must be 10% of the tank capacity.",
+      ],
+    },
+    "Fuel tanks interconnected must have.": {
+      answer: "protection against overfill for tanks and fuel system.",
+      choices: [
+        "vents to allow overfueling.",
+        "protection against overfill for tanks and fuel system.",
+        "tank where fuel is fed from both tanks to engine inlet.",
+      ],
+    },
+    "When a FADEC system loses air data input it goes to.": {
+      answer: "soft reversion.",
+      choices: ["soft reversion.", "hard reversion.", "mechanical reversion."],
+    },
+    "What is fitted to the fuel jettison pipe to prevent vaporisation?.": {
+      answer: "An anti-corona device.",
+      choices: ["An anti-corona device.", "A corona device.", "A nozzle."],
+    },
+    "What happens to the capacitance in a fuel contents gauge as fuel is used?.":
+      {
+        answer: "Decreases.",
+        choices: ["Depends on altitude.", "Increases.", "Decreases."],
+      },
+    "When an aircraft is put into storage for medium / long periods, the fuel tanks should.":
+      {
+        answer:
+          "have some fuel left in to prevent sealant from deteriorating/drying out.",
+        choices: [
+          "have some fuel left in to prevent sealant from deteriorating/drying out.",
+          "be full.",
+          "be empty.",
+        ],
+      },
+    "The purpose of a scavenge system within a fuel system is.": {
+      answer:
+        "to ensure that any water in the fuel is constantly dispersed thus reducing microbiological contamination.",
+      choices: [
+        "to ensure that all unused fuel is returned to the tanks efficiently.",
+        "to ensure that all available fuel can be used.",
+        "to ensure that any water in the fuel is constantly dispersed thus reducing microbiological contamination.",
+      ],
+    },
+    "How is fuel supplied to a turbine engine?.": {
+      answer: "By a fuel boost pump.",
+      choices: [
+        "By a fuel boost pump.",
+        "By suction from the engine driven fuel pump.",
+        "By a gravity feed pump.",
+      ],
+    },
+    "A fuel tank suction valve will open when.": {
+      answer: "the booster pump fails.",
+      choices: [
+        "the booster pump fails.",
+        "both the engine driven and booster pump fail.",
+        "the engine driven pump fails.",
+      ],
+    },
+    "To prevent water condensation in a fuel tank.": {
+      answer: "the tank should be filled as full as possible.",
+      choices: [
+        "the tank should be filled as full as possible.",
+        "the tank should be filled with the minimum fuel possible.",
+        "the filler cap should be left open.",
+      ],
+    },
+    "To protect the centre tank fuselage area from a vapour build up.": {
+      answer: "cabin air is bled around the tank.",
+      choices: [
+        "ram air is circulated around the tank.",
+        "a shroud vent and overboard drain is fitted.",
+        "cabin air is bled around the tank.",
+      ],
+    },
+    "When a fuel jettison alve is in transit, the magnetic indicator would show.":
+      {
+        answer: "amber and cross line.",
+        choices: [
+          "amber and in line.",
+          "amber and cross line.",
+          "green and in line.",
+        ],
+      },
+    "Considering the basic categories of fuel tank construction, which of the following is most prone to leaks?.":
+      {
+        answer: "Integral.",
+        choices: ["Rigid.", "Integral.", "Flexible."],
+      },
+    "On removal of a fuel tank booster pump, fuel is observed running out of the boost pump canister, this could be caused by.":
+      {
+        answer: "the pressure outlet check valve is not correctly seated.",
+        choices: [
+          "the pressure outlet check valve is not correctly seated.",
+          "fuel draining out of the pressure switch bleed.",
+          "fuel leaking past the inlet screens.",
+        ],
+      },
+    "Crossfeed valves are normally fitted with.": {
+      answer: "two 28V DC motors.",
+      choices: [
+        "two 28V DC motors.",
+        "two three-phase AC motors.",
+        "two single phase AC motors.",
+      ],
+    },
+    "A shroud vent and overload drain would normally be found on.": {
+      answer: "fuel tank vent pipes.",
+      choices: [
+        "fuel tank vent pipes.",
+        "fuel jettison system.",
+        "the APU fuel feed.",
+      ],
+    },
+    "To shut-off the LP fuel supply to the engine for the purpose of engine removal you would.":
+      {
+        answer: "pull the fire handle.",
+        choices: [
+          "close the cross bleed valve.",
+          "close the HP fuel lock.",
+          "pull the fire handle.",
+        ],
+      },
+    "A leak from a fuel tank which manifests as fuel dripping from the tank is classified as a.":
+      {
+        answer: "run.",
+        choices: ["stain.", "seep.", "run."],
+      },
+    "Calciu Chromate tablets can be fitted in integral tanks. Before installation the linen bag should be wetted with.":
+      {
+        answer: "Water",
+        choices: ["Water", "Methylated Spirit.", "Kerosene."],
+      },
+    "A check valve is fitted to a fuel jettison system to.": {
+      answer: "prevent the dumping of the outer tanks.",
+      choices: [
+        "prevent the centre from being defuelled.",
+        "prevent the dumping of the outer tanks.",
+        "automatically stop the fuel jettison operation after a period of time.",
+      ],
+    },
+    "The advantages of integral fuel tanks are that they.": {
+      answer:
+        "use the maximum volume for fuel and have the minimum amount of weight.",
+      choices: [
+        "are cheaper to manufacture, more durable and easier to maintain.",
+        "use the maximum volume for fuel and have the minimum amount of weight.",
+        "are easier to design and construct and use the maximum volume of fuel.",
+      ],
+    },
+    "On Large transport aircraft fuel is delivered to each engine using.": {
+      answer: "the same system for each engine.",
+      choices: [
+        "a parallel system.",
+        "the same system for each engine.",
+        "a separate system for each engine.",
+      ],
+    },
+    "A purpose of a 'cut-out' in a hydraulic system.": {
+      answer:
+        "is to relieve the pump of load when the operation of services is complete and the accumulator charged with fluid.",
+      choices: [
+        "is to prevent creep in jack operated services which have several selected positions.",
+        "is to limit loss of fluid in the event of pipe fracture.",
+        "is to relieve the pump of load when the operation of services is complete and the accumulator charged with fluid.",
+      ],
+    },
+    "What happens if a component has an internal hydraulic leak?.": {
+      answer: "Increase in fluid temperature.",
+      choices: [
+        "Fluid loss.",
+        "Increase in fluid pressure.",
+        "Increase in fluid temperature.",
+      ],
+    },
+    "How is the hydraulic pump depressurising solenoid actuated?.": {
+      answer: "Energised Closed for fail-safe.",
+      choices: [
+        "Energised both open and closed depending on cockpit selection.",
+        "Energised Open.",
+        "Energised Closed for fail-safe.",
+      ],
+    },
+    "How do you prevent hydraulic fluid frothing?.": {
+      answer: "By pressurising.",
+      choices: [
+        "By pressurising.",
+        "Vent Reservoir to atmosphere.",
+        "Pass over a tray.",
+      ],
+    },
+    "A fixed volume axial pump contains the following rotating parts.": {
+      answer: "Drive Shaft, Swash Plate & Cylinder Block.",
+      choices: [
+        "Drive Shaft, Swash Plate & Valve Block.",
+        "Swash Plate & Valve Block.",
+        "Drive Shaft, Swash Plate & Cylinder Block.",
+      ],
+    },
+    "In aircraft hydraulic systems, it is permissible to use.": {
+      answer: "only the specified fluid.",
+      choices: [
+        "only the specified fluid.",
+        "any fluid of the same specific gravity.",
+        "any hydraulic fluid available.",
+      ],
+    },
+    "A deicer boot is completely bonded to the leading edge to.": {
+      answer: "prevent electrical static build up.",
+      choices: [
+        "provide smoother airflow over leading edge.",
+        "prevent electrical static build up.",
+        "provide more efficient deicer cycles.",
+      ],
+    },
+    "Windscreen heating is supplied from.": {
+      answer: "frequency wild generator, direct to the windscreen.",
+      choices: [
+        "frequency wild generator, direct to the windscreen.",
+        "DC generator, via a transformer.",
+        "frequency wild generator, via a rectifier.",
+      ],
+    },
+    "A wing thermal anti-ice annunciator is illuminated permanently in flight deck without selection being made. The most probable cause would be.":
+      {
+        answer: "a short circuit.",
+        choices: ["a short circuit.", "an open circuit.", "normal."],
+      },
+    "Spongy brakes are usually a result of.": {
+      answer: "air in the system.",
+      choices: ["internal leakage.", "air in the system.", "external leakage."],
+    },
+    "On a wheel bogie unit, positive camber is when the.": {
+      answer: "bottom of the wheels are closer together.",
+      choices: [
+        "bottom of the wheels are closer together.",
+        "top of the wheels are closer together.",
+        "front of the wheels are closer together.",
+      ],
+    },
+    "A badly corroded and pitted brake disk will.": {
+      answer: "wear brake pads too quickly, and should be replaced.",
+      choices: [
+        "wear brake pads too quickly, and should be replaced.",
+        "be serviceable, and provide better grip.",
+        "produce a loss of fluid.",
+      ],
+    },
+    "How much oxygen is in a tyre (as a maximum)?.": {
+      answer: "5% by volume.",
+      choices: ["5% by pressure.", "15% by volume.", "5% by volume."],
+    },
+    "A tyre specification 32 x 10.75-14. What does the 10.75 refer to.": {
+      answer: "Section Width.",
+      choices: ["Section Width.", "Bead diameter.", "Overall diameter."],
+    },
+    "On large aircraft, braked wheel assemblies are normally inflated with.": {
+      answer: "nitrogen and not more than 5% of air.",
+      choices: [
+        "nitrogen.",
+        "an argon and CO2 mixture.",
+        "nitrogen and not more than 5% of air.",
+      ],
+    },
+    "An undercarriage that has the axle mounted directly onto the shock absorber is of which type.":
+      {
+        answer: "Direct Acting.",
+        choices: ["Articulated.", "Hydro Mechanical.", "Direct Acting."],
+      },
+    "When checking the alignment of a main landing gear, check.": {
+      answer: "symmetry, tracking, camber.",
+      choices: [
+        "symmetry, tracking, camber.",
+        "symmetry, tracking, twist.",
+        "symmetry, tracking, splay.",
+      ],
+    },
+    "Cockpit dome lighting is provided by the.": {
+      answer: "battery bus and ground services bus.",
+      choices: [
+        "battery bus and ground services bus.",
+        "battery bus.",
+        "ground services bus.",
+      ],
+    },
+    "Pressure breathing systems must be used at altitudes.": {
+      answer: "above 40,000 ft.",
+      choices: ["above 40,000 ft.", "below 40,000 ft.", "above 30,000 ft."],
+    },
+    "Two compressors driven by separate engines use.": {
+      answer: "NRVs to prevent compressors driving each other.",
+      choices: [
+        "Interconnected to share loads.",
+        "NRVs to prevent compressors driving each other.",
+        "PRVs.",
+      ],
+    },
+    "the seal of the valve is replaceable without draining the tanks.": {
+      answer:
+        "the seal of the valve is replaceable without draining the tanks.",
+      choices: [
+        "the seal of the valve is replaceable without draining the tanks.",
+        "the tank must be de-fuelled.",
+        "the seal is not replaceable, the whole drain assembly must be replaced.",
+      ],
+    },
+    "In a Central Air Data Computer (ADC), the rate of climb of an aircraft is produced in the.":
+      {
+        answer: "Altitude Module.",
+        choices: [
+          "Indicated Airspeed Module.",
+          "Mach Module.",
+          "Altitude Module.",
+        ],
+      },
+    "In a Central Air Data Computer, altitude is produced from.": {
+      answer: "static air pressure.",
+      choices: [
+        "static air pressure.",
+        "pitot air pressure.",
+        "pitot air pressure and total air temperature.",
+      ],
+    },
+    "In a Central Air Data Computer (CADC) system, True Air Speed (TAS) is derived from the Mach information and.":
+      {
+        answer: "Total Air Temperature",
+        choices: [
+          "Static Air Pressure.",
+          "Pitot Air Pressure.",
+          "Total Air Temperature",
+        ],
+      },
     "The primary function of the cabin pressurization system outflow valve is to:":
       {
         answer: "maintain the desired cabin pressure",
@@ -1807,7 +3365,6 @@ export default function generateQuestion(num_of_questions) {
 
   // 1. Get all keys
   const keys = Object.keys(questionBank);
-
   // 2. Pick a random key
   while (questionList.length < num_of_questions) {
     const randomIndex = Math.floor(Math.random() * keys.length);

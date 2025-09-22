@@ -24,7 +24,7 @@ export default function Question({ currentQuestions, details, setDetails }) {
           </section>
         );
       })}
-      <button onClick={(e) => newExam()}>New Exam</button>
+      <button onClick={newExam}>New Exam</button>
       <button>{details["score"]}</button>
       <button onClick={(e) => submit(e, details)}>Submit</button>
     </>
