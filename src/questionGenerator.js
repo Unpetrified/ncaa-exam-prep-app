@@ -1,4 +1,4 @@
-import questionBankGen from "./questionBank/gen";
+// import questionBankGen from "./questionBank/gen";
 import questionBankGTE from "./questionBank/gte";
 import questionBankPMA from "./questionBank/pma";
 
@@ -14,7 +14,7 @@ export default function generateQuestion(num_of_questions, category) {
       break;
 
     default:
-      questionBankGen;
+      alert("Not ready yet");
       break;
   }
 
@@ -24,7 +24,7 @@ export default function generateQuestion(num_of_questions, category) {
   // 1. Get all keys
   const keys = Object.keys(questionBank);
 
-  console.log(num_of_questions);
+  console.log(keys.length);
 
   if (num_of_questions === "all") {
     num_of_questions = keys.length;
@@ -44,11 +44,19 @@ export default function generateQuestion(num_of_questions, category) {
       questionObject = {
         question: lastKey,
         answer: questionBank[randomKey].answer,
-        choices: questionBank[randomKey].choices,
+        choices: shuffle(questionBank[randomKey].choices),
         key: crypto.randomUUID(),
       };
 
     questionList.push(questionObject);
   }
   return questionList;
+}
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1)); // 0 ≤ j ≤ i
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }

@@ -4,7 +4,7 @@ export default function Question({ currentQuestions, details, setDetails }) {
     <>
       {currentQuestions.map((questionObj) => {
         return (
-          <section key={questionObj["key"]}>
+          <section key={questionObj["key"]} className="card">
             <h3>
               {number++}. {questionObj["question"]}
             </h3>
