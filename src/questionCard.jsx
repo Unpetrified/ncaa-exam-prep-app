@@ -2,6 +2,11 @@ export default function Question({ currentQuestions, details, setDetails }) {
   let number = 1;
   return (
     <>
+      <section className="buttons">
+        <button onClick={newExam}>New Exam</button>
+        <button>{details["score"]}</button>
+        <button onClick={(e) => submit(e, details)}>Submit</button>
+      </section>
       {currentQuestions.map((questionObj) => {
         return (
           <section key={questionObj["key"]} className="card">
@@ -24,9 +29,6 @@ export default function Question({ currentQuestions, details, setDetails }) {
           </section>
         );
       })}
-      <button onClick={newExam}>New Exam</button>
-      <button>{details["score"]}</button>
-      <button onClick={(e) => submit(e, details)}>Submit</button>
     </>
   );
 }
