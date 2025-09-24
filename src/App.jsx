@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
 import { useState } from "react";
 import "./App.css";
 import generateQuestion from "./questionGenerator";
@@ -29,7 +28,6 @@ function App() {
           setDetails={setExamDetails}
         />
       )}
-      <Analytics />
     </>
   );
 }
