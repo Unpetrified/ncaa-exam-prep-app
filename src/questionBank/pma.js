@@ -2403,16 +2403,10 @@ const questionBankPMA = {
         "Equal amount of force and will move at different rate of speed",
       ],
     },
-  "Using a hand pump, a force of 100 psi has been built up in a hydraulic system.":
+  "Using a hand pump, a force of 100 psi has been built up in a hydraulic system. The hand pump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuating cylinder 2inch in diameter. What is the pressure in the line between the hand pump and the actuating cylinder?":
     {
       answer: "100 PSI",
-      choices: [
-        "The hand pump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuating cylinder 2inch in diameter.",
-        "What is the pressure in the line between the hand pump and the actuating cylinder?",
-        "150 PSI",
-        "100 PSI",
-        "200 PSI",
-      ],
+      choices: ["150 PSI", "100 PSI", "200 PSI"],
     },
   "A cross flow valve which is designed to bypass fluid from one side of an actuating cylinder to the other is commonly found in which of these systems?":
     {
@@ -2606,15 +2600,11 @@ const questionBankPMA = {
       "Boost the pressure in the portions of the system",
     ],
   },
-  "A hydraulic accumulator is charged with an air preload of 1000 psi.": {
-    answer: "1000psi",
-    choices: [
-      "when the hydraulic system pressure of 300psi is developed, the pressure on the airside will read?",
-      "4000psi",
-      "3000psi",
-      "1000psi",
-    ],
-  },
+  "A hydraulic accumulator is charged with an air preload of 1000 psi. When the hydraulic system pressure of 300psi is developed, the pressure on the airside will read?":
+    {
+      answer: "1000psi",
+      choices: ["4000psi", "3000psi", "1000psi"],
+    },
   "How is the air in a hydraulic accumulator system prevented from entering fluid system?":
     {
       answer:
