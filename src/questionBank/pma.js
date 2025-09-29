@@ -2472,7 +2472,7 @@ const questionBankPMA = {
   "If an aircraft hydraulic system requires a mineral based fluid but phosphate ester base fluid is used, what will be the effect on the system?":
     {
       answer:
-        "Low viscosity, chemical stability, high flash point and high fire point",
+        "System will be contaminated, fluid will not blend, and the there will be no seal failure",
       choices: [
         "System will be contaminated, fluid will not blend, and seals will  fail",
         "No effect",
@@ -2480,8 +2480,7 @@ const questionBankPMA = {
       ],
     },
   "What is used to flush a system serviced with MIL-H5606": {
-    answer:
-      "System will be contaminated, fluid will not blend, and seals will fail",
+    answer: "Naphta or varsol",
     choices: [
       "Naphta or varsol",
       "Laquer thinner or trichloroethylene",
@@ -2490,7 +2489,7 @@ const questionBankPMA = {
   },
   "Phosphate ester base hydraulic fluid is susceptible to contamination from;":
     {
-      answer: "Naphta or varsol",
+      answer: "Water in the atmosphere",
       choices: [
         "Ethylene propylene elastomers",
         "Teflon seal materials",
