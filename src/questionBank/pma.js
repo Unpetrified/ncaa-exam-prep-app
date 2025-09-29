@@ -2931,7 +2931,7 @@ const questionBankPMA = {
       "An electrical sensor",
     ],
   },
-  "Which of the following functions does a skid control system do?\nNormal skid control,\nNormal braking\nFail safe protection\nLocked wheel skid control\nTouchdown protection\nTakeoff protection":
+  "Which of the following functions does a skid control system do?\n1. Normal skid control,\n2. Normal braking\n3. Fail safe protection\n4. Locked wheel skid control\n4. Touchdown protection\n6. Takeoff protection":
     {
       answer: "1, 3, 4 and 5",
       choices: ["1, 2, 5 and 6", "1, 3, 4 and 5", "1, 2, 3 and 4"],
