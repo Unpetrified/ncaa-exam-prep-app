@@ -40,7 +40,7 @@ const questionBankPMA = {
     choices: ["aluminium wire.", "special paint.", "copper wire."],
   },
   "The bonding lead to a remote aircraft component must be.": {
-    answer: "0.25 in wide and 22 AWG.",
+    answer: "0.5 in wide",
     choices: ["0.5 in wide.", "22 AWG.", "0.25 in wide and 22 AWG."],
   },
   "at force is an I-Beam subjected to?.": {
@@ -1948,7 +1948,7 @@ const questionBankPMA = {
       choices: [
         "Landing gear locked down and throttle advanced",
         "Landing gear locked down and throttle retarded",
-        "Landing gear not locked down and throttle",
+        "Landing gear not locked down and throttle retarded",
       ],
     },
   "Landing gear warning systems usually provide which of the following indications?":
@@ -2945,11 +2945,10 @@ const questionBankPMA = {
         "When wheel rotation indicates hydroplaning",
       ],
     },
-  "The primary purpose of a takeoff warning system is to alert the crew that a monitored flight control is not properly set prior to takeoff.":
+  "The primary purpose of a takeoff warning system is to alert the crew that a monitored flight control is not properly set prior to takeoff. The system is activated by;":
     {
       answer: "Thrust lever",
       choices: [
-        "The system is activated by;",
         "Thrust lever",
         "80 knots airspeed sensor",
         "An ignition system switch not set for takeoff",
@@ -3253,9 +3252,9 @@ const questionBankPMA = {
   },
   "Entrained water in aviation turbine fuel is hazard because of its susceptibility to freezing as it passes through the filters.":
     {
-      answer: "Anti-icing fuel additives and fuel heaters",
+      answer:
+        "Anti-icing fuel additives and fuel heaters. What are common ways of preventing such hazards?",
       choices: [
-        "What are common ways of preventing such hazards?",
         "Micro mesh fuel strainers and fuel heaters",
         "Anti-icing fuel additives and fuel heaters",
         "High velocity fuel pumps and fuel heaters",

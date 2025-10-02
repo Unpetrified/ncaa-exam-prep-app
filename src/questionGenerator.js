@@ -1,4 +1,4 @@
-// import questionBankGen from "./questionBank/gen";
+import questionBankGen from "./questionBank/gen";
 import questionBankGTE from "./questionBank/gte";
 import questionBankPMA from "./questionBank/pma";
 
@@ -14,7 +14,7 @@ export default function generateQuestion(num_of_questions, category) {
       break;
 
     default:
-      alert("Not ready yet");
+      questionBank = questionBankGen;
       break;
   }
 
