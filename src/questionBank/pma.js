@@ -1,4 +1,6 @@
 const questionBankPMA = {
+  // 200+PRESSURISED AIRFRAME LICENSE EXAM
+
   "As a subsonic aircraft speeds-up, its Centre of Pressure.": {
     answer: "moves aft.",
     choices: ["moves forward.", "moves aft.", "is unaffected."],
@@ -3314,6 +3316,2592 @@ const questionBankPMA = {
       "Attaching a remote pressure gauge",
       "Weighing the container and its content",
       "A hydrostatic check",
+    ],
+  },
+
+  //  BPMA 2020
+
+  "If an aircraft is yawing to the left, where would you position the trim tab on the rudder?":
+    {
+      answer: "To the left.",
+      choices: ["To the centre.", "To the right.", "To the left."],
+    },
+  "When a leading edge flap is fully extended, what is the slot in the wing for?":
+    {
+      answer: "To re-energise the boundary layer.",
+      choices: [
+        "To allow the flap to retract into it when it retracts.",
+        "To re-energise the boundary layer.",
+        "To increase the lift.",
+      ],
+    },
+  "Which repair would required a landing gear retraction test?": {
+    answer: "Gear down lock micro switch",
+    choices: [
+      "Landing gear safety switch",
+      "Red warning light bulb",
+      "Gear down lock micro switch",
+    ],
+  },
+  "Precise points are located on an aircraft by a system of": {
+    answer: "frame stations, water lines and buttock lines.",
+    choices: [
+      "frame stations, vertical lines and lateral lines.",
+      "longitudinal, vertical and lateral lines.",
+      "frame stations, water lines and buttock lines.",
+    ],
+  },
+  "The bonding lead to a remote aircraft. Component must be": {
+    answer: "0.5 in wide.",
+    choices: ["0.5 in wide.", "22 AWG.", "0.25 in wide and 22 AWG."],
+  },
+  "The tropopause exists at about": {
+    answer: "36,000 ft.",
+    choices: ["18,000 ft.", "36,000 ft.", "30,000 ft."],
+  },
+  "Semi-monocoque construction": {
+    answer: "offers good damage resistance.",
+    choices: [
+      "utilizes the safe-line design concept.",
+      "is used only for thefuselage.",
+      "offers good damage resistance.",
+    ],
+  },
+  "What governs the ultimate fatigue life of an aircraft?": {
+    answer: "Landings.",
+    choices: ["Pressure Cycles.", "Flying Hours.", "Landings."],
+  },
+  "Cabin altitude in pressurized flight is the": {
+    answer:
+      "altitude corresponding to cabin pressure irrespective of the altitude for the aircraft.",
+    choices: [
+      "altitude at which cabin altitude equals outside air pressure.",
+      "pressure altitude of the cabin as corrected to mean sea level I.S.A. conditions.",
+      "altitude corresponding to cabin pressure irrespective of the altitude for the aircraft.",
+    ],
+  },
+  "In pressurized aircraft, temperature conditioning is mainly achieved by": {
+    answer: "extracting heat from the pressurising air.",
+    choices: [
+      "adding heat to the pressurising air.",
+      "varying cabin pressure.",
+      "extracting heat from the pressurising air.",
+    ],
+  },
+  "Which best describes cabin differential pressure:": {
+    answer: "Difference between the ambient and internal air pressure",
+    choices: [
+      "Difference between cabin flight altitude pressure and Mean Sea Level Pressure",
+      "Difference between the ambient and internal air pressure",
+      "Difference between cabin pressure controller setting and actual cabin pressure",
+    ],
+  },
+  "During a normal pressurized climb following Take – off:": {
+    answer: "The cabin ROC is less than the aircraft’s ROC",
+    choices: [
+      "The cabin ROC is less than the aircraft’s ROC",
+      "The cabin ROC is more than the aircraft’s ROC",
+      "The ROC is constant",
+    ],
+  },
+  "Rate of change of cabin pressure is most noticeably shown on a": {
+    answer: "cabin V .S.I.",
+    choices: ["cabin V .S.I.", "cabin altimeter.", "cabin pressure gauge."],
+  },
+
+  "In a pneumatic pressurization system, positive pressure signals from the controller will cause:":
+    {
+      answer: "The discharge valve to move towards closed",
+      choices: [
+        "The discharge valve to move towards closed",
+        "The discharge valve to move towards open",
+        "An excessive rate of cabin air discharge",
+      ],
+    },
+  "Pitot' and 'Static' lines during a cabin pressure test should be": {
+    answer: "connected.",
+    choices: ["cross connected.", "disconnected.", "connected."],
+  },
+  "If the cabin pressure fails to reach its maximum cabin pressure differential the":
+    {
+      answer: "outward relief valve is inoperative.",
+      choices: [
+        "discharge valve should be adjusted.",
+        "pressure controller should be adjusted.",
+        "outward relief valve is inoperative.",
+      ],
+    },
+  "CSD warning lights on the flight deck normally indicate": {
+    answer: "Low oil pressure, high oil temperature",
+    choices: [
+      "High oil pressure, low oil temperature, low oil pressure, high oil…..",
+      "Low oil pressure, low oil temperature",
+      "Low oil pressure, high oil temperature",
+    ],
+  },
+  "If an aircraft flying in still air at 400 knots, encounters a head wind of 50 knots, its ground speed is":
+    {
+      answer: "350 knots.",
+      choices: ["450 knots.", "350 knots.", "400 knots."],
+    },
+  "An aircraft flying towards a VOR station shows indications of 120° and 'TO'. After passing over the station, on the same course, the indications will be":
+    {
+      answer: "120° and FROM.",
+      choices: ["120° and FROM.", "300° and FROM.", "300° and TO."],
+    },
+  "A radar altimeter determines attitude by": {
+    answer: "Transmitting a signal and receiving back a reflected signal",
+    choices: [
+      "Transmitting a signal and receiving back a reflected signal",
+      "Receiving signals transmitted from ground radar stations",
+      "Means of transponder interrogation",
+    ],
+  },
+  "The airdata computer inputs to": {
+    answer: "altimeter, FMC, secondary radar.",
+    choices: [
+      "altimeter, FMC, secondary radar.",
+      "mach meter, standby altimeter, ASI.",
+      "cabin rate sensors, mach-meters, ASI, altimeter.",
+    ],
+  },
+  "Toilets must have a smoke detection": {
+    answer: "light in the cockpit",
+    choices: [
+      "aural and visual warning in the main cabin.",
+      "light in the cockpit",
+      "connected to a pump to pump the smoke out.",
+    ],
+  },
+  "How do you clean seat belts?": {
+    answer: "With warm water with low alkalinity soap.",
+    choices: [
+      "With MEK.",
+      "With white spirit.",
+      "With warm water with low alkalinity soap.",
+    ],
+  },
+  "Engine fire bottle pressure switches are operated by": {
+    answer: "Dc",
+    choices: ["Ac or dc", "Dc", "Ac"],
+  },
+  "Control surface flutter may be caused by": {
+    answer: "excessive play in trim tab attachments.",
+    choices: [
+      "excessive play in trim tab attachments.",
+      "high static friction in trim tab control tabs.",
+      "incorrect angular movement of trim tabs.",
+    ],
+  },
+  "Symmetry checks should be carried out": {
+    answer: "in the hanger with the aircraft on jacks",
+    choices: [
+      "in the hangar with the aircraft on its wheels",
+      "on the ramp with the aircraft on its wheels",
+      "in the hanger with the aircraft on jacks",
+    ],
+  },
+  "During a pressurisation check at maximum differential, if the engines are shut-down":
+    {
+      answer: "cabin ROC indicator gives indication of cabin seal efficiency.",
+      choices: [
+        "cabin ROC indicator gives indication of cabin seal efficiency.",
+        "aircraft remains pressurised until the dump valve opens.",
+        "outflow valve opens immediately.",
+      ],
+    },
+  "Fuel systems that are interconnected must have": {
+    answer: "air spaces interconnected.",
+    choices: [
+      "separate venting for each tank.",
+      "no airspace",
+      "air spaces interconnected.",
+    ],
+  },
+  "When a FADEC system loses air data input it goes to": {
+    answer: "soft reversion",
+    choices: ["soft reversion", "hard reversion.", "mechanical reversion."],
+  },
+  "Calcium Chromate tablets can be fitted in integral tanks. Before installation the linen bag should be wetted with":
+    {
+      answer: "Water.",
+      choices: ["Water.", "Methylated Spirit.", "Kerosene."],
+    },
+  "How much oxygen is in tyre (as a maximum)": {
+    answer: "5% by volume",
+    choices: ["5% by pressure", "15% by volume", "5% by volume"],
+  },
+  "The type of fluid in an oleo strut will depend upon:": {
+    answer: "The type of seal material",
+    choices: [
+      "Type of fluid most readily available",
+      "The type of seal material",
+      "Heat generated in operation of the system",
+    ],
+  },
+  "Using a hand pump, a force of 100 psi has been built up in a hydraulic system. The handpump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuatingcylinder 2inch in diameter. What is the pressure in the line between the hand pump and the actuating cylinder?":
+    { answer: "100 PSI", choices: ["150 PSI", "100 PSI", "200 PSI"] },
+
+  "When bleeding aircraft brakes, one of the indications that the air has been purged out is; 1. Full brake pedal travel, 2. Normal braking, 3. Fail safe protection, 4. Locked wheel skid control, 5. Touchdown protection, 6. Takeoff protection":
+    {
+      answer: "1, 3, 4 and 5",
+      choices: ["1, 2, 5 and 6", "1, 3, 4 and 5", "1, 2, 3 and 4"],
+    },
+  "The bonding lead to a remote aircraft component must be": {
+    answer: "0.5 in wide.",
+    choices: ["0.5 in wide.", "22 AWG.", "0.25 in wide and 22 AWG."],
+  },
+  "Where on the aircraft is FS245, RWS45?": {
+    answer:
+      "245 inches from the datum line of the aircraft and 45 inches from the centerline of the right wing",
+    choices: [
+      "245 inches from the nose of the aircraft and 45 inches from the tip of the right wing",
+      "245 inches from the datum line of the aircraft and 45 inches from the centerline of the right wing",
+      "245 inches from the nose of the aircraft and 45 inches from the centerline of the right wing",
+    ],
+  },
+  "The function of an air mass flow control valve is to": {
+    answer:
+      "Maintain a reasonably constant air mass flow into the cabin at all altitudes",
+    choices: [
+      "ensure that system differential pressure is not exceeded",
+      "Maintain a reasonably constant air mass flow into the cabin at all altitudes",
+      "control the airflow out of the cabin",
+    ],
+  },
+  "What would you use to neutralize nicad battery spillage?": {
+    answer: "Boric acid",
+    choices: ["Boric acid", "distilled water", "bicarbonate of soda"],
+  },
+  "What is monitored in a constant speed drive?": {
+    answer: "HI oil temperature and low oil press.",
+    choices: [
+      "HI oil temperature and low oil press.",
+      "Low oil press and CSD speed.",
+      "Low oil temperature and low oil press.",
+    ],
+  },
+  "Mass balance weights are used to": {
+    answer: "counteract flutter on control surfaces.",
+    choices: [
+      "balance the trailing edge of flying control surfaces.",
+      "counteract flutter on control surfaces.",
+      "balance the tabs.",
+    ],
+  },
+  "In the event of hydraulic failure in a power control system, a requirement of the manual reversion is that it must be":
+    {
+      answer: "automatic and instantaneous.",
+      choices: [
+        "operated by the standby hydraulic system.",
+        "automatic and instantaneous.",
+        "possible, but not recommended.",
+      ],
+    },
+  "When spoilers are used asymmetrically, they combine with": {
+    answer: "aileron",
+    choices: ["aileron", "elevators.", "rudder."],
+  },
+  "As fuel level increases, system capacitance": {
+    answer: "Increases",
+    choices: ["decreases.", "no change.", "Increases"],
+  },
+  "When refueling": {
+    answer: "it is important not to fill the expansion space in the tank.",
+    choices: [
+      "the fuel nozzle will automatically cut off the supply when the tank is full.",
+      "it is important not to fill the expansion space in the tank.",
+      "it is important to fill the expansion space in the tank.",
+    ],
+  },
+  "What happens to the capacitance in a fuel contents gauge as fuel is used?": {
+    answer: "Decreases.",
+    choices: ["Depends on altitude.", "Increases", "Decreases."],
+  },
+  "To shut-off the LP fuel supply to the engine for the purpose of engine removal you would":
+    {
+      answer: "pull the fire handle.",
+      choices: [
+        "close the cross bleed valve.",
+        "close the HP fuel lock.",
+        "pull the fire handle.",
+      ],
+    },
+  "Calciu Chromate tablets can be fitted in integral tanks. Before Installation the linen bag should be wetted with":
+    { answer: "Water", choices: ["Water", "Methylated Spirit.", "Kerosene."] },
+  "How do you prevent hydraulic fluid frothing?": {
+    answer: "By pressurising.",
+    choices: [
+      "By pressurising.",
+      "Vent Reservoir to atmosphere.",
+      "Pass over a tray.",
+    ],
+  },
+  "How much oxygen is in a tyre (as a maximum)?": {
+    answer: "5% by volume.",
+    choices: ["5% by pressure.", "15% by volume.", "5% by volume."],
+  },
+  "What happens to hydraulic fluid when it is overheated?": {
+    answer: "Increase acidity.",
+    choices: [
+      "Increase acidity.",
+      "Increase viscosity.",
+      "Increase alkalinity.",
+    ],
+  },
+  "An aircraft flying towards a VOR station shows indications of 120°and TO'. After passing over the station, on the same course, the indications will be":
+    {
+      answer: "120° and FROM.",
+      choices: ["120° and FROM.", "300° and FROM.", "300° and TO."],
+    },
+  '"After MLG down and securely locked, a red light is illuminated in the flight deck. The possible causes are."':
+    {
+      answer: "out of adjustment sensor.",
+      choices: [
+        "shorted sensor.",
+        "out of adjustment sensor.",
+        "wiring problem.",
+      ],
+    },
+  "‘Pilot' and 'Static' lines during a cabin pressure test should be": {
+    answer: "connected.",
+    choices: ["cross connected.", "disconnected.", "connected."],
+  },
+  "If an aircraft flying in still air at400 knots, encounters a head wind of 50 knots, its ground speed is":
+    {
+      answer: "350 knots.",
+      choices: ["450 knots.", "350 knots.", "400 knots."],
+    },
+  "Landing gear warnings systems usually provide which of the following indications?":
+    {
+      answer:
+        "Red light for unsafe gear, green light for gear down, no light for gear up",
+      choices: [
+        "Red light for unsafe gear, no light for gear down, green light for gear up",
+        "Green light for gear up and down, red light for unsafe gear",
+        "Red light for unsafe gear, green light for gear down, no light for gear up",
+      ],
+    },
+
+  // DGCA MODULE 11 PART 01
+
+  "As a subsonic aircraft speeds-up, its Centre of Pressure?": {
+    answer: "moves aft.",
+    choices: ["moves forward.", "moves aft.", "is unaffected."],
+  },
+  "Wing spoilers, when used asymmetrically, are associated with?": {
+    answer: "ailerons.",
+    choices: ["ailerons.", "rudder.", "elevators."],
+  },
+  "If an aircraft is flying with a left wing low, where would you move the left aileron trim tab?":
+    {
+      answer: "Up.",
+      choices: [
+        "Down.",
+        "Up.",
+        "Moving the aileron trim tab will not correct the. situation.",
+      ],
+    },
+  "With respect to differential aileron control, which of the following is true?":
+    {
+      answer:
+        "The down going aileron moves through a smaller angle than the up going aileron.",
+      choices: [
+        "The up going Aileron moves through a smaller angle than the  leron moves through a smaller angle than the up going aileron.",
+        "The up going and down going ailerons both deflect to the same angle.",
+        "The down going aileron moves through a smaller angle than the up going aileron.",
+      ],
+    },
+  "The aeroplane fin is of symmetrical aerofoil section and will therefore provide a side-load?":
+    {
+      answer:
+        "if a suitable angle of attack develops due either yaw or rudder movement.",
+      choices: [
+        "if a suitable angle of attack develops due either yaw or rudder movement.",
+        "only if a suitable angle of attack develops due to yaw.",
+        "only when the rudder is moved.",
+      ],
+    },
+  "An aircraft left wing is flying low. The aileron trimmer control to the left aileron trim tab in the cockpit would be?":
+    {
+      answer: "moved up causing the left aileron to move down.",
+      choices: [
+        "moved up causing the left aileron to move up.",
+        "moved up causing the left aileron to move down.",
+        "moved down causing the left aileron to move down.",
+      ],
+    },
+  "The purpose of a slot in a wing is to?": {
+    answer:
+      "act as venturi, accelerate the air and re-energise boundary layer.",
+    choices: [
+      "speed up the airflow and increase lift.",
+      "act as venturi, accelerate the air and re-energise boundary layer.",
+      "provide housing for the slat.",
+    ],
+  },
+  "Large flap deployment?": {
+    answer:
+      "causes increased spanwise flow towards tips on wing lower surface.",
+    choices: [
+      "has no effect on spanwise flow.",
+      "causes increased spanwise flow towards tips on wing upper surface.",
+      "causes increased spanwise flow towards tips on wing lower surface.",
+    ],
+  },
+  "Which part of the wing of a swept-wing aircraft stalls first?": {
+    answer: "Tip stalls first.",
+    choices: [
+      "Tip stalls first.",
+      "Root stalls first.",
+      "Both stall together.",
+    ],
+  },
+  "During flight, an aircraft is yawing to the right. The aircraft would have a tendency to fly?":
+    {
+      answer: "right wing low.",
+      choices: ["right wing low.", "nose up.", "left wing low."],
+    },
+  "With a drop in ambient temperature, an aircraft service ceiling will?": {
+    answer: "rise.",
+    choices: ["not be affected.", "lower.", "rise."],
+  },
+  "Extending a leading edge slat will have what effect on the angle of attack of a wing?":
+    {
+      answer: "Decrease the angle of attack.",
+      choices: [
+        "Increase the angle of attack.",
+        "Decrease the angle of attack.",
+        "No effect on angle of attack.",
+      ],
+    },
+  "To ensure that a wing stalls at the root first, stall wedges are?": {
+    answer: "installed on the wing leading edge at the wing root.",
+    choices: [
+      "installed at the wing trailing edge at the wing root.",
+      "installed at the wing trailing edge at the wing root.",
+      "installed on the wing leading edge at the wing root.",
+    ],
+  },
+  "With reference to differential aileron control?": {
+    answer: "drag increases on the inner wing.",
+    choices: [
+      "drag increases on the inner wing.",
+      "drag decreases on the outer wing.",
+      "drag increases on the outer wing.",
+    ],
+  },
+  "Dutch roll is movement in?": {
+    answer: "yaw and roll.",
+    choices: ["yaw and roll.", "yaw and pitch.", "pitch and roll."],
+  },
+  "If an aircraft is aerodynamically stable?": {
+    answer: "aircraft returns to trimmed attitude.",
+    choices: [
+      "aircraft becomes too sensitive.",
+      "aircraft returns to trimmed attitude.",
+      "C of P moves back.",
+    ],
+  },
+  "Ailerons control the aircraft in the?": {
+    answer: "lateral plane.",
+    choices: ["longitudinal plane.", "directional plane.", "lateral plane."],
+  },
+  "An anti-balance tab is used?": {
+    answer: "to give more feel to the controls.",
+    choices: [
+      "for trimming the aircraft.",
+      "to give more feel to the controls.",
+      "to relieve stick loads.",
+    ],
+  },
+  "Slats?": {
+    answer: "keep the boundary layer from separating for longer.",
+    choices: [
+      "act as an air brake.",
+      "keep the boundary layer from separating for longer.",
+      "increase the overall surface area and lift effect of wing.",
+    ],
+  },
+  "Due to the change of lift forces resulting from the extension of flaps in flight?":
+    {
+      answer: "nose should be lowered, reducing AoA.",
+      choices: [
+        "nose should be lowered, reducing AoA.",
+        "nose should remain in the same position, maintaining same AoA.",
+        "nose should be raised, increasing AoA.",
+      ],
+    },
+  "Flight spoilers?": {
+    answer:
+      "can be used to decrease lift to allow controlled decent without reduction of airspeed.",
+    choices: [
+      "can be used to decrease lift to allow controlled decent without reduction of airspeed.",
+      "can be deployed on the down going wing in a turn to increase lift on that wing.",
+      "can be used with differential ailerons to reduce adverse yaw in a turn.",
+    ],
+  },
+  "If the aircraft is flying nose heavy, which direction would you move the elevator trim tab?":
+    {
+      answer: "Down to move elevator up.",
+      choices: [
+        "Up to move elevator up.",
+        "Down to move elevator up.",
+        "Up to move elevator down.",
+      ],
+    },
+  "Wing tip vortices are strongest when?": {
+    answer: "flying slowly at high angles of attack.",
+    choices: [
+      "flying high speed straight and level flight.",
+      "flying slowly at high angles of attack.",
+      "flying into a headwind.",
+    ],
+  },
+  "An example of a secondary flight control is a?": {
+    answer: "spoiler.",
+    choices: ["elevator.", "flap.", "spoiler."],
+  },
+  "A balance tab?": {
+    answer: "assists the pilot to move the controls.",
+    choices: [
+      "assists the pilot to move the controls.",
+      "is used to trim the appropriate axis of the aircraft.",
+      "effectively increases the area of the control surface.",
+    ],
+  },
+  "Which wing increases drag when the ailerons are moved?": {
+    answer:
+      "Both wings increase drag but the wing with the down-going aileron increases more.",
+    choices: [
+      "Both wings have an equal increase in drag.",
+      "Both wings increase drag but the wing with the down-going aileron increases more.",
+      "Both wings increase drag but the wing with the up-going aileron increases more.",
+    ],
+  },
+  "Which flap will increase wing area and camber?": {
+    answer: "Fowler.",
+    choices: ["Split.", "Slot.", "Fowler."],
+  },
+  "An automatic slat will lift by itself when the angle of attack is?": {
+    answer: "high.",
+    choices: ["low.", "high or low.", "high."],
+  },
+  "On aircraft fitted with spoilers for lateral control, roll to the right is caused by?":
+    {
+      answer: "right spoilers extending, left spoilers remaining retracted.",
+      choices: [
+        "left and right spoilers extending.",
+        "right spoilers extending, left spoilers remaining retracted.",
+        "left spoilers extending, right spoilers remaining retracted.",
+      ],
+    },
+  "A split flap increases lift by increasing?": {
+    answer: "the angle of attachment of the lower hinged portion.",
+    choices: [
+      "the surface area.",
+      "the camber of the top surface.",
+      "the angle of attachment of the lower hinged portion.",
+    ],
+  },
+  "When the trailing edge flaps are lowered, the aircraft will?": {
+    answer: "pitch nose down.",
+    choices: ["sink.", "pitch nose down.", "pitch nose up."],
+  },
+  "Dutch roll is?": {
+    answer: "a combined yawing and rolling motion.",
+    choices: [
+      "a type of slow roll.",
+      "primarily a pitching instability.",
+      "a combined yawing and rolling motion.",
+    ],
+  },
+  "On an aircraft with an all-moving tailplane, pitch up is caused by?": {
+    answer: "decreasing tailplane incidence.",
+    choices: [
+      "increasing tailplane incidence.",
+      "decreasing tailplane incidence.",
+      "up movement of the elevator trim tab.",
+    ],
+  },
+  "A leading edge slat is a device for?": {
+    answer: "increasing the stalling angle of the wing.",
+    choices: [
+      "increasing the stalling angle of the wing.",
+      "decreasing wing drag.",
+      "decreasing the stalling angle of the wing.",
+    ],
+  },
+  "A Krueger flap is?": {
+    answer: "a leading edge flap which hinges forward.",
+    choices: [
+      "a leading edge slat which extends forward.",
+      "a flap which extends rearwards but does not lower.",
+      "a leading edge flap which hinges forward.",
+    ],
+  },
+  "The layer of air over the surface of an aerofoil which is slower moving, in relation to the rest of the airflow, is known as?":
+    {
+      answer: "boundary layer.",
+      choices: [
+        "camber layer.",
+        "none of the above are correct.",
+        "boundary layer.",
+      ],
+    },
+  "When airflow velocity over an upper cambered surface of an aerofoil decreases, what takes place?":
+    {
+      answer: "Pressure increases, lift decreases.",
+      choices: [
+        "Pressure increases, lift decreases.",
+        "Pressure decreases, lift increases.",
+        "Pressure increases, lift increases.",
+      ],
+    },
+  "What is a controlling factor of turbulence and skin friction?": {
+    answer: "Countersunk rivets used on skin exterior.",
+    choices: [
+      "Countersunk rivets used on skin exterior.",
+      "Aspect ratio.",
+      "Fineness ratio.",
+    ],
+  },
+  "Changes in aircraft weight?": {
+    answer:
+      "cause corresponding changes in total drag due to the associated lift change.",
+    choices: [
+      "will only affect total drag if the lift is kept constant.",
+      "will not affect total drag since it is dependant only upon speed.",
+      "cause corresponding changes in total drag due to the associated lift change.",
+    ],
+  },
+  "When an aircraft stalls?": {
+    answer: "lift decreases and drag increases.",
+    choices: [
+      "lift decreases and drag increases.",
+      "lift and drag increase.",
+      "lift and drag increase.",
+    ],
+  },
+  "The aircraft stalling speed will?": {
+    answer: "increase with an increase in weight.",
+    choices: [
+      "increase with an increase in weight.",
+      "increase with an increase in weight.",
+      "be unaffected by aircraft weight changes since it is dependant upon the angle of attack.",
+    ],
+  },
+  "In a bank and turn?": {
+    answer: "extra lift is required.",
+    choices: [
+      "extra lift is not required.",
+      "extra lift is required.",
+      "extra lift is not required if thrust is increased.",
+    ],
+  },
+  "The angle of attack at which stall occurs?": {
+    answer: "can be varied by using flaps and slats.",
+    choices: [
+      "depends on the weight of the aircraft.",
+      "cannot be varied, it is always constant.",
+      "can be varied by using flaps and slats.",
+    ],
+  },
+  "The primary function of a flap is?": {
+    answer: "to alter the lift of an aerofoil.",
+    choices: [
+      "to alter the position of the centre of gravity.",
+      "to trim the aircraft longitudinally.",
+      "to alter the lift of an aerofoil.",
+    ],
+  },
+  "The stalling speed of an aircraft?": {
+    answer: "is increased when it is heavier.",
+    choices: [
+      "is increased when it is lighter.",
+      "does not change.",
+      "is increased when it is heavier.",
+    ],
+  },
+  "A wing flap which has dropped or partially extended on one wing in flight will lead to?":
+    {
+      answer:
+        "a steady rolling tendency which would be corrected by use of the ailerons.",
+      choices: [
+        "a steady rolling tendency which would be corrected by use of the ailerons.",
+        "a fixed banked attitude which would be corrected by use of the rudder.",
+        "a pitching moment which would be corrected by used of the elevators.",
+      ],
+    },
+  "With an increase in the amount of flap deployment, the stalling angle of a wing?":
+    {
+      answer: "decreases.",
+      choices: ["increases.", "remains the same.", "decreases."],
+    },
+  "Downward displacement of an aileron?": {
+    answer: "decreases the angle at which its wing will stall.",
+    choices: [
+      "decreases the angle at which its wing will stall.",
+      "increases the angle at which its wing stalls.",
+      "has no effect on its wing stalling angle, it only affects the stalling speed on that wing.",
+    ],
+  },
+  "Due to the tailplane angle of attack change, the flap-induced downwash on the tailplane?":
+    {
+      answer: "will tend to cause an aircraft nose-up pitch.",
+      choices: [
+        "may cause a nose-down or nose-up pitch depending upon the initial tailplane load.",
+        "will tend to cause an aircraft nose down pitch.",
+        "will tend to cause an aircraft nose-up pitch.",
+      ],
+    },
+  "Due to the change in lift coefficient accompanying extension of the flaps, to maintain the lift constant it would be necessary to?":
+    {
+      answer: "lower the nose.",
+      choices: [
+        "lower the nose.",
+        "keep the pitch attitude constant.",
+        "raise the nose.",
+      ],
+    },
+  "Which leading edge device improves the laminar flow over the wing?": {
+    answer: "Slat.",
+    choices: ["Flap and slat.", "Flap.", "Slat."],
+  },
+  "The tropopause exists at about?": {
+    answer: "36,000 ft.",
+    choices: ["18,000 ft.", "36,000 ft.", "30,000 ft."],
+  },
+  "Induced drag curve characteristics of a slender delta wing are such that there is?":
+    {
+      answer: "decrease in gradient with wing speed.",
+      choices: [
+        "an increase in gradient with wing speed.",
+        "decrease in gradient with wing speed.",
+        "no change in gradient with wing speed.",
+      ],
+    },
+  "If an aircraft is yawing left, the trim tab on the rudder would be positioned?":
+    {
+      answer: "to the left, moving the rudder right.",
+      choices: [
+        "to the left, moving the rudder right.",
+        "to the centre.",
+        "to the right, moving the rudder left.",
+      ],
+    },
+  "Instability giving roll and yaw?": {
+    answer: "is dutch roll.",
+    choices: [
+      "is longitudinal stability.",
+      "is lateral stability.",
+      "is dutch roll.",
+    ],
+  },
+  "Vortex generators are fitted to?": {
+    answer: "move transition point forwards.",
+    choices: [
+      "move transition point forwards.",
+      "move transition point rearwards.",
+      "advance the onset of flow separation.",
+    ],
+  },
+  "Leading edge flaps?": {
+    answer: "increase stalling angle of the wing.",
+    choices: [
+      "decrease stalling angle of the wing.",
+      "do not change the stalling angle.",
+      "increase stalling angle of the wing.",
+    ],
+  },
+  "Krueger flaps are on?": {
+    answer: "the leading edge.",
+    choices: [
+      "the leading edge.",
+      "the trailing edge.",
+      "either the leading or training edge.",
+    ],
+  },
+  "Sweepback will?": {
+    answer: "increase lateral stability.",
+    choices: [
+      "increase lateral stability.",
+      "not affect lateral stability.",
+      "decrease lateral stability.",
+    ],
+  },
+  "A plain flap?": {
+    answer: "does not increase the wing area on deployment.",
+    choices: [
+      "is attached to the leading edge of the wing.",
+      "forms part of lower trailing edge.",
+      "does not increase the wing area on deployment.",
+    ],
+  },
+  "A split flap, when deployed?": {
+    answer:
+      "increases drag with little lift coefficient increase, from intermediate to fully down.",
+    choices: [
+      "increases drag with little lift coefficient increase, from intermediate to fully down.",
+      "is used only on high speed aircraft.",
+      "increases lift without a corresponding increase in drag.",
+    ],
+  },
+  "Zone 320 under the ATA system is?": {
+    answer: "vertical stabiliser.",
+    choices: [
+      "central fuselage.",
+      "vertical stabiliser.",
+      "horizontal stabiliser.",
+    ],
+  },
+  "When doing a bonding check the maximum resistance between component and earth is?":
+    {
+      answer: "50 milliohms.",
+      choices: ["0.005ohms.", "1/50 ohms.", "50 milliohms."],
+    },
+  "How is damage to the nose cone of an aircraft prevented during a lightning strike?":
+    {
+      answer: "Bonding Strip.",
+      choices: ["Earthing Strap.", "Bonding Strip.", "Bonding Strip."],
+    },
+  "Tension is the stress of?": {
+    answer: "elongating or stretch.",
+    choices: ["crush or compression.", "elongating or stretch.", "twisting."],
+  },
+  "A Fuselage Station is a?": {
+    answer: "longitudinal point on the aircraft fuselage.",
+    choices: [
+      "lateral point on aircraft wing.",
+      "lateral point on aircraft fuse.",
+      "longitudinal point on the aircraft fuselage.",
+    ],
+  },
+  "Composite materials are bonded by?": {
+    answer: "special paint.",
+    choices: ["aluminium wire.", "special paint.", "copper wire."],
+  },
+  "ATA Zone 100 is?": {
+    answer: "lower fuselage.",
+    choices: ["upper fuselage.", "lower fuselage.", "Wing."],
+  },
+  "The bonding lead to a remote aircraft component must be?": {
+    answer: "0.5 in wide.",
+    choices: ["0.5 in wide.", "22 AWG.", "0.25 in wide and 22 AWG."],
+  },
+  "What force is an I-Beam subjected to?": {
+    answer: "Bending.",
+    choices: ["Tension.", "Bending.", "Shear."],
+  },
+  "A radome is protected from static electricity build-up by?": {
+    answer: "conductive paint.",
+    choices: [
+      "bonding strips.",
+      "special conductive grease.",
+      "conductive paint.",
+    ],
+  },
+  "Precise points are located on an aircraft by a system of?": {
+    answer: "frame stations, water lines and buttock lines.",
+    choices: [
+      "frame stations, vertical lines and lateral lines.",
+      "longitudinal, vertical and lateral lines.",
+      "frame stations, water lines and buttock lines.",
+    ],
+  },
+  "Which of the following is an example of a fail safe structure?": {
+    answer: "Stringer.",
+    choices: ["Spar.", "Longeron.", "Stringer."],
+  },
+  "Damage tolerant design?": {
+    answer:
+      "allows for certain damage to the structure to go un- repaired between scheduled maintenance.",
+    choices: [
+      "is applied only to secondary structure.",
+      "allows for certain damage to the structure to go un- repaired between scheduled maintenance.",
+      "allows for damage to structure by distributing loads to other structure.",
+    ],
+  },
+  "In the ATA 100 zonal system the passenger entry door will have a designation of?":
+    { answer: "800.", choices: ["800.", "600.", "400."] },
+  "Which area of the aircraft is subject to hoop stress?": {
+    answer: "Pressure cabin.",
+    choices: ["Control surfaces.", "Pressure cabin.", "Wings."],
+  },
+  "Shear stress is described as?": {
+    answer: "slip away under the action of forces.",
+    choices: [
+      "pulling forces.",
+      "compressing forces.",
+      "slip away under the action of forces.",
+    ],
+  },
+  "The ground cable must be?": {
+    answer: "single strand copper wire 0.5 in. cross sectional area.",
+    choices: [
+      "single strand copper wire 0.5 in. cross sectional area.",
+      "copper stranded 0.5 in. cross sectional area.",
+      "single strand 18 AWG.",
+    ],
+  },
+  "How is the radome protected from lightning strike?": {
+    answer: "Diverter strips.",
+    choices: [
+      "Special grease on the hinges.",
+      "Diverter strips.",
+      "Special paint.",
+    ],
+  },
+  "If you short the two prongs with the single prong of a bonding tester together, what would the gauge read?":
+    {
+      answer: "Zero.",
+      choices: ["Full scale deflection.", "Centre scale.", "Zero."],
+    },
+  "A condition after which a permanent deformation of a material is caused, is known as?":
+    { answer: "strain.", choices: ["strain.", "shear.", "shear."] },
+  "Semi-monocoque construction?": {
+    answer: "offers good damage resistance.",
+    choices: [
+      "utilizes the safe-life design concept.",
+      "is used only for the fuselage.",
+      "offers good damage resistance.",
+    ],
+  },
+  "Most radio aerials are?": {
+    answer: "bonded.",
+    choices: ["not bonded.", "bonded.", "insulated from the fuselage."],
+  },
+  "Secondary bonding is usually provided with?": {
+    answer: "18 AWG.",
+    choices: [
+      "stranded copper 0.25 inch.",
+      "single strand 0.25 inch.",
+      "18 AWG.",
+    ],
+  },
+  "Water Lines (WLs) are measured points on a?": {
+    answer: "vertical line.",
+    choices: ["vertical line.", "wing line.", "horizontal line."],
+  },
+  "The various parts of the aircraft airframe are maintained at the same potential by?":
+    { answer: "bonding.", choices: ["bonding.", "earthing.", "static wicks."] },
+  "The cross sectional area of a secondary conductor must be not less than?": {
+    answer: "18 SWG for a single wire.",
+    choices: ["18 SWG for a single wire.", "22 SWG x 0.25.", "22 SWG x 0.5."],
+  },
+  "The main forces on an aircraft structure are?": {
+    answer: "tension, compression, torsion and shear.",
+    choices: [
+      "tension, compression, torsion and shear.",
+      "tension, compression, torsion and strain.",
+      "tension, compression, twisting and shear.",
+    ],
+  },
+  "The life of the structure is counted by?": {
+    answer: "pressurization cycle.",
+    choices: ["landings.", "pressurization cycle.", "flying hours."],
+  },
+  "What are buttock lines?": {
+    answer: "Measurements from the centre line.",
+    choices: [
+      "Measurements from the centre line.",
+      "Horizontal measurement lines.",
+      "Vertical measurement lines.",
+    ],
+  },
+  "Aircraft fibreglass panels are protected against lighting strikes, partially by?":
+    {
+      answer: "conductive paint.",
+      choices: ["non-conductive paint.", "bonding.", "conductive paint."],
+    },
+  "A member taking a compression load is called a?": {
+    answer: "strut.",
+    choices: ["beam.", "cable.", "strut."],
+  },
+  "Stringers are used in which of the following types of aircraft fuselage construction?":
+    {
+      answer: "Semi-monocoque.",
+      choices: ["Semi-monocoque.", "Truss type.", "Monocoque."],
+    },
+  "Wing stations are measured?": {
+    answer: "outboard from the fuselage centreline.",
+    choices: [
+      "outboard from the wing root.",
+      "outboard from the fuselage centreline.",
+      "inboard from the wing upper surface.",
+    ],
+  },
+  "What load is a tie rod designed to accept?": {
+    answer: "Tensile.",
+    choices: ["Bending.", "Tensile.", "Torsion."],
+  },
+  "If a colour is used to identify primary structure, it will be?": {
+    answer: "red.",
+    choices: ["red.", "green.", "yellow."],
+  },
+  "Which of the following is primary structure?": {
+    answer: "Skin.",
+    choices: ["Frame.", "Skin.", "Stringer."],
+  },
+  "Fuselage station numbers are measured from the front of the aircraft in?": {
+    answer: "inches.",
+    choices: ["feet.", "inches.", "feet and inches."],
+  },
+  "Structure with built in redundancy is called?": {
+    answer: "failsafe.",
+    choices: ["double safe.", "failsafe.", "safe life."],
+  },
+  "Stress?": {
+    answer: "is the load per unit area acting on a material.",
+    choices: [
+      "is the property of a material to resist fracture.",
+      "is the load per unit area acting on a material.",
+      "is the deformation of a material caused by applied load.",
+    ],
+  },
+  "A piece of structure which must be replaced at a specified number of cycles, flying hours or years, regardless of its physical condition is what type of item?":
+    {
+      answer: "Safe-life.",
+      choices: ["Safe-life.", "Fail-safe.", "Condition monitored."],
+    },
+  "If you are unable to identify a structure classification as either Primary or Secondary, what action should you adopt?":
+    {
+      answer: "Upgrade it to primary.",
+      choices: [
+        "Upgrade it to primary.",
+        "Grade it as secondary.",
+        "Paint it red and stamp it as tertiary.",
+      ],
+    },
+  "Safe-life is?": {
+    answer:
+      "the maximum number of flying hours that should elapse before a major structural failure occurs.",
+    choices: [
+      "the sharing of loads between adjacent members.",
+      "the minimum number of flying hours that should elapse before a major structural failure occurs.",
+      "the maximum number of flying hours that should elapse before a major structural failure occurs.",
+    ],
+  },
+  "Bending stresses are a combination of?": {
+    answer: "tension and compression stresses.",
+    choices: [
+      "torsional and compression stresses.",
+      "tension and shear stresses.",
+      "tension and compression stresses.",
+    ],
+  },
+  "The Airworthiness Notice that refers to structural surveys is?": {
+    answer: "Notice 89.",
+    choices: ["Notice 65.", "Notice 79.", "Notice 89."],
+  },
+  "Structural survey inspections are normally called up by the?": {
+    answer: "manufacturer.",
+    choices: ["operator.", "maintenance engineer.", "manufacturer."],
+  },
+  "Where are wing stations measured from?": {
+    answer: "Butt Line (BL).",
+    choices: ["Water Line (WL).", "Zone Line (ZL).", "Butt Line (BL)."],
+  },
+  "Where is Zone 323?": {
+    answer: "Tip of vertical stabiliser.",
+    choices: [
+      "Between rear spar and trailing edge.",
+      "Between front and rear spar.",
+      "Tip of vertical stabiliser.",
+    ],
+  },
+  "To prevent a system being affected by high current flows after a lightning strike to a composite aircraft, electricity is discharged through?":
+    {
+      answer: "electrically connected primary conductors.",
+      choices: [
+        "a sprayed coat of conductive paint.",
+        "a sprayed coat of non-conductive paint.",
+        "electrically connected primary conductors.",
+      ],
+    },
+  "A structural member intended to resist compression is a?": {
+    answer: "strut.",
+    choices: ["web.", "tie.", "strut."],
+  },
+  "An aircraft structure, having multiple load paths, is known as a?": {
+    answer: "fail-safe design.",
+    choices: ["monocoque design.", "fail-safe design.", "safe-life design."],
+  },
+  "Wrinkling of the skin on the upper surface of the fuselage indicates?": {
+    answer: "sagging.",
+    choices: ["hogging.", "shedding.", "sagging."],
+  },
+  "If a redundant structure fails it becomes?": {
+    answer: "failsafe.",
+    choices: ["safe-life.", "fatigued.", "failsafe."],
+  },
+  "A redundant structure is?": {
+    answer: "a failsafe structure.",
+    choices: [
+      "on-condition structure.",
+      "a safe-life structure.",
+      "a failsafe structure.",
+    ],
+  },
+  "The measurement of the fuselage perpendicular to horizontal plane measured in inches from bottom of the fuselage is?":
+    {
+      answer: "water line.",
+      choices: ["butt line.", "water line.", "fuselage station."],
+    },
+  "What are the four stresses to be considered when building an aircraft?": {
+    answer: "Compression, Torsion, Tension, Shear.",
+    choices: [
+      "Compression, Tension, Torsion, Stress.",
+      "Compression, Torsion, Stress, Strain.",
+      "Compression, Torsion, Tension, Shear.",
+    ],
+  },
+  "A structure that has a high designed reserve strength would be classified as?":
+    { answer: "primary.", choices: ["secondary.", "tertiary.", "primary."] },
+  "An example of primary stress is?": {
+    answer: "tension.",
+    choices: ["tension.", "bending.", "shear."],
+  },
+  "What is the water line?": {
+    answer: "The datum from which vertical locations refer.",
+    choices: [
+      "The zero datum from which all lateral locations are measured.",
+      "The datum from which vertical locations refer.",
+      "A line below which redux bonding can not be used.",
+    ],
+  },
+  "Lateral stations have station zero at the?": {
+    answer: "centre line.",
+    choices: ["nose.", "left wing tip.", "centre line."],
+  },
+  "Airworthiness requirements for large aircraft are found in?": {
+    answer: "CS 25.",
+    choices: ["CAR 25.", "ANO 25.", "CS 25."],
+  },
+  "An Anthropomorphic Test Dummy (ATD) is strapped into a large aircraft forward facing seat. It is put through a series of crash tests. This is to?":
+    {
+      answer:
+        "to determine whether or not the ATD's head comes into contact with any structure or seat, and if so to measure the force applied to the head in line with a specific Head Injury Criterion (HIC).",
+      choices: [
+        "to measure the amount of force applied to the abdomen of the ATD to ensure it is not above 236 kg.",
+        "test the aircraft structure and seating mount points for structural integrity.",
+        "to determine whether or not the ATD's head comes into contact with any structure or seat, and if so to measure the force applied to the head in line with a specific Head Injury Criterion (HIC).",
+      ],
+    },
+
+  // DGCA MODULE 11 PART 03
+
+  "Which of these barometric instruments uses a restrictor to compute its output?":
+    { answer: "VSI.", choices: ["Machmeter.", "VSI.", "ASI."] },
+  "Track altitude in a radio altimeter system begins at.": {
+    answer: "2 500 ft radio alt.",
+    choices: [
+      "2 500 ft radio alt.",
+      "1 000 ft radio alt.",
+      "10 000 ft radio alt.",
+    ],
+  },
+  "What is the maximum radio altimeter track altitude?": {
+    answer: "2,500 ft.",
+    choices: ["500 ft.", "2,500 ft.", "10,000 ft."],
+  },
+  "An ECAM system is tested under the following conditions:-.": {
+    answer: "Aircraft on the ground with parking brake set/on.",
+    choices: [
+      "Aircraft on the ground with one engine running.",
+      "Aircraft in the air with both engines running.",
+      "Aircraft on the ground with parking brake set/on.",
+    ],
+  },
+  "Which instrument are most likely to damage if you have a rapid drop in pressure, when carrying out a pitot-static leak check?":
+    {
+      answer: "Altimeter.",
+      choices: [
+        "Altimeter.",
+        "vertical speed indicator.",
+        "Air speed indicator.",
+      ],
+    },
+  "The runway heading is.": {
+    answer: "QFU.",
+    choices: ["QFU.", "QDM.", "QDR."],
+  },
+  "Apparent drift of a vertical gyro is a function of.": {
+    answer: "cos of latitude.",
+    choices: ["tan of latitude.", "cos of latitude.", "sin of latitude."],
+  },
+  "A machmeter works.": {
+    answer: "always.",
+    choices: ["always.", "above 10,000 ft.", "always except on the ground."],
+  },
+  "Radio marker information is displayed on.": {
+    answer: "ADI.",
+    choices: ["ADI.", "EICAS.", "HIS."],
+  },
+  "Angle of Attack alarm is sounding too close to stall. Rectification is to.":
+    {
+      answer: "move probe up.",
+      choices: ["move probe down.", "move probe up.", "move probe laterally."],
+    },
+  "Where is alpha angle used?": {
+    answer: "Angle of attack.",
+    choices: ["IRS.", "Accelerometer.", "Angle of attack."],
+  },
+  "Where is the spinup/rundown brake on a gyro instrument?": {
+    answer: "Inner gimbal.",
+    choices: ["Outer gimbal.", "Rotating vane.", "Inner gimbal."],
+  },
+  "On replacing a pre-indexed flux valve you would.": {
+    answer:
+      "fit the serviceable pre indexed flux valve into the same position as the unserviceable pre-indexed flux valve was removed from.",
+    choices: [
+      "align the aircraft onto its A coefficient so that no error is induced.",
+      "fit the serviceable pre indexed flux valve into the same position as the unserviceable pre-indexed flux valve was removed from.",
+      "carry out a check swing after fitment.",
+    ],
+  },
+  "In Airways flying, what is the barometric scale of the altimeter set to?": {
+    answer: "1013.25.",
+    choices: ["1013.25.", "QNH.", "QFE."],
+  },
+  "Vibration monitoring signals are sent.": {
+    answer: "via a signal conditioner to the gauge.",
+    choices: [
+      "via a signal conditioner to the gauge.",
+      "via a half-wave rectifier to the gauge.",
+      "direct to the gauge.",
+    ],
+  },
+  "The vacuum system gauge reads 5 inches of mercury. This is from.": {
+    answer: "ambient and minus.",
+    choices: ["zero and minus.", "ambient and minus.", "zero and positive."],
+  },
+  "A direct reading Bourdon gauge has a restriction in the inlet. This is to.":
+    {
+      answer: "dampen sudden pressure changes.",
+      choices: [
+        "prevent FOD ingestion.",
+        "dampen sudden pressure changes.",
+        "allow for calibration.",
+      ],
+    },
+  "The hot junction of thermocouple is.": {
+    answer: "aft of combustion chamber.",
+    choices: [
+      "in the combustion chamber.",
+      "in the instrument.",
+      "aft of combustion chamber.",
+    ],
+  },
+  "When a rad. alt. reaches 2,500 ft. what happens to the display?": {
+    answer: "Rad. alt. goes out of view.",
+    choices: [
+      "Rad. alt. flag in view.",
+      "Rad. alt. goes out of view.",
+      "Error warning in view.",
+    ],
+  },
+  "Pitot tubes are heated.": {
+    answer: "electrically.",
+    choices: [
+      "by compressed bleed air.",
+      "electrically.",
+      "by kinetic heating.",
+    ],
+  },
+  "The suction gauge reads 5 inches of mercury. This is.": {
+    answer: "below ambient pressure.",
+    choices: [
+      "above zero pressure.",
+      "below ambient pressure.",
+      "above ambient pressure.",
+    ],
+  },
+  "What are the primary colours for use in CRT displays?": {
+    answer: "Red, blue, green.",
+    choices: [
+      "Yellow, cyan, magenta.",
+      "Red, blue, green.",
+      "Red, blue, yellow.",
+    ],
+  },
+  "Alpha vane signal could be fed to _________________ ________________ when close to stall.":
+    {
+      answer: "thrust levers.",
+      choices: ["flap position.", "fast/slow switch.", "thrust levers."],
+    },
+  "When performing maintenance operations on an aircraft equipped with RVSM system, and a quick release disconnect connection is disturbed.":
+    {
+      answer: "a full test of the system should be carried out.",
+      choices: [
+        "a full test of the system should be carried out.",
+        "a full test of the system should be carried out only if the aircraft manufacturer recommends to do so.",
+        "the allowances for the system should be halved.",
+      ],
+    },
+  "For aircraft certificated after 1997 and with RVSM, the maximum tolerance for the system would be.":
+    {
+      answer: "+/- 200 feet plus +/- 50 feet for instrument error.",
+      choices: [
+        "+/- 300 feet plus +/- 50 feet for instrument errors.",
+        "+/- 500 feet for the system overall.",
+        "+/- 200 feet plus +/- 50 feet for instrument error.",
+      ],
+    },
+  "The HSI provides information on.": {
+    answer: "VOR, plan, map, ILS, radar.",
+    choices: [
+      "VOR, ILS, map, radar, attitude.",
+      "VOR, plan, map, ILS, radar.",
+      "VOR, ILS, plan, attitude.",
+    ],
+  },
+  "The sensing element of the flux valve.": {
+    answer: "remains in the same position attached to the aircraft structure.",
+    choices: [
+      "aligns itself to the new heading as the aircraft turns.",
+      "remains in the same position attached to the aircraft structure.",
+      "aligns itself to the new heading of the aircraft after it has stabilised.",
+    ],
+  },
+  "In a compass swing: North error -2 degrees, South error - 2 degrees. The coefficient C is.":
+    {
+      answer: "0 degrees.",
+      choices: ["+2 degrees.", "-2 degrees.", "0 degrees."],
+    },
+  "When aligning an aircraft for a compass swing, the maximum allowable error is.":
+    {
+      answer: "5 degrees.",
+      choices: ["5 degrees.", "1 degrees.", "3 degrees."],
+    },
+  "The pitot head is fitted on the aircraft. The alignment of pitot head is carried out with.":
+    {
+      answer: "an inclinometer.",
+      choices: ["spirit level.", "an inclinometer.", "micrometer."],
+    },
+  "What kind of gyro is a rate gyro?": {
+    answer: "Tied down.",
+    choices: ["Tied down.", "Displacement.", "Space."],
+  },
+  "A radio altimeter system can be self tested.": {
+    answer: "both on the ground only and in the air.",
+    choices: [
+      "both on the ground only and in the air.",
+      "on the ground only.",
+      "in the air only.",
+    ],
+  },
+  "The apparent wander for directional gyros is.": {
+    answer: "compensated by applying a constant torque.",
+    choices: [
+      "compensated by applying a constant torque.",
+      "maximum at the pole.",
+      "dependant on longitude.",
+    ],
+  },
+  "The Directional Gyro is checked every 15 minutes for.": {
+    answer: "drift.",
+    choices: ["erection.", "toppling.", "drift."],
+  },
+  "Random drift of a gyro is caused by.": {
+    answer: "unbalance and bearing friction in the gyro.",
+    choices: [
+      "unbalance and bearing friction in the gyro.",
+      "rotation of the earth.",
+      "aircraft turning with an error in roll.",
+    ],
+  },
+  "Standby Compass adjusting magnets (Flinders Bars) exert the most amount of influence.":
+    {
+      answer: "when 90 degrees apart.",
+      choices: [
+        "when 90 degrees apart.",
+        "when parallel to each other.",
+        "when 45 degrees apart.",
+      ],
+    },
+  "With engine static and engine blanks fitted, EPR gauge reads just above 1.":
+    {
+      answer: "Gauge requires re-calibration.",
+      choices: [
+        "Gauge requires re-calibration.",
+        "Transmitter is unserviceable.",
+        "This is normal.",
+      ],
+    },
+  "Coefficient A is adjusted.": {
+    answer: "on any heading.",
+    choices: ["at 360 degrees.", "at 270 degrees.", "on any heading."],
+  },
+  "With an aircraft which has more than one compass system.": {
+    answer:
+      "master adjusted, slave adjusted, each having a corrected compass card.",
+    choices: [
+      "master adjusted, slave adjusted, each having a corrected compass card.",
+      "both are adjusted on each heading.",
+      "master and slave adjusted, correction card for master only.",
+    ],
+  },
+  "A DC electrical cable must be positioned how far away from a compass?": {
+    answer: "24 inches.",
+    choices: [
+      "20 inches.",
+      "24 inches.",
+      "So as to give no more than 2 degrees deflection of compass.",
+    ],
+  },
+  "Which pitot probe provides information to the captains instruments?": {
+    answer: "Upper.",
+    choices: ["Upper.", "Lower.", "Both."],
+  },
+  "On the CWP, what does amber indicate?": {
+    answer: "Cautionary info.",
+    choices: ["Present status.", "Cautionary info.", "Warning."],
+  },
+  "Which instrument shows Decision Height?": {
+    answer: "ADI.",
+    choices: ["ECAM.", "HIS.", "ADI."],
+  },
+  "Where does the HSI receive GND speed information from?": {
+    answer: "INS.",
+    choices: ["Pitot static probes.", "INS.", "EICAS."],
+  },
+  "When power is switched off, the gimbal brake.": {
+    answer: "restricts inner gimbal.",
+    choices: [
+      "stops outer gimbal.",
+      "restricts outer gimbal.",
+      "restricts inner gimbal.",
+    ],
+  },
+  "On an EADI the command bars show the.": {
+    answer: "required flight path compared with aircraft position.",
+    choices: [
+      "required flight path compared with horizon.",
+      "required flight path compared with aircraft position.",
+      "required flight path compared to planned flight path.",
+    ],
+  },
+  "The airdata computer inputs to.": {
+    answer: "altimeter, FMC, secondary radar.",
+    choices: [
+      "altimeter, FMC, secondary radar.",
+      "mach meter, standby altimeter, ASI.",
+      "cabin rate sensors, mach-meters, ASI, altimeter.",
+    ],
+  },
+  "What deviation is indicated by 2 dots in a VOR system?": {
+    answer: "10°.",
+    choices: ["6°.", "2.5°.", "10°."],
+  },
+  "How may the basic principle of the radio altimeter be described?": {
+    answer:
+      "As a measure of the time between a RF pulse transmission and the reception of its echo from the ground directly below the aircraft.",
+    choices: [
+      "As a series of radio pulses to the ground their frequency depending on the expansion or contraction of an evacuated capsule and the deflection of an E and I bar transducer.",
+      "As a comparison of radio altitude against a barometric altitude referenced to ISA sea level (1013.25mb).",
+      "As a measure of the time between a RF pulse transmission and the reception of its echo from the ground directly below the aircraft.",
+    ],
+  },
+  "In a compass system, what senses the horizontal component of the earths magnetic field and where is it normally fitted?":
+    {
+      answer: "Flux detectors fitted in the wing tips.",
+      choices: [
+        "Directional gyro mounted on the roll axis of the aircraft.",
+        "A precession device mounted on the yaw axis of the aircraft.",
+        "Flux detectors fitted in the wing tips.",
+      ],
+    },
+  "An RMI has inputs from VOR and.": {
+    answer: "an azimuth gyro.",
+    choices: [
+      "a remote compass input.",
+      "an azimuth gyro.",
+      "no other sources.",
+    ],
+  },
+  "In a modern HSI, the displays are.": {
+    answer: "course and direction.",
+    choices: [
+      "course and direction.",
+      "course and attitude.",
+      "direction and attitude.",
+    ],
+  },
+  "At what height does the rising runway appear?": {
+    answer: "200 ft.",
+    choices: ["300 ft.", "500 ft.", "200 ft."],
+  },
+  "An H on the EHSI indicates.": {
+    answer: "DME hold.",
+    choices: ["ILS approach.", "DME hold.", "VOR hold."],
+  },
+  "Compared to air driven gyros, the electric gyro runs.": {
+    answer: "faster.",
+    choices: ["faster.", "slower.", "same speed."],
+  },
+  "A pneumatic indicator takes its indications from.": {
+    answer: "reservoir.",
+    choices: ["compressor outlet.", "compressor inlet.", "reservoir."],
+  },
+  "What is apparent drift due to?": {
+    answer: "Earths rotation.",
+    choices: [
+      "Errors when aircraft banking.",
+      "Earths rotation.",
+      "Gyro pivot friction.",
+    ],
+  },
+  "An aircraft airspeed indicator has.": {
+    answer: "pitot to the capsule and static to the out side of the capsule.",
+    choices: [
+      "pitot to the capsule.",
+      "static to the capsule.",
+      "pitot to the capsule and static to the out side of the capsule.",
+    ],
+  },
+  "Above 2500 ft. the rad. Alt.": {
+    answer: "pointer is hidden behind a mask with off flag out of view.",
+    choices: [
+      "pointer is hidden behind a mask with off flag out of view.",
+      "continues to indicate but with a warning flag.",
+      "pointer goes to zero to show system is being monitored.",
+    ],
+  },
+  "How does a machmeter work?": {
+    answer: "True airspeed and speed of sound.",
+    choices: [
+      "Indicated airspeed / temperature.",
+      "True airspeed and speed of sound.",
+      "True airspeed / indicated airspeed.",
+    ],
+  },
+  "When changing a pitot static instrument with quick release couplings.": {
+    answer: "a leak check is only required if stated by manufacturer.",
+    choices: [
+      "a leak check is not required.",
+      "a leak check is always required.",
+      "a leak check is only required if stated by manufacturer.",
+    ],
+  },
+  "The flux detector element.": {
+    answer: "gives heading with respect to magnetic north.",
+    choices: [
+      "gives heading with respect to magnetic north.",
+      "changes heading with the heading of the aircraft.",
+      "changes it position after the aircraft heading is changed.",
+    ],
+  },
+  "If rate feedback in a flight director goes open circuit, position indication will.":
+    {
+      answer: "oscillate.",
+      choices: ["oscillate.", "be sluggish.", "go hard over."],
+    },
+  "The needle of a resolver is connected to.": {
+    answer: "two coils only.",
+    choices: [
+      "two coils and an electromagnet.",
+      "two coils and a permanent magnet.",
+      "two coils only.",
+    ],
+  },
+  "If the compass fluid has bubbles at low altitude.": {
+    answer: "this is due to insufficient de-aeration.",
+    choices: [
+      "this is due to excessive high cabin altitude flying.",
+      "this has no influence on compass readings.",
+      "this is due to insufficient de-aeration.",
+    ],
+  },
+  "A remote compass compensator unit is replaced. Which of the following is correct?":
+    {
+      answer: "A compass swing must be performed.",
+      choices: [
+        "The swing can be performed at a later date.",
+        "No swing is required if the new heading is within 5 degrees of the old.",
+        "A compass swing must be performed.",
+      ],
+    },
+  "A compass has a residual deviation of +1 degree. To steer a true heading of 180 degrees the pilot must steer.":
+    {
+      answer: "179 degrees.",
+      choices: ["179 degrees.", "180 degrees.", "181 degrees."],
+    },
+  "How is a leading edge flap position indicated in the cockpit?": {
+    answer: "Torque synchro.",
+    choices: ["Servomotor.", "A measuring device.", "Torque synchro."],
+  },
+  "In a Machmeter, what type of compensation is there?": {
+    answer: "Compensation is not required.",
+    choices: [
+      "Hair spring.",
+      "Square-Law compensation.",
+      "Compensation is not required.",
+    ],
+  },
+  "What effect on the rate of precession will a change of gyro rotor speed have?":
+    {
+      answer: "Increase the rotor speed, decrease the rate of precession.",
+      choices: [
+        "No effect.",
+        "Decrease the rotor speed, decrease the rate of precession.",
+        "Increase the rotor speed, decrease the rate of precession.",
+      ],
+    },
+  "A gyroscopic body has its rigidity increased by.": {
+    answer: "increasing the rotor speed.",
+    choices: [
+      "decreasing the mass of the rotor.",
+      "decreasing the rotor speed.",
+      "increasing the rotor speed.",
+    ],
+  },
+  "If a constant torque is applied to a gyroscope, the rate of precession.": {
+    answer: "increases with a lower rotor speed.",
+    choices: [
+      "is unaffected by changes in rotor speed.",
+      "increases with a higher rotor speed.",
+      "increases with a lower rotor speed.",
+    ],
+  },
+  "A pendulous vane type erection system fitted to a gyro horizon works on the principle of.":
+    {
+      answer: "increased reaction of the air from a fully open port.",
+      choices: [
+        "increased reaction of the air from a bisected port.",
+        "decreased reaction of the air from a fully open port.",
+        "increased reaction of the air from a fully open port.",
+      ],
+    },
+  "During the normal straight and level flight, the gyro of an electrical artificial horizon is kept erect in pitch by a.":
+    {
+      answer:
+        "torque motor fitted between the outer gimbal ring and the case controlled by a mercury switch in the fore and aft axis.",
+      choices: [
+        "mercury switch in the fore and aft axis controlling a torque motor fitted between the inner and outer gimbal rings.",
+        "torque motor fitted between the outer gimbal ring and the case controlled by a mercury switch in the athwartships axis.",
+        "torque motor fitted between the outer gimbal ring and the case controlled by a mercury switch in the fore and aft axis.",
+      ],
+    },
+  "The normal erection supply to the mercury switches of the artificial horizon is disconnected.":
+    {
+      answer: "during turns.",
+      choices: [
+        "for the first 40 seconds after initially switching 'ON'.",
+        "during turns.",
+        "when the fast erection button is pressed.",
+      ],
+    },
+  "The pitch/bank erection system is used in an electrical gyro horizon to.": {
+    answer:
+      "to prevent the pitch switch giving a false indication due to centrifugal effects during a turn.",
+    choices: [
+      "give full erection control to the roll switch during a turn.",
+      "give full erection control to the pitch switch during a turn.",
+      "to prevent the pitch switch giving a false indication due to centrifugal effects during a turn.",
+    ],
+  },
+  "The fast erection push on an electrical gyro horizon must not be used for a set period after switching on because.":
+    {
+      answer: "excessive hunting will take place.",
+      choices: [
+        "excessive hunting will take place.",
+        "overheating of the gyro rotor windings will occur.",
+        "the normal erection switch contact will burn out.",
+      ],
+    },
+  "Apparent drift of a directional gyro is due to.": {
+    answer: "the effect of the earth's rotation.",
+    choices: [
+      "the effect of the earth's rotation.",
+      "unbalance of the gimbals.",
+      "bearing friction.",
+    ],
+  },
+  "The erection system on a directional gyroscope has.": {
+    answer:
+      "a switch on the inner gimbal controlling a motor on the outer gimbal.",
+    choices: [
+      "a switch on the outer gimbal controlling a motor on the inner gimbal.",
+      "a switch on the inner gimbal controlling a motor on the inner gimbal.",
+      "a switch on the inner gimbal controlling a motor on the outer gimbal.",
+    ],
+  },
+  "In a rate gyro used to detect movements about a vertical axis, the amount the gimbal ring moves would be increased if the.":
+    {
+      answer: "rotor speed decreases.",
+      choices: [
+        "angle through which the gyro moves in azimuth increases.",
+        "rotor speed decreases.",
+        "spring tension was increased.",
+      ],
+    },
+  "The Turn and Slip indicator employs.": {
+    answer: "a rate gyro.",
+    choices: ["a vertical gyro.", "a rate gyro.", "an azimuth gyro."],
+  },
+  "In a Turn and Slip indicator, the effect of increasing the rotor speed would be.":
+    {
+      answer: "it would under read.",
+      choices: [
+        "it would have no effect.",
+        "it would under read.",
+        "it would over read.",
+      ],
+    },
+  "How is the information on a directional gyro outer gimbal taken off?": {
+    answer: "By a flux take-off device.",
+    choices: [
+      "By a switch on the outer gimbal.",
+      "By a switch on the inner gimbal.",
+      "By a flux take-off device.",
+    ],
+  },
+  "Why is a directional gyro inner gimbal restricted to +/- 85º?": {
+    answer: "To prevent gyro going into gimbal lock.",
+    choices: [
+      "To ensure outer gimbal erection system works correctly.",
+      "To prevent outer gimbal rotating.",
+      "To prevent gyro going into gimbal lock.",
+    ],
+  },
+  "The speed of the rotor in a Turn and Slip indicator is approximately.": {
+    answer: "4,200 rpm.",
+    choices: ["2,400 rpm.", "4,200 rpm.", "22,500 rpm."],
+  },
+  "In a directional gyro, the inner/outer gimbal is corrected to.": {
+    answer: "15 sine latitude.",
+    choices: ["15 sine latitude.", "15 cosine latitude.", "15 sine longitude."],
+  },
+  "The electrolyte switches used in gyro systems rely upon.": {
+    answer: "change in resistance to operate.",
+    choices: [
+      "change in inductance to operate.",
+      "change in resistance to operate.",
+      "change in voltage applied to operate.",
+    ],
+  },
+  "Precession of a gyro depends on.": {
+    answer: "both answers (a) and (b).",
+    choices: [
+      "both answers (a) and (b).",
+      "angular velocity of the rotor only.",
+      "moment of inertia of the rotor only.",
+    ],
+  },
+  "Angular momentum of a gyro rotor depends on.": {
+    answer: "moment of inertia and angular velocity of the rotor.",
+    choices: [
+      "angular velocity of the rotor.",
+      "moment of inertia of the rotor.",
+      "moment of inertia and angular velocity of the rotor.",
+    ],
+  },
+  "Air driven gyros, compared to electric gyros, generally rotate.": {
+    answer: "slower.",
+    choices: ["faster.", "the same speed.", "slower."],
+  },
+  "Gyro rigidity is proportional to.": {
+    answer: "mass, speed and radius of mass from spin axis.",
+    choices: [
+      "mass and speed.",
+      "mass, and radius of mass from spin axis.",
+      "mass, speed and radius of mass from spin axis.",
+    ],
+  },
+  "Gyro precessional force is.": {
+    answer: "directly proportional to applied force.",
+    choices: [
+      "inversely proportional to the applied force.",
+      "directly proportional to applied force.",
+      "proportional to the square of the applied force.",
+    ],
+  },
+  "The speed of a vacuum driven gyro horizon rotor is approximately.": {
+    answer: "15,000 rpm.",
+    choices: ["22,000 rpm.", "15,000 rpm.", "4,200 rpm."],
+  },
+  "A V.S.I. is connected to.": {
+    answer: "static pressure.",
+    choices: ["vacuum.", "static pressure.", "pitot pressure."],
+  },
+  "With a V.S.I. pointer at position 1 on the upper half of the scale it indicates.":
+    {
+      answer: "1,000 ft/minute rate of climb.",
+      choices: [
+        "1,000 ft/minute rate of descent.",
+        "1,000 ft/minute rate of climb.",
+        "100 ft/minute rate of climb.",
+      ],
+    },
+  "After disconnecting the supply to an electrically operated gyro instrument it is recommended that, to allow the gyro rotor to stop, before moving the instrument.":
+    {
+      answer: "fifteen minutes should elapse.",
+      choices: [
+        "seven minutes should elapse.",
+        "three minutes should elapse.",
+        "fifteen minutes should elapse.",
+      ],
+    },
+  "The Port and Starboard static vents on an aircraft are inter-connected to.":
+    {
+      answer:
+        "cancel errors caused in the static system when the aircraft yaws.",
+      choices: [
+        "reduce compressibility error.",
+        "minimize errors caused by leaks in the system.",
+        "cancel errors caused in the static system when the aircraft yaws.",
+      ],
+    },
+  "Which of the following would cause a displacement gyro to topple?": {
+    answer: "Running gyro at low speed.",
+    choices: [
+      "Inverting the gyro.",
+      "Running gyro at low speed.",
+      "Running gyro at high speed.",
+    ],
+  },
+  "In level flight, a V.S.I. will indicate.": {
+    answer: "horizontal to left.",
+    choices: ["horizontal to left.", "vertically down.", "vertically up."],
+  },
+  "On descent, the pressure in a V.S.I. capsule.": {
+    answer: "leads the case pressure.",
+    choices: [
+      "leads the case pressure.",
+      "lags the case pressure.",
+      "is the same as case pressure.",
+    ],
+  },
+  "A small constant leak in the case of V.S.I. fitted in a pressurized aircraft would, during level flight, cause the instrument to indicate.":
+    {
+      answer: "zero.",
+      choices: ["a rate of climb.", "zero.", "a rate of descent."],
+    },
+  "When a force is applied to a horizontal gyro, the precession of the rotor will continue until.":
+    {
+      answer:
+        "plane of rotation is in line with the plane of the applied force.",
+      choices: [
+        "as long as the force is applied.",
+        "plane of rotation is in line with the plane of the applied force.",
+        "plane of rotation is in line with the precessional force.",
+      ],
+    },
+  "An artificial horizon has.": {
+    answer: "the inner gimbal pivoted laterally.",
+    choices: [
+      "the inner gimbal pivoted laterally.",
+      "the inner gimbal pivoted vertically.",
+      "the inner gimbal pivoted longitudinally.",
+    ],
+  },
+  "A pressure of one atmosphere is equal to.": {
+    answer: "14.7 PSI.",
+    choices: ["14.7 PSI.", "100 millibar.", "1 inch Hg."],
+  },
+  "In the directional gyro.": {
+    answer: "the outer gimbal is pivoted vertically.",
+    choices: [
+      "the outer gimbal is pivoted vertically.",
+      "the outer gimbal is pivoted longitudinally.",
+      "the outer gimbal is pivoted laterally.",
+    ],
+  },
+  "The millibar is a unit of.": {
+    answer: "barometric pressure.",
+    choices: [
+      "barometric pressure.",
+      "pressure altitude.",
+      "atmospheric temperature.",
+    ],
+  },
+  "In the Turn and Slip indicator.": {
+    answer: "the spin axis is lateral.",
+    choices: [
+      "the spin axis is longitudinal.",
+      "the spin axis is lateral.",
+      "the spin axis is vertical.",
+    ],
+  },
+  "In an altimeter, the.": {
+    answer: "capsule is evacuated and sealed.",
+    choices: [
+      "inside of the capsule is connected to static pressure.",
+      "capsule is evacuated and sealed.",
+      "capsule and case are connected via a calibrated choke.",
+    ],
+  },
+  "The units on the calibrated scale of a V.S.I. are expressed in.": {
+    answer: "hundreds of feet per minute.",
+    choices: [
+      "hundreds of feet per minute.",
+      "knots (kts).",
+      "miles per hour (mph).",
+    ],
+  },
+  "A standby air supply for gyro operation could be obtained from.": {
+    answer: "a venturi.",
+    choices: [
+      "a tapping from the induction manifold.",
+      "a venturi.",
+      "a pitot head.",
+    ],
+  },
+  "At the lowest point of each vent line you would normally find a.": {
+    answer: "self draining non-return valve.",
+    choices: ["float valve.", "NACA duct.", "self draining non-return valve."],
+  },
+  "A rate two turn is.": {
+    answer: "360 degrees per minute.",
+    choices: [
+      "90 degrees per minute.",
+      "360 degrees per minute.",
+      "180 degrees per minute.",
+    ],
+  },
+  "The rate of turn information from a turn coordinator (compared to a Turn and Slip) is.":
+    {
+      answer: "more accurate.",
+      choices: ["more instantaneous.", "less accurate.", "more accurate."],
+    },
+  "Temperature correction in a sensitive altimeter mechanism is provided by a.":
+    {
+      answer: "bi-metal U-spring acting on the capsule.",
+      choices: [
+        "bi-metal U-spring acting on the capsule.",
+        "balance weight.",
+        "U-spring acting on the capsule.",
+      ],
+    },
+  "The capsule in a vertical speed indicator will be expanded when the aircraft is.":
+    {
+      answer: "descending.",
+      choices: ["climbing.", "descending.", "in level flight."],
+    },
+  "After replacing an instrument of the pitot-static group, it is necessary to.":
+    {
+      answer: "carry out a leak test on the appropriate system(s).",
+      choices: [
+        "calibrate the instrument concerned.",
+        "carry out a leak test on the appropriate system(s).",
+        "blow through the lines with a clean low pressure air supply.",
+      ],
+    },
+  "If the pitot and static pipe lines were cross connected at the instrument panel connection, application of pressure to the pitot head would cause the.":
+    {
+      answer:
+        "altimeter reading to decrease, vertical speed indicator to indicate descent.",
+      choices: [
+        "altimeter reading to decrease, vertical speed indicator to indicate climb.",
+        "altimeter reading to increase, vertical speed indicator to indicate descent.",
+        "altimeter reading to decrease, vertical speed indicator to indicate descent.",
+      ],
+    },
+  "A constant force applied to the inner gimbal of a vertical gyro would cause.":
+    {
+      answer: "a continual precession in roll.",
+      choices: [
+        "a continual precession in roll.",
+        "a roll error and gyro topple.",
+        "a pitch error and gyro topple.",
+      ],
+    },
+  "A rate of turn indicator dial marked '2 minutes' refers to a.": {
+    answer: "rate 1 turn.",
+    choices: ["rate 3 turn.", "rate 2 turn.", "rate 1 turn."],
+  },
+  "A pitot or static leak check is carried out.": {
+    answer: "whenever the pitot or static systems are disturbed.",
+    choices: [
+      "only when an instrument is changed.",
+      "only when a leak is suspected.",
+      "whenever the pitot or static systems are disturbed.",
+    ],
+  },
+  "The temperature of boiling water at standard pressure on the Fahrenheit and Centigrade scale is.":
+    {
+      answer: "212 deg. and 100 deg. Respectively.",
+      choices: [
+        "100 deg. and 32 deg. Respectively.",
+        "180 deg. and 100 deg. Respectively.",
+        "212 deg. and 100 deg. Respectively.",
+      ],
+    },
+  "A temperature of 59°F is equivalent to.": {
+    answer: "15°C.",
+    choices: ["14.69°C.", "32°C.", "15°C."],
+  },
+  "Aircraft heading (HDG) is.": {
+    answer:
+      "the angle between True North and the longitudinal axis of the aircraft.",
+    choices: [
+      "the angle between True North and the longitudinal axis of the aircraft.",
+      "the angle between True North and the desired track.",
+      "the angle between True North and the actual track.",
+    ],
+  },
+  "Wind angle is the direction of the wind measured.": {
+    answer: "in degrees from True North.",
+    choices: [
+      "in degrees from the desired track.",
+      "in degrees from True North.",
+      "in degrees from the aircraft's heading.",
+    ],
+  },
+  "Limit stops are fitted in an artificial horizon to.": {
+    answer: "prevent gimbal lock.",
+    choices: [
+      "limit the outer gimbal movement.",
+      "reduce gimbal nutation.",
+      "prevent gimbal lock.",
+    ],
+  },
+  "The electrical output from a remote gyro to an attitude director indicator is.":
+    {
+      answer: "by a control synchro.",
+      choices: [
+        "by a control synchro.",
+        "by a differential synchro.",
+        "by a torque synchro.",
+      ],
+    },
+  "Agonic lines link places of.": {
+    answer: "zero variation.",
+    choices: ["zero variation.", "different variation.", "equal variation."],
+  },
+  "Position error is caused by.": {
+    answer: "pitot head position.",
+    choices: [
+      "pitot head position.",
+      "instrument location in the instrument panel.",
+      "mechanical imperfections in an instrument.",
+    ],
+  },
+  "To convert degrees Centigrade to degrees Kelvin.": {
+    answer: "add 273 degrees.",
+    choices: [
+      "add 112 degrees.",
+      "use the formula (deg C x 9/5) + 32.",
+      "add 273 degrees.",
+    ],
+  },
+  "Damping on a RATE GYRO can be either.": {
+    answer: "viscous, eddy current or air dash pot.",
+    choices: [
+      "viscous, eddy current or air dash pot.",
+      "eddy current, variable spring or moving iron.",
+      "viscous, eddy current or variable spring.",
+    ],
+  },
+  "Electrical driven gyros are.": {
+    answer: "rotated faster than air driven gyros.",
+    choices: [
+      "rotated at the same speed as air driven gyros.",
+      "rotated slower than air driven gyros.",
+      "rotated faster than air driven gyros.",
+    ],
+  },
+  "In a ratiometer temperature indicating circuit, there is a break in the circuit to the bulb. This will give.":
+    {
+      answer: "full scale deflection.",
+      choices: [
+        "mid scale deflection.",
+        "full scale deflection.",
+        "no scale deflection.",
+      ],
+    },
+  "With the gyro at normal running speed, a torque applied to the inner gimbal ring of a vertical gyro will cause the.":
+    {
+      answer: "outer ring to move.",
+      choices: [
+        "outer and inner ring to move.",
+        "inner ring to move.",
+        "outer ring to move.",
+      ],
+    },
+  "When an aircraft is descending, the pressure in the altimeter case.": {
+    answer: "will cause the aneroid capsule to contract.",
+    choices: [
+      "will cause the aneroid capsule to contract.",
+      "will cause the aneroid capsule to expand.",
+      "will not affect the aneroid capsule.",
+    ],
+  },
+  "The supply of Desynn indicating system.": {
+    answer: "is direct current.",
+    choices: [
+      "is direct current.",
+      "is alternating current at 400 c/s.",
+      "is alternating current at 50 c/s.",
+    ],
+  },
+  "A sensitive altimeter reading 100 ft. when the millibar scale is set to the atmospheric pressure at airfield level (QFE).":
+    {
+      answer: "indicates that the instrument is unserviceable.",
+      choices: [
+        "indicates that the airfield is 100 ft. above sea level.",
+        "indicates that the instrument is unserviceable.",
+        "indicates that the aircraft is in a region of high pressure and the reading must be corrected to I.S.A. standards.",
+      ],
+    },
+  "After using a pitot-static test set the pressure in the aircraft static system should be released to the atmosphere by.":
+    {
+      answer:
+        "venting the static system via an internal bleed in the test set.",
+      choices: [
+        "removing the static connector from its static vent.",
+        "venting the static system via an internal bleed in the test set.",
+        "removing the static connector from its static vent after waiting for a period of three minutes.",
+      ],
+    },
+  "An altimeter is operated.": {
+    answer: "by the static system.",
+    choices: [
+      "by the vacuum system.",
+      "by the pitot system.",
+      "by the static system.",
+    ],
+  },
+  "What is the purpose of the bimetallic strip in the altimeter?": {
+    answer: "Corrects for capsule elasticity.",
+    choices: [
+      "Compensates for non-linear tension in the hairspring.",
+      "Corrects for capsule elasticity.",
+      "Compensates for change in density.",
+    ],
+  },
+  "Which axis does the directional gyro spin on?": {
+    answer: "Horizontal.",
+    choices: ["Vertical.", "Horizontal.", "Both vertical and horizontal."],
+  },
+  "The capsule in an altimeter responds to.": {
+    answer: "absolute pressure.",
+    choices: [
+      "absolute pressure.",
+      "gauge pressure.",
+      "differential pressure.",
+    ],
+  },
+  "The aeroplane monitor on the artificial horizon is fitted to the.": {
+    answer: "instrument case.",
+    choices: ["inner gimbal.", "rotor.", "instrument case."],
+  },
+  "True airspeed in an Air Data Computer is a function of.": {
+    answer: "mach number and temperature.",
+    choices: [
+      "airspeed and altitude.",
+      "mach number and temperature.",
+      "airspeed and temperature.",
+    ],
+  },
+  "The advantage of an instantaneous V.S.I. over a conventional one is.": {
+    answer:
+      "it has an accelerometer which prevents the lag of a conventional one.",
+    choices: [
+      "it has an accelerometer which prevents the lag of a conventional one.",
+      "it does not require warming up.",
+      "it does not require pitot/static pressure.",
+    ],
+  },
+  "For a particular I.A.S. as the density decreases with altitude, the T.A.S.":
+    {
+      answer: "increases.",
+      choices: ["decreases.", "remains the same.", "increases."],
+    },
+  "The type of gyro used in a gyro compass is a.": {
+    answer: "directional gyro.",
+    choices: ["directional gyro.", "vertical gyro.", "rate gyro."],
+  },
+  "A desiccant used in the storage of instruments.": {
+    answer: "is silica-gel.",
+    choices: [
+      "is sodium-bicarbonate.",
+      "is silica-gel.",
+      "is anti-freeze oil.",
+    ],
+  },
+  "Bourdon Tubes have.": {
+    answer: "oval cross section.",
+    choices: [
+      "toroidal cross section.",
+      "oval cross section.",
+      "circular cross section.",
+    ],
+  },
+  "In a Bourdon tube.": {
+    answer: "one end is sealed and the other end open to the pressure source.",
+    choices: [
+      "one end is sealed and the other end open to the pressure source.",
+      "one end is sealed and the other end open to atmosphere.",
+      "both ends sealed.",
+    ],
+  },
+  "Pressure gauge calibrators (Dead Weight Testers) use the.": {
+    answer: "Brahm's press principle.",
+    choices: ["Brahm's press principle.", "Boyle's Law.", "Charle's Law."],
+  },
+  "The fluid suitable for use in a Dead Weight Tester is.": {
+    answer: "castor-oil.",
+    choices: ["anti-freeze oil.", "castor-oil.", "kerosene."],
+  },
+  "The distance readout on an HSI is.": {
+    answer: "from the aircraft DME system.",
+    choices: [
+      "from the aircraft DME system.",
+      "dialled in by the pilot.",
+      "from the aircraft ATC system.",
+    ],
+  },
+  "A gyroscope having one plane of freedom at right angles to the plane of rotation, and its gimbal restrained either electrically or by a spring, is known as.":
+    {
+      answer: "a rate gyro.",
+      choices: ["a rate gyro.", "an earth gyro.", "a tied gyro."],
+    },
+  "Pressure may be expressed in.": {
+    answer: "force per unit area.",
+    choices: [
+      "force per unit area.",
+      "weight or mass.",
+      "force per unit volume.",
+    ],
+  },
+  "What is the purpose of the hair spring in a Bourdon tube pressure gauge?": {
+    answer: "To reduce 'backlash'.",
+    choices: [
+      "To reduce 'backlash'.",
+      "To return the pointer to zero.",
+      "To act a controlling force.",
+    ],
+  },
+  "The ADIs attitude information is normally obtained from the aircraft's.": {
+    answer: "vertical gyros.",
+    choices: ["attitude rate gyros.", "directional gyros.", "vertical gyros."],
+  },
+  "One dot VOR deviation represents.": {
+    answer: "5°.",
+    choices: ["5°.", "2 miles.", "1¼°."],
+  },
+  "An instrument used for measuring negative pressures.": {
+    answer: "cannot be of the Bourdon tube type.",
+    choices: [
+      "cannot be of the Bourdon tube type.",
+      "has anti-clockwise pointer movement if Bourdon tube operated.",
+      "has the Bourdon tube reversed within the case.",
+    ],
+  },
+  "An absolute pressure gauge measures.": {
+    answer: "the applied pressure referred to a perfect vacuum.",
+    choices: [
+      "the applied pressure referred to atmospheric pressure.",
+      "pressures extremely accurately.",
+      "the applied pressure referred to a perfect vacuum.",
+    ],
+  },
+  "Gauge pressure as indicated on a direct reading Bourdon Tube pressure gauge is equal to.":
+    {
+      answer: "absolute pressure minus atmospheric pressure.",
+      choices: [
+        "absolute pressure minus atmospheric pressure.",
+        "atmospheric pressure minus absolute pressure.",
+        "absolute pressure plus atmospheric pressure.",
+      ],
+    },
+  "The to/from indicator on an HSI informs the pilot of which direction he is tracking relative to.":
+    {
+      answer: "a VOR station.",
+      choices: ["an ILS station.", "an ADF station.", "a VOR station."],
+    },
+  "A pressure gauge, such as a hydraulic brake pressure gauge, indicates 1,000 p.s.i. In terms of absolute pressure, this represents.":
+    {
+      answer: "1,014.7 p.s.i.",
+      choices: ["985.3 p.s.i.", "1,014.7 p.s.i.", "1,000 p.s.i."],
+    },
+  "To fill a Dead Weight Tester.": {
+    answer: "screw out hand wheel and fill reservoir.",
+    choices: [
+      "remove platform and fill cylinder.",
+      "screw out hand wheel and fill reservoir.",
+      "screw in hand wheel and fill reservoir.",
+    ],
+  },
+  "With an aircraft on the ground and QNH set on the millibar scale of the altimeter, the altimeter will read.":
+    {
+      answer: "the airfield height.",
+      choices: ["the airfield height.", "off scale.", "zero."],
+    },
+  "When checking a sensitive altimeter on a pre-flight inspection.": {
+    answer: "the ambient air pressure is set on the millibar scale.",
+    choices: [
+      "the ambient air pressure is set on the millibar scale.",
+      "the standard sea level barometric pressure is always set on the millibar scale.",
+      "the ambient air pressure corrected for temperature is set on the millibar scale.",
+    ],
+  },
+  "The HSI compass card is positioned by the.": {
+    answer: "compass system.",
+    choices: [
+      "compass system.",
+      "aircraft ADF system.",
+      "heading select knob.",
+    ],
+  },
+  "The applied pressure to an A.S.I. varies with the.": {
+    answer: "square of the speed.",
+    choices: [
+      "square of the speed.",
+      "square root of the speed.",
+      "cube root of the speed.",
+    ],
+  },
+  "The supply to an A.S.I.": {
+    answer: "are pitot and static pressure.",
+    choices: [
+      "is pitot pressure only.",
+      "are pitot and static pressure.",
+      "is static pressure only.",
+    ],
+  },
+  "The capsule for an A.S.I. will be expanding when the aircraft is.": {
+    answer: "accelerating.",
+    choices: ["climbing.", "accelerating.", "decelerating."],
+  },
+  "The deflection of the ADI command bars when flying a localiser approach is proportional to.":
+    {
+      answer: "the difference between the amplitudes on the two modulations.",
+      choices: [
+        "the difference between the amplitudes on the two modulations.",
+        "the sum of the amplitude of the two modulations.",
+        "the difference in amplitude of the two r.f. carriers.",
+      ],
+    },
+  "If an aircraft is flying straight and level in still air, airspeed will be.":
+    {
+      answer: "equal to the ground speed.",
+      choices: [
+        "less than the ground speed.",
+        "equal to the ground speed.",
+        "greater than the ground speed.",
+      ],
+    },
+  "If an aircraft flying in still air at 400 knots, encounters a head wind of 50 knots, its ground speed is.":
+    {
+      answer: "350 knots.",
+      choices: ["450 knots.", "350 knots.", "400 knots."],
+    },
+  "To provide a linear scale on an A.S.I., a.": {
+    answer: "ranging bar and screws are fitted.",
+    choices: [
+      "10 to 1 gearing is used.",
+      "ranging bar and screws are fitted.",
+      "bi-metal corrector is employed.",
+    ],
+  },
+  "A machmeter is an instrument which indicates the speed of.": {
+    answer: "the aircraft relative to the local sonic speed.",
+    choices: [
+      "sound relative to the aircraft's altitude.",
+      "the aircraft relative to the speed of sound at ground level.",
+      "the aircraft relative to the local sonic speed.",
+    ],
+  },
+  "The moving element of a ratiometer has.": {
+    answer: "two coils.",
+    choices: ["three coils.", "one coil.", "two coils."],
+  },
+  "When carrying out a pressure leak test on an altimeter, you are checking for leaks in the.":
+    {
+      answer: "instrument case.",
+      choices: ["instrument case.", "pressure chamber.", "capsule stack."],
+    },
+  "If an altimeter millibar scale was set to 1013.25 and the barometric pressure at that time was 1020, the altimeter should read.":
+    {
+      answer: "below zero feet (negative altitude).",
+      choices: [
+        "zero feet.",
+        "positive altitude.",
+        "below zero feet (negative altitude).",
+      ],
+    },
+  "An aircraft flying towards a VOR station shows indications of 120° and 'TO'. After passing over the station, on the same course, the indications will be.":
+    {
+      answer: "120° and FROM.",
+      choices: ["120° and FROM.", "300° and FROM.", "300° and TO."],
+    },
+  "The command bars in a flight director system indicate.": {
+    answer: "the required path with respect to actual path.",
+    choices: [
+      "the actual path with respect to required path.",
+      "the required path with respect to actual path.",
+      "true horizon.",
+    ],
+  },
+  "When changing a windscreen panel which has a standby magnetic compass located in the vicinity.":
+    {
+      answer:
+        "precautions must be taken to ensure that the attachment bolts are of the specified type.",
+      choices: [
+        "precautions should be taken that the bonding tag is attached to the correct attachment bolt.",
+        "precautions must be taken to ensure that the attachment bolts are of the specified type.",
+        "The attachment bolts should be tightened in an anti-clockwise direction around the window.",
+      ],
+    },
+  "On a conventional RMI the angle between the compass datum and the radio pointer arrow is.":
+    {
+      answer: "the relative bearing.",
+      choices: [
+        "the relative bearing.",
+        "the magnetic bearing.",
+        "the complimentary bearing.",
+      ],
+    },
+  "A compass is made aperiodic by.": {
+    answer: "using fluid.",
+    choices: ["locking.", "tying it to the case.", "using fluid."],
+  },
+  "Isogonal lines link places of.": {
+    answer: "equal variation.",
+    choices: ["different variation.", "equal variation."],
+  },
+  "In an artificial horizon Pendulosity Error is caused by.": {
+    answer: "bottom heaviness of inner gimbals.",
+    choices: [
+      "bottom lightness of inner gimbals.",
+      "bottom heaviness of inner gimbals.",
+      "displacement of erection control device.",
+    ],
+  },
+  "If True Airspeed is 470 knots, what is the Equivalent Air speed?": {
+    answer: "278 knots.",
+    choices: ["278 knots.", "662 knots.", "550 knots."],
+  },
+  "If the Airspeed Indicator reading is 300 Knots, what is the Calibrated Airspeed?":
+    {
+      answer: "304 knots.",
+      choices: ["296 knots.", "304 knots.", "293 knots."],
+    },
+  "In an Artificial Horizon, Erection Error is caused by.": {
+    answer: "displacement of erection control device.",
+    choices: [
+      "displacement of erection control device.",
+      "bottom heaviness of inner gimbals.",
+      "bottom lightness of inner gimbals.",
+    ],
+  },
+  "A Vertical Speed indicator Metering Unit Consist of.": {
+    answer: "both a) & b).",
+    choices: ["both a) & b).", "an orifice.", "a capillary."],
+  },
+  "Flux Valve senses angle of horizontal component with respect to the aircraft's.":
+    {
+      answer: "longitudinal axis.",
+      choices: [
+        "lateral axis.",
+        "longitudinal axis.",
+        "both lateral and longitudinal axis.",
+      ],
+    },
+  "The manual VOR input is for.": {
+    answer: "the course deviation bar.",
+    choices: [
+      "the radio magnetic indicator.",
+      "the ADI.",
+      "the course deviation bar.",
+    ],
+  },
+  "After correction of the north-south heading reading on a compass swing, the resultant correction is known as.":
+    {
+      answer: "residual deviation.",
+      choices: ["magnetic heading.", "residual deviation.", "correct heading."],
+    },
+  "Apparent drift on directional gyro is corrected by.": {
+    answer: "an adjustment nut on inner ring.",
+    choices: [
+      "series of balance holes drilled in gyro rotor.",
+      "mercury switch on outer ring.",
+      "an adjustment nut on inner ring.",
+    ],
+  },
+  "If a micro adjuster is replaced in a compass system, you would.": {
+    answer: "carry out a new compass swing.",
+    choices: [
+      "carry out a new compass swing.",
+      "set it to zero datum.",
+      "set it up the same as the one removed.",
+    ],
+  },
+  "In a compass swing: North error -2 degrees, South error + 2 degrees. The coefficient C is.":
+    {
+      answer: "-2 degrees.",
+      choices: ["+2 degrees.", "0 degrees.", "-2 degrees."],
+    },
+  "Purpose of Altitude Alerting is to warn the pilot of.": {
+    answer: "approach to or deviation from selected altitude.",
+    choices: [
+      "approach to or deviation from selected altitude.",
+      "selection of altitude.",
+      "altitude information.",
+    ],
+  },
+  "Aircraft certified before 1997 with RVSM, maximum tolerance for the system is.":
+    {
+      answer: "+/- 300ft system, +/-50ft for instrument error.",
+      choices: [
+        "+/- 500ft system tolerance.",
+        "+/- 200ft system, +/-50ft for instrument error.",
+        "+/- 300ft system, +/-50ft for instrument error.",
+      ],
+    },
+  "Machmeters work on.": {
+    answer: "pitot and static.",
+    choices: ["static.", "pitot and static.", "pitot."],
+  },
+  "An aircraft with Mach warning will warn.": {
+    answer: "when Mcrit is reached.",
+    choices: [
+      "when Mach 1 is exceeded.",
+      "when Mcrit is reached.",
+      "when envelope limit is reached.",
+    ],
+  },
+  "An HSI provides what information?.": {
+    answer: "VOR, plan, ILS, map, radar.",
+    choices: [
+      "VOR, map, attitude, ILS.",
+      "VOR, plan, ILS, map, radar.",
+      "VOR, ILS, plan, attitude.",
+    ],
+  },
+  "Compressibility error in a pitot head is caused by.": {
+    answer: "compression of air in the tube at high speed.",
+    choices: [
+      "compression of air in the tube at high speed.",
+      "blockage in the pitot tube.",
+      "misalignment of pitot head.",
+    ],
+  },
+  "The earth's magnetic field is.": {
+    answer: "vertical at the poles, horizontal at the magnetic equator.",
+    choices: [
+      "vertical at the poles, horizontal at the magnetic equator.",
+      "vertical across the earth.",
+      "horizontal across the earth.",
+    ],
+  },
+  "There is an air bubble in the compass:.": {
+    answer: "It is due to high altitude.",
+    choices: [
+      "The fluid is not aerated properly.",
+      "It is due to high altitude.",
+      "It is required, to compensate for expansion of the fluid.",
+    ],
+  },
+  "A flux detector output is a.": {
+    answer: "A.C. voltage at twice the frequency of the excitation voltage.",
+    choices: [
+      "rectified D.C. voltage.",
+      "A.C. voltage at twice the frequency of the excitation voltage.",
+      "A.C. voltage at the same frequency as the excitation voltage.",
     ],
   },
 };

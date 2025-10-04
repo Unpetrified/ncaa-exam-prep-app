@@ -1,4 +1,6 @@
 const questionBankGTE = {
+  // POWERPLANT Q&A
+
   "On an axial flow, dual compressor forward fan engine, the fan turns the same speed as":
     {
       answer: "low pressure turbine.",

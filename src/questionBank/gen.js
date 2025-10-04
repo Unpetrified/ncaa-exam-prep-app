@@ -1,4 +1,6 @@
 const questionBankGen = {
+  //Airlaw New
+
   "The thickness of Registration letters on an aircraft shall be:": {
     answer: "1/6 of the height",
     choices: [
@@ -1820,6 +1822,993 @@ const questionBankGen = {
       "cannot be speeded up ",
     ],
   },
+
+  // AIRLAW NEW
+
+  "How many times must the nationality and registration marks appear on an aircraft?":
+    { answer: "3 times", choices: ["3 times", "4 times", "5 times"] },
+  "If the NCAA require an engineer to produce his/her license, this must be done":
+    {
+      answer: "within seven (7) days",
+      choices: ["immediately", "as soon as possible", "within seven (7) days"],
+    },
+  "An engineers’ licence is valid for": {
+    answer: "5 years once signed in ink",
+    choices: ["2 years once signed in ink.", "5 years once signed in ink"],
+  },
+  "Who is responsible for making a recommendation for a C of A renewal?": {
+    answer:
+      "The approved organization maintaining the aircraft to an Approved Maintenance Schedule",
+    choices: [
+      "The NCAA Surveyor",
+      "The approved organization maintaining the aircraft to an Approved Maintenance Schedule",
+      "The type rated engineer",
+    ],
+  },
+  "Where is the period of validity of CMR stated?": {
+    answer: "On the CMR",
+    choices: [
+      "In the maintenance statement",
+      "On the CMR",
+      "In the maintenance schedule",
+    ],
+  },
+  "A Certificate of Maintenance Review for an aircraft over 2,730 kg has a maximum period of validity of":
+    { answer: "4 months", choices: ["4 months", "6 months", "1 year"] },
+  "A Certificate of Maintenance Review is retained": {
+    answer: "for two (2) years from date of issue",
+    choices: [
+      "for two (2) years from date of issue",
+      "for six (6) months from date of issue",
+      "until two (2) years after the aircraft has been destroyed or permanently withdrawn from service",
+    ],
+  },
+  "How many people sign a CRS after scheduled maintenance?": {
+    answer: "One in each category",
+    choices: ["One in each category", "One", "Two"],
+  },
+  "How many copies must be made of the load sheet?": {
+    answer: "Two",
+    choices: ["One", "Two", "Three"],
+  },
+  "On a light aircraft with a 3 year C. of A., a Star Inspection must be carried out":
+    {
+      answer: "at the third annual inspection",
+      choices: [
+        "at every 150 flying hours",
+        "at the third annual inspection",
+        "at each annual inspection",
+      ],
+    },
+  "On a Certificate of Release for Service an adjustment to a control would come under the heading":
+    { answer: "Repair", choices: ["Repair", "Replacement", "Overhaul"] },
+  "When an unserviceable component is removed from an aircraft and replaced with a different component to carry out the same function it is classified as":
+    {
+      answer: "a modification",
+      choices: ["a repair", "a modification", "Safety Matters"],
+    },
+  "The aircraft weight schedule must be preserved by the operator": {
+    answer:
+      "for a period of six months following the next occasion on which the aircraft is weighed",
+    choices: [
+      "for a maximum period of nine months",
+      "for a period of six months following the next occasion on which the aircraft is weighed",
+      "for a minimum period of three months",
+    ],
+  },
+  "A star inspection is": {
+    answer:
+      "an annual inspection coincident with a survey for C of A renewal for Aircraft not exceeding 2730kg MTWA",
+    choices: [
+      "an annual inspection coincident with a survey for C of A renewal for Aircraft not exceeding 2730kg MTWA",
+      "an inspection which has to be carried out on an imported aircraft to ensure that it complies with U.K. additional requirements for foreign aircraft, prior to the issue of a C of A",
+      "an inspection to be carried out on a special category aircraft prior to its C of A renewal",
+    ],
+  },
+  "Before an aircraft, issued with a permit to fly is flown, the aircraft and its equipment must be certified as fit for flight by the certification of":
+    {
+      answer: "a Flight Release Certificate",
+      choices: [
+        "a Flight Release Certificate",
+        "a Certificate of Release to Service",
+        "a Fitness for Flight Certificate",
+      ],
+    },
+  "At what periods should an aircraft exceeding 5700 kg MTWA be weighed": {
+    answer:
+      "at manufacturer, two years after manufacture and at further periods not exceeding five years",
+    choices: [
+      "at manufacturer and at further periods not exceeding 2 years",
+      "at manufacturer, two years after manufacture and at further periods not exceeding five years",
+      "at manufacturer, five years after manufacturer and at further periods specified by the NCAA at times of C of A renewal",
+    ],
+  },
+  "Aircraft of mass greater than 5700 kg are weighed": {
+    answer:
+      "at manufacture and then at 2 years and then at periods not exceeding 5 years",
+    choices: [
+      "at manufacture and at the annual inspection",
+      "at manufacture and then at 2 years and then at periods not exceeding 5 years",
+      "at manufacture  and then at periods not exceeding 5 years",
+    ],
+  },
+  "An aircraft operators MEL": {
+    answer: "can be more restrictive than the aircraft’s MMEL",
+    choices: [
+      "can be less restrictive than the aircraft’s MMEL",
+      "can be more restrictive than the aircraft’s MMEL",
+      "must be the same as the aircraft’s MMEL",
+    ],
+  },
+  "The master minimum equipment list is compiled by": {
+    answer: "the manufacturer and the NCAA after joint consultation",
+    choices: [
+      "the air operator and approved by the NCAA",
+      "the manufacturer and the NCAA after joint consultation",
+      "the manufacturer and the air operator after joint consultation and then approved by the NCAA",
+    ],
+  },
+  "A Master Minimum Equipment List (MMEL) is": {
+    answer: "is a list of items that may be inoperative on an aircraft",
+    choices: [
+      "originated by the aircraft operator",
+      "more restrictive than a Minimum Equipment List",
+      "is a list of items that may be inoperative on an aircraft",
+    ],
+  },
+  "Condition monitoring": {
+    answer: "permits in-life until failure occurs",
+    choices: [
+      "is a preventative maintenance process",
+      "permits in-life until failure occurs",
+      "is a time lifed method of maintenance",
+    ],
+  },
+  "Condition Monitoring is": {
+    answer:
+      "not a preventative process, having neither Hard Time nor On-Conditioning elements",
+    choices: [
+      "a preventative process",
+      "not a preventative process, having neither Hard Time nor On-Conditioning elements",
+      "a combination of Hard Time and Flexi-time working practices",
+    ],
+  },
+  "An On Condition Inspection involves": {
+    answer:
+      "an inspection of a component with a view to continued operation if its condition warrants such action",
+    choices: [
+      "an inspection of a component with a view to continued operation if its condition warrants such action",
+      "replacement of life expired components for new ones",
+      "a programme of inspections used to increase the life of lifed components",
+    ],
+  },
+  "NCAA Additional Airworthiness Directives are printed on": {
+    answer: "Blue Papers",
+    choices: ["Blue Papers", "Yellow Papers", "White Papers"],
+  },
+  "Radio flight test certificates are certified by": {
+    answer: "a pilot",
+    choices: ["a CAA Radio Surveyor", "a Type Rated (Radio) L.A.E.", "a pilot"],
+  },
+  "The allowable deficiency list is normally included in an aircraft’s": {
+    answer: "operations manual",
+    choices: [
+      "operations manual",
+      "modifications record book",
+      "approval document to the aircraft maintenance schedule",
+    ],
+  },
+  "Aircraft flight manuals are": {
+    answer: "an ICAO requirement",
+    choices: [
+      "a CAA requirement",
+      "an ICAO requirement",
+      "an IATA requirement",
+    ],
+  },
+  "What happens to a Hard Time component when removed from an aircraft?": {
+    answer: "Scrapped or returned for overhaul",
+    choices: [
+      "Scrapped or returned for overhaul",
+      "Inspected and if serviceable can be replaced",
+      "Placed in quarantine store",
+    ],
+  },
+  "A hard time engine inspection involves": {
+    answer: "replacement with a new or overhauled component",
+    choices: [
+      "removal of an engine component, it's inspection and refitting",
+      "an in-situ function test",
+      "replacement with a new or overhauled component",
+    ],
+  },
+  "A duplicate inspection is defined as an inspection made and certified by": {
+    answer: "a qualified person and subsequently by another qualified person",
+    choices: [
+      "an unqualified person and then by a qualified one",
+      "a qualified person and subsequently repeated by that person",
+      "a qualified person and subsequently by another qualified person",
+    ],
+  },
+  "Duplicate inspections are required to be made following the disturbance of":
+    {
+      answer: "aircraft, engine & propeller controls and any vital points",
+      choices: [
+        "all engine and propeller controls and any vital points",
+        "aircraft, engine & propeller controls and any vital points",
+        "all engine & propeller components and any vital points",
+      ],
+    },
+  "Vital points identified and included in the maintenance documents": {
+    answer: "relate to points subject to a duplicate inspection",
+    choices: [
+      "relate to points subject to a duplicate inspection",
+      "identify areas or components subject to timed life",
+      "relate to areas in which all work must be carried out by a suitably licensed engineer",
+    ],
+  },
+  "Vital points are": {
+    answer:
+      "parts of the aircraft where a single malfunction could cause catastrophic failure",
+    choices: [
+      "a check on every maintenance schedule input",
+      "when an engine/fuel system is disturbed",
+      "parts of the aircraft where a single malfunction could cause catastrophic failure",
+    ],
+  },
+  "Duplicate inspections are": {
+    answer:
+      "inspections certified by one approved signatory or LAE and then certified by a second approved signatory or LAE",
+    choices: [
+      "inspections signed by a mechanic and countersigned by an approved signatory or licensed engineer",
+      "inspections certified by one approved signatory or LAE and then certified by a second approved signatory or LAE",
+      "inspections which have to be duplicated but which can finally be certified by one LAE or approved signatory",
+    ],
+  },
+  "Aircraft log books": {
+    answer: "must never be flown in the aircraft to which they relate",
+    choices: [
+      "must never be flown in the aircraft to which they relate",
+      "are designed to be used in the air for the recording of defects and then to be transferred onto the tech log",
+      "can only be flown in the aircraft to which they relate when the tech log is not available",
+    ],
+  },
+  "An aircraft Radio License has to be renewed": {
+    answer: "only on change of aircraft ownership",
+    choices: [
+      "every three years",
+      "every five years",
+      "only on change of aircraft ownership",
+    ],
+  },
+  "Deferred defects are recorded in": {
+    answer: "the Technical Log",
+    choices: [
+      "the Deferred defect manual",
+      "the Technical Manual",
+      "the Technical Log",
+    ],
+  },
+  "Deferred defect pages are kept in the": {
+    answer: "tech log",
+    choices: ["log book", "tech log", "maintenance schedule"],
+  },
+  "A Service Bulletin contains": {
+    answer:
+      "a detailed description of a problem and corrective action to be taken",
+    choices: [
+      "a detailed description of a problem and corrective action to be taken",
+      "a list of maintenance tasks to be carried out on a particular aircraft",
+      "information concerning the airworthiness of aircraft and are distributed by the NCAA",
+    ],
+  },
+  "An Alert Service Bulletin is issued by": {
+    answer:
+      "the Manufacturer notifying aircraft owners and Maintenance Organizations of a modification affecting aircraft airworthiness",
+    choices: [
+      "the NCAA giving notification of a mandatory modification",
+      "the Manufacturer, notifying aircraft owners and Maintenance Organizations of an urgent major modification",
+      "the Manufacturer notifying aircraft owners and Maintenance Organizations of a modification affecting aircraft airworthiness",
+    ],
+  },
+  "If a modification is carried out on an aircraft, it is entered": {
+    answer: "both aircraft and modification log books",
+    choices: [
+      "the aircraft log book",
+      "the modification record book",
+      "both aircraft and modification log books",
+    ],
+  },
+  "When a modification is carried out on an aircraft, details are entered in": {
+    answer: "both the Log Book and the Modification Record Book",
+    choices: [
+      "the Log Book",
+      "the Modification Record Book",
+      "both the Log Book and the Modification Record Book",
+    ],
+  },
+  "How long is a Technical Log retained?": {
+    answer:
+      "Two (2) years after the aircraft has been permanently withdrawn from service",
+    choices: [
+      "Five (5) years after the aircraft has been permanently withdrawn from service",
+      "Two (2) years after the aircraft has been permanently withdrawn from service",
+      "Until the NCAA has given authorisation for them to be destroyed",
+    ],
+  },
+  "What is the retention time for a Tech Log?": {
+    answer: "2 years after the last entry",
+    choices: [
+      "2 years",
+      "2 years after the last entry",
+      "5 years after the last entry",
+    ],
+  },
+  "An approved maintenance organisation is authorised to": {
+    answer:
+      "issue certificates for work completed in aircraft maintenance or overhaul",
+    choices: [
+      "issue certificates for work completed in aircraft maintenance or overhaul",
+      "originate repair schemes and manufacture aircraft parts",
+      "approve major modifications",
+    ],
+  },
+  "What is the period of validity for a Certificate of Registration?": {
+    answer: "Until a change of ownership",
+    choices: [
+      "The same as for the aircraft’s C of A",
+      "Until a change of ownership",
+      "Until a change of ownership or maintenance arrangements",
+    ],
+  },
+  "The period of validity of a C of A is": {
+    answer: "as stated on certificate",
+    choices: ["12 months", "36 months", "as stated on certificate"],
+  },
+  "The telecommunications log book is considered to be part of the": {
+    answer: "Radio Licence",
+    choices: [
+      "Radio Licence",
+      "Radio approved document",
+      "Public Address Licence",
+    ],
+  },
+  "Under what conditions can you fly without a C of A?": {
+    answer: "A conditions",
+    choices: ["A conditions", "B conditions", "C conditions"],
+  },
+  "An aircraft may fly unregistered": {
+    answer: "under B conditions",
+    choices: [
+      "under B conditions",
+      "for export purposes",
+      "under A conditions",
+    ],
+  },
+  "An airline wishes to fly an aircraft to a contractor within Nigeria with all the passengers seats removed ready for refurbishment and painting. The flight may be authorised using":
+    {
+      answer: "A conditions",
+      choices: [
+        "A conditions",
+        "B conditions",
+        "A special request procedure to the NCAA",
+      ],
+    },
+  "A series aircraft flying for the approval of a major modification flies under":
+    {
+      answer: "A conditions",
+      choices: ["a permit to fly", "B conditions", "A conditions"],
+    },
+  "Flying times are recorded from": {
+    answer: "take off to touch down",
+    choices: [
+      "take off to touch down",
+      "chock to chock",
+      "engine start to shut down",
+    ],
+  },
+  "The minimum equipment list is found in the": {
+    answer: "Flight manual",
+    choices: ["Maintenance schedule", "Flight manual", "Maintenance manual"],
+  },
+  "An airlines MEL contains an additional note (M). This indicates a": {
+    answer: "Maintenance requirements",
+    choices: [
+      "Mandatory operational restrictions",
+      "Maintenance requirements",
+      "Modified component or system",
+    ],
+  },
+  "Holding a Licence Without type (LWTR) only affords the holder": {
+    answer: "no certification rights",
+    choices: [
+      "no certification rights",
+      "limited certification ability",
+      "automatic company approval",
+    ],
+  },
+  "A maintenance statement is": {
+    answer: "part of the tech log",
+    choices: [
+      "the approval for a maintenance schedule",
+      "part of the tech log",
+      "used to certify a pre-flight check",
+    ],
+  },
+  "A radio station license becomes invalid": {
+    answer: "upon change of ownership of aircraft",
+    choices: [
+      "upon change of ownership of aircraft",
+      "when the c of a is due for renewal",
+      "whenever a radio Flight test is required",
+    ],
+  },
+  "When does a Radio Licence become valid?": {
+    answer: "After the radio station has been approved and the C of A issued",
+    choices: [
+      "When the C of A is issued",
+      "After the radio station has been approved and the C of A issued",
+      "Once the Certificate of Registration has been issued",
+    ],
+  },
+  "A Transport Category passenger aircraft may be used for": {
+    answer: "any civil purpose",
+    choices: [
+      "carrying passengers only",
+      "carrying passenger and/or freight only",
+      "any civil purpose",
+    ],
+  },
+  "A quarantine store is a part of an approved store where": {
+    answer:
+      "aircraft parts are placed, until they have been proven to conform to specification",
+    choices: [
+      "aircraft parts are placed, until they have been proven to conform to specification",
+      "aircraft parts are placed, once they have been proven to conform to specification",
+      "aircraft parts are placed, whilst awaiting delivery to the customer",
+    ],
+  },
+  "For Public Transport aircraft, defects and related rectification details which occur when the aircraft is 'down route' would be entered in":
+    {
+      answer:
+        "the technical log, one copy of which is removed and sent back to base by an alternative method",
+      choices: [
+        "the aircraft log book and posted back to Nigeria since it must not be flown in the aircraft to which it relates",
+        "the technical log for transfer into the log book when the aircraft returns to base",
+        "the technical log, one copy of which is removed and sent back to base by an alternative method",
+      ],
+    },
+  "In order to obtain a type rating on an aircraft, an engineer must": {
+    answer: "work on the type for 6 months in the last 24 months",
+    choices: [
+      "have a manufacturer’s course within the last 3 years",
+      "work on the type for 6 months in the last 24 months",
+      "must work on aircraft for 6 months within the last 24 months",
+    ],
+  },
+  "An aircraft has a defect which cannot be cleared by the raising of a CRS because there are no facilities for the accomplishment of the work to the necessary standard. What action should be taken?":
+    {
+      answer:
+        "Aircraft can be flown to a place where the task can be accomplished at the discretion of the commander of the aircraft",
+      choices: [
+        "Aircraft must remain until suitably qualified personnel arrive",
+        "Aircraft can be flown to a place where the task can be accomplished at the discretion of the commander of the aircraft",
+        "Aircraft can be flown to a place where the task can be accomplished on the authority of the NCAA",
+      ],
+    },
+  "All reports received by the NCAA under the MOR scheme are processed by the":
+    {
+      answer: "safety data department",
+      choices: [
+        "safety data department",
+        "Occurrence Digest Unit",
+        "Air Accident Investigation Branch",
+      ],
+    },
+  "The ANO states that the Log Book shall be kept for the aircraft and one for":
+    {
+      answer: "each engine and VP propeller",
+      choices: [
+        "each engine and VP propeller",
+        "each engine and undercarriage",
+        "its radio and navigation equipment",
+      ],
+    },
+  "A four (4) Engined Turbo-Prop Aircraft requires": {
+    answer: "9 Statutory Log Books",
+    choices: [
+      "9 Statutory Log Books",
+      "5 Statutory Log Books",
+      "1 - Combined Log Book",
+    ],
+  },
+  "Membership of the ICAO is best described as": {
+    answer: "a contracting state",
+    choices: [
+      "the JAA",
+      "a contracting state",
+      "part of the European Community",
+    ],
+  },
+  "I.C.A.O provides": {
+    answer:
+      "safe, orderly development of civil aviation with equal opportunity",
+    choices: [
+      "a set of rules which all NAAs must adhere to",
+      "safe, orderly development of civil aviation with equal opportunity",
+      "a set of safety guideline for operators and maintenance organizations",
+    ],
+  },
+  "A certificate of approval of Aircraft Radio Installation is issued to": {
+    answer: "a company approved for such installations",
+    choices: [
+      "a company approved for such installations",
+      "an aircraft",
+      "an air operator",
+    ],
+  },
+  "The purpose for which an aircraft may be flown on a special category C of A is":
+    {
+      answer: "stated on the certificate",
+      choices: [
+        "for private use only",
+        "stated on the certificate",
+        "applicable to ex military aircraft only",
+      ],
+    },
+  "When making a report under the mandatory occurrence scheme. Relevant flight data recording information should be preserved for a minimum of":
+    { answer: "14days", choices: ["7 days", "14days", "3 months"] },
+  "An approved maintenance organization is one which": {
+    answer: "is of a standard acceptable to the NCAA",
+    choices: [
+      "is of a standard acceptable to the NCAA",
+      "is of a standard defined in the ANO",
+      "does maintenance on contract only",
+    ],
+  },
+  "An Air Operator’s Certificate must be issued by the NCAA before an airline can":
+    {
+      answer: "carry passengers and/or freight for reward",
+      choices: [
+        "carry fare paying passengers",
+        "carry freight for reward",
+        "carry passengers and/or freight for reward",
+      ],
+    },
+  "What documents should be carried when flying an aircraft overseas for the purpose of exportation:":
+    {
+      answer: "C of A for export, a C of A for Ferry Purposes and a C of R.",
+      choices: [
+        "C of A for export, a C of R, and a validation certificate",
+        "C of A for export, a C of A for Ferry Purposes and a C of R.",
+        "C of A for export, a ferry certificate and a permit to fly",
+      ],
+    },
+  "An aircraft need not be registered if it is being operated by": {
+    answer: "an aircraft dealer, not taking the aircraft overseas",
+    choices: [
+      "an aircraft dealer, not taking the aircraft overseas",
+      "an aircraft dealer, demonstrating the aircraft overseas",
+      "an operator using the aircraft solely for aerial work",
+    ],
+  },
+  "An AOC is issued by the CAA for aircraft in the": {
+    answer: "transport categories",
+    choices: [
+      "transport passenger category",
+      "transport categories",
+      "transport and Aerial Work categories",
+    ],
+  },
+  "If an exit becomes u/s, the action to be taken is to fly to the nearest place where a repair can be carried out, and":
+    {
+      answer:
+        "bar the exit with a red disc with “NO EXIT” in red in a white bar",
+      choices: [
+        "radio ahead for spares",
+        "bar the exit with a white disc with ”NO EXIT” in red",
+        "bar the exit with a red disc with “NO EXIT” in red in a white bar",
+      ],
+    },
+  "The minimum number of battery powered megaphones required for an aircraft capable of carrying more than 199 passengers is":
+    { answer: "3", choices: ["3", "5", "7"] },
+  "Life jackets not equipped with a whistle are": {
+    answer: "acceptable for children under 3 years old",
+    choices: [
+      "not acceptable",
+      "acceptable for one passenger of a pair",
+      "acceptable for children under 3 years old",
+    ],
+  },
+  "Maintenance Manuals in cassette/CD have the advantage of being easier to": {
+    answer: "store",
+    choices: ["store", "amend", "read"],
+  },
+  "An approved certificate certifies that": {
+    answer: "materials and parts conform to required standard",
+    choices: [
+      "materials and parts conform to required standard",
+      "materials and parts come from an approved source",
+      "items are serviceable on delivery",
+    ],
+  },
+  "The term 'inspection' is defined as meaning": {
+    answer:
+      "correct condition, assembly and functioning of the component or system",
+    choices: [
+      "correct assembly and functioning of the components or system",
+      "correct installation and operation of the task",
+      "correct condition, assembly and functioning of the component or system",
+    ],
+  },
+  "A Major Modification": {
+    answer: "will always require air testing after embodiment",
+    choices: [
+      "will always require air testing after embodiment",
+      "is approved by an A.A.N.",
+      "must be certified in the Modification Record Book",
+    ],
+  },
+  "If an engine is inhibited where is this recorded?": {
+    answer: "Engine Log Book",
+    choices: ["Engine Log Book", "Airframe Log Book", "Flight Manual"],
+  },
+  "The Certificate of Registration of an aircraft": {
+    answer: "must be renewed if a change of ownership occurs",
+    choices: [
+      "is valid for twelve months",
+      "is valid provided an approved maintenance scheme is operated",
+      "must be renewed if a change of ownership occurs",
+    ],
+  },
+  "Fuel Flow results are entered in the": {
+    answer: "Aircraft Log Book",
+    choices: [
+      "Aircraft Log Book",
+      "Engine Log Book",
+      "the Fuel Uplift column of the Tech Log",
+    ],
+  },
+  "The total engine hours expended may be determined from information given in":
+    {
+      answer: "the Engine Log Book",
+      choices: [
+        "the Technical Log",
+        "the Engine Log Book",
+        "the Maintenance Statement",
+      ],
+    },
+  "The aircraft owners Name Plate must be fixed": {
+    answer: "near the main entrance of the aircraft",
+    choices: [
+      "on the rear fuselage",
+      "on the instrument panel",
+      "near the main entrance of the aircraft",
+    ],
+  },
+  "The pilot of an aircraft can sign": {
+    answer:
+      "the second part of a duplicate inspection providing he is licensed on the respective aircraft type",
+    choices: [
+      "the second part of a duplicate inspection providing he is licensed on the respective aircraft type",
+      "the first part of a duplicate inspection providing he is licensed on the respective aircraft type",
+      "the second part of a duplicate inspection providing he is licensed on any similar aircraft type",
+    ],
+  },
+  "If, at a major check, there is too much documentation to go into the log book":
+    {
+      answer:
+        "the documentation is stored elsewhere and the logbook is cross referred to it",
+      choices: [
+        "the documentation is stored elsewhere and the logbook is cross referred to it",
+        "a new log book is raised",
+        "a CRS is raised to cover the documentation, and the documentation is then discarded",
+      ],
+    },
+  "Scheduled maintenance can be extended by authority written into the": {
+    answer: "Approved Maintenance Schedule",
+    choices: [
+      "Approved Maintenance Schedule",
+      "Approved Maintenance Document",
+      "Aircraft Maintenance Manual",
+    ],
+  },
+  "A CRS must be issued": {
+    answer:
+      "if an aircraft part is removed then re-installed, even if it is the same part",
+    choices: [
+      "if an aircraft part is removed then re-installed, even if it is the same part",
+      "only if an aircraft part is replaced with a new part",
+      "only when an aircraft part is replaced with a  modified part",
+    ],
+  },
+  "On completion of a modification, for the purposes of a flight test": {
+    answer:
+      "issue a Certificate of Fitness to Fly since the C of A has been invalidated",
+    choices: [
+      "issue a Certificate of Fitness to Fly since the C of A has been invalidated",
+      "the C of A is valid providing it is still within the date shown on it",
+      "issue a Permit to Fly",
+    ],
+  },
+  "What is an ‘Exposition’?": {
+    answer: "A document which sets out details of an organisation",
+    choices: [
+      "A document which sets out details of an organisation",
+      "A document which sets out details of the maintenance schedule",
+      "A document which sets out details of how maintenance work is carried out",
+    ],
+  },
+  "A concession is": {
+    answer:
+      "authority to accept a limited quantity of parts which may not be strictly in accordance with the relevant drawings or specifications",
+    choices: [
+      "authority for a permanent reduction of a requirement",
+      "authority to accept a limited quantity of parts which may not be strictly in accordance with the relevant drawings or specifications",
+      "authority not to embody a modification",
+    ],
+  },
+  "Letter of transmittal is": {
+    answer: "authorisation to amend a Maintenance Manual",
+    choices: [
+      "a record of accepting a type certificate",
+      "authorisation to use an Approved Maintenance Schedule",
+      "authorisation to amend a Maintenance Manual",
+    ],
+  },
+  "When is a flight test certificate signed?": {
+    answer: "After a test flight",
+    choices: [
+      "Before a test flight",
+      "After a test flight",
+      "Whenever an aircraft is flown",
+    ],
+  },
+  "When is a “Flight Release Certificate” issued?": {
+    answer: "Before an aircraft is test flown with a permit to fly",
+    choices: [
+      "Before a series aircraft is flown",
+      "Before an aircraft is flown with a valid C of A",
+      "Before an aircraft is test flown with a permit to fly",
+    ],
+  },
+  "The period of validity for a Certificate of Fitness for Flight is": {
+    answer: "a maximum of seven days",
+    choices: [
+      "a maximum of seven days",
+      "a maximum of ten days",
+      "not exceeding the validity of the C of A",
+    ],
+  },
+  "102. Certificate of Airworthiness for International flight on transport aircraft":
+    {
+      answer: "must be carried",
+      choices: [
+        "must not be flown with aircraft",
+        "must be carried",
+        "does not have to be carried",
+      ],
+    },
+  "103. The check cycle for aircraft operating to the LAMS schedule, is": {
+    answer: " 50hr, 150hr, annual and star inspection",
+    choices: [
+      "50hr, 100hr annual and star inspections",
+      "75hr, 150hr and star inspection",
+      " 50hr, 150hr, annual and star inspection",
+    ],
+  },
+  "104. An allowable deficiency is listed in": {
+    answer: "Tech Log and if necessary the deferred defects column",
+    choices: [
+      "Tech Log and if necessary the deferred defects column",
+      "Tech Log and Cabin Defect Log Book",
+      " Tech Log and deferred defect column",
+    ],
+  },
+  "105. Documents to be carried include": {
+    answer:
+      " Certificate of Registration, Airworthiness, Insurance and Radio License",
+    choices: [
+      "Crew licenses, radio licence and aircraft dealers certificate",
+      "C of A, Permit to Fly, radio License, Crew Licenses, and C of R",
+      " Certificate of Registration, Airworthiness, Insurance and Radio License",
+    ],
+  },
+  "106. If a component is stated to be a lifed item this": {
+    answer:
+      "means that it must be replaced after a certain number of flying hours or elapse time",
+    choices: [
+      "means the component must always be scrapped when it becomes unserviceable",
+      "means that it must be replaced after a certain number of flying hours or elapse time",
+      "always refers to the minimum permissible elapse time in store between manufacture and use",
+    ],
+  },
+  "107. Consumable items such as split pins, nuts, nuts bolts etc are usually identified by a":
+    {
+      answer: "batch/part number on the containing bag",
+      choices: [
+        "batch number on each item",
+        "release note on each item",
+        "batch/part number on the containing bag",
+      ],
+    },
+  "108. Following satisfactory aircraft component replacement, adjustment, locking and functioning. Which of the following is issued?":
+    {
+      answer: "CRS",
+      choices: [
+        "Certificate of maintenance review",
+        "CRS",
+        "A maintenance statement",
+      ],
+    },
+  "109. When completing a Certificate of Maintenance Review, which of the following must be completed?":
+    {
+      answer: "A maintenance statement in the tech log",
+      choices: ["C of A", "CRS", "A maintenance statement in the tech log"],
+    },
+  "110. In which book would you expect to find all the following: a CMR, a maintenance statement, a sector record and a deferred defect?":
+    {
+      answer: "Technical log book",
+      choices: ["Flight manual", "Aircraft Log book", "Technical log book"],
+    },
+  "111. A flight manual": {
+    answer: "forms part of the C of A",
+    choices: [
+      "forms part of the C of A",
+      "is sometimes called the operations manual",
+      "must be carried on all public transport aircraft",
+    ],
+  },
+  "112. Mandatory modifications are": {
+    answer: "modifications which ensure continued airworthiness",
+    choices: [
+      "modifications of an urgent nature",
+      "modifications which ensure continued airworthiness",
+      "modifications which are approved on an airworthiness approval note",
+    ],
+  },
+  "113. When is an Airworthiness Approval Note issued?": {
+    answer: "By the NCAA to the operator to approve a major modification",
+    choices: [
+      "On completion of a test flight for Certificate of Airworthiness",
+      "By the NCAA to the operator to approve a major modification",
+      "After renewal of the Certificate of Maintenance Review",
+    ],
+  },
+  "114. An aircraft is awaiting spares, what effect has this on the Certificate of Maintenance Review?":
+    {
+      answer: "Remains unchanged",
+      choices: ["Deduct time", "Add time", "Remains unchanged"],
+    },
+  "115. The certification requirements for scheduled and non-scheduled mandatory inspections, overhauls and repairs are to be found in":
+    {
+      answer: "the approval document to the aircraft maintenance schedule",
+      choices: [
+        "the approval document to the aircraft maintenance schedule",
+        "the organization's schedule of approval",
+        "the aircraft maintenance manual",
+      ],
+    },
+  "116. A certificate of Maintenance Review is made out": {
+    answer: "in duplicate for owner and aircraft",
+    choices: [
+      "one only for the owner",
+      "in duplicate for owner and aircraft",
+      "in triplicate for owner, aircraft and NCAA",
+    ],
+  },
+  "117. An aircraft technical log forms": {
+    answer: "a day to day history of the aircraft",
+    choices: [
+      "a permanent history of the aircraft",
+      "a day to day history of the aircraft",
+      "a part of the certificate of airworthiness for transport category aircraft",
+    ],
+  },
+  "118. A duplicate inspection must be certified": {
+    answer: "before a CRS is issued",
+    choices: [
+      "after a CRS is issued",
+      "before a CRS is issued",
+      "does not matter where it is written, so long as it is included in the log book entry",
+    ],
+  },
+  "119. If an engine fuel control is disturbed": {
+    answer: "the part disturbed must be inspected again in duplicate",
+    choices: [
+      "the whole fuel control system must be inspected again in duplicate",
+      "the part disturbed must be inspected again",
+      "the part disturbed must be inspected again in duplicate",
+    ],
+  },
+  "120. Log books are initially provided by": {
+    answer: "the manufacturer",
+    choices: ["the manufacturer", "the operator", "the NCAA"],
+  },
+  "121. A Technical Log is originated by": {
+    answer: "Operator",
+    choices: ["NCAA", "Operator", "Manufacturer"],
+  },
+  "122. You would expect to find information on ground handling of aircraft in the":
+    {
+      answer: "Aircraft Maintenance Manual",
+      choices: [
+        "Flight Manual",
+        "Aircraft Maintenance Manual",
+        "Aircraft Overhaul Manual",
+      ],
+    },
+  "123. A CRS shall not be issued until the signatory is satisfied that": {
+    answer: "the work has been properly carried out and accurately recorded",
+    choices: [
+      "all physical aspects of the job are completed",
+      "he has company authorisation to certify it",
+      "the work has been properly carried out and accurately recorded",
+    ],
+  },
+  "124. The aircraft captain records the aircraft hours flown and defects in": {
+    answer: "Technical Log",
+    choices: ["Aircraft Log Book", "Technical Log", "Maintenance Statement"],
+  },
+  "125. What should not be kept in Quarantine or Bonded Store?": {
+    answer: "Commercial Supplies",
+    choices: ["Aircraft spares", "Engine Spares", "Commercial Supplies"],
+  },
+  "126. Where can information on overhaul and replacement periods be found?": {
+    answer: "Maintenance Manual",
+    choices: ["Maintenance Manual", "Technical Log", "Flight Manual"],
+  },
+  "127. Storage conditions are critical in the": {
+    answer: "Bonded Store",
+    choices: ["Quarantine Store", "Bonded Store", "special equipment Store"],
+  },
+  "128. Which of the following documents forms part of a tech log?": {
+    answer: "Maintenance Statement",
+    choices: [
+      "Air Operators Certificate.",
+      "Maintenance Statement",
+      "Type certificate data sheet",
+    ],
+  },
+  "129. The number of electrical fuses of a particular rating required to be carried in an aircraft is":
+    {
+      answer: "10% of each rating or 3, whichever is the greater",
+      choices: [
+        "3% of each rating or 10, whichever is the greater",
+        "10% of each rating or 3, whichever is the greater",
+        " 5 amp or less 3, off 5 amp or more 10 off",
+      ],
+    },
+  "130. Where is the overhaul period of an aircraft component found?": {
+    answer: "In the Maintenance Manual",
+    choices: [
+      "In the Approved Maintenance Schedule",
+      "In the Maintenance Manual",
+      "In the Component Overhaul Manual",
+    ],
+  },
+  "131. The renewal date for a C of A would be found in the": {
+    answer: "current C of A",
+    choices: ["technical Log", "aircraft Log Book", "current C of A"],
+  },
+  "132. How many copies of the Certificate of Registration are required?": {
+    answer: "one copy for the owner/operator",
+    choices: [
+      "one copy for the owner/operator",
+      "two copies, one for the owner, one for the aircraft",
+      "two copies, one for the flight manual, one for the filing system",
+    ],
+  },
+  "133. An incident is classified as an accident if the aircraft suffers serious structural damage or someone is injured between the times:":
+    {
+      answer:
+        "when the first person boards the aircraft with the intention of flying and the last person leaves the aircraft after flight",
+      choices: [
+        "when the first person boards the aircraft with the intention of flying and the last person leaves the aircraft after flight",
+        "when the first passengers boards the aircraft and the last passenger leaves the aircraft",
+        "when the aircraft takes off and the aircraft lands.",
+      ],
+    },
 };
 
 export default questionBankGen;
