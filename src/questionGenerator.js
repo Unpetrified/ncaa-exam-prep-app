@@ -1,3 +1,4 @@
+import questionBankAut from "./questionBank/aut";
 import questionBankGen from "./questionBank/gen";
 import questionBankGTE from "./questionBank/gte";
 import questionBankPMA from "./questionBank/pma";
@@ -12,7 +13,9 @@ export default function generateQuestion(num_of_questions, category) {
     case "gte":
       questionBank = questionBankGTE;
       break;
-
+    case "aut":
+      questionBank = questionBankAut;
+      break;
     default:
       questionBank = questionBankGen;
       break;
