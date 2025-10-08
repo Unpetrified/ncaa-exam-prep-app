@@ -45,7 +45,7 @@ function ExamForm({ setDetails, details, questions, setQuestions }) {
         <select name="paper" id="paper" defaultValue="gte" onChange={update}>
           <option value="gte">Gas Turbine Engine</option>
           <option value="pma">Pressurized Metal Airframe</option>
-          <option value="avi">Avionics</option>
+          {/* <option value="avi">Avionics</option> */}
           <option value="aut">Auto Pilot</option>
           <option value="gen">General</option>
         </select>
