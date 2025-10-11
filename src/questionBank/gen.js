@@ -2809,6 +2809,3508 @@ const questionBankGen = {
         "when the aircraft takes off and the aircraft lands.",
       ],
     },
+  "Emergency exit signs in a passenger compartment:": {
+    answer: "Must never be covered",
+    choices: [
+      "Must never be covered",
+      "Must always be covered until an emergency exists",
+      "Must always be covered when exit is inoperative and locked",
+    ],
+  },
+  "Before the NCAA can approve a ‘Major’ modification they may require:": {
+    answer: "A certificate of design",
+    choices: [
+      "An Approved certificate",
+      "A certificate of fitness for flight",
+      "A certificate of design",
+    ],
+  },
+  "A minor modification is approved by:": {
+    answer: "An  Approved design centre",
+    choices: [
+      "An  Approved design centre",
+      "An Approved organization",
+      "A safety Regulation Group Surveyor",
+    ],
+  },
+  "A Maintenance Statement must be included in every:": {
+    answer: "Aircraft Technical log",
+    choices: [
+      "Aircraft and engine log book",
+      "Aircraft maintenance manual",
+      "Aircraft Technical log",
+    ],
+  },
+  "The mandatory modification and inspections summary will list:": {
+    answer:
+      "All mandatory modifications and inspections required on an aircraft Nigerian or foreign",
+    choices: [
+      "All mandatory modifications and inspections required on an aircraft Nigerian or foreign",
+      "All mandatory modifications and inspections required on foreign constructed aircraft",
+      "All mandatory modifications and inspections required on American constructed aircraft.",
+    ],
+  },
+  "Mandatory modifications and inspections must be carried out:": {
+    answer: "In accordance with limits specified by the NCAA",
+    choices: [
+      "Before the next flight",
+      "Before CMR expires",
+      "In accordance with limits specified by the NCAA",
+    ],
+  },
+  "Service Bulletins are issued by:": {
+    answer: "The manufacturer and are mandatory when the Authority decides",
+    choices: [
+      "The NCAA and always mandatory",
+      "The NCAA and are mandatory when the Manufacturer decides",
+      "The manufacturer and are mandatory when the Authority decides",
+    ],
+  },
+  "Following a temporary repair the aircraft may be flown at the discretion of the":
+    {
+      answer: "L.A.E. who did the work",
+      choices: [
+        "Chief engineer",
+        "Aircraft Commander",
+        "L.A.E. who did the work",
+      ],
+    },
+  "Under NCAR 145 a reportable occurrence should be forwarded to the Authority within:":
+    {
+      answer: "72 hours (3days)",
+      choices: [
+        "96 hours",
+        "72 hours (3days)",
+        "The time specified on the Approved document",
+      ],
+    },
+  "NCAR 145 Approval is required for all organizations which:": {
+    answer:
+      "Maintain aircraft used for carrying passengers, or mail for reward",
+    choices: [
+      "Operate as an European Consortium",
+      "Maintain aircraft used for carrying passengers, or mail for reward",
+      "Maintain public transport aircraft exceeding 1361  Kg MTWA",
+    ],
+  },
+  "Computerized record systems are acceptable only if:": {
+    answer:
+      "Backed up discs, tapes, etc are stored in a different location from the working ones",
+    choices: [
+      "Backed up by hand written records of robust material",
+      "Backed up discs, tapes, etc are stored in a different location from the working ones",
+      "Back up and working discs and tapes are stored together in a lockable, fireproof store",
+    ],
+  },
+  "In the NCAR 145 rating system the letter B relates to:": {
+    answer: "Engines.",
+    choices: ["Components", "aircraft not exceeding 5700 kg MTWA", "Engines."],
+  },
+  "NCAR Form 1 is signed by:": {
+    answer: "The Chief Inspector or his authorized signatories",
+    choices: [
+      "The chief Store man",
+      "The Chief Inspector or his authorized signatories",
+      "The resident Civil Aviation Authority surveyor",
+    ],
+  },
+  "The NCAR 145 Approved Organization must retain copies of all Maintenance Records and Associated Airworthiness data for a period of:":
+    {
+      answer: "2 years from issue of Certificate of Release to Service",
+      choices: [
+        "2 years from issue of Certificate of Release to Service",
+        "3 years unless specially stated otherwise",
+        "6 months",
+      ],
+    },
+  "An aircraft type certificate may be:": {
+    answer: "Issued to a prototype aircraft by the Authority",
+    choices: [
+      "Issued to a prototype aircraft by the manufacturer",
+      "Issued to a prototype aircraft by the Authority",
+      "Issued to a series aircraft by the manufacturer",
+    ],
+  },
+  "A certificate of fitness for flight is valid for a maximum of:": {
+    answer:
+      "Seven days provided the Airworthiness of the aircraft has not changed",
+    choices: [
+      "Seven days provided the Airworthiness of the aircraft has not changed",
+      "Two years",
+      "Until the next maintenance check",
+    ],
+  },
+  "When flying under the ‘B’ conditions of the 2nd schedule A.N.O.s, the aircraft:":
+    {
+      answer:
+        "Need not be registered, but must be marked in a manner approved by the Nigerian Civil Aviation Authority",
+      choices: [
+        "Must be registered",
+        "Need not be registered",
+        "Need not be registered, but must be marked in a manner approved by the Nigerian Civil Aviation Authority",
+      ],
+    },
+  "Engineers and Aircraft Owners are informed of A/C airworthiness condition or emergency":
+    {
+      answer: "Via ‘Airworthiness Notices’",
+      choices: [
+        "In A.N.O. revisions",
+        "Through the Air Navigation Regulations",
+        "Via ‘Airworthiness Notices’",
+      ],
+    },
+  "An Air Operator Certificate:": {
+    answer:
+      "Must be held by an Operator who uses aircraft for the purpose of public transport",
+    choices: [
+      "Is required by members of a flight crew",
+      "Is not required if an approved maintenance schedule is in operation",
+      "Must be held by an Operator who uses aircraft for the purpose of public transport",
+    ],
+  },
+  "Who is responsible for the provision of an aircraft maintenance manual?": {
+    answer: "The manufacturer",
+    choices: ["The NCAA", "The manufacturer", "The operator"],
+  },
+  "An aircraft with nine current Log Books would be:": {
+    answer:
+      "An aircraft with four piston engines and variable pitch propellers fitted",
+    choices: [
+      "An aircraft with four gas turbine engines fitted",
+      "A helicopter with for rotor blades fitted",
+      "An aircraft with four piston engines and variable pitch propellers fitted",
+    ],
+  },
+  "A  Technical Log is required for:": {
+    answer: "All aircraft",
+    choices: [
+      "Public transport and aerial work aircraft only",
+      "All aircraft",
+      "Aircraft under 2,739 kg M.A.W.",
+    ],
+  },
+  "A License Without Type Rating:": {
+    answer: "No certification privilege",
+    choices: [
+      "Entitles the holder to the same certification privileges as Type Rated",
+      "Limited Certification Privilege",
+      "No certification privilege",
+    ],
+  },
+  "On a Certificate of Release for Service, an adjustment to a control would come under the heading:":
+    { answer: "Repair", choices: ["Repair", "Replacement", "Overhaul"] },
+  "The purpose on which an aircraft may be flown on a special Category C of A is:":
+    {
+      answer: "Stated on the certificate",
+      choices: [
+        "For private use only",
+        "Stated on the certificate",
+        "Applicable to ex-military aircraft only",
+      ],
+    },
+  "The period of validity of a Flight Release Certificate is:": {
+    answer: "Stated on the Permit to Fly",
+    choices: [
+      "Stated on the Permit to Fly",
+      "Until the end of the days flying",
+      "Stated in the Maintenance Programme",
+    ],
+  },
+  "A Permit to Fly is valid:": {
+    answer: "Until the date stated on it",
+    choices: [
+      "Until the date stated on it",
+      "For 12 months always",
+      "Only for evaluating a modification",
+    ],
+  },
+  "The check cycle for aircraft exceeding 2,730 kg MTWA is:": {
+    answer: "Stated in the Approved Maintenance Schedule",
+    choices: [
+      "The same for all aircraft maintained by one operator",
+      "The same for all aircraft of one type",
+      "Stated in the Approved Maintenance Schedule",
+    ],
+  },
+  "The responsibility of weighing aircraft N/E 2,730 kg MTWA rest with the:": {
+    answer: "Operator",
+    choices: ["Operator", "NCAA", "Manufacturer"],
+  },
+  "Certificates of Release to Service are issued on completion of:": {
+    answer: "Each inspection item on the AMP",
+    choices: [
+      "Each inspection item on the AMP",
+      "A check on the check cycle",
+      "Each check ‘A’ for aircraft N/E 2,730 kg MTWA",
+    ],
+  },
+  "Which of the following requirements are prescribed in the Airworthiness Part on the then ANRs?":
+    {
+      answer: "All of the above.",
+      choices: [
+        "Issuance of Service Bulletin, Alert Service Bulletin and Airworthiness Directive",
+        "Continuing Airworthiness of aircraft, Air Operator Approved Aircraft Maintenance Inspection requirements, Issuance of Certificates of Airworthiness and other Certification for aeronautical products;",
+        "All of the above.",
+      ],
+    },
+  "What is the full meaning of the acronym AMO?": {
+    answer: "Approved Maintenance Organization",
+    choices: [
+      "Aircraft Maintenance Organization",
+      "Aviation Maintenance Organization",
+      "Approved Maintenance Organization",
+    ],
+  },
+  "What is the full meaning of the acronym AIS?": {
+    answer: "Aeronautical Information Service",
+    choices: [
+      "Aviation Information Service",
+      "Aeronautical Information Service",
+      "Air-data Information Service",
+    ],
+  },
+  "Nigerian registered aircraft operating pursuance to an AOC may be maintained:":
+    {
+      answer: "By an approved maintenance organization",
+      choices: [
+        "By organization with National approval",
+        "By persons holding LWTR and Type Ratings",
+        "By an approved maintenance organization",
+      ],
+    },
+  "Section 1 of NCAR contains:": {
+    answer: "The requirements",
+    choices: [
+      "The requirements",
+      "Means of compliance",
+      "Clarification material",
+    ],
+  },
+  "Under NCAR 145, the Approval Certificate specifies": {
+    answer: "The extent of the approval",
+    choices: [
+      "The extent of the approval",
+      "The scope of the work",
+      "The level of the approval",
+    ],
+  },
+  "Section 2 of the NCAR 145 contains:": {
+    answer: "An acceptable means of compliance and interpretive material",
+    choices: [
+      "The regulations laid down by European law",
+      "An acceptable means of compliance and interpretive material",
+      "The requirements of NCAR 145",
+    ],
+  },
+  "When a repair component is issued from a workshop within an approved organization, for use by that organization:":
+    {
+      answer: "The Release to Service is on workshop documentation",
+      choices: [
+        "The Release to Service must be on NCAR Form 1 or equivalent",
+        "The Release to Service is on workshop documentation",
+        "The Release to Service is on the serviceability label",
+      ],
+    },
+  "Base maintenance is defined as that which:": {
+    answer: "Comprises C and D checks",
+    choices: [
+      "Takes place at the base headquarters only",
+      "Relates to major repairs only",
+      "Comprises C and D checks",
+    ],
+  },
+  "For certifying staff, in an NCAR 145 company, the scope of authorization is detailed in:":
+    {
+      answer: "The record of certifying staff held by approval organization",
+      choices: [
+        "The record of certifying staff held by approval organization",
+        "The authorization documentation held by the NCAA",
+        "The NCAA License held by the individual",
+      ],
+    },
+  "NCAR 145 scope of work is found in:": {
+    answer: "The Company Exposition (or operations specifications)",
+    choices: [
+      "NCAR 145 Approval document",
+      "NCAR Form 6",
+      "The Company Exposition (or operations specifications)",
+    ],
+  },
+  "The different approval granted under NCAR 145 are given by:": {
+    answer: "Class and Rating",
+    choices: [
+      "Division and chapter",
+      "Class and Rating",
+      "Group and paragraph",
+    ],
+  },
+  "For a change of location of base, each AOC holder shall provide a written notification of intent to the Authority:":
+    {
+      answer: "At least 30 days",
+      choices: ["At least 30 days", "At least 60 days", "At least 90 days"],
+    },
+  "Which of the following statement is/are true, on whom the Authority can issue an AOC?":
+    {
+      answer:
+        "Meets the applicable regulations and standards for the holder of an AOC",
+      choices: [
+        "Only if the applicant is a citizen of Nigeria",
+        "Meets the applicable regulations and standards for the holder of an AOC",
+        "All of the above",
+      ],
+    },
+  "The Minimum Equipment List is the:": {
+    answer: "The equipment that may be inoperative for aircraft dispatch",
+    choices: [
+      "The equipment that may be inoperative for aircraft dispatch",
+      "Minimum equipment that an aircraft must carry",
+      "Minimum equipment to satisfy a particular role of the aircraft",
+    ],
+  },
+  "The definition of a “Reportable Occurrence” is detailed in:": {
+    answer: "Air Navigation Orders",
+    choices: ["Air Navigation Orders", "Airworthiness Notices", "NCARs"],
+  },
+  "The store holding items having their specification/conformity checked is the:":
+    {
+      answer:
+        "Bonded store (holds materials that have been proven to conform to spec)",
+      choices: [
+        "Document store",
+        "Quarantine store (holds materials until when they are proved to conform to spec)",
+        "Bonded store (holds materials that have been proven to conform to spec)",
+      ],
+    },
+  "Aircraft exceeding 5700 kg MTWA must be weighed by the operator every:": {
+    answer: "Certificate of Airworthiness Renewal",
+    choices: [
+      "Five years",
+      "Two years",
+      "Certificate of Airworthiness Renewal",
+    ],
+  },
+  "A certificate of Registration must be carried on the aircraft:": {
+    answer: "For all flights",
+    choices: [
+      "For all flights",
+      "For all international flights",
+      "On all test flights",
+    ],
+  },
+  "A mandatory modification must be carried out:": {
+    answer: "As specified by the NCAA",
+    choices: [
+      "Before the next inspection cycle",
+      "Before the next flight",
+      "As specified by the NCAA",
+    ],
+  },
+  "The Minimum Equipment List items are grouped according to:": {
+    answer: "The maintenance schedule",
+    choices: ["ATA 100", "Their importance", "The maintenance schedule"],
+  },
+  "What is the full meaning of the acronym NOTAM?": {
+    answer: "Notices to Airmen",
+    choices: [
+      "Notification of Technical Airmen",
+      "Notice to Aviation Maintenance",
+      "Notices to Airmen",
+    ],
+  },
+  "Maintenance support for an aircraft operating to an air operator’s certificate is in accordance with:":
+    {
+      answer: "NCAR Ops 1/3",
+      choices: [
+        "Commercial Aircraft Procedures Part 11, published by the Maintenance Organizations",
+        "Civil Aviation Publication 360 Part 1 published by the Nigerian civil Aviation Authority",
+        "NCAR Ops 1/3",
+      ],
+    },
+  "Training of certifying staff in an NCAR 145 Organization is the responsibility of the Organization or an institution selected by the:":
+    {
+      answer: "Organization",
+      choices: [
+        "Nigerian Civil Aviation Authority",
+        "Boeing Commercial",
+        "Organization",
+      ],
+    },
+  "A duplicate inspection is required on:": {
+    answer:
+      "All aircraft, when engine controls, flying controls or vital points are disturbed",
+    choices: [
+      "All aircraft, when engine controls, flying controls or vital points are disturbed",
+      "Public Transport and aerial work aircraft only, when engine controls, flying controls or vital points are disturbed",
+      "Control replacements only",
+    ],
+  },
+  "After the engine drive hydraulic pump has been installed:": {
+    answer:
+      "The Certificate of Maintenance Review must be signed by the ‘A’ and ‘C’",
+    choices: [
+      "The Certificate of Maintenance Review must be signed by the ‘A’ and ‘C’",
+      "The Certificate of Release to Service must be signed by the ‘A’ L.A.E.",
+      "The Certificate of Release to Service must be signed by the ‘A’ and ‘C’ L.A.E.",
+    ],
+  },
+  "An Approved maintenance Programme must list:": {
+    answer: "All applicable aircraft",
+    choices: [
+      "All applicable aircraft",
+      "All aircraft of the same type on the Nigeria Register",
+      "All aircraft of any types operated by the Schedule Holder",
+    ],
+  },
+  "Repainting of nationality and registration marks:": {
+    answer: "Requires the approval of the NCAA",
+    choices: [
+      "Requires the aircraft to be weighed and a C.R.S. issued by the Approved painter",
+      "Requires the approval of the NCAA",
+      "Requires a C.R.S. to be issued in Category ‘A’",
+    ],
+  },
+  "Amendments to Maintenance Manuals:": {
+    answer: "Are transmitted as required by the manufacturer",
+    choices: [
+      "Are transmitted bi-weekly by the manufacturer",
+      "Are transmitted as required by the manufacturer",
+      "Are transmitted as required by the NCAA",
+    ],
+  },
+  "An aircraft Type Certificate may be:": {
+    answer: "Issued to a prototype aircraft by the Authority",
+    choices: [
+      "Issued to a prototype aircraft by the manufacturer",
+      "Issued to a prototype aircraft by the Authority",
+      "Issued to a series aircraft by the manufacturer",
+    ],
+  },
+  "A  flight manual is:": {
+    answer: "Part of the Certificate of Airworthiness",
+    choices: [
+      "A document in its own right",
+      "Part of the Certificate of Airworthiness",
+      "Part of the Operations Manual",
+    ],
+  },
+  "Following major modification, the weight and centre of gravity schedule will be amended by:":
+    {
+      answer: "The aircraft type certificate holder",
+      choices: [
+        "The aircraft type certificate holder",
+        "The person issuing the C.R.S. for the modification",
+        "The loading officer",
+      ],
+    },
+  "Modifications carried out on an aircraft under 2,700 kg are recorded in:": {
+    answer: "The pink pages of the aircraft log book",
+    choices: [
+      "The pink pages of the aircraft log book",
+      "Modification record book",
+      "Mandatory aircraft Modification and inspection summary",
+    ],
+  },
+  "The Authority will only accept an application for a production organization Approved if:":
+    {
+      answer:
+        "The Authority agrees that, for a defined scope of work, such an Approval is found appropriate for the purpose and conformity with a specific design.",
+      choices: [
+        "The Authority agrees that, for a defined scope of work, such an approval is not appropriate for the purpose of showing a specific design",
+        "The applicant holds or has applied for an approval of such a design, and did not satisfactorily co-ordinate between production and design",
+        "The Authority agrees that, for a defined scope of work, such an Approval is found appropriate for the purpose and conformity with a specific design.",
+      ],
+    },
+  "Which of the following organizations can approve a Supplemental Type Certificate?":
+    {
+      answer:
+        "The regulatory agency of the design or state of registry of the aircraft",
+      choices: [
+        "Boeing Commercial U.S.A.",
+        "The regulatory agency of the design or state of registry of the aircraft",
+        "Only JAA member country",
+      ],
+    },
+  "Who can apply for Issuance of a Supplementary Type Certificate?": {
+    answer:
+      "Any person who alters a product by introducing a major change in type design, not enough to require a new Type Certificate",
+    choices: [
+      "Any operator in Nigeria",
+      "Any person who alters a product by introducing a minor change in type design, not enough to require a new Type Certificate",
+      "Any person who alters a product by introducing a major change in type design, not enough to require a new Type Certificate",
+    ],
+  },
+  "Which of the following flying apparatus/aircraft require the issuance or Validation of a Certificate of Airworthiness?":
+    {
+      answer:
+        "A glider, if it is being used for the public transport of passenger or aerial work",
+      choices: [
+        "A glider, if it is being used for the public transport of passenger or aerial work",
+        "A balloon, if it is not being used for the public transportation of passenger",
+        "A kite",
+      ],
+    },
+  "An aircraft shall not fly or attempt to fly unless:": {
+    answer:
+      "There is in force in respect of it a Certificate of Airworthiness duly issued or validated under the law of the country in which the aircraft is registered",
+    choices: [
+      "There is in force in respect of it a Certificate of Airworthiness only issued or validated by JAA member country",
+      "There is in force in respect of it a Certificate of Airworthiness duly issued or validated under the law of the country in which the aircraft is registered",
+      "All of the above",
+    ],
+  },
+  "When is Certificate of Airworthiness renewable?": {
+    answer:
+      "After every 12 months (N/B: Transport C of A ≤ 18 months; other Standard C of A ≤ 12 months; Special Flight C of A ≤ 12 months)",
+    choices: [
+      "After every B – check",
+      "After every 12 months (N/B: Transport C of A ≤ 18 months; other Standard C of A ≤ 12 months; Special Flight C of A ≤ 12 months)",
+      "After every check",
+    ],
+  },
+  "Who issues a Certificate of Airworthiness?": {
+    answer: "The CAA of the state of registry",
+    choices: [
+      "Only the CAA of the state of manufacture",
+      "The CAA of the state of registry",
+      "All the above are correct",
+    ],
+  },
+  "Who is eligible to apply for Certificate of Airworthiness?": {
+    answer: "All of the above",
+    choices: [
+      "Any registered owner of a Nigerian registered aircraft or agent of the Owner",
+      "Any applicant that applies in a form and manner acceptable to the Authority",
+      "All of the above",
+    ],
+  },
+  "In which part/subpart can a Certificate of Airworthiness issue and renewable found, in our ANR?":
+    { answer: "Part 5", choices: ["Part 4", "Part 5", "Part 6"] },
+  "Under how many categories can the Authority issue C of A?": {
+    answer: "5",
+    choices: ["3", "4", "5"],
+  },
+  "The Authority may amend or modify a Certificate of Airworthiness:": {
+    answer: "Upon application from an operator, and on Authority’s initiation",
+    choices: [
+      "After every check and spot inspection",
+      "Upon application from an operator, and on Authority’s initiation",
+      "After a minor modification",
+    ],
+  },
+  "Which of the following statements in not correct, if an owner shall transfer a Certificate of Airworthiness?":
+    {
+      answer:
+        "Transfer to the FAA after selling the aircraft in Nigeria (to NCAA after sell outside Nig)",
+      choices: [
+        "Transfer to the lease upon lease of an aircraft within or outside Nigeria",
+        "Transfer to the FAA after selling the aircraft in Nigeria (to NCAA after sell outside Nig)",
+        "Transfer to the buyer upon sale of the aircraft within Nigeria",
+      ],
+    },
+  "The Authority will issue a Standard Certificate of Airworthiness if:": {
+    answer:
+      "There are evidence to the Authority that the aircraft conforms to a type design  approved under a Type Certificate or Supplemental Type Certificate and to the applicable AD’s of the State of Design or Manufacture",
+    choices: [
+      "There are evidence to the Authority that the aircraft conforms to a type under design by Boeing company",
+      "There are evidence to the Authority that the aircraft conforms to a type design approved under by Boeing and the applicable AD’s",
+      "There are evidence to the Authority that the aircraft conforms to a type design  approved under a Type Certificate or Supplemental Type Certificate and to the applicable AD’s of the State of Design or Manufacture",
+    ],
+  },
+  "The Authority will consider a Certificate of Airworthiness valid for commercial air transport only when accompanied by:":
+    {
+      answer:
+        "Operations Specifications issued by the Authority which identify the Specific types of commercial air transport authorized",
+      choices: [
+        "Maintenance manual issued by the manufacturer which identify the specific types of commercial air transport to be maintained",
+        "Minimum Equipment list approved by the Authority which identify the specific types of commercial air transport authorized",
+        "Operations Specifications issued by the Authority which identify the Specific types of commercial air transport authorized",
+      ],
+    },
+  "The Authority may issue Special Flight Permits or Ferry Permits to an aircraft that is capable of safe flight, but unable to meet applicable airworthiness requirements for the following purpose except:":
+    {
+      answer: "Evacuating passengers from dangerous areas",
+      choices: [
+        "Evacuating aircraft from areas of impending danger",
+        "Evacuating passengers from dangerous areas",
+        "Testing after repairs, modifications, or maintenance have been performed",
+      ],
+    },
+  "Who is responsible for maintaining aircraft in an airworthy condition?": {
+    answer: "Operator/owner of the aircraft",
+    choices: [
+      "Aviation Safety Inspectors (Airworthiness)",
+      "Operator/owner of the aircraft",
+      "CAA of State of Manufacture or Design",
+    ],
+  },
+  "All maintenance, overhaul, modifications, and repairs which affect Airworthiness of the aircraft, are performed as prescribed by:":
+    {
+      answer: "The CAA State of Registry",
+      choices: [
+        "The JAA member country",
+        "The manufacturer",
+        "The CAA State of Registry",
+      ],
+    },
+  "When can an Authority issue Airworthiness Directives?": {
+    answer: "All of the above",
+    choices: [
+      "When the Authority determines that an airframe or aeronautical product Needs modification",
+      "When the Authority determines that an airframe or aeronautical product has exhibited an unsafe condition and it’s likely to develop in other products of the same type design",
+      "All of the above",
+    ],
+  },
+  "Who shall report to the Authority any failures, malfunctions or defects that results during false fire warning, engine shutdown due to flame out and foreign object injection or icing in flight?":
+    {
+      answer: "The owner/operator of the aircraft",
+      choices: [
+        "The engine manufacturer",
+        "The captain/crew in-flight",
+        "The owner/operator of the aircraft",
+      ],
+    },
+  "Performance rules of Airworthiness Limitations can be found in?": {
+    answer: "ANR Part 5.6.7",
+    choices: ["ANR Part 4.6.7", "ANR Part 5.6.7", "ANR Part 6.6.7"],
+  },
+  "For how long should report be submitted to the Authority after determining the cause of the failure, malfunction, or defect?":
+    {
+      answer: "Within 3 days (72 hours)",
+      choices: ["Within 1 day", "Within 3 days (72 hours)", "Within 5 days"],
+    },
+  "Which of the following persons are authorized to perform maintenance?": {
+    answer: "An AOC holder, approved to perform maintenance",
+    choices: [
+      "A pilot licensed by the Authority and a technician (N/B: authorized pilot can only maintain his/her A/C)",
+      "An AOC holder, approved to perform maintenance",
+      "All of the above",
+    ],
+  },
+  "What privileges and limitations does an approved maintenance personnel have with respect to the extent and type of work they may perform?":
+    {
+      answer: "Maintenance, preventive maintenance and modification",
+      choices: [
+        "Maintenance, preventive maintenance and modification",
+        "Inspection, issuing of CRS and C of R",
+        "All of the above",
+      ],
+    },
+  "Who can issue a CRS?": {
+    answer:
+      "A pilot licensed by the Authority and licensed engineer (N/B: a pilot can return his)",
+    choices: [
+      "A pilot licensed by the Authority and licensed engineer (N/B: a pilot can return his)",
+      "A CSAM (Certifying Staff Aircraft Maintenance)",
+      "An AMO holder only",
+    ],
+  },
+  "Where can the performance rules of inspections and maintenance be found?": {
+    answer: "Civil Aviation (Air Navigation) Regulations",
+    choices: [
+      "Manufacturer’s Maintenance Manual",
+      "CAA of the State of Manufacture",
+      "Civil Aviation (Air Navigation) Regulations",
+    ],
+  },
+  "The Nigerian Civil Aviation Regulations (Nigerian CAA) are applicable to:": {
+    answer: "All of the above",
+    choices: [
+      "Nigerian registered aircraft and aircraft of other Contracting states operating into, from or within Nigeria",
+      "Aircraft registered in another Contracting State that are operated by a person licensed by Nigeria, and must be maintained in accordance with the standards of the aircraft State of Registry, wherever that maintenance is performed.",
+      "All of the above",
+    ],
+  },
+  "In relations to the Regulations, the word “Approved” means:": {
+    answer:
+      "The Authority had reviewed the method, procedure or policy in question and issued a formal written approval",
+    choices: [
+      "Customarily permitted",
+      "Internationally permitted by practice",
+      "The Authority had reviewed the method, procedure or policy in question and issued a formal written approval",
+    ],
+  },
+  "The Accountable officer is:": {
+    answer:
+      "The Officer who exercises authority on behalf of the Authority for ensuring that all prescribed actions are performed to the standard required by the Authority",
+    choices: [
+      "The Chief Executive",
+      "The Officer who exercises authority on behalf of the Authority for ensuring that all prescribed actions are performed to the standard required by the Authority",
+      "The Chief Accountant of the company",
+    ],
+  },
+  "The Accountable manager is:": {
+    answer:
+      "The manager who has corporate authority for ensuring that all flight operations and maintenance activities required by the aircraft owner/operator can be financed and carried out to the standard required by the authority",
+    choices: [
+      "The manager who has corporate authority for ensuring that all flight operations and maintenance activities required by the aircraft owner/operator can be financed and carried out to the standard required by the authority",
+      "The Managing Director",
+      "The Company Chairman",
+    ],
+  },
+  "The aircraft Technical Log is:": {
+    answer: "All of the above",
+    choices: [
+      "A document carried on board an aircraft for recording defects and malfunctions discovered during operation and for details of all maintenance carried out while the aircraft is operating between scheduled visits to the base maintenance facility",
+      "A document that contains operating information relevant to flight safety and maintenance data that the operating crew need to know",
+      "All of the above",
+    ],
+  },
+  "Approved Maintenance Programme is:": {
+    answer:
+      "A Maintenance Programme approved by the State of Registry of an aircraft",
+    choices: [
+      "A Maintenance Programme approved by the State of Registry of an aircraft",
+      "A Maintenance Programme approved by the aircraft manufacturer.",
+      "A Maintenance Programme developed by the operator",
+    ],
+  },
+  "Approved Maintenance Organization (AMO) is an organization:": {
+    answer: "All of the above",
+    choices: [
+      "Approved to perform specific aircraft maintenance activities by the Authority",
+      "Whose activities may include the inspection, overhaul, maintenance, repair and/or modification and Release to Service of aircraft or aeronautical products",
+      "All of the above",
+    ],
+  },
+  "Certifying Staff – Aircraft Maintenance is :": {
+    answer:
+      "A person approved by the Authority to perform defined maintenance on aeronautical products or parts.",
+    choices: [
+      "A person approved by the Authority to perform defined maintenance on aeronautical products or parts.",
+      "A rated mechanic only",
+      "Repair Specialist only",
+    ],
+  },
+  "An inspection is:": {
+    answer:
+      "The examination of an aircraft, aeronautical product and operational programmes to establish conformity with a standard as approved by the Authority",
+    choices: [
+      "Clinical examination of a system",
+      "The examination of an aircraft, aeronautical product and operational programmes to establish conformity with a standard as approved by the Authority",
+      "The critical observation of parts and materials",
+    ],
+  },
+  "Maintenance Release is:": {
+    answer:
+      "A document containing a certification that inspection and maintenance work has been performed satisfactorily in accordance with the methods prescribed by the Authority",
+    choices: [
+      "A certification by the pilot that he is satisfied and ready to accept the aircraft",
+      "A certification by the Chief Engineer",
+      "A document containing a certification that inspection and maintenance work has been performed satisfactorily in accordance with the methods prescribed by the Authority",
+    ],
+  },
+  "Minimum Equipment List (MEL) is :": {
+    answer:
+      "A list approved by the Authority which provides for the operation of aircraft, subject to specific conditions, with particular equipment inoperative, prepared by an operator in conforming with, or more restrictive than, the MMEL established for the aircraft type by the aircraft manufacturer and approved by the State of Design",
+    choices: [
+      "A list established for a particular aircraft type by the manufacturer",
+      "A list containing deficiencies",
+      "A list approved by the Authority which provides for the operation of aircraft, subject to specific conditions, with particular equipment inoperative, prepared by an operator in conforming with, or more restrictive than, the MMEL established for the aircraft type by the aircraft manufacturer and approved by the State of Design",
+    ],
+  },
+  "Operator’s Maintenance Management Exposition (OMME) is:": {
+    answer:
+      "A manual containing procedures, instructions and guidance for use by maintenance and concerned operational personnel in the examination of their duties",
+    choices: [
+      "Operator’s manual of overhaul procedures",
+      "Restoration document of maintenance",
+      "A manual containing procedures, instructions and guidance for use by maintenance and concerned operational personnel in the examination of their duties",
+    ],
+  },
+  "“Overhaul” is:": {
+    answer:
+      "The restoration of an aircraft or other aeronautical product using methods, techniques and practices acceptable to the Authority",
+    choices: [
+      "Disassembly and cleaning process only",
+      "Testing and changing of parts only",
+      "The restoration of an aircraft or other aeronautical product using methods, techniques and practices acceptable to the Authority",
+    ],
+  },
+  "Pre-flight inspection is:": {
+    answer:
+      "The inspection carried out before flight to ensure that the aircraft is fit for intended flight",
+    choices: [
+      "Pilot’s visual check before flight",
+      "Engineer’s work-around check",
+      "The inspection carried out before flight to ensure that the aircraft is fit for intended flight",
+    ],
+  },
+  "Preventive maintenance is:": {
+    answer:
+      "Part of maintenance tasks which do not involve complex assembly operation",
+    choices: [
+      "Part of maintenance tasks which do not involve complex assembly operation",
+      "Is a routine clearing of defects",
+      "Is a daily inspection task",
+    ],
+  },
+  "“Repair” is:": {
+    answer:
+      "Restoration of an aircraft/aeronautical product to a serviceable condition in conformity with an approved standard",
+    choices: [
+      "Restoration of an aircraft/aeronautical product to a serviceable condition in conformity with an approved standard",
+      "Major and Minor work done",
+      "All of the above",
+    ],
+  },
+  "“Rebuild” is the work performed by only the manufacturer or an organization approved by the manufacturer and authorized by the State of Registry":
+    { answer: "True", choices: ["False", "True", "Never"] },
+  "Required inspection items are maintenance and/or alterations that require duplicate inspections which must be carried out by a person other than the one performing the work":
+    { answer: "True", choices: ["False", "True", "Never"] },
+  "An aeroplane having a maximum certificated take-off mass of less than 5,700 kg (12500lbs) is":
+    {
+      answer: "Small aeroplane",
+      choices: ["Medium aeroplane", "Long haul aeroplane", "Small aeroplane"],
+    },
+  "Any maintenance not normally performed by an AMO (e.g. tyre rethreading, plating etc) is:":
+    {
+      answer: "Specialised maintenance",
+      choices: [
+        "Routine maintenance",
+        "Specialised maintenance",
+        "Casual maintenance",
+      ],
+    },
+  "A person who is required to have a license shall have it in his or her physical possession or readily accessible in the aircraft or at the work site when exercising the privileges of that license":
+    {
+      answer: "Always",
+      choices: ["Some of the time", "Always", "Not required"],
+    },
+  "Approved Maintenance Organization (AMO) Certificate shall be prominently displayed":
+    {
+      answer: "In the principal business office of the AMO holder",
+      choices: [
+        "In the aircraft",
+        "Any registered office",
+        "In the principal business office of the AMO holder",
+      ],
+    },
+  "Any person may have his or her airman License, Rating, Certificate, Qualification or Authorization revoked or suspended if found guilty of making":
+    {
+      answer: "All of the above",
+      choices: [
+        "Any fraudulent on intentional false statement",
+        "Any fraudulent on intentional alteration or entry in any logbook, records or report",
+        "All of the above",
+      ],
+    },
+  "“EXEMPTIONS” may be issued": {
+    answer:
+      "When the Authority has determined that it is in the interest of the public and aviation safety and is not adversely affected",
+    choices: [
+      "Only when the operator applies in writing",
+      "Only on compassionate grounds",
+      "When the Authority has determined that it is in the interest of the public and aviation safety and is not adversely affected",
+    ],
+  },
+  "The Authority may issue Aircraft Maintenance License (AML) in the following categories:":
+    {
+      answer: "A, B1, B2, C",
+      choices: ["A1, B, C, D", "A, B1, B2, C", "A, B, C, D"],
+    },
+  "The Authority may grant approval to a Repair Specialist in accordance": {
+    answer: "With the capability list provided by an AMO",
+    choices: [
+      "With his endorsement",
+      "With his practical experience",
+      "With the capability list provided by an AMO",
+    ],
+  },
+  "Aircraft Maintenance License expires (N/B: AMO Certificate expires 24 months after issue)":
+    {
+      answer: "12 calendar months from the month in which it is issued",
+      choices: [
+        "12 calendar months from the month in which it is issued",
+        "24 calendar months from the month in which it is issued",
+        "12 months from the month in which it is issued",
+      ],
+    },
+  "An applicant for an Aircraft Maintenance License (AML) in any associated category shall":
+    {
+      answer: "Be at least 18 years of age",
+      choices: [
+        "Be at least 18 years of age",
+        "Be at least 21 years of age",
+        "Be not more than 20 years of age",
+      ],
+    },
+  "An AML holder with Airframe and/or Avionics rating may not supervise the modification of, or Release to Service, any aircraft airframe, aircraft engine, propeller, appliance, component, or part thereof, for which he or she is rated unless he or she has satisfactorily performed the work concerned in an earlier date.":
+    { answer: "True", choices: ["True", "False", "Never"] },
+  "An AML holder with Airframe and/or Avionics rating may not exercise the privileges of the License unless the Certifying Staff understands the current instructions for continuing airworthiness and the maintenance instructions for the specific operation concerned":
+    { answer: "True", choices: ["Never", "True", "False"] },
+  "A CSAM is required to undergo recurrent training on the functions pertaining to the exercise of the privileges of his or her license at least":
+    {
+      answer: "Once every year",
+      choices: [
+        "Once every year",
+        "Once in two years",
+        "Once every six months",
+      ],
+    },
+  "Ratings for an applicant employed by an Air Operator shall coincide with the approved operations specifications and the approved maintenance system that identifies the air operator’s authorizations limited to specific job for which":
+    {
+      answer:
+        "The person is employed to perform, supervise or issue Certificate of Return to Service",
+      choices: [
+        "The operator is approved",
+        "The person is employed to perform, supervise or issue Certificate of Return to Service",
+        "The operator is capable",
+      ],
+    },
+  "Repair Specialist approval held by each person shall be kept": {
+    answer:
+      "Within the immediate area where he or she normally exercises the privileges of the approval",
+    choices: [
+      "At his residential address",
+      "By the company for safe keeping",
+      "Within the immediate area where he or she normally exercises the privileges of the approval",
+    ],
+  },
+  "An applicant with a history of acute toxic psychosis need not be regarded as disqualifying provided that the applicant":
+    {
+      answer: "Has suffered no permanent impairment",
+      choices: [
+        "Is affected intermittently",
+        "Has suffered no permanent impairment",
+        "Only has a personality disorder",
+      ],
+    },
+  "Additional medical requirement for CLASS 1 medical certificate such as stress EGG, Echocardiogram, Abdominal/pelvic ultrasound if the applicant is":
+    {
+      answer: "50 – 55 years",
+      choices: ["40 – 45 years", "60 – 65 years", "50 – 55 years"],
+    },
+  "An Aviation Training Organization (ATO) Certificate consists of:": {
+    answer: "(a) and (b) above",
+    choices: [
+      "A certificate for public display signed by the Authority",
+      "Training specifications containing the terms, conditions, and authorization applicable to the ATO Certificate",
+      "(a) and (b) above",
+    ],
+  },
+  "Each ATO shall maintain a record of each trainee for at least": {
+    answer: "Two (2) years after training",
+    choices: [
+      "One (1) year after training",
+      "Two (2) years after training",
+      "One and a half (11/2) years after training",
+    ],
+  },
+  "The Certificate of Registration issued to registered owner of an aircraft shall indicate":
+    {
+      answer: "The date on which the certificate was issued",
+      choices: [
+        "The expiry date",
+        "The date on which the certificate was issued",
+        "The date of import of the aircraft",
+      ],
+    },
+  "The Registration mark of a Nigerian registered aircraft shall be group of three capital letters in Roman character assigned by":
+    { answer: "The Authority", choices: ["IATA", "ICAO", "The Authority"] },
+  "The Nationality mark of a Nigerian aircraft shall be the capital letter": {
+    answer: "“N”",
+    choices: ["“G”", "“Y”", "“N”"],
+  },
+  "Each aircraft registered shall fix Identification Plate in": {
+    answer: "A prominent position near the main entrance",
+    choices: [
+      "A prominent position in the cockpit",
+      "A prominent position near the main entrance",
+      "A conspicuous place in the cabin",
+    ],
+  },
+  "The requirement for an aircraft to have Certificate of Airworthiness shall not apply to flights beginning and ending in Nigeria without passing over another country if the aircraft is flying in accordance with the conditions of a Permit to Fly which is issued by the Authority in respect of that aircraft":
+    { answer: "True", choices: ["True", "False", "Never"] },
+  "Each applicant for a Certificate of Airworthiness shall ensure the aircraft is properly registered and marked including:":
+    {
+      answer: "Fire proof Identification Plate",
+      choices: [
+        "Shatter proof Identification Plate",
+        "Fire proof Identification Plate",
+        "Water proof Identification Plate",
+      ],
+    },
+  "The Authority may issue a Certificate of Airworthiness in respect of any aircraft if it is satisfied that the aircraft is Fit to Fly having regard to:":
+    {
+      answer:
+        "The design, construction, workmanship, materials in particular any engines fitted therein, of any equipment carried in the aircraft as well as results of flying trials and such other tests of the aircraft as the Authority may require",
+      choices: [
+        "Competence of the crew",
+        "Management’s compliance to Airworthiness Directives (ADs)",
+        "The design, construction, workmanship, materials in particular any engines fitted therein, of any equipment carried in the aircraft as well as results of flying trials and such other tests of the aircraft as the Authority may require",
+      ],
+    },
+  "The Authority shall cause records to be produced for examination upon request at any reasonable time by any person who, in the opinion of the Authority had reasonable grounds for requiring to examine the records":
+    { answer: "True", choices: ["True", "False", "Not applicable"] },
+  "The Authority shall issue Certificate of Airworthiness for aircraft meant to carry fare paying passengers or graduations carriage of passengers as":
+    {
+      answer: "Transport Category (passenger)",
+      choices: [
+        "Private / Special Category",
+        "Transport / Aerial work Category (N/B: e.g. of aerial work: agric A/C, banner towing for advert, film shooing, search & rescue, fish spotting)",
+        "Transport Category (passenger)",
+      ],
+    },
+  "The Authority may amend or modify a Certificate of Airworthiness upon application from the operator or upon the initiative of the Authority":
+    { answer: "True", choices: ["Prohibited", "False", "True"] },
+  "An Approved Certificate": {
+    answer:
+      "Certifies that materials or parts conform to the full requirements of an approved specifications or drawing",
+    choices: [
+      "Certifies that materials or parts conform to the full requirements of an approved specifications or drawing",
+      "Certifies that items are up to standard",
+      "Certifies that items are serviceable",
+    ],
+  },
+  "An Air Operator’s Certificate": {
+    answer:
+      "Is required before an aircraft can operate in the public transport category",
+    choices: [
+      "Is a wall plaque awarded to an approved organization",
+      "Is required before an aircraft can operate in the public transport category",
+      "Is awarded to a company, which has good safety record",
+    ],
+  },
+  "Civil Aircraft Inspection Procedures (CAIP)": {
+    answer: "Contain approved inspections schedules",
+    choices: [
+      "Contain information of a mandatory nature",
+      "Deal with various aspects of construction, overhaul and maintenance of civil aircraft",
+      "Contain approved inspections schedules",
+    ],
+  },
+  "What is a mandatory modification?": {
+    answer:
+      "A modification which must, on the Authority of Nigerian Civil Aviation Authority, be carried out to ensure Continued Airworthiness of aircraft",
+    choices: [
+      "A procedure detailed in NCAR",
+      "A mod. Detailed via Airworthiness Notices",
+      "A modification which must, on the Authority of Nigerian Civil Aviation Authority, be carried out to ensure Continued Airworthiness of aircraft",
+    ],
+  },
+  "Civil Aviation Inspection Procedure (CAIP)": {
+    answer: "Are produced and published by the Airworthiness Division",
+    choices: [
+      "Are produced by an approved organization",
+      "Are produced by aircraft manufacturer",
+      "Are produced and published by the Airworthiness Division",
+    ],
+  },
+  "Technical and administrative information is officially circulated to licensed engineer and aircraft owners":
+    {
+      answer: "Via “Airworthiness Notices”",
+      choices: [
+        "In CAA Revisions",
+        "Through the medium of Air Navigation Regulations",
+        "Via “Airworthiness Notices”",
+      ],
+    },
+  "Which of the following is typical of the number granted to an approved organization":
+    {
+      answer: "AI/0000/07",
+      choices: ["AN/0000/83", "AI/000/67", "AI/0000/07"],
+    },
+  "Which of the following documents is a statutory instrument?": {
+    answer: "CAA",
+    choices: ["CAIP", "SRM", "CAA"],
+  },
+  "A design certificate is raised by": {
+    answer: "AWD NCAA",
+    choices: [
+      "AWD NCAA",
+      "CAA",
+      "The responsible approved design organization",
+    ],
+  },
+  "A Design Certificate certifies that": {
+    answer: "All necessary requirements have been complied with",
+    choices: [
+      "All necessary requirements have been complied with",
+      "The design organization has been approved",
+      "The drawings have been approved by the Chief Designer",
+    ],
+  },
+  "Approved Certificates": {
+    answer:
+      "Are issued under Airworthiness Division Authority to cover the release of goods from an approved organization",
+    choices: [
+      "Are issued under conditions laid down in the CAA",
+      "Are issued under Airworthiness Division Authority to cover the release of goods from an approved organization",
+      "Are issued by a manufacturer producing components which are common to more than one aircraft, and which are sub-standard",
+    ],
+  },
+  "A Nigerian aircraft manufacturer must apply for a C of A to the": {
+    answer: "NCAA",
+    choices: ["IATA", "NCAA", "ICAO"],
+  },
+  "Maintenance records must be retained for": {
+    answer:
+      "2 years after engine, aircraft or propeller has been destroyed or withdrawn permanently from service",
+    choices: [
+      "6 months",
+      "2 years after engine, aircraft or propeller has been destroyed or withdrawn permanently from service",
+      "Until Airworthiness Division approval to destroy them has been given",
+    ],
+  },
+  "An aircraft placed in the “Transport” Category (passenger)": {
+    answer: "May be used for any purpose",
+    choices: [
+      "May be used for any purpose",
+      "May carry passengers only",
+      "May be used to transport passengers on approved routes only",
+    ],
+  },
+  "An application for a Certificate of Registration": {
+    answer:
+      "May be refused at the discretion of the NCAA if it appears that the aircraft might be more suitably registered in some country",
+    choices: [
+      "Is not required if the aircraft weighs less than 2300 kg MCTOM",
+      "Is not required from a Scottish firm",
+      "May be refused at the discretion of the NCAA if it appears that the aircraft might be more suitably registered in some country",
+    ],
+  },
+  "The person responsible for setting up a suitable stores organization is": {
+    answer:
+      "The Chief Inspector of the firm’s inspection organization or the Chief Storekeeper of a firm approved as a stockist",
+    choices: [
+      "The resident Airworthiness Authority Surveyor",
+      "A suitably licensed engineer",
+      "The Chief Inspector of the firm’s inspection organization or the Chief Storekeeper of a firm approved as a stockist",
+    ],
+  },
+  "An approved store": {
+    answer: "Incorporates a quarantine store, and a bonded store",
+    choices: [
+      "Has satisfied the requirements of a visiting surveyors",
+      "Has a suitably segregated commercial section",
+      "Incorporates a quarantine store, and a bonded store",
+    ],
+  },
+  "A quarantine store": {
+    answer:
+      "Holds materials and parts until they are proved to conform to specification and/or drawings",
+    choices: [
+      "Holds parts and materials from Overseas",
+      "Holds materials and parts until they are proved to conform to specification and/or drawings",
+      "Holds life controlled items only",
+    ],
+  },
+  "A Bonded store": {
+    answer:
+      "Is provided to hold parts and materials which have been proved to conform to Specification / Drawings",
+    choices: [
+      "Holds parts and materials released by H.M. customs",
+      "Holds commercial stores only",
+      "Is provided to hold parts and materials which have been proved to conform to Specification / Drawings",
+    ],
+  },
+  "Who is responsible for ensuring that an aircraft has been correctly weighed?":
+    {
+      answer: "The Operator",
+      choices: [
+        "NCAA",
+        "The resident Airworthiness Authority surveyor",
+        "The Operator",
+      ],
+    },
+  "The legislation directing that an aircraft must be weighed is to be found in":
+    {
+      answer: "CAA No. 30 of 1964",
+      choices: ["CAA No. 30 of 1964", "CAIP", "NCAA Notices"],
+    },
+  "The basic weight of an aircraft includes": {
+    answer:
+      "Weight of basic airframe plus equipment plus declared quantity of unusable fuel and oil",
+    choices: [
+      "Fuel load but no payload",
+      "Weight of basic airframe plus equipment plus declared quantity of unusable fuel and oil",
+      "Weight of crew, baggage, and special equipment",
+    ],
+  },
+  "Which of the following documents must be carried on an aircraft?": {
+    answer: "Certificate of Registration",
+    choices: [
+      "Certificate of Registration",
+      "Aircraft Log Book",
+      "Variable pitch Propeller Logbook",
+    ],
+  },
+  "An aircraft registered in Nigeria in respect of which a C of A is in force, can only fly after any part of the aircraft or its equipment has been overhauled or repaired or modified if":
+    {
+      answer: "A Certificate of Release to Service (CRS) has been issued",
+      choices: [
+        "A Concession Certificate is in force",
+        "A Certificate of Release to Service (CRS) has been issued",
+        "Air Operator charter has been issued",
+      ],
+    },
+  "A Maintenance Engineer’s License remains in force": {
+    answer: "For 5 years",
+    choices: ["For 5 years", "For 2 years", "A period not exceeding 12 months"],
+  },
+  "The filling system of an approved stores organization must be retained": {
+    answer:
+      "For a minimum of 5 years after all transactions have been completed",
+    choices: [
+      "For a minimum of 12 months",
+      "For a minimum of 2 years",
+      "For a minimum of 5 years after all transactions have been completed",
+    ],
+  },
+  "Records in the filling system of an approved store may be destroyed": {
+    answer:
+      "With the agreement of the NCAA in the case of major component or assemblies",
+    choices: [
+      "With the agreement of the NCAA in the case of major component or assemblies",
+      "At the discretion of the Chief Storekeeper",
+      "On instruction from the Chief Inspector",
+    ],
+  },
+  "Materials are “approved”": {
+    answer:
+      "If an approved certificate signed by an approved signatory is attached",
+    choices: [
+      "If an inspection stamp appears on the accompanying documentation",
+      "If an inspection stamp appears on the validation certificate",
+      "If an approved certificate signed by an approved signatory is attached",
+    ],
+  },
+  "All materials and parts subjected to special processes must be released under “cover”":
+    {
+      answer: "An Approved Certificate",
+      choices: [
+        "A Certificate of Compliance",
+        "A Certificate of Validation",
+        "An Approved Certificate",
+      ],
+    },
+  "An Approved Certificate must never be issued in respect of": {
+    answer: "Defective or unserviceable parts and materials",
+    choices: [
+      "Parts and materials common to military and civil aircraft",
+      "Materials subjected to special processes",
+      "Defective or unserviceable parts and materials",
+    ],
+  },
+  "Minimum distribution required for Approved Certificate is": {
+    answer: "Two copies, one to consignee, one for consignor",
+    choices: [
+      "One copy",
+      "Two copies",
+      "Two copies, one to consignee, one for consignor",
+    ],
+  },
+  "Information concerning the bonded storage of common supplies for civil and military aircraft may be found":
+    {
+      answer: "In CAA No 30 1964",
+      choices: [
+        "In Airworthiness Notice",
+        "In CAA No 30 1964",
+        "In CAIP BL1-6",
+      ],
+    },
+  "A Validation Certificate": {
+    answer:
+      "Is required for an aircraft registered in Nigeria but with a foreign C of A",
+    choices: [
+      "Is required for an aircraft which has undergone extensive repair",
+      "Is required for a prototype (modified) aircraft only",
+      "Is required for an aircraft registered in Nigeria but with a foreign C of A",
+    ],
+  },
+  "An aircraft made abroad and given a foreign C of A": {
+    answer:
+      "Can operate in Nigeria after Validation Certificate has been issued",
+    choices: [
+      "Automatically qualifies for a Nigerian C of A",
+      "Cannot operate in Nigeria",
+      "Can operate in Nigeria after Validation Certificate has been issued",
+    ],
+  },
+  "Technical Logs are raised": {
+    answer: "In triplicate",
+    choices: [
+      "In duplicate",
+      "In triplicate",
+      "Only if aircraft is expected to land away from airfield of origin",
+    ],
+  },
+  "Flight times are recorded": {
+    answer: "On a chock to chock basis",
+    choices: [
+      "From “first take off” to “last landing”",
+      "From engine start up to shut down",
+      "On a chock to chock basis",
+    ],
+  },
+  "A Certificate of Maintenance": {
+    answer:
+      "Certifies that an aircraft has been maintained in accordance with an approved maintenance schedule",
+    choices: [
+      "Records the qualification of a ground engineer",
+      "Allows a pilot or flight engineer to carry out a duplicate inspection",
+      "Certifies that an aircraft has been maintained in accordance with an approved maintenance schedule",
+    ],
+  },
+  "Certificates of Maintenance Review": {
+    answer: "Are issued in duplicate; one copy in Tech Log, one in file",
+    choices: [
+      "Are issued in triplicate",
+      "Are issued in duplicate",
+      "Are issued in duplicate; one copy in Tech Log, one in file",
+    ],
+  },
+  "Certificate of Maintenance Review is preserved": {
+    answer:
+      "For two years following expiry date or any other period as required in a particular case",
+    choices: [
+      "For two years following expiry date",
+      "For two years following expiry date or any other period as required in a particular case",
+      "For six months only",
+    ],
+  },
+  "Certificate of Release to Service": {
+    answer: "May only be signed by a licensed engineer",
+    choices: [
+      "May only be signed by a licensed engineer",
+      "Is required for routine maintenance check",
+      "May be signed in special circumstances by the qualified holder of an Airline Transport Pilot’s License, Senior Commercial Pilot’s License or Flight Navigator’s License for direct reading compasses only",
+    ],
+  },
+  "An Air Operator Certificate (AOC)": {
+    answer:
+      "Must be granted to an operator who utilizes an aircraft for public transport or aerial work",
+    choices: [
+      "Is required by a member of a flight crew",
+      "Must be granted to an operator who utilizes an aircraft for public transport or aerial work",
+      "Is not required if an Approved Maintenance Schedule is in operation",
+    ],
+  },
+  "A Type Certificate": {
+    answer: "Is a pre-requisite to the issue of a C of A for all aircraft",
+    choices: [
+      "Is a pre-requisite to the issue of a C of A for all aircraft",
+      "Is a pre-requisite to the issue of a C of A for prototype and prototype (modified) aircraft built in any country after 1st January 1968",
+      "Is required for an aircraft weighing less than 2,730 kg",
+    ],
+  },
+  "A concession during manufacture": {
+    answer: "Allows maintenance periods to be adjusted",
+    choices: [
+      "Allows maintenance periods to be adjusted",
+      "Details manufacturing tolerances",
+      "Authorizes an Approved Organization to accept a limited quantity of parts or assemblies which do not strictly comply with specifications and/or drawings",
+    ],
+  },
+  "A primary company is": {
+    answer:
+      "A company approved by Airworthiness Division for the design and manufacture of complete aircraft and engines",
+    choices: [
+      "A company approved by Airworthiness Division for the design and manufacture of complete aircraft and engines",
+      "A supplier",
+      "A company not approved by the airworthiness Division",
+    ],
+  },
+  "A mandatory modification": {
+    answer:
+      "Is a term given to a modification which NCAA considers necessary to ensure continued airworthiness of the aircraft",
+    choices: [
+      "Must be carried out before the current inspection cycle is complete",
+      "Must be embodied before the next flight",
+      "Is a term given to a modification which NCAA considers necessary to ensure continued airworthiness of the aircraft",
+    ],
+  },
+  "Common aeronautical supplies refer to items, the specifications and requirements of which are acceptable to":
+    {
+      answer: "Both the Ministry of defence and the Civil Aviation Authority",
+      choices: [
+        "Both the Ministry of defence and the Civil Aviation Authority",
+        "Both the FAA and the CAA",
+        "All common market airworthiness authorities",
+      ],
+    },
+  "Log books are provided by": {
+    answer:
+      "The manufacturer initially (N/B: and by the operator subsequently)",
+    choices: [
+      "The manufacturer initially (N/B: and by the operator subsequently)",
+      "The operator",
+      "Directorate of Safety Regulations and Monitoring",
+    ],
+  },
+  "Log Books must be retained": {
+    answer: "For two years after the aircraft has been withdrawn or destroyed",
+    choices: [
+      "During the period of service of the aircraft",
+      "For two years after the aircraft has been withdrawn or destroyed",
+      "No retention is necessary since Log Book entries are expanded and kept permanently on file",
+    ],
+  },
+  "“Ground Running” Time": {
+    answer:
+      "Are not included since they do not form part of approved periods between overhauls",
+    choices: [
+      "Are included in the “Total Running Hours”",
+      "Are not included since they do not form part of approved periods between overhauls",
+      "Are recorded for fatigue data only",
+    ],
+  },
+  "Legislation affecting the type of radio equipment fitted to public transport aircraft are detailed in":
+    {
+      answer: "NCAR",
+      choices: [
+        "NCAR",
+        "Airworthiness Directive",
+        "The Aircraft Maintenance Manual",
+      ],
+    },
+  "An Aircraft Maintenance Manual is compiled by": {
+    answer: "The manufacturer",
+    choices: ["The Airworthiness Division", "The operator", "The manufacturer"],
+  },
+  "A.T.A. 100": {
+    answer:
+      "Is a specification intended to standardize the preparation of technical data",
+    choices: [
+      "Is a specification intended to standardize the preparation of technical data",
+      "Must be complied with by American manufacturers only",
+      "Has not been recognized by NCAA",
+    ],
+  },
+  "An Aircraft Flight Manual is issued by": {
+    answer: "The manufacturer and in special cases by the NCAA",
+    choices: [
+      "The operator when approved by the NCAA",
+      "The manufacturer and in special cases by the NCAA",
+      "The NCAA",
+    ],
+  },
+  "A.T.A. specification 200 covers": {
+    answer: "Initial provisioning of major assemblies",
+    choices: [
+      "Initial provisioning of major assemblies",
+      "Packaging of materials for delivery",
+      "Packaging of spare parts for delivery",
+    ],
+  },
+  "The General Purpose Category shall be specified in respect of:": {
+    answer: "An aircraft not operating in the Public Transport role",
+    choices: [
+      "Aircraft of which the maximum total weight authorized exceeds 2,730 kg",
+      "Aircraft of which the maximum total weight  does not authorized exceeds 2,730 kg",
+      "An aircraft not operating in the Public Transport role",
+    ],
+  },
+  "An aircraft in the Special Category": {
+    answer:
+      "May be flown for any purpose, other than public transport, as specified in the C of A but not including the carriage of passengers unless expressly permitted",
+    choices: [
+      "May be flown for any purpose",
+      "May be flown for any purpose, other than public transport, as specified in the C of A but not including the carriage of passengers unless expressly permitted",
+      "May be flown for aerial work only",
+    ],
+  },
+  "Where would you find legislation governing Nationality and Registration marks of Nigerian registered aircraft?":
+    {
+      answer: "NCAR 2006 Part 4",
+      choices: ["NCAR 2006 Part 4", "NCAR 2006 schedule 4", "CAIP"],
+    },
+  "A modification document contains, at a minimum:": {
+    answer:
+      "Modification reference number, issue number, date, description, and lists of parts",
+    choices: [
+      "Modification reference number, issue number, date, description, and lists of parts",
+      "Modification reference number and description",
+      "Modification reference number and description",
+    ],
+  },
+  "Which publication details the minimum requirements relating to cockpit “placards” and instrument “warning arcs”?":
+    { answer: "NCAR", choices: ["CAIP", "CAA", "NCAR"] },
+  "The C of A for an aircraft with a maximum authorized weight not exceeding 2,730 kg certificated in the Private Category, will be valid for":
+    {
+      answer: "One year",
+      choices: [
+        "One year",
+        "Three years",
+        "Three years, provided that the aircraft has been maintained in accordance with the maintenance schedule",
+      ],
+    },
+  "The Certificate of Airworthiness for Export": {
+    answer: "Permits the flight of a foreign built aircraft",
+    choices: [
+      "Permits the flight of a foreign built aircraft",
+      "Does not Permits the flight of a foreign built aircraft",
+      "Is invalidated by a certificate issued by the country of origin",
+    ],
+  },
+  "The Certificate of Maintenance Review is produced": {
+    answer: "In duplicate for AMO (i.e. file) and aircraft (i.e. in Tech Log)",
+    choices: [
+      "One copy only for the owner",
+      "In duplicate for AMO (i.e. file) and aircraft (i.e. in Tech Log)",
+      "In triplicate for owner, aircraft and NCAA",
+    ],
+  },
+  "Under what circumstances may an unregistered civil aircraft fly in Nigeria?":
+    {
+      answer: "In accordance with schedule 2 of the NCAR",
+      choices: [
+        "During a national emergency",
+        "In accordance with schedule 2 of the NCAR",
+        "When issued with a Permit to Fly",
+      ],
+    },
+  "In accordance with the instructions for use of the Light Aircraft Maintenance Log books, entries for work carried out must be made":
+    {
+      answer:
+        "As soon as is practicable but not more than 7 days (i.e. 1 week) after completion of the work",
+      choices: [
+        "Immediately the work is completed",
+        "Before the aircraft fly",
+        "As soon as is practicable but not more than 7 days (i.e. 1 week) after completion of the work",
+      ],
+    },
+  "A modification Record Book must be kept for": {
+    answer:
+      "Aircraft of more than 2,730 kg Maximum Authorized Weight, registered in Nigeria",
+    choices: [
+      "Aircraft of more than 2,730 kg Maximum Authorized Weight, registered in Nigeria",
+      "Aircraft of less than 2,730 kg Maximum Authorized Weight, registered in Nigeria",
+      "All Nigerian constructed aircraft used for the public transport of passengers or aerial work",
+    ],
+  },
+  "Categories of signatures required on a Certificate of Maintenance Review are found in":
+    {
+      answer: "The Approved Maintenance Schedule and in the Technical Log",
+      choices: [
+        "The Aircraft Maintenance Manual",
+        "The Approved Maintenance Schedule and in the Technical Log",
+        "Airworthiness Notice No 7 paragraph 3.3",
+      ],
+    },
+  "When a Certificate of Release to Service is certified in the Technical Log":
+    {
+      answer:
+        "One copy must be retained in the Technical Log, second copy to be kept on the ground in aircraft file",
+      choices: [
+        "One copy must be retained in the Technical Log, second copy to be kept on the ground in aircraft file",
+        "All copies must be kept on aircraft until the Technical Log is filled with entries",
+        "All of the above",
+      ],
+    },
+  "A Flight manual by definition of the NCAR Part 8 forms part of the": {
+    answer: "Certificate of Airworthiness",
+    choices: [
+      "Approved Maintenance Schedule",
+      "Approved Crew Manual",
+      "Certificate of Airworthiness",
+    ],
+  },
+  "An Approved Certificate which lists more than one item is": {
+    answer:
+      "Acceptable provided items listed can be readily correlated with the certificate",
+    choices: [
+      "Invalid in all cases",
+      "Acceptable provided items listed can be readily correlated with the certificate",
+      "Acceptable where similar items are concerned",
+    ],
+  },
+  "An amendment to an Approved Maintenance Schedule": {
+    answer: "Shall not be made without written authority from the NCAA",
+    choices: [
+      "Shall not be made without written authority from the NCAA",
+      "Is made by the manufacturer and the NCAA is informed",
+      "Can only be incorporated by authorized representative of the NCAA",
+    ],
+  },
+  "A Certificate of Maintenance Review is issued in": {
+    answer: "2 copies",
+    choices: ["2 copies", "4 copies", "3 copies"],
+  },
+  "An aircraft in the General Purpose Category is maintained to a": {
+    answer: "Maintenance Schedule approved by NCAA",
+    choices: [
+      "Maintenance Schedule approved by the constructor",
+      "Maintenance Schedule approved by NCAA",
+      "Maintenance Schedule compiled by the owner of the aircraft",
+    ],
+  },
+  "A Certificate of Maintenance Review certifies that": {
+    answer:
+      "Maintenance required by an Approved Maintenance Schedule for an aircraft was carried out",
+    choices: [
+      "From the date of issue of the certificate the aircraft will be maintained in accordance with an approved maintenance schedule by the engineer whose signature appears on the certificate",
+      "An engineer personally rectified all defects before issuing the certificate",
+      "Maintenance required by an Approved Maintenance Schedule for an aircraft was carried out",
+    ],
+  },
+  "Log books are required for": {
+    answer: "Only Variable Pitch Propellers",
+    choices: [
+      "All aircraft propellers",
+      "Only Variable Pitch Propellers",
+      "Only metal propellers",
+    ],
+  },
+  "Emergency rescue break-in markings apply to aircraft of Maximum Certificated Take-off Mass exceeding":
+    {
+      answer: "12,500 lbs (5,700 kg)",
+      choices: ["2,730 kg", "3,600 kg", "12,500 lbs (5,700 kg)"],
+    },
+  "Which persons can carry out a check “A” inspection on a Light Aircraft?": {
+    answer:
+      "A competent person authorized by the owner or operator of the aircraft",
+    choices: [
+      "A competent person authorized by the owner or operator of the aircraft",
+      "Only a flight engineer",
+      "Only a Licensed Aircraft Maintenance Engineer",
+    ],
+  },
+  "What is a Duplicate Inspection?": {
+    answer:
+      "An inspection carried out after engine or flying controls have been disturbed",
+    choices: [
+      "An inspection carried out on an aircraft after being struck by lightening",
+      "An inspection carried out after engine or flying controls have been disturbed",
+      "An inspection carried out after a heavy landing",
+    ],
+  },
+  "Can a Licensed Pilot issue a Certificate of Compliance for work carried out on aircraft?":
+    {
+      answer:
+        "Yes, when given written authority to do so by NCAA on a particular occasion",
+      choices: [
+        "No, under no circumstance",
+        "Yes, when given written authority to do so by NCAA on a particular occasion",
+        "Yes, if there is no licensed engineer available",
+      ],
+    },
+  "Can a pilot with type endorsement, sign for a Duplicate Inspection?": {
+    answer:
+      "Yes, but only the second part of the inspection when a minor adjustment of the flight controls is carried out away from base",
+    choices: [
+      "Yes, but only the second part of the inspection when a minor adjustment of the flight controls is carried out away from base",
+      "Yes, provided the aircraft is test flown afterwards and does not fly outside Nigeria airspace",
+      "No, under no circumstances",
+    ],
+  },
+  "The conditions laid down for the grant of an Air Operator Certificate will be found in":
+    {
+      answer: "NCAR Part 9",
+      choices: ["NCAR Part 9", "NCAR Part 2", "NCAR Part 1"],
+    },
+  "F.A.A. Airworthiness Directives Volume 1 cover": {
+    answer: "Large aircraft above 12,500 lb on the U.S. register",
+    choices: [
+      "Small aircraft below 12,500 lb on the W.S. register",
+      "All foreign constructed aircraft, other than American on the U.K. register",
+      "Large aircraft above 12,500 lb on the U.S. register",
+    ],
+  },
+  "NCAA Notice 7 Paragraph 5 covers": {
+    answer: "The issue of engineers licenses",
+    choices: [
+      "The issue of engineers licenses",
+      "Duplicate Inspection",
+      "The issue of Certificate of Compliance",
+    ],
+  },
+  "What must a pilot do on the termination of a flight of a public transport aircraft?":
+    {
+      answer:
+        "Enter in the Technical Log particulars of any defects observed during the flight",
+      choices: [
+        "Inspect the aircraft after all the passengers have vacated the aircraft",
+        "Enter in the Technical Log particulars of any defects observed during the flight",
+        "Check the fuel state of the aircraft to determine the amount of fuel required for the next flight",
+      ],
+    },
+  "Aircraft with a Certificate of Airworthiness in the Special Category": {
+    answer:
+      "Must have an appropriate Log books for the aircraft engine(s) and propellers",
+    choices: [
+      "Must have an appropriate Log books for the aircraft engine(s) and propellers",
+      "Are not legally required to have log book but are recommended by the NCAA to have them",
+      "Only need log books for the engine/s so that a record of the number of flying hours before the reset overhaul can be kept",
+    ],
+  },
+  "What is a Contracting State?": {
+    answer:
+      "A state which is a member to the Convention of International Civil Aviation Organization, signed at Chicago on 7th December, 1944",
+    choices: [
+      "A state which is a member to the Convention of International Civil Aviation Organization, signed at Chicago on 7th December, 1944",
+      "The countries prescribed in the Air Navigation (general) regulations numbers 13",
+      "None of the above",
+    ],
+  },
+  "Can a licensed engineer certify the welding of aircrafts parts?": {
+    answer:
+      "No, welding of aircraft parts may only be certified by the NCAA approved welders",
+    choices: [
+      "Yes, providing the parts are not classified as primary structure",
+      "No, welding of aircraft parts may only be certified by the NCAA approved welders",
+      "No, all aircraft welding must be carried out and certified by the aircraft’s constructor",
+    ],
+  },
+  "An “X” licensed engineer is not authorized to sign the": {
+    answer: "Certificate of Fitness for Flight (i.e. airworthiness)",
+    choices: [
+      "Certificate of Maintenance Review",
+      "Certificate of Release to Service",
+      "Certificate of Fitness for Flight (i.e. airworthiness)",
+    ],
+  },
+  "Service Bulletins are supplied by the": {
+    answer: "Constructor",
+    choices: ["Constructor", "NCAA", "The Directorate of Aircraft Safety"],
+  },
+  "In flight ground handling incident reporting is contained in": {
+    answer: "Airworthiness Notice 2 issued 1 of May 1984",
+    choices: [
+      "Airworthiness Notice 2 issued 1 of May 1984",
+      "Maintenance Manual",
+      "Maintenance Schedule",
+    ],
+  },
+  "An Airworthiness Approved Note (AAN)": {
+    answer: "Authorizes the embodiment of major modification",
+    choices: [
+      "Is issued by the A.W.D. authorizing the aircraft to fly after the embodiment of a modification",
+      "Authorizes the embodiment of major modification",
+      "Is a certificate signed by a test pilot stating that the aircraft is airworthy after a test flight",
+    ],
+  },
+  "Certificate of Release to Service must be issued before an aircraft in the":
+    {
+      answer:
+        "Private Category is flown for the purpose of carrying passengers, aerial work category can fly for purpose of testing special equipment",
+      choices: [
+        "Private Category is flown for the purpose of carrying passengers, aerial work category can fly for purpose of testing special equipment",
+        "General purpose category can fly for the purpose of the public transport of passengers and does not exceed 2,730 kg Maximum Authorized weight",
+        "Any of the above",
+      ],
+    },
+  "A preliminary notification of incident should be made to the NCAA office": {
+    answer:
+      "Within 24 hours of occurrence and from CAD 24 should be sent in within a week of incident occurrence",
+    choices: [
+      "Within 24 hours of occurrence and from CAD 24 should be sent in within a week of incident occurrence",
+      "Within 12 hours of occurrence of incident but not later than seven days of incident occurrence",
+      "(a) and (b) are correct",
+    ],
+  },
+  "The weight and balance schedule will be found in the": {
+    answer: "Flight Manual",
+    choices: ["Flight Manual", "Technical Log", "Aircraft Log Book"],
+  },
+  "Which of the following is not part of ‘A’ condition?": {
+    answer:
+      "The flight shall be made under the supervision of a person approved by the Minister",
+    choices: [
+      "The flight shall be made under the supervision of a person approved by the Minister",
+      "Aircraft shall not carry any passengers or cargo except passengers performing duties on the aircraft in connection with the flight",
+      "The aircraft shall not fly over any congested area of a city",
+    ],
+  },
+  "Which of the following statements is true?": {
+    answer:
+      "Any aircraft registered in Nigeria must carry a fire proof metal plate bearing the Registration marks together with the name and address of the registered owner of the aircraft",
+    choices: [
+      "Any aircraft registered in Nigeria must carry a fire proof metal plate bearing the Registration marks together with the name and address of the registered owner of the aircraft",
+      "The name plate is only mandatory for transport category aircraft",
+      "Name plate has nothing to do with regulation",
+    ],
+  },
+  "The registration letters of a fixed wing aircraft are placed": {
+    answer: "The wings, fuselage and vertical fin",
+    choices: [
+      "On the wing tips only",
+      "The wings, fuselage and vertical fin",
+      "Both of the above",
+    ],
+  },
+  "The registration letters on the wings shall be": {
+    answer:
+      "Tops of the letters and numbers shall be towards the leading edge of the wings",
+    choices: [
+      "Tops of the letters and numbers shall be towards the leading edge of the wings",
+      "Tops of the letters and numbers shall be towards the trailing edge of the wings",
+      "Tops of the letters and numbers shall be towards the fuselage",
+    ],
+  },
+  "The aircraft weight schedule shall be retained": {
+    answer: "For 6 months following expiry",
+    choices: [
+      "For 6 months following expiry",
+      "Not required to be retained following a reweigh and reissue",
+      "2 years",
+    ],
+  },
+  "The thickness of Registration letters on an aircraft shall be": {
+    answer:
+      "1/6 of the height (width = 2/3 of height; thickness = 1/6 of height; Height: ≥ 50 cm (20”) on wings; ≥ 30 cm (12”) on fuselage and on vertical tail)",
+    choices: [
+      "Maximum of two inches wide",
+      "1/6 of the height (width = 2/3 of height; thickness = 1/6 of height; Height: ≥ 50 cm (20”) on wings; ≥ 30 cm (12”) on fuselage and on vertical tail)",
+      "Not more than three inches and not less than one inch",
+    ],
+  },
+  "Registration letters, width of each letter on an aircraft fuselage must be":
+    {
+      answer: "2/3 of the height of the letter",
+      choices: [
+        "2/3 of the height of the letter",
+        "Maximum of ¾ of the height",
+        "Any reasonable amount to give an even appearance",
+      ],
+    },
+  "The identification plate containing owner’s name and A/C details shall be": {
+    answer: "Made of a fireproof material and is mandatory",
+    choices: [
+      "Any materials suitably fixed near the main entrance of the aircraft",
+      "Made of a fireproof material and is mandatory",
+      "A metal plate affixed to the starboard side of the aircraft",
+    ],
+  },
+  "The height of the registration letters fixed to a wing shall be": {
+    answer: "At least 50 centimetres",
+    choices: ["30 centimetres", "Any even size", "At least 50 centimetres"],
+  },
+  "An aircraft in Transport Category (passengers) may fly": {
+    answer: "For any purpose (N/B: it can carry passengers, cargo, etc.)",
+    choices: [
+      "To carry passengers only",
+      "For any purpose (N/B: it can carry passengers, cargo, etc.)",
+      "Not for aerial work",
+    ],
+  },
+  "An aircraft in the Private Category may fly": {
+    answer: "Any purpose other than public transport and aerial work",
+    choices: [
+      "Passenger and aerial work purposes",
+      "Any purpose other than public transport and aerial work",
+      "Private persons only",
+    ],
+  },
+  "An aircraft on a flight to Berlin – Germany must have as part of its radio navigation equipment":
+    {
+      answer: "A.D.F.",
+      choices: [
+        "A.D.F.",
+        "Radio and visual aids only",
+        "Radio capable of receiving aeronautical radio station material",
+      ],
+    },
+  "A public transport registered in Nigeria on an international flight must carry":
+    {
+      answer:
+        "Radio license, C of A, crew licenses, load sheet, C of M, Tech log, C of Reg",
+      choices: [
+        "Radio license, C of A, crew licenses, load sheet, C of M, Tech log, C of Reg",
+        "C of Reg, C of A and Tech Log only",
+        "C of Reg, C of A and crew licenses",
+      ],
+    },
+  "An aircraft registered in Nigeria not on public transport is required to carry on international flights":
+    {
+      answer: "C of A, C of Reg, Radio Station license, crew licenses",
+      choices: [
+        "C of A, Tech Log, load sheet, crew licenses",
+        "C of A, C of Reg, Radio Station license, crew licenses",
+        "crew licenses",
+      ],
+    },
+  "a four – engine variable pitch propeller aircraft requires the following log books:":
+    {
+      answer:
+        "A total of nine, one for the airframe, one for each engine and one for each propeller",
+      choices: [
+        "one for the airframe, and one for each engine",
+        "one for the airframe and one engine",
+        "A total of nine, one for the airframe, one for each engine and one for each propeller",
+      ],
+    },
+  "An aircraft operating under “B” conditions": {
+    answer:
+      "Must be marked in an approved manner if not on the register (i.e. if not registered in Nigeria but in another country)",
+    choices: [
+      "Must be on the register",
+      "Need not be registered",
+      "Must be marked in an approved manner if not on the register (i.e. if not registered in Nigeria but in another country)",
+    ],
+  },
+  "A Certificate of Maintenance can be issued by": {
+    answer:
+      "An appropriately licensed engineer or a person approved by the Authority for one occasion",
+    choices: [
+      "Any engineer within an airline organization",
+      "An appropriately licensed engineer or a person approved by the Authority for one occasion",
+      "Any aircraft operator",
+    ],
+  },
+  "The number of fuses which can be changed in flight shall be": {
+    answer: "10% or 3 of each rating whichever is greater",
+    choices: [
+      "A maximum of 5",
+      "15% or 5 of each rating",
+      "10% or 3 of each rating whichever is greater",
+    ],
+  },
+  "A certificate of Maintenance is valid for": {
+    answer:
+      "A period specified in the Approved Maintenance Schedule in either flying hours or calendar time",
+    choices: [
+      "50 hours or one month",
+      "100 hours",
+      "A period specified in the Approved Maintenance Schedule in either flying hours or calendar time",
+    ],
+  },
+  "A certificate of Maintenance must be retained for": {
+    answer: "2 years following expiry",
+    choices: [
+      "6 months following expiry",
+      "1 year following the date of validity",
+      "2 years following expiry",
+    ],
+  },
+  "Equipment carried by an aircraft registered in Nigeria": {
+    answer: "Is specified in Schedule 5 according to circumstances as required",
+    choices: [
+      "Is specified by the manufacturer",
+      "Is laid down in Schedule 3",
+      "Is specified in Schedule 5 according to circumstances as required",
+    ],
+  },
+  "Radio equipment required to be carried in an aircraft will be found in": {
+    answer: "Accordance with NCAR Part 7",
+    choices: [
+      "Accordance with NCAR Part 7",
+      "Not mandatory",
+      "Schedule 6 table 2 refers",
+    ],
+  },
+  "An Aircraft Maintenance Engineer’s License is valid in Nigeria for": {
+    answer: "12 months (N/B: b/4 it was 1 year but now it’s 5 years)",
+    choices: [
+      "18 months",
+      "24 months",
+      "12 months (N/B: b/4 it was 1 year but now it’s 5 years)",
+    ],
+  },
+  "If the C of A has expired and the aircraft needs to be weighed": {
+    answer:
+      "It can fly under “A” conditions with a Certificate of Fitness to Fly",
+    choices: [
+      "It cannot fly unless weighed first",
+      "It can fly under “A” conditions with a Certificate of Fitness to Fly",
+      "Does not need a Certificate of Fitness to Fly",
+    ],
+  },
+  "Access to the aircraft for Airworthiness inspections is a function": {
+    answer: "Decided by the Authority",
+    choices: [
+      "Decided by the operator",
+      "Decided by the NCAA Local Area Surveyor",
+      "Decided by the Authority",
+    ],
+  },
+  "An engine defect occurred in flight; defect and rectification should be recorded in":
+    {
+      answer: "Tech Log and engine log book",
+      choices: [
+        "Tech Log",
+        "Tech Log and engine log book",
+        "Tech Log, engine log book and airframe log book",
+      ],
+    },
+  "Log books are mandatory requirement for": {
+    answer: "Variable pitch propellers, engines and airframe",
+    choices: [
+      "Aircraft and engines",
+      "Any propeller, engines and airframe",
+      "Variable pitch propellers, engines and airframe",
+    ],
+  },
+  "After defect rectification a C of C must be signed": {
+    answer: "Within seven days",
+    choices: [
+      "Within seven days",
+      "Within ten days of completing the work",
+      "Seven days maximum after expiry of the current C of M",
+    ],
+  },
+  "An aircraft can fly under “A” conditions with": {
+    answer:
+      "Minimum flight crew specified in the previous C of A or a C of A of a similar type",
+    choices: [
+      "Any number of crew",
+      "Two persons",
+      "Minimum flight crew specified in the previous C of A or a C of A of a similar type",
+    ],
+  },
+  "For a flight to be carried out under ”A” conditions": {
+    answer:
+      "An application for issue or validation or renewal or approval must have been made",
+    choices: [
+      "An application for issue or validation or renewal or approval must have been made",
+      "Only requires a current C of Fitness to fly",
+      "Does not need either of the above",
+    ],
+  },
+  "An aircraft when away from base has work done requiring a C of C, which of the following applies?":
+    {
+      answer:
+        "Can be flown at the commander’s discretion, with a written report by the commander giving reasons and particulars to be submitted to the Authority within ten days",
+      choices: [
+        "Can be flown at the commander’s discretion",
+        "Can return to his home base",
+        "Can be flown at the commander’s discretion, with a written report by the commander giving reasons and particulars to be submitted to the Authority within ten days",
+      ],
+    },
+  "A type rated AME may sign for": {
+    answer: "C of Maintenance, C of Compliance, C of Fitness for Flight",
+    choices: [
+      "Major and minor modifications and C of C’s",
+      "C of Conformity, C of Compliance, C of Registration",
+      "C of Maintenance, C of Compliance, C of Fitness for Flight",
+    ],
+  },
+  "On Nigerian registered aircraft the registration markings on the wing will be placed":
+    {
+      answer: "On the lower surface of the wing structure",
+      choices: [
+        "Top RH wing and lower LH wing",
+        "On the lower surface of the wing structure",
+        "Top LH wing and bottom RH wing",
+      ],
+    },
+  "Log books are retained after the aircraft has been destroyed or permanently withdrawn from use for":
+    {
+      answer: "Two years",
+      choices: [
+        "1 year",
+        "As required by the airworthiness Authority",
+        "Two years",
+      ],
+    },
+  "Entries made in log book shall be": {
+    answer: "In ink or indelible pencil",
+    choices: [
+      "In pencil but legible",
+      "In ink or indelible pencil",
+      "Any of the above",
+    ],
+  },
+  "In which case shall a C of A cease to remain in force?": {
+    answer: "When a repair has been carried out using commercial materials",
+    choices: [
+      "When the aircraft has been repaired using approved materials",
+      "When the aircraft is on Scheduled Maintenance",
+      "When a repair has been carried out using commercial materials",
+    ],
+  },
+  "Which aircrafts are allowed to fly in Nigeria?": {
+    answer:
+      "Nigerian registered or registered in a contracting state or country",
+    choices: [
+      "Nigerian registered only",
+      "Nigerian registered or registered in a contracting state or country",
+      "Any aircraft",
+    ],
+  },
+  "Which aircraft requires weighing and the C of G determined in order to have a C of A issued?":
+    {
+      answer: "All aircraft",
+      choices: [
+        "All aircraft",
+        "Fixed wing aircraft only",
+        "Flying machines and gliders",
+      ],
+    },
+  "An AMEL of any category can sign for": {
+    answer: "C of M, C of C and C of Fitness to Fly  subject to rating",
+    choices: [
+      "C of M",
+      "C of M and C of C subject to rating",
+      "C of M, C of C and C of Fitness to Fly  subject to rating",
+    ],
+  },
+  "What is the minimum requirement to register an aircraft in Nigeria?": {
+    answer: "Unqualified owner and qualified charterer",
+    choices: [
+      "Owner qualified person",
+      "Unqualified owner and qualified charterer",
+      "Both owner and charterer must be qualified",
+    ],
+  },
+  "Which is false in a glider?": {
+    answer: "Needs not to comply with the radio equipment in Part 7",
+    choices: [
+      "Can fly unregistered in Nigeria if not on public transport or aerial work",
+      "Needs to comply with the requirement in Part 7",
+      "Needs not to comply with the radio equipment in Part 7",
+    ],
+  },
+  "An aircraft first of its type in Nigeria can fly": {
+    answer: "Not under “A” conditions",
+    choices: [
+      "Under “A” conditions",
+      "Not under “A” conditions",
+      "Under “A” conditions if an export C of A is in force",
+    ],
+  },
+  "A Certificate of Maintenance is valid for": {
+    answer:
+      "An hour or calendar period whichever occurs first I.A.W. the Approved Maintenance Schedule",
+    choices: [
+      "The period stated on the C of A",
+      "100 hours",
+      "An hour or calendar period whichever occurs first I.A.W. the Approved Maintenance Schedule",
+    ],
+  },
+  "When an aircraft changes operators which documents must be transferred?": {
+    answer: "C of M, C of R, C of A, Tech log and the aircraft log book",
+    choices: [
+      "C of M",
+      "C of M, C of R and Tech log",
+      "C of M, C of R, C of A, Tech log and the aircraft log book",
+    ],
+  },
+  "An aircraft can fly under “B” conditions": {
+    answer: "Whether registered or not must be suitably marked",
+    choices: [
+      "Only if registered",
+      "Only if unregistered (N/B: if not registered in Nigeria; i.e. must be registered in another contracting state, but must be suitably marked)",
+      "Whether registered or not must be suitably marked",
+    ],
+  },
+  "Aircraft equipment is specified in": {
+    answer: "NCAR, Part 7",
+    choices: ["NCAR, Part 7", "5th Schedule", "6th Schedule"],
+  },
+  "Aircraft radio equipment is specified in": {
+    answer: "NCAR, Part 7",
+    choices: ["2nd Schedule", "4th Schedule", "NCAR, Part 7"],
+  },
+  "Which is illegal without a valid C of A?": {
+    answer: "Glider on aerial work",
+    choices: [
+      "Glider on aerial work",
+      "Aircraft under “A” conditions",
+      "Aircraft flying on a C of Fitness",
+    ],
+  },
+  "Certificate of Maintenance is issued for": {
+    answer: "Aircraft inspected I.A.W. Approved Maintenance Schedule",
+    choices: [
+      "Aircraft inspected I.A.W. Maintenance Schedule",
+      "Aircraft inspected I.A.W. Approved Maintenance Schedule",
+      "After repair and modification",
+    ],
+  },
+  "On completion of an aircraft charter the charterer is to": {
+    answer: "Inform the Authority",
+    choices: [
+      "Hand over the registration",
+      "Cancel the registration",
+      "Inform the Authority",
+    ],
+  },
+  "What signature is required on a C of fitness when flying under “A” conditions":
+    {
+      answer: "All appropriate categories as required for the aircraft type",
+      choices: [
+        "“A” licensed Aircraft Engineer",
+        "“A” and C Licensed Engineer",
+        "All appropriate categories as required for the aircraft type",
+      ],
+    },
+  "A Tech log is required for": {
+    answer: "All aircraft",
+    choices: [
+      "All aircraft",
+      "All aircraft above 5,700 kg",
+      "All aircraft having a mandatory Approved Maintenance Schedule",
+    ],
+  },
+  "The Tech log need not be carried when:": {
+    answer: "It must be carried at all times on the aircraft",
+    choices: [
+      "It must be carried at all times on the aircraft",
+      "The flight begins and ends at the same airfield without passing over any other country",
+      "None of the above",
+    ],
+  },
+  "A flight is required at a time when a Scheduled Inspection is due": {
+    answer: "The aircraft can be flown if the C of A is valid",
+    choices: [
+      "An AMEL can apply for an extension for 10% of the time of the inspection type",
+      "It must be completed before the next flight",
+      "The aircraft can be flown if the C of A is valid",
+    ],
+  },
+  "Following a C of A inspection the aircraft has to be flown to another place for weighing":
+    {
+      answer: "This requires a permit to fly",
+      choices: [
+        "This requires a permit to fly",
+        "This is permissible",
+        "Does not require (a) or (b)",
+      ],
+    },
+  "Rectification in the Tech log": {
+    answer:
+      "Copy of the C of C in the Tech log clearly identifiable against the defect",
+    choices: [
+      "Only requires clearance by an AMEL",
+      "C of C only to be kept on the ground",
+      "Copy of the C of C in the Tech log clearly identifiable against the defect",
+    ],
+  },
+  "Minimum height of registration letters on a fuselage": {
+    answer: "At least 30 cm",
+    choices: ["At least 50 cm", "At least 15 cm", "At least 30 cm"],
+  },
+  "The Authority can": {
+    answer: "Revoke licenses etc",
+    choices: ["Revoke licenses etc", "Alter licenses", "Vary licenses"],
+  },
+  "The performance group of an aircraft is given in": {
+    answer: "C of A",
+    choices: ["C of A", "By the constructor", "The regulations"],
+  },
+  "Certificate of Compliance means": {
+    answer:
+      "Parts of the aircraft or its components has been overhauled, repaired or replaced I.A.W. the approved schedule and manuals and using approved materials",
+    choices: [
+      "Parts of the aircraft or its components has been overhauled, repaired or replaced I.A.W. the approved schedule and manuals and using approved materials",
+      "The work has been completed",
+      "A mandatory inspection has been carried out",
+    ],
+  },
+  "Following maintenance work carried out on a control system a duplicate inspection is required":
+    {
+      answer:
+        "This is to be carried out by two suitably qualified engineers inspecting the control system with no additional work being carried out between the inspections",
+      choices: [
+        "This is to be carried out by two engineers, one starting at the back of the aircraft and the other at the front",
+        "This is to be carried out by one engineer inspecting the control twice",
+        "This is to be carried out by two suitably qualified engineers inspecting the control system with no additional work being carried out between the inspections",
+      ],
+    },
+  "Who can be qualified to be the owner of an aircraft registered in Nigeria?":
+    {
+      answer:
+        "Citizens of Nigeria or corporate bodies established under and subject to the laws of Nigeria",
+      choices: [
+        "Citizens of Nigeria or corporate bodies established under and subject to the laws of Nigeria",
+        "Anyone",
+        "Any company",
+      ],
+    },
+  "A suitably licensed AMEL can sign": {
+    answer: "C of M, C of C, C of Fitness",
+    choices: [
+      "C of C, C of M, C of R",
+      "C of M, C of C",
+      "C of M, C of C, C of Fitness",
+    ],
+  },
+  "On a private international flight the following documents must be carried": {
+    answer: "C of A, C of R, Tech log",
+    choices: [
+      "C of A, C of R, Tech log",
+      "C of A, C of M, C of R",
+      "C of M, crew licenses and radio licenses",
+    ],
+  },
+  "An aircraft has recently undergone an engine replacement, the details of which will be recorded":
+    {
+      answer: "The engine log book only",
+      choices: [
+        "The Tech log",
+        "The engine log book only",
+        "The airframe log book and the engine log books",
+      ],
+    },
+  "In Nigeria a crash axe and crow bar are carried": {
+    answer: "Both 1 & 2",
+    choices: [
+      "On aircraft of over 5,700 kg and helicopters of over 2,730 kg",
+      "On aircraft with more than nine passenger seats",
+      "Both 1 & 2",
+    ],
+  },
+  "Under Nigerian rules and regulations": {
+    answer: "Neither of the above",
+    choices: [
+      "An aircraft may have more than one registration",
+      "An aircraft may be registered in more than one country",
+      "Neither of the above",
+    ],
+  },
+  "Under Nigerian rules and regulations, hand held fire extinguishers must be located in":
+    {
+      answer: "The cockpit, cabin and cargo holds accessible from the cockpit",
+      choices: [
+        "The cabin only",
+        "The cockpit and the cabin",
+        "The cockpit, cabin and cargo holds accessible from the cockpit",
+      ],
+    },
+  "In respect of an E.L.T. installed in an aircraft, which of the following statements is incorrect?":
+    {
+      answer:
+        "Only aircraft above 5,700 kg in any category must carry an E.L.T.",
+      choices: [
+        "The date of expiry of the battery must be marked on the outside of the E.L.T.",
+        "All aircraft flying in Nigeria must carry an E.L.T.",
+        "Only aircraft above 5,700 kg in any category must carry an E.L.T.",
+      ],
+    },
+  "Before an aircraft can fly commercially in Nigeria, the company or organization must have":
+    {
+      answer: "Both 1 & 2",
+      choices: [
+        "An AOC",
+        "An AMO or a third party maintenance agreement",
+        "Both 1 & 2",
+      ],
+    },
+  "Under Nigerian rules and regulations a fireproof metal plate containing registration and ownership details":
+    {
+      answer:
+        "Must be fixed to the starboard side of the aircraft near the main entrance",
+      choices: [
+        "Must be carried by all aircraft",
+        "Only needs to be carried by aircraft above 2,730 kg",
+        "Must be fixed to the starboard side of the aircraft near the main entrance",
+      ],
+    },
+  "An aircraft flying under “B” conditions in Nigeria": {
+    answer:
+      "May carry persons in the aircraft in order to carry out a technical evaluation",
+    choices: [
+      "Must be registered in Nigeria",
+      "Must appoint a pilot in command approved by the aircraft manufacturer",
+      "May carry persons in the aircraft in order to carry out a technical evaluation",
+    ],
+  },
+  "In respects to log books which of the following statements is true?": {
+    answer:
+      "A log book is required for the aircraft, each engine and each variable pitch propeller",
+    choices: [
+      "A log book is required for the aircraft and one for the engines",
+      "A log book is required for the aircraft, each engine and each fixed pitch propeller",
+      "A log book is required for the aircraft, each engine and each variable pitch propeller",
+    ],
+  },
+  "The purpose for which an aircraft may fly are as follows except:": {
+    answer:
+      "Transport Category (passenger), any purpose other than aerial work",
+    choices: [
+      "Transport Category (passenger), any purpose",
+      "Transport Category (passenger), any purpose other than aerial work",
+      "Transport Category (cargo), any purpose other than public transport of passengers",
+    ],
+  },
+  "In the event of an unqualified person becoming an owner of an aircraft whilst the aircraft is chartered":
+    {
+      answer: "The charterer must notify the authority",
+      choices: [
+        "The registration of the aircraft becomes invalid",
+        "The charterer must notify the authority",
+        "Both (a) and (b) are false",
+      ],
+    },
+  "An owner P.I.C. may perform any task defined as maintenance on the aircraft except as provided in the following:":
+    {
+      answer: "Both (a) and (b)",
+      choices: [
+        "If the aircraft Maximum Take-off Mass exceeds 2,730 kg",
+        "The aircraft is listed for use by an A.O.C. holder",
+        "Both (a) and (b)",
+      ],
+    },
+  "In respect to maintenance tasks that can be performed by authorized persons;":
+    {
+      answer:
+        "An AMO may perform aircraft maintenance within the limits specified by the authority in its approval document",
+      choices: [
+        "A pilot licensed by the Authority may release an aircraft to service following a 100 hour inspection providing the M.T.O.W. is less than 2,730 kg",
+        "An AMO may perform aircraft maintenance within the limits specified by the authority in its approval document",
+        "A person not being a CSAM may perform inspections under supervision",
+      ],
+    },
+  "Except for records maintained by an AOC holder, the owner or operator shall retain the records of maintenance, inspections and minor modification until the work is repeated or superseded by other work for":
+    { answer: "1 year", choices: ["1 year", "2 years", "5 years"] },
+  "Modification carried out on an aircraft under 2,730 kg are recorded in": {
+    answer: "The pink pages of the aircraft log book",
+    choices: [
+      "The pink pages of the aircraft log book",
+      "Modification Record Book",
+      "Mandatory Aircraft Modification & Inspection Summary",
+    ],
+  },
+  "The Mandatory Modification and Inspection Summary will list:": {
+    answer:
+      "All mandatory modifications and inspections required on any aircraft, British or Foreign",
+    choices: [
+      "All mandatory modifications and inspections required on any aircraft, British or Foreign",
+      "All mandatory modifications and inspections required on Foreign constructed aircraft",
+      "All mandatory modifications and inspections required on British constructed aircraft",
+    ],
+  },
+  "Any work on an engine control system must be duplicately inspected": {
+    answer: "After all the work has been completed and before the next flight",
+    choices: [
+      "After all the work has been completed and before the next flight",
+      "At the discretion of a licensed engineer",
+      "After the first flight, after the work has been completed",
+    ],
+  },
+  "CAP 395 – modification record book is required for": {
+    answer: "All aircraft over 2,730 kg",
+    choices: [
+      "All aircraft",
+      "All aircraft over 2,730 kg",
+      "American aircraft only",
+    ],
+  },
+  "Mandatory modifications will be stated in": {
+    answer: "Manufacturer’s Service Bulletins or equivalent document",
+    choices: [
+      "Air Navigation orders",
+      "Manufacturer’s Service Bulletins or equivalent document",
+      "CAA Aeronautical Information Circular",
+    ],
+  },
+  "A stockist is defined as": {
+    answer: "A CAA approved source",
+    choices: [
+      "A non – CAA approved source",
+      "A CAA approved source",
+      "A CAA acceptable source",
+    ],
+  },
+  "U.K. registered aircraft operating pursuance to an AOC may be maintained": {
+    answer: "By persons holding JAR 145 company authorizations",
+    choices: [
+      "By organizations with national approvals",
+      "By persons holding LWTR and Type Ratings",
+      "By persons holding JAR 145 company authorizations",
+    ],
+  },
+  "Section 1 of any JAR contains:": {
+    answer: "The requirements",
+    choices: [
+      "The requirements",
+      "Means of compliance",
+      "Clarification material",
+    ],
+  },
+  "Under JAR 145, the Approval Certificate specifies": {
+    answer: "The extent of the approval",
+    choices: [
+      "The extent of the approval",
+      "The scope of the work",
+      "The level of the approval",
+    ],
+  },
+  "A Certificate of Fitness for Flight is valid for a maximum of": {
+    answer:
+      "Seven days provided the Airworthiness of the aircraft has not changed",
+    choices: [
+      "Seven days provided the Airworthiness of the aircraft has not changed",
+      "Two years",
+      "Until the next maintenance check",
+    ],
+  },
+  "When flying under “B” conditions of the 2nd Schedule A.N.O.s, the aircraft":
+    {
+      answer:
+        "Need not be registered, but must be marked in a manner approved by the Civil Aviation Authority",
+      choices: [
+        "Must be registered",
+        "Need not be registered",
+        "Need not be registered, but must be marked in a manner approved by the Civil Aviation Authority",
+      ],
+    },
+  "Technical and administrative information is officially circulated to Licensed Engineers and Aircraft Owners":
+    {
+      answer: "Via Airworthiness Notices",
+      choices: [
+        "In A.N.O. revisions",
+        "Through the Air Navigation Notices",
+        "Via Airworthiness Notices",
+      ],
+    },
+  "An Air Operator’s Certificate (AOC)": {
+    answer:
+      "Must be held by an operator who uses aircraft for the purpose of Public Transport",
+    choices: [
+      "Is required by members of a flight crew",
+      "Is not required if an Approved Maintenance Schedule is in Operation",
+      "Must be held by an operator who uses aircraft for the purpose of Public Transport",
+    ],
+  },
+  "Who is responsible for the provision of an Aircraft Maintenance Manual?": {
+    answer: "The manufacturer",
+    choices: ["The CAA", "The manufacturer", "The operator"],
+  },
+  "An aircraft with nine current log books would be": {
+    answer:
+      "An aircraft with four piston engines and variable pitch propellers fitted",
+    choices: [
+      "An aircraft with four gas turbine engines fitted",
+      "A helicopter with four rotor blades fitted",
+      "An aircraft with four piston engines and variable pitch propellers fitted",
+    ],
+  },
+  "A Technical Log is required for": {
+    answer: "All aircraft",
+    choices: [
+      "Public Transport and Aerial work aircraft only",
+      "All aircraft",
+      "Aircraft under 2,730 kg M.A.W.",
+    ],
+  },
+  "A License Without Type Rating": {
+    answer: "No Certification privilege",
+    choices: [
+      "Entitles the holder to the same Certification privileges as Type Rated",
+      "Limited Certification privileges only",
+      "No Certification privilege",
+    ],
+  },
+  "After a Mandatory Inspection has been carried out by a Licensed Engineer, what is issued?":
+    {
+      answer: "A Certificate of Release to Service",
+      choices: [
+        "An Approved Certificate",
+        "A Certificate of Release to Service",
+        "A Certificate of Maintenance Review",
+      ],
+    },
+  "When signing a Certificate of Release to Service in a JAR 145 organization, Licensed Aircraft Engineer uses for the Authority his":
+    {
+      answer: "License Number",
+      choices: [
+        "License Number",
+        "Civil Aviation Authority Approval Number",
+        "Company Approval Number",
+      ],
+    },
+  "Section 2 of the JAR 145 contains": {
+    answer: "An acceptable means of compliance and interpretive material",
+    choices: [
+      "The Regulations laid down by European Law",
+      "An acceptable means of compliance and interpretive material",
+      "The requirements of JAR 145",
+    ],
+  },
+  "JAR 145 scope of work is found in": {
+    answer: "The Company Exposition",
+    choices: [
+      "JAR 145 Approval document",
+      "JAA Form 6",
+      "The Company Exposition",
+    ],
+  },
+  "JAR Ops-1 Commercial Air Transport (Aeroplanes) contains:": {
+    answer: "The requirements for the Air Operator’s Certificate Holder",
+    choices: [
+      "Mandatory information from the company Exposition",
+      "The instructions for Type Certification of large fixed wing aeroplanes",
+      "The requirements for the Air Operator’s Certificate Holder",
+    ],
+  },
+  "Line Maintenance is defined as:": {
+    answer: "Light maintenance up to and including the “B” check",
+    choices: [
+      "Maintenance required on daily basis",
+      "Light maintenance up to and including the “B” check",
+      "Daily checks, weekly checks, excluding defect rectification",
+    ],
+  },
+  "JAR 145 Approval is required for all organizations which": {
+    answer:
+      "Maintain aircraft used for carrying passengers, freight or mail for reward",
+    choices: [
+      "Operate as a European Consortium",
+      "Maintain aircraft used for carrying passengers, freight or mail for reward",
+      "Maintain public transport aircraft exceeding 1361 kg MTWA only",
+    ],
+  },
+  "In the Class and Rating system within JAR 145": {
+    answer: "No aeroplanes are in B1, B2, or B3",
+    choices: [
+      "No aeroplanes are in B1, B2, or B3",
+      "All engines except piston engines are in B1, B2, or B3",
+      "All engines except APUs are in B1, B2, or B3",
+    ],
+  },
+  "The authorized Release Certificate JAA Form 1 constitutes a Certificate of Release to Service (CRS) when issued by an":
+    {
+      answer: "Organization approved for overhaul of the component",
+      choices: [
+        "Organization approved for overhaul of the component",
+        "Approved organization for fitting the component to the aircraft",
+        "Approved organization approved for storage of the component, to a bonded store",
+      ],
+    },
+  "Entries in log books": {
+    answer: "Shall all be entered in ink or indelible pencil",
+    choices: [
+      "Shall all be entered in ink or indelible pencil",
+      "Can be entered in pencil",
+      "Method of entry is irrelevant",
+    ],
+  },
+  "Certificates of Maintenance are issued in duplicate:": {
+    answer:
+      "One should be kept in the aircraft and the other kept by the operator elsewhere other than in the aircraft",
+    choices: [
+      "Both copies shall be carried in the aircraft",
+      "Both should be kept on the ground in all cases",
+      "One should be kept in the aircraft and the other kept by the operator elsewhere other than in the aircraft",
+    ],
+  },
+  "Access and inspection for Airworthiness purposes is": {
+    answer: "Specified in the regulations",
+    choices: [
+      "Hereby implicit in the function of the Surveyor",
+      "Specified in the regulations",
+      "At the discretion of the operator",
+    ],
+  },
+  "Certificates, Licenses, Approvals, permission and other documents granted under these regulations":
+    {
+      answer:
+        "Can be suspended, revoked, or varied by the appropriate authority",
+      choices: [
+        "Are not subject to suspension or revocation",
+        "Can be suspended, revoked, or varied by the appropriate authority",
+        "Can be varied by the operator’s Chief Executive",
+      ],
+    },
+  "A defect affecting the engine occurred in flight and was recorded in the Technical Log by the pilot. The defect was later rectified. The recording of this defect with its rectification must be made in":
+    {
+      answer: "The Technical Log and the engine Log Book",
+      choices: [
+        "The Technical Log only",
+        "The Technical Log and the engine Log Book",
+        "The Technical Log, the engine Log Book and the aircraft Log Book",
+      ],
+    },
+  "In which of the following statements is there a violation of the regulation?":
+    {
+      answer: "An aircraft in the Private Category being used for aerial work",
+      choices: [
+        "An aircraft in the Private Category being used for aerial work",
+        "An aircraft flying under the “A” conditions",
+        "An aircraft flying with a Permit to Fly",
+      ],
+    },
+  "For every registered public transport and aerial work aircraft, there shall be kept":
+    {
+      answer:
+        "An aircraft log book, a log book for each engine and a log book for each variable pitch propeller",
+      choices: [
+        "An aircraft log book and a log book for all engines",
+        "An aircraft log book, a log book for each engine and a log book for each variable pitch propeller",
+        "None of the above",
+      ],
+    },
+  "The Certificate of Airworthiness becomes invalid": {
+    answer:
+      "If major repairs or modifications have been carried out on the aircraft without approval or with non-approved materials",
+    choices: [
+      "If the pilots are on strike",
+      "Once the aircraft is brought into the hangar for a check",
+      "If major repairs or modifications have been carried out on the aircraft without approval or with non-approved materials",
+    ],
+  },
+  "The aircraft Nationality and Registration marks on the wings shall appear on":
+    {
+      answer: "The left half of the lower surface",
+      choices: [
+        "The right half of the upper surface",
+        "The left half of the lower surface",
+        "Both (a) and (b) combined",
+      ],
+    },
+  "The heights of the Nationality and Registration marks on an aircraft shall be at least":
+    {
+      answer:
+        "20 inches on the wings and at least 12 inches on the vertical tail surfaces",
+      choices: [
+        "20 inches on the wings and at least 12 inches on the vertical tail surfaces",
+        "6 inches on the wings and 20 inches on the vertical tail surfaces",
+        "The heights are not relevant to the regulations.",
+      ],
+    },
+  "When flying under “A conditions” an aircraft": {
+    answer: "Should not carry passengers",
+    choices: [
+      "Should not carry passengers",
+      "Can carry passengers",
+      "Can carry passengers only if an engineer is on board",
+    ],
+  },
+  "The total number of hours flown by an aircraft is obtained from": {
+    answer: "The Technical Log",
+    choices: [
+      "The last pilot to fly",
+      "The Technical Log",
+      "The engineer who signed out the aircraft",
+    ],
+  },
+  "The documents which must be carried on a Nigerian registered public transport aircraft for an international flight include: Certificate of Registration, Airworthiness maintenance and":
+    {
+      answer: "Operations Manual",
+      choices: [
+        "Maintenance Manual",
+        "Operations Manual",
+        "Wiring Diagram Manual",
+      ],
+    },
+  "A Transport Category (passenger) aircraft can be used for": {
+    answer:
+      "Public transport of passengers and any other purpose except aerial work",
+    choices: [
+      "Public transport of passengers only",
+      "Public transport of passengers and any other purpose except aerial work",
+      "None of the above",
+    ],
+  },
+  "For an aircraft to fly over Nigeria": {
+    answer:
+      "It must be registered in a Contracting State or in a country with which Nigeria has an agreement for such flights",
+    choices: [
+      "It must be registered in Nigeria",
+      "It must be registered in a Contracting State or in a country with which Nigeria has an agreement for such flights",
+      "Both (a) and (b) are correct",
+    ],
+  },
+  "An aircraft can be registered": {
+    answer: "In one country only",
+    choices: [
+      "In one country only",
+      "In two countries at the same time provided they are Contracting States",
+      "In every country it flies to",
+    ],
+  },
+  "Which of the following statements is correct?": {
+    answer:
+      "Corporate bodies established under and subject to the laws of Nigeria may register aircraft in Nigeria",
+    choices: [
+      "Only Nigerians are allowed to register aircraft in Nigeria",
+      "Corporate bodies established under and subject to the laws of Nigeria may register aircraft in Nigeria",
+      "Expatriates may not register aircraft in Nigeria",
+    ],
+  },
+  "Which of the following may fly within Nigeria without the Certificate of Airworthiness in force if it is not for aerial work or public transport of passengers?":
+    {
+      answer: "Both (a) and (b) are correct",
+      choices: [
+        "A kite, a balloon and a glider",
+        "An aircraft flying in accordance with “A” conditions or “B” conditions",
+        "Both (a) and (b) are correct",
+      ],
+    },
+  "An unauthorized repair invalidates the Certificate of Airworthiness it certified. Thus an aircraft":
+    {
+      answer:
+        "May fly to the nearest place where it can be repaired and a Certificate of Compliance issued if, in the opinion of the commander, it is safe to do so",
+      choices: [
+        "Cannot fly with an unauthorized repair",
+        "Can fly to the nearest place where an authorized repair can be made on a temporary Certificate of Compliance",
+        "May fly to the nearest place where it can be repaired and a Certificate of Compliance issued if, in the opinion of the commander, it is safe to do so",
+      ],
+    },
+  "An aircraft’s Certificate of Airworthiness has just expired, necessary inspection has been completed except for weighing which can only be done at another location":
+    {
+      answer: "The aircraft can be flown in accordance with “A” conditions",
+      choices: [
+        "The aircraft can be flown in accordance with “A” conditions",
+        "The aircraft can only be flown with Permit to fly",
+        "All efforts must be made to do the weighing before flying the aircraft",
+      ],
+    },
+  "The JAA Form 1 is raised": {
+    answer: "In duplicate and the original goes with the item",
+    choices: [
+      "In duplicate and the bottom copy goes with the item",
+      "In duplicate and the original goes with the item",
+      "Singly for more than one item",
+    ],
+  },
+  "Issue of Certificate of Release to Service by computer is": {
+    answer:
+      "Acceptable if the JAA are satisfied with the control of the system",
+    choices: [
+      "Not acceptable – the engineer must sign in all cases",
+      "Acceptable if the JAA are satisfied with the control of the system",
+      "Acceptable provided the engineer signs them",
+    ],
+  },
+  "The different Approvals granted under JAR 145 are given by": {
+    answer: "Class and Rating",
+    choices: [
+      "Division and chapter",
+      "Class and Rating",
+      "Group and Paragraph",
+    ],
+  },
+  "Under JAR 145, the Approval Certificate specifies the": {
+    answer: "Extent of the approval",
+    choices: [
+      "Extent of the approval",
+      "Scope of work",
+      "Level of the approval",
+    ],
+  },
+  "JAR 145 approvals can be issued to organizations by the National Aviation Authorities of":
+    {
+      answer: "The member states",
+      choices: [
+        "The member states",
+        "The candidate states",
+        "Any state provided the JAA agrees",
+      ],
+    },
+  "Amendments to JAR are by way of": {
+    answer: "Orange papers",
+    choices: ["Orange papers", "Grey papers", "Blue papers"],
+  },
+  "The Minimum Equipment List is the": {
+    answer: "Equipment that may be inoperative for aircraft dispatch",
+    choices: [
+      "Equipment that may be inoperative for aircraft dispatch",
+      "Minimum equipment that an aircraft must carry",
+      "Minimum equipment to satisfy a particular role of the aircraft",
+    ],
+  },
+  "The definition of a “Reportable Occurrence” is detailed in": {
+    answer: "Air Navigation Orders",
+    choices: ["Air Navigation Orders", "Airworthiness Notices", "BCAR’s"],
+  },
+  "The store holding items having their specification/conformity checked is the":
+    {
+      answer: "Bonded store",
+      choices: ["Document store", "Quarantine store", "Bonded store"],
+    },
+  "Aircraft exceeding 5,700 kg MTWA must be weighed by the operator every": {
+    answer: "Certificate of Airworthiness Renewal",
+    choices: [
+      "Five years",
+      "two years",
+      "Certificate of Airworthiness Renewal",
+    ],
+  },
+  "A Certificate of Maintenance Review is completed in duplicate for the": {
+    answer: "Operator’s records and the aircraft",
+    choices: [
+      "Operator’s records and the CAA",
+      "Operator’s records and the aircraft",
+      "CAA and the aircraft",
+    ],
+  },
+  "A Certificate of Registration must be carried on the aircraft": {
+    answer: "For all flights",
+    choices: [
+      "For all flights",
+      "For all international flights",
+      "On all test flights",
+    ],
+  },
+  "A Mandatory Modification must be carried out": {
+    answer: "As specified by the CAA",
+    choices: [
+      "Before the next inspection cycle",
+      "Before the next flight",
+      "As specified by the CAA",
+    ],
+  },
+  "The Minimum Equipment List items are grouped according to": {
+    answer: "The Maintenance Schedule",
+    choices: ["ATA 100", "Their importance", "The Maintenance Schedule"],
+  },
+  "In a JAR 145 organization components are released to service by the issue of a":
+    {
+      answer: "Certificate of Release to Service (CRS)",
+      choices: [
+        "Certificate of Release to Service (CRS)",
+        "Airworthiness Release Tag 8130-3",
+        "JAA Approved Certificate Form 10",
+      ],
+    },
+  "In the Class and Rating system of JAR 145": {
+    answer: "No aeroplanes are in B1, B2 or B3",
+    choices: [
+      "No aeroplanes are in B1, B2 or B3",
+      "All engines except Piston engines are in B1, B2 or B3",
+      "All engines except APUs are in B1, B2 or B3",
+    ],
+  },
+  "Maintenance Support for an aircraft operating to an Air Operator’s Certificate is in accordance with":
+    {
+      answer: "JAR Ops 1/3",
+      choices: [
+        "Commercial Aircraft Procedures Part II, published by the Maintenance Organizations",
+        "Civil Aviation Publication 360 part I, Published by the Civil Aviation Authority",
+        "JAR Ops 1/3",
+      ],
+    },
+  "Training of Certifying Staff in a JAR 145 organization is the responsibility of the Organization or an institute selected by the":
+    {
+      answer: "Organization",
+      choices: ["Civil Aviation Authority", "JAA", "Organization"],
+    },
+  "Section 2 of the JAR 145 contains:": {
+    answer: "An acceptable means of compliance and interpretive material",
+    choices: [
+      "The Regulations laid down by European law",
+      "An acceptable means of compliance and interpretive material",
+      "The Requirements of JAR 145",
+    ],
+  },
+  "When a repaired component is issued from a workshop within an Approved Organization, for use by that Organization":
+    {
+      answer: "The Release to Service is on workshop documentation",
+      choices: [
+        "The Release to Service must be on JAA Form 1",
+        "The Release to Service is on workshop documentation",
+        "The Release to Service is on the serviceability label",
+      ],
+    },
+  "Base maintenance is defined as that which": {
+    answer: "Comprises C and D checks",
+    choices: [
+      "Takes place at the base headquarters only",
+      "Relates to major repairs only",
+      "Comprises C and D checks",
+    ],
+  },
+  "For Certifying Staff in a JAR 145 company, the scope of authorization is detailed in":
+    {
+      answer: "The record of Certifying Staff held by Approved Organization",
+      choices: [
+        "The record of Certifying Staff held by Approved Organization",
+        "The authorization documentation held by the Civil Aviation Authority",
+        "The Civil Aviation Authority License held by the individual",
+      ],
+    },
+  "Under JAR 145 a reportable occurrence should be forwarded to the Authority within":
+    {
+      answer: "72 hours (i.e. 3 days)",
+      choices: [
+        "96 hours",
+        "72 hours (i.e. 3 days)",
+        "The time specified on the Approve document",
+      ],
+    },
+  "Computerized record systems are acceptable only if": {
+    answer:
+      "Back up discs, etc are stored in a different location from the working ones",
+    choices: [
+      "Backed up by hand written records of robust material",
+      "Back up discs, etc are stored in a different location from the working ones",
+      "Back up and working discs and tapes are stored together in a lockable fireproof store",
+    ],
+  },
+  "In the JAR 145 rating system the letter B relates to": {
+    answer: "Engines",
+    choices: ["Components", "Aircraft not exceeding 5,700 kg MTWA", "Engines"],
+  },
+  "JAA Form 1 is signed by": {
+    answer: "The Chief Inspector or his authorized signatories",
+    choices: [
+      "The Chief Store man",
+      "The Chief Inspector or his authorized signatories",
+      "The resident Civil Aviation Authority Surveyor",
+    ],
+  },
+  "The JAR 145 Approved Organization must retain copies of all Maintenance Records and Associated Airworthiness data for a period of":
+    {
+      answer: "2 years from issue of Certificate of Release to Service",
+      choices: [
+        "2 years from issue of Certificate of Release to Service",
+        "3 years unless specifically stated otherwise",
+        "6 months",
+      ],
+    },
+  "The check cycle for aircraft exceeding 2,730 kg MTWA is": {
+    answer: "Stated in the Approved Maintenance Schedule",
+    choices: [
+      "The same for all aircraft maintained by one operator",
+      "The same for all aircraft of one type",
+      "Stated in the Approved Maintenance Schedule",
+    ],
+  },
+  "For a simple aircraft the CAA LAMS Schedule may need to be amended by": {
+    answer: "Deleting non applicable items",
+    choices: [
+      "Deleting non applicable items",
+      "Rewriting it",
+      "Completing the Supplementary tests",
+    ],
+  },
+  "The responsibility for weighing aircraft N/E 2,730 kg MTWA rests with the": {
+    answer: "Operator",
+    choices: ["Operator", "CAA", "PFA"],
+  },
+  "Certificates of Release to Service are issued on completion of": {
+    answer: "Each inspection item on the AMS",
+    choices: [
+      "Each inspection item on the AMS",
+      "A check on the check cycle",
+      "Each check A for aircraft N/E 2,730 kg MTWA",
+    ],
+  },
+  "A CMR must be completed on aircraft exceeding 2,730 kg MTWA at periods": {
+    answer: "Not exceeding 4 months",
+    choices: ["Every 4 months", "Every 12 months", "Not exceeding 4 months"],
+  },
+  "A duplicate inspection must be the last": {
+    answer: "Check before issue of a CRS for the task",
+    choices: [
+      "Check before issue of a CRS for the task",
+      "Signature after a CRS for the task",
+      "CRS issued",
+    ],
+  },
+  "A Maintenance Statement is": {
+    answer: "Part of a Tech Log",
+    choices: [
+      "The approval for a Maintenance Schedule",
+      "Part of a Tech Log",
+      "Used to certify a Pre-flight check",
+    ],
+  },
+  "A Type Certificate is issued to": {
+    answer: "All aircraft of a type (A340)",
+    choices: [
+      "Each aircraft of a type",
+      "All aircraft of a type (A340)",
+      "An aircraft type and series (A340 series 200)",
+    ],
+  },
+  "A Radio Station License becomes invalid": {
+    answer: "Upon change of ownership of aircraft",
+    choices: [
+      "Upon change of ownership of aircraft",
+      "When the C of A is due for renewal",
+      "Whenever a Radio Flight Test is required",
+    ],
+  },
+  "A Certificate of Approval of Aircraft Radio Installation is issued to": {
+    answer: "An air operator",
+    choices: [
+      "A company approved for such installations",
+      "An aircraft",
+      "An air operator",
+    ],
+  },
+  "A C of A for Export is": {
+    answer: "Necessary for each exported aircraft",
+    choices: [
+      "A Statutory Document",
+      "To allow an aircraft to be flown away on Export",
+      "Necessary for each exported aircraft",
+    ],
+  },
+  "The purpose for which an aircraft may be flown on a Special Category C of A is":
+    {
+      answer: "Stated on the Certificate",
+      choices: [
+        "For private use only",
+        "Stated on the Certificate",
+        "Applicable to ex military aircraft only",
+      ],
+    },
+  "The period of validity of a Flight Release Certificate is": {
+    answer: "Stated on the permit to Fly",
+    choices: [
+      "Stated on the permit to Fly",
+      "Until the end of the days flying",
+      "Stated on the Maintenance Schedule",
+    ],
+  },
+  "A Permit to Fly is valid": {
+    answer: "Until the date stated on it",
+    choices: [
+      "Until the date stated on it",
+      "For 12 months always",
+      "Only for evaluating a modification",
+    ],
+  },
+  "A C of R must be carried on an aircraft": {
+    answer: "On all flights",
+    choices: [
+      "Unless the fireproof registration plate is in position",
+      "On international flights only",
+      "On all flights",
+    ],
+  },
+  "A Form CA958NR is a": {
+    answer: "C of A",
+    choices: ["C of A", "C of R", "Permit to Fly"],
+  },
+  "The maximum period of validity of a Permit to Fly is": {
+    answer: "As stated on Permit",
+    choices: ["As stated on Permit", "3 years", "1 year"],
+  },
+  "A Certificate of Fitness for Flight": {
+    answer: "Permits the aircraft to fly under “A” conditions",
+    choices: [
+      "Clears an aircraft for a scheduled flight",
+      "Permits the aircraft to fly under “A” conditions",
+      "Permits the aircraft to fly under “B” conditions",
+    ],
+  },
+  "A Certificate of Clearance can be issued by organizations with BCAR approval":
+    {
+      answer: "Primary Companies",
+      choices: ["A8-9", "Primary Companies", "A8-13"],
+    },
+  "A Flight Manual": {
+    answer: "Forms part of the C of A",
+    choices: [
+      "Forms part of the C of A",
+      "Is sometimes called the Operations Manual",
+      "Must be carried on all public transport aircraft",
+    ],
+  },
+  "Where would you find information about A/C Registration and Markings?": {
+    answer: "Part 4",
+    choices: ["Part 7", "Part 4", "Sched. 3"],
+  },
+  "Where would you find info about who can carry out specific tasks on an A/C?":
+    { answer: "Part 5", choices: ["Part 5", "Part 8", "Part 1"] },
+  "Where would you find info on retention of maintenance records?": {
+    answer: "Part 9",
+    choices: ["Part 9", "Part 5", "Sched. 2"],
+  },
+  "Where is info found about A/C Operational Categories for registration?": {
+    answer: "Part 5",
+    choices: ["Sched. 3", "Part 9", "Part 5"],
+  },
+  "Where would you find info regarding carriage of documents would be found?": {
+    answer: "Part 8",
+    choices: ["Sched. 6", "Part 8", "Part1"],
+  },
+  "Where would you find info on Logbooks?": {
+    answer: "Sched. 6 & Part 8",
+    choices: ["Part 1", "Sched. 6 & Part 8", "Part 5"],
+  },
+  "Where would you find info on “A” & “B” conditions of flight?": {
+    answer: "Sched. 2",
+    choices: ["Sched. 4", "Sched. 2", "Part 1"],
+  },
+  "Where would you find info about Certification Requirements of an AMO?": {
+    answer: "Part 6",
+    choices: ["Part 6", "Part 3", "Sched. 2"],
+  },
+  "Where would you find info about A/C Certification in General?": {
+    answer: "Part 5",
+    choices: ["Part 6", "Part 5", "Part 4"],
+  },
+  "Where would you find info about equipment carried in A/C?": {
+    answer: "Part 7",
+    choices: ["Sched. 3", "Part 11", "Part 7"],
+  },
+  "What Part of CAR’s deals with “Airworthiness”?": {
+    answer: "Part 5",
+    choices: ["Part 5", "Part 4", "Sched. 3"],
+  },
+  "Where is A/C Maintenance Requirements laid down?": {
+    answer: "Part 8",
+    choices: ["Part 10", "Part 8", "Part 2"],
+  },
+  "How long is a “Certificate of Fitness to Fly” valid & how many copies?": {
+    answer: "7 days 2 copies",
+    choices: [
+      "7 days 1 copy",
+      "7 days 2 copies",
+      "I.A.W. approved system of maintenance",
+    ],
+  },
+  "How soon after an incident must a defect be submitted to NCAA?": {
+    answer: "Within 3 days",
+    choices: [
+      "Within 7 days",
+      "Within 3 days",
+      "Before A/C is released to service",
+    ],
+  },
+  "What work can a CAT “A” licensed on type LAE sign for?": {
+    answer:
+      "Cert. of Release to Service following simple defect rectification and minor line maintenance",
+    choices: [
+      "Cert. of Release to Service following maintenance on structure and power plant",
+      "Cert. of Release to Service following simple defect rectification and minor line maintenance",
+      "Cert. of Fitness for Flight",
+    ],
+  },
+  "What work can a CAT “B2” licensed on type LAE sign for?": {
+    answer:
+      "Cert. of Release to Service following defect rectification in Avionics category",
+    choices: [
+      "Cert. of Fitness for Flight",
+      "Cert. of Release to Service after line maintenance on structure & Power Plant",
+      "Cert. of Release to Service following defect rectification in Avionics category",
+    ],
+  },
+  "Who can authorize an aircraft to fly in the “B” category?": {
+    answer: "NCAA only",
+    choices: [
+      "LAE type licensed",
+      "NCAA only",
+      "LAE licensed on type or a person approved by NCAA",
+    ],
+  },
+  "Who is authorized to have Repair Specialist with ‘Ratings’?": {
+    answer: "Approved AMO’s or AOC’s",
+    choices: [
+      "Approved Maintenance non AOC aircraft facility",
+      "Approved AMO’s or AOC’s",
+      "Approved AOC’s only",
+    ],
+  },
+  "Within the boundaries of their approval, who can perform inspections on A/C – 5.6.3?":
+    {
+      answer:
+        "Licensed Pilot as per Sched. 7 on A/C below 2,730 kg not listed for use by an AOC",
+      choices: [
+        "Licensed Pilot as per Sched. 7 on A/C below 2,730 kg not listed for use by an AOC",
+        "A person working directly under a CSAM",
+        "A CSAM only",
+      ],
+    },
+  "What license category comes under the classification of CSAM?": {
+    answer: "All of the above",
+    choices: ["A & B2", "B1 & C", "All of the above"],
+  },
+  "Who may perform the maintenance task below – 5.6.3?": {
+    answer:
+      "A Pilot with a ‘pilot license’ on type, after preventive maintenance I.A.W. Sched. 7 on an A/C under 2,730 kg",
+    choices: [
+      "A Pilot with a ‘pilot license’ on type, after preventive maintenance I.A.W. Sched. 7 on an A/C under 2,730 kg",
+      "A person not a CSAM under supervision of type licensed CSAM on Power Plant inspection",
+      "A “B1” CAT LAE on type – maintenance on an electrical system",
+    ],
+  },
+  "Where on Nigerian registered aircraft must the wing registration markings be positioned?":
+    {
+      answer: "Lower LH wing",
+      choices: [
+        "Lower LH wing",
+        "LH & RH top of wing only",
+        "LH top & RH bottom",
+      ],
+    },
+  "Log books are retained after A/C are withdrawn or destroyed for (8.3.8.5)?":
+    {
+      answer: "2 years",
+      choices: ["1 year", "As required by Airworthiness Authority", "2 years"],
+    },
+  "Entries made in Log books shall be": {
+    answer: "Ink or indelible pencil",
+    choices: [
+      "In pencil but legible",
+      "Ink or indelible pencil",
+      "Any of the above",
+    ],
+  },
+  "The entries made in log books can": {
+    answer: "Not be altered",
+    choices: [
+      "Be altered from time to time as required",
+      "Not be altered",
+      "Be altered with approval of ANO",
+    ],
+  },
+  "Which are cases where a C of A ceases to be in force?": {
+    answer: "When Engineer has made repair with commercial material",
+    choices: [
+      "When A/C is being overhauled with approved materials",
+      "When A/C is on scheduled inspection",
+      "When Engineer has made repair with commercial material",
+    ],
+  },
+  "What A/C’s are allowed to fly in Nigeria? 4.2.1": {
+    answer: "Nigerian registered or registered in a Contracting State",
+    choices: [
+      "Nigerian registered only",
+      "Nigerian registered or registered in a Contracting State",
+      "Any aircraft",
+    ],
+  },
+  "What A/C requires weighing & C of G determined in order to have a C of A issued and validated? 5.5.4":
+    {
+      answer: "All A/C",
+      choices: ["All A/C", "Fixed wing only", "Flying machines and gliders"],
+    },
+  "LAE of any category can sign for(2.4.4.7 & 8)": {
+    answer: "C of M, C of C, C of Fitness, subject to rating",
+    choices: [
+      "C of M",
+      "C of M & C of C, subject to rating",
+      "C of M, C of C, C of Fitness, subject to rating",
+    ],
+  },
+  "What is the minimum requirement to register A/C? (4.2.2.5)": {
+    answer: "Unqualified owner, qualified charterer",
+    choices: [
+      "Owner qualified person",
+      "Unqualified owner, qualified charterer",
+      "Both owner & charterer to be qualified",
+    ],
+  },
+  "Which is false for a glider?": {
+    answer: "Must comply with radio equipment in Sched. 6",
+    choices: [
+      "Can fly unregistered within Nigeria",
+      "Needs to comply with equipment in Sched. 5",
+      "Must comply with radio equipment in Sched. 6",
+    ],
+  },
+  "A/C first of its type in Nigeria can fly  (Sched. 2)": {
+    answer: "Not under “A” conditions",
+    choices: [
+      "Under “A” conditions",
+      "Not under “A” conditions",
+      "Under “A” conditions if Export C of A is in force",
+    ],
+  },
+  "C of M is valid for – (should be CRS).": {
+    answer:
+      "1 hr or calendar period whichever occurs first I.A.W. Approved Maintenance Schedule",
+    choices: [
+      "Period stated on C of A",
+      "100 hours",
+      "1 hr or calendar period whichever occurs first I.A.W. Approved Maintenance Schedule",
+    ],
+  },
+  "A/C changes operators, what documents are passed over? 8.3.10": {
+    answer: "C of M, C of R, C of A, Tech Log & Log books",
+    choices: [
+      "C of M",
+      "C of M, C of R, Tech Log",
+      "C of M, C of R, C of A, Tech Log & Log books",
+    ],
+  },
+  "A/C can fly under “B” conditions (Sched. 2)": {
+    answer:
+      "Whether registered or not, but suitably marked if unregistered (only if unregistered in Nigeria)",
+    choices: [
+      "Only if registered",
+      "Only if unregistered",
+      "Whether registered or not, but suitably marked if unregistered (only if unregistered in Nigeria)",
+    ],
+  },
+  "A/C equipment is specified in": {
+    answer: "Part 7",
+    choices: ["Sched. 4", "Sched. 5", "Part 7"],
+  },
+  "A/C radio equipment is specified in": {
+    answer: "Part 7.1.3.1",
+    choices: ["Sched. 2", "Sched. 6", "Part 7.1.3.1"],
+  },
+  "Which is illegal without a valid C of A? 5.4.1.2(a)": {
+    answer: "Glider on aerial work",
+    choices: [
+      "Glider on aerial work",
+      "A/C under “A” conditions",
+      "A/C with Fitness of Flight Cert.",
+    ],
+  },
+  "C of M is issued for (5.6.4)": {
+    answer:
+      "After maintenance, preventive maintenance or modification I.A.W. an approved Maintenance Schedule",
+    choices: [
+      "A/C inspected I.A.W. Maintenance Schedule",
+      "After maintenance, preventive maintenance or modification I.A.W. an approved Maintenance Schedule",
+      "After repair and modification",
+    ],
+  },
+  "When a chartered A/C has completed the charter, what is the registered charterer required to do? 4.2.2.7":
+    {
+      answer: "Inform the minister in writing",
+      choices: [
+        "Hand over the registration",
+        "Cancel registration",
+        "Inform the minister in writing",
+      ],
+    },
+  "What signatures are required on Fitness to fly under “A” condition? 2.4.4.7":
+    {
+      answer: "All appropriate categories as required for A/C type",
+      choices: [
+        "LAE CAT ‘C’",
+        "A & C LAE licensed on type",
+        "All appropriate categories as required for A/C type",
+      ],
+    },
+  "Tech log required for (8.2.8)": {
+    answer: "All A/C",
+    choices: [
+      "All A/C",
+      "All above 12,500 lb",
+      "Mandatory for all with mandatory Maintenance Schedule",
+    ],
+  },
+  "Tech logs": {
+    answer: "Must be carried at all times",
+    choices: [
+      "Need not be carried if the A/C takes off and lands at the same aerodrome within Nigeria",
+      "Must be carried at all times",
+      "None of the above",
+    ],
+  },
+  "A Scheduled Inspection is due": {
+    answer: "Can fly if C of A is valid",
+    choices: [
+      "LAE can extend it",
+      "Must be carried out before flying",
+      "Can fly if C of A is valid",
+    ],
+  },
+  "A/C requires weighing in another place after a C of A inspection": {
+    answer: "Requires Permit to Fly",
+    choices: [
+      "Requires Permit to Fly",
+      "Can fly to another place to weigh",
+      "Does not need (a) or (b)",
+    ],
+  },
+  "Rectification in Tech Log": {
+    answer:
+      "Copy of C of C in the Tech log clearly identifiable against the defect",
+    choices: [
+      "Only requires clearance by LAE",
+      "C of C to be kept on the ground",
+      "Copy of C of C in the Tech log clearly identifiable against the defect",
+    ],
+  },
+  "Minimum height of Reg. letters on fuselage is (4.3.5)": {
+    answer: "30 cm",
+    choices: ["50 cm", "20 cm", "30 cm"],
+  },
+  "The minister can": {
+    answer: "Revoke licenses, etc",
+    choices: [
+      "Revoke licenses, etc",
+      "Alter licenses, etc",
+      "Vary licenses, etc",
+    ],
+  },
+  "The performance group is given": {
+    answer: "In C of A",
+    choices: ["In C of A", "By constructor", "In regulations"],
+  },
 };
 
 export default questionBankGen;
