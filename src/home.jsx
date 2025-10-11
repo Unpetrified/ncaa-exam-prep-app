@@ -1,7 +1,9 @@
+import { HomeHeader } from "./header";
+
 export default function Home({ setQuestion, questions, setDetails, details }) {
   return (
     <>
-      <h1>NCAA EXAM PREP BY UNPETRIFIED</h1>
+      <HomeHeader />
       <ExamForm
         setDetails={setDetails}
         details={details}

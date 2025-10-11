@@ -1,12 +1,10 @@
+import { ExamHeader } from "./header";
+
 export default function Question({ currentQuestions, details, setDetails }) {
   let number = 1;
   return (
     <>
-      <section className="buttons">
-        <button onClick={newExam}>New Exam</button>
-        <button>{details["score"]}</button>
-        <button onClick={(e) => submit(e, details)}>Submit</button>
-      </section>
+      <ExamHeader details={details} submit={submit} newExam={newExam} />
       {currentQuestions.map((questionObj) => {
         return (
           <section key={questionObj["key"]} className="card">

@@ -3408,5 +3408,4 @@ const questionBankAut = {
     choices: ["Increase", "Decrease", "No effect"],
   },
 };
-
 export default questionBankAut;

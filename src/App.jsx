@@ -3,6 +3,7 @@ import "./App.css";
 import generateQuestion from "./questionGenerator";
 import Home from "./home";
 import Question from "./questionCard";
+import { Footer } from "./footer";
 
 function App() {
   const [currentQuestions, setCurrentQuestions] = useState([]);
@@ -28,6 +29,7 @@ function App() {
           setDetails={setExamDetails}
         />
       )}
+      <Footer />
     </>
   );
 }
