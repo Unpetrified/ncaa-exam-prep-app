@@ -1123,11 +1123,2290 @@ const questionBankAut = {
       "Auto pilot, Flight management system",
     ],
   },
-  "Which of these levels of Automatic flight will not have flight management system guidance;  a. Managed Automatic":
+  "Which of these levels of Automatic flight will not have flight management system guidance;":
     {
       answer: "Selected Automatic",
       choices: ["Managed Automatic", "Selected Automatic", "Managed Manual"],
     },
+  "Autopilot servo brake is energised. ": {
+    answer: "to actuate off.",
+    choices: [
+      "to actuate on.",
+      "at the same time as the clutch.",
+      "to actuate off.",
+    ],
+  },
+  "How many axis does the aircraft autopilot control?. ": {
+    answer: "Three.",
+    choices: ["Four.", "Three.", "Two."],
+  },
+  "An autopilot PFCU servo brake is.": {
+    answer: "energised off.",
+    choices: [
+      "energised on.",
+      "energised at the same time as the clutch.",
+      "energised off.",
+    ],
+  },
+  "With autopilot engaged, which control surface is inhibited?. ": {
+    answer: "THS.",
+    choices: ["THS.", "Elevators.", "Ailerons."],
+  },
+  "When flaps are lowered, the automatic trim system will. ": {
+    answer: "decrease the angle of incidence of the THS.",
+    choices: [
+      "angle of incidence remains the same.",
+      "increase the angle of incidence of the THS.",
+      "decrease the angle of incidence of the THS.",
+    ],
+  },
+  "In autopilot, the control column. ": {
+    answer: "moves in pitch and roll.",
+    choices: ["does not move.", "moves in pitch.", "moves in pitch and roll."],
+  },
+  "In aircraft with an autopilot and an auto trim, a pitch command input will cause. ":
+    {
+      answer: "column to move and trim system to move.",
+      choices: [
+        "column will not move and trim system will move.",
+        "column to move but trim system not to move.",
+        "column to move and trim system to move.",
+      ],
+    },
+  "In an autopilot, what controls pitch mode?. ": {
+    answer: "Glideslope.",
+    choices: ["Glideslope.", "VOR.", "Localizer."],
+  },
+  "Glideslope controls autopilot in. ": {
+    answer: "pitch.",
+    choices: ["yaw.", "roll.", "pitch."],
+  },
+  "An Automatic Flight Control System receives inputs from the following ground based transmitters ":
+    {
+      answer: "VOR, ILS.",
+      choices: ["DME, ILS, ADF.", "VOR, ILS.", "RA, ADF, ILS."],
+    },
+  "Autopilot will operate above what altitude?. ": {
+    answer: "500 ft.",
+    choices: ["750 ft.", "1000 ft.", "500 ft."],
+  },
+  "A radio coupled autopilot in pitch uses. A. ADF. ": {
+    answer: "glideslope.",
+    choices: ["ADF", "VOR.", "glideslope."],
+  },
+  "EPR and thrust modes in autothrottle are the only modes that can be selected in. ":
+    { answer: "take off.", choices: ["cruise.", "approach.", "take off."] },
+  "What are the main areas of the autopilot?. ": {
+    answer: "Error, correction, follow up, command.",
+    choices: [
+      "Error, correction , demand, resolved.",
+      "Error, correction, follow up, demand.",
+      "Error, correction, follow up, command.",
+    ],
+  },
+  "How is the next database on the FMC activated?. ": {
+    answer: "Manually in the air.",
+    choices: [
+      "Manually in the air.",
+      "Manually, on the ground.",
+      "Automatically by due date.",
+    ],
+  },
+  "Three autopilot computers are considered.": {
+    answer: "Fail Operable.",
+    choices: ["Fail resistant.", "Fail Operable.", "Fail Passive."],
+  },
+  "In autopilot with THS in motion, the. ": {
+    answer: "Auto Trim is inhibited.",
+    choices: [
+      "elevator is inhibited.",
+      "Mach trim is inhibited.",
+      "Auto Trim is inhibited.",
+    ],
+  },
+  "How can a pilot over-ride the auto-throttle?. ": {
+    answer: "Manually through a clutch on the throttle levers.",
+    choices: [
+      "By deselecting auto-throttle first.",
+      "It is not possible.",
+      "Manually through a clutch on the throttle levers.",
+    ],
+  },
+  "Where is the autothrottle disconnect switch?. ": {
+    answer: "Within reach of both pilots.",
+    choices: [
+      "Within reach of the Captain.",
+      "Within reach of both pilots.",
+      "Within reach of the First Officer.",
+    ],
+  },
+  "There are two FMS installed on the aircraft. If one FMS fails during flight. ":
+    {
+      answer: "the failed FMS has a blank screen.",
+      choices: [
+        "the whole FMS system is unserviceable until the pilot switches over to standby.",
+        "it has no effect, because the second FMS was in the stand-by mode, now it is active.",
+        "the failed FMS has a blank screen.",
+      ],
+    },
+  "The autothrottle system at touchdown will. ": {
+    answer: "go to idle and disconnect.",
+    choices: [
+      "go to idle and disconnect.",
+      "go to idle.",
+      "apply reverse thrust.",
+    ],
+  },
+  "FMCS Pin Programming is allowed ": {
+    answer: "to compensate for FMC position on the aircraft.",
+    choices: [
+      "to compensate for FMC position on the aircraft.",
+      "under CAA Rules.",
+      "for the database of aircraft landing altitudes.",
+    ],
+  },
+  "Triplex autopilot is. ": {
+    answer: "fail operational.",
+    choices: ["fail operational.", "fail soft.", "fail passive."],
+  },
+  "Flight management control system (FMCS) utilises. ": {
+    answer: "ILS, DME, ADC.",
+    choices: ["VOR, ADF, DME.", "ILS, VOR, ADF.", "ILS, DME, ADC."],
+  },
+  "What channel of the autopilot does the glideslope control?. ": {
+    answer: "Pitch.",
+    choices: ["Roll.", "Pitch.", "Yaw."],
+  },
+  "In an autothrottle system, when is EPR or thrust mode used?. ": {
+    answer: "Take-off.",
+    choices: ["Approach.", "Take-off.", "Cruise."],
+  },
+  "Autopilot, when on approach to landing, how many axis are used?. ": {
+    answer: "3.",
+    choices: ["2.", "4.", "3."],
+  },
+  "During an autopilot controlled turn ": {
+    answer: "ailerons, rudder and elevators will move.",
+    choices: [
+      "ailerons, rudder and THS will move.",
+      "ailerons and rudder will move.",
+      "ailerons, rudder and elevators will move.",
+    ],
+  },
+  "On a full fly-by-wire system, a speedbrake screwjack servomotor is controlled by the. ":
+    {
+      answer: "flight control computer.",
+      choices: [
+        "flight augmentation computer.",
+        "flight control computer.",
+        "flight management and guidance computer.",
+      ],
+    },
+  "In a fly-by-wire aircraft, what controls the roll spoilers?. ": {
+    answer: "Flight control computer.",
+    choices: [
+      "Flight control computer.",
+      "Flight augmentation computer.",
+      "Flight management computer.",
+    ],
+  },
+  "Mass balance weights are used to": {
+    answer: "counteract flutter on control surfaces.",
+    choices: [
+      "balance the trailing edge of flying control surfaces.",
+      "counteract flutter on control surfaces.",
+      "balance the tabs.",
+    ],
+  },
+  "The purpose of the autopilot servo-motor torque setting is to. ": {
+    answer: "prevent control surface runaway.",
+    choices: [
+      "protect the servo motor.",
+      "damp the system oscillation.",
+      "prevent control surface runaway.",
+    ],
+  },
+  "In a fully Fly By Wire Aircraft, ground spoilers are deployed automatically when the aircraft is on ground and. ":
+    {
+      answer: "thrust reversers are deployed.",
+      choices: [
+        "brakes are deployed.",
+        "thrust reversers are deployed.",
+        "weight on ground switch is activated.",
+      ],
+    },
+  "In a fully Fly By Wire aircraft, rudder trim is nulled by the. ": {
+    answer: "Flight Augmentation Computers.",
+    choices: [
+      "Flight Augmentation Computers.",
+      "electric flight control unit.",
+      "Flight Guidance and Management Computer.",
+    ],
+  },
+  "Aileron input is fed into the yaw damper system to. ": {
+    answer: "prevent adverse yaw in a turn.",
+    choices: [
+      "prevent nose pitching down.",
+      "prevent nose pitching up.",
+      "prevent adverse yaw in a turn.",
+    ],
+  },
+  "Pitch trimming in autopilot is initiated by. ": {
+    answer: "continued pitch input.",
+    choices: [
+      "C of G movement.",
+      "pitch of aircraft in cruise.",
+      "continued pitch input.",
+    ],
+  },
+  "In a fully fly by wire system, if the elevator loses all electrical power. ":
+    {
+      answer: "servos remain stationary and provide damping.",
+      choices: [
+        "servos lock at last position.",
+        "servos remain stationary and provide damping.",
+        "servos move to neutral and lock.",
+      ],
+    },
+  "In an auto trim system, for the trim system to operate. ": {
+    answer: "autopilot need not be engaged.",
+    choices: [
+      "operation of the trim controls is required.",
+      "autopilot need not be engaged.",
+      "autopilot must be engaged.",
+    ],
+  },
+  "In an autopilot coordinated turn, when the turn angle is reached. ": {
+    answer: "the ailerons are faired.",
+    choices: [
+      "both ailerons are down.",
+      "one is up one is down.",
+      "the ailerons are faired.",
+    ],
+  },
+  "Powered flying control actuators. ": {
+    answer: "transmit pilot input to the control surfaces.",
+    choices: [
+      "are operated by the autopilot only.",
+      "transmit pilot input to the control surfaces.",
+      "provide feedback to the pilot.",
+    ],
+  },
+  "When an autopilot is Fail Passive,. ": {
+    answer: "the pilot must resume control and land the aircraft",
+    choices: [
+      "the aircraft reverts to fail operational autopilot.",
+      "the pilot must resume control and land the aircraft",
+      "the autoland can continue.",
+    ],
+  },
+  "In which control element of an autopilot system is an attitude indicator?": {
+    answer: "Sensing.",
+    choices: ["Command.", "Sensing.", "Input."],
+  },
+  "On modern large aircraft, what electronic device typically monitors flight parameters and performs autopilot functions?":
+    {
+      answer: "Flight management computer.",
+      choices: [
+        "Flight management computer.",
+        "Transponder.",
+        "Control/display unit",
+      ],
+    },
+  "When operationally checking an autopilot system on the ground, after the aircraft's main power has been switched on, the autopilot should be engaged":
+    {
+      answer:
+        "only after the gyros come up to speed and the amplifier warms up.",
+      choices: [
+        "only after the gyros come up to speed and the amplifier warms up.",
+        "whenever the operator desires.",
+        "for only a few minutes at a time.",
+      ],
+    },
+  "The elevator channel of an autopilot controls the aircraft about which axis of rotation?":
+    { answer: "Lateral.", choices: ["Roll.", "Longitudinal.", "Lateral."] },
+  "Which channel of an autopilot detects changes in pitch attitude of an aircraft?":
+    { answer: "Elevator.", choices: ["Elevator.", "Aileron.", "Rudder"] },
+  "Dutch roll, a combination yawing and rolling oscillation that affects many sweptwing aircraft, is counteracted with":
+    {
+      answer: "a yaw damper system.",
+      choices: [
+        "a flight director system.",
+        "an aileron damper system.",
+        "a yaw damper system.",
+      ],
+    },
+  "Which of the following provides manual maneuverability of the aircraft while the autopilot is engaged?":
+    {
+      answer: "Flight controller.",
+      choices: [
+        "Servo-amplifier.",
+        "Directional gyro indicator.",
+        "Flight controller.",
+      ],
+    },
+  "What is the main purpose of a servo in an autopilot system?": {
+    answer: "Move the control surface as commanded.",
+    choices: [
+      "Correct for displacement of the aircraft about its axis.",
+      "Change mechanical energy to electrical energy.",
+      "Move the control surface as commanded.",
+    ],
+  },
+  "What component of an autopilot system applies torque to the control surfaces of an aircraft?":
+    { answer: "Servo.", choices: ["Servo.", "Controller.", "Gyro."] },
+  "What is the primary purpose of an autopilot?": {
+    answer:
+      "To relieve the pilot of control of the aircraft during long periods of flight.",
+    choices: [
+      "To relieve the pilot of control of the aircraft during long periods of flight.",
+      "To fly a more precise course for the pilot.",
+      "To obtain the navigational aid necessary for extended overwater flights.",
+    ],
+  },
+  "A fully integrated autopilot controls the aircraft around how many axes?": {
+    answer: "Three.",
+    choices: ["Two.", "Three.", "Four."],
+  },
+  "What is the operating principle of the sensing device used in an autopilot system?":
+    {
+      answer: "The relative motion between a gyro and its supporting system.",
+      choices: [
+        "The reaction of the force 90° away from the applied force in the direction of gyro rotation.",
+        "The relative motion between a gyro and its supporting system.",
+        "The rate of change of motion between the gyro gimbal rings and the aircraft.",
+      ],
+    },
+  "In an autopilot, which signal nullifies the input signal to the ailerons?": {
+    answer: "Followup signal.",
+    choices: ["Displacement signal.", "Course signal.", "Followup signal."],
+  },
+  "What will occur if an aircraft attitude is changed by its autopilot system in order to correct for an error and the involved control surfaces are returned to streamline by the time the aircraft has reached its correct position?":
+    {
+      answer: "Normal operation.",
+      choices: [
+        "Overshoot and oscillation.",
+        "Undershoot and oscillation.",
+        "Normal operation.",
+      ],
+    },
+  "What component is the sensing device in an electromechanical autopilot system?":
+    { answer: "Gyro.", choices: ["Servo.", "Gyro.", "Controller"] },
+  "A full operational autopilot system will ensure that ": {
+    answer:
+      "the aircraft will continue its automatic landing in the event of a single failure",
+    choices: [
+      "the automatic pilot will automatically disengage whenever any failure is detected",
+      "the automatic pilot will automatically cause the aircraft to overshoot if any failure is detected",
+      "the aircraft will continue its automatic landing in the event of a single failure",
+    ],
+  },
+  "During an automatic landing, the aircraft descent rate is sensed by ": {
+    answer: "radio altimeters",
+    choices: [
+      "pitch rate gyros",
+      "radio altimeters",
+      "vertical accelerometers",
+    ],
+  },
+  "The aircraft decrabbing signal, used during autoland, originates from ": {
+    answer: "heading errors",
+    choices: ["roll errors", "localiser deviation errors", "heading errors"],
+  },
+  "An automatic throttle, engaged in the EPR mode, will control ": {
+    answer: "the engine throttles to maintain a constant engine power setting",
+    choices: [
+      "the aircraft altitude to maintain constant engine input pressure",
+      "the engine throttles to maintain a constant acceleration rate",
+      "the engine throttles to maintain a constant engine power setting",
+    ],
+  },
+  "Overshoot or go-around mode can be initiated ": {
+    answer: "at any time after autoland has been engaged",
+    choices: [
+      "only when the autopilot is engaged",
+      "at any time after autoland has been engaged",
+      "at any time",
+    ],
+  },
+  "The wheel height at which the approach path has been visually assessed as satisfactory to continue the approach to a landing is known as the ":
+    {
+      answer: "decision height",
+      choices: ["decision height", "intercept height", "alert height"],
+    },
+  "The International Civil Aviation Organisation weather category 3A is ": {
+    answer:
+      "operation down to and along the surface of the runway with RVR of 200 meters",
+    choices: [
+      "operation down to and along the surface of the runway without external reference",
+      "operation down to sixty meters and RVR of 800 meters",
+      "operation down to and along the surface of the runway with RVR of 200 meters",
+    ],
+  },
+  "Runway visual range in (RVR) is obtained by ": {
+    answer: "one set of instruments at the threshold of the runway",
+    choices: [
+      "information obtained the local Meteorological Office",
+      "three sets of instruments at the side of the runway",
+      "one set of instruments at the threshold of the runway",
+    ],
+  },
+  "A category 3B aircraft using fail operational automatic landing equipment which fail operational control and roll out guidance will have ":
+    {
+      answer: "no decision height",
+      choices: [
+        "a decision height of about 50 feet",
+        "no decision height",
+        "a decision height depending upon the RVR",
+      ],
+    },
+  "The purpose of a yaw damper is to ": {
+    answer: "block the Dutch roll frequency",
+    choices: [
+      "assist the aerodynamic response",
+      "produce a co-ordinated turn",
+      "block the Dutch roll frequency",
+    ],
+  },
+  "In a triplex system, the detection of a failure of one simplex system will disconnect ":
+    {
+      answer: "the failed system and carry on with an autoland",
+      choices: [
+        "all channels",
+        "the failed system and carry on with an autoland",
+        "the failed system and continue with a manual approach",
+      ],
+    },
+  "With autothrottle selected in the SPEED MODE compatible autopilot modes are ":
+    {
+      answer: "IAS HOLD and ALT ARM",
+      choices: [
+        "VOR ARM and HDG HOLD",
+        "IAS HOLD and ALT ARM",
+        "V/S and ALT ARM",
+      ],
+    },
+  "Which modes are incompatible ": {
+    answer: "G/S + ALTITUDE HOLD",
+    choices: ["VOR + ALTITUDE HOLD", "G/S + ALTITUDE HOLD", "HDG + V/S HOLD"],
+  },
+  "To carry out an autopilot check first ": {
+    answer: "ensure all control surfaces are unobstructed",
+    choices: [
+      "switch off all power",
+      "ensure all control surfaces are unobstructed",
+      "switch on NAV receivers",
+    ],
+  },
+  "FAIL PASSIVE means ": {
+    answer: "system self monitors, failure does affect system",
+    choices: [
+      "system self monitors, failure does not affect system",
+      "system self monitors, failure does affect system",
+      "system is duplicated, failure allows aircraft to continue autoland",
+    ],
+  },
+  "On the approach the autopilot loses the LOC signal; the aircraft would ": {
+    answer: "fly parallel to the beam",
+    choices: [
+      "would fly a circle",
+      "increase its drift angle",
+      "fly parallel to the beam",
+    ],
+  },
+  "The Airworthiness requirements for the autopilot / autoland system are laid down in ":
+    { answer: "JAR AWO", choices: ["JAR AWO", "CAIPs", "BCARs"] },
+  "Versine is generated by ": {
+    answer: "synchros resolvers",
+    choices: [
+      "torque receiver synchros",
+      "synchros resolvers",
+      "control synchro transformers",
+    ],
+  },
+  "Automatic trim is used to ": {
+    answer: "maintain level flight",
+    choices: [
+      "maintain level flight",
+      "prevents standing loads on the elevator",
+      "allow full authority to be regained by the aileron",
+    ],
+  },
+  "Synchronisation circuits in autopilots ensure ": {
+    answer:
+      "that the autopilot control circuits are at zero demand conditions engagement",
+    choices: [
+      "that the trim indicators will read zero prior to engagement",
+      "that the autopilot control circuits are at zero demand conditions engagement",
+      "that the aircraft will always be returned to straight and level flight when the autopilot is engaged",
+    ],
+  },
+  "The GA mode is usually initiated by ": {
+    answer: "pressing a button on thrust levers",
+    choices: [
+      "pressing a button on the control wheel",
+      "pressing a button on thrust levers",
+      "making a selection on the mode control panel",
+    ],
+  },
+  "On selection of the Turbulence Mode ": {
+    answer: "the gain is reduced to prevent stresses to the airframe",
+    choices: [
+      "the gain is doubled to reduce oscillation",
+      "the gain remains the same but signals are phase advanced",
+      "the gain is reduced to prevent stresses to the airframe",
+    ],
+  },
+  "Co-ordinated autopilot turns are achieved by ": {
+    answer: "yaw rate gyro signals",
+    choices: [
+      "yaw rate gyro signals",
+      "aileron to rudder crossfeed",
+      "aileron to elevator crossfeed",
+    ],
+  },
+  "A yaw damper system operates on ": {
+    answer: "only mid range frequencies",
+    choices: [
+      "all yaw frequencies",
+      "only mid range frequencies",
+      "low range frequencies",
+    ],
+  },
+  "An elevator tab moves down ": {
+    answer: "to counteract for the aircraft flying nose heavy",
+    choices: [
+      "to counteract for the aircraft flying nose heavy",
+      "to make the nose go down",
+      "to counteract for the aircraft flying tail heavy",
+    ],
+  },
+  "In a fly by wire system, pitch and roll control positions are known by using ":
+    {
+      answer: "LVDTs for roll and pitch control surfaces",
+      choices: [
+        "LVDTs for roll control surfaces and RVDTs for pitch control surfaces",
+        "LVDTs for roll and pitch control surfaces",
+        "RVDTs for roll and pitch control surfaces",
+      ],
+    },
+  "What is the purpose of the tail cone in helicopters? ": {
+    answer: "To hold the stabilizers and tail rotor",
+    choices: [
+      "To provide a balance for CofG",
+      "To hold the stabilizers and tail rotor",
+      "To provide vibration damping to the tail rotor",
+    ],
+  },
+  "An aircraft in climb maintains the same IAS. What is it's true airspeed? ": {
+    answer: "Higher than its IAS",
+    choices: [
+      "Higher than its IAS",
+      "Lower than its IAS",
+      "The same as its IAS",
+    ],
+  },
+  "The stall margin is controlled by ": {
+    answer: "EPR limits",
+    choices: [
+      "EPR limits",
+      "speed bug cursor",
+      "angle of attack and flap position",
+    ],
+  },
+  "When can the FMS be engaged with the autothrottle ": {
+    answer: "only after take off",
+    choices: [
+      "only with the Flight Director selected",
+      "With either the Flight Director or the Digital Control System (DFCS) engaged",
+      "only after take off",
+    ],
+  },
+  "Which is the correct sequence for an autoland? ": {
+    answer: "Localiser capture, glideslope capture, attitude hold and flare",
+    choices: [
+      "Glideslope capture, altitude hold and flare",
+      "Localiser capture, glideslope capture, attitude hold and flare",
+      "Localiser capture, glideslope capture, flare and attitude hold",
+    ],
+  },
+  "The wheel height at which the approach path has been visually assessed as satisfactory to continue the approach to a landing is know as the ":
+    {
+      answer: "decision height",
+      choices: ["decision height", "intercept height", "alert height"],
+    },
+  "The ICAO weather category 3A is ": {
+    answer:
+      "operation down to and along the surface of the runway with RVR of 200m",
+    choices: [
+      "operation down to and along the surface of the runway without external reference",
+      "operation down to 60 m and 800 m",
+      "operation down to and along the surface of the runway with RVR of 200m",
+    ],
+  },
+  "A category II facility performance ILS has an intercept height of ": {
+    answer: "60 m",
+    choices: ["15 m", "60 m", "0 m"],
+  },
+  "The facility performance ILS intersect height is the point ": {
+    answer: "where the aeroplane receives the first glide path signal",
+    choices: [
+      "where the aeroplane receives the first glide path signal",
+      "the localiser and glide path signals cross each other",
+      "where the aeroplanes first receives both the localiser and glide path signals",
+    ],
+  },
+  "The average risk of autoland should not contribute a rate of fatal accidents per landing greater than ":
+    { answer: "1 x 10-7", choices: ["1 x 10-6", "1 x 10-7", "1 x 10-8"] },
+  "Before an aeroplane is able to make an automatic landing the ": {
+    answer: "ILS system must be working",
+    choices: [
+      "ground radio aids must be at least CAT II",
+      "ground radio aids must be at CAT III",
+      "ILS system must be working",
+    ],
+  },
+  "For an aeroplane to be certified for automatic landing an autothrottle system is ":
+    {
+      answer: "mandatory",
+      choices: [
+        "mandatory",
+        "a matter of choice for the operator",
+        "dependent upon the operation of the aeroplane at slow speed",
+      ],
+    },
+  "The overshoot or go around mode is initiated ": {
+    answer: "by pushing the throttles forward to maximum",
+    choices: [
+      "automatically",
+      "by a selector on the throttle control panel",
+      "by pushing the throttles forward to maximum",
+    ],
+  },
+  "The aeroplanes autopilot is programmed to leave the glide slope at ": {
+    answer: "start of flare phase",
+    choices: ["300 ft", "the decrab phase", "start of flare phase"],
+  },
+  "The following modes may be retained when overshoot has been initiated after the selection of autoland ":
+    {
+      answer: "IAS and steering or heading",
+      choices: [
+        "after the selection of autoland ILS localiser and IAS",
+        "IAS and glideslope",
+        "IAS and steering or heading",
+      ],
+    },
+  "If go-around has been initiated after autoland has been selected, the aeroplane will ":
+    {
+      answer: "increase speed and rotate nose up",
+      choices: [
+        "increase speed",
+        "rotate nose up",
+        "increase speed and rotate nose up",
+      ],
+    },
+  "V NAV can be selected ": {
+    answer: "only if A/T selected",
+    choices: ["alone", "only if A/P and F/D selected", "only if A/T selected"],
+  },
+  "If during autoland the LOC signal is lost at 400 ft in final approach ": {
+    answer: "a go-around is initiated",
+    choices: [
+      "the system degrades to CAT II",
+      "the autoland is continued",
+      "a go-around is initiated",
+    ],
+  },
+  "The order of autoland approach is ": {
+    answer: "LOC, GS, ATT HOLD, FLARE",
+    choices: [
+      "LOC, GS, ATT HOLD, FLARE",
+      "GS, LOC, ATT HOLD, FLARE",
+      "LOC, GS, FLARE, ATT HOLD",
+    ],
+  },
+  "Purpose of an autoland decrabbing manoeuvre is to ": {
+    answer: "point the aircraft down the runway at touch down",
+    choices: [
+      "assist with localiser tracking",
+      "assist with glideslope tracking",
+      "point the aircraft down the runway at touch down",
+    ],
+  },
+  "An autoland failure monitoring system must ensure that ": {
+    answer:
+      "the aircraft will continue its automatic landing in the event of single failure",
+    choices: [
+      "the automatic pilot will automatically disengage whenever any failure is detected",
+      "the automatic pilot will automatically cause the aircraft to overshoot if any failure is detected",
+      "the aircraft will continue its automatic landing in the event of single failure",
+    ],
+  },
+  "The effective gain of the glide path receiver ": {
+    answer: "is decreased as the aircraft descends",
+    choices: [
+      "is increased as the aircraft descends",
+      "remains constant as the aircraft descends",
+      "is decreased as the aircraft descends",
+    ],
+  },
+  "During an automatic landing , the aircraft descent rate is sensed by ": {
+    answer: "radio altimeters",
+    choices: [
+      "pitch rate gyros",
+      "radio altimeters",
+      "vertical accelerometers",
+    ],
+  },
+  "An autopilot with two separate power supplies is ": {
+    answer: "fail operational",
+    choices: ["fail passive", "fail operational", "fail redundant"],
+  },
+  "On touchdown, autopilot ": {
+    answer: "remains engaged ready for G/A",
+    choices: [
+      "remains engaged ready for G/A",
+      "drives the throttles forward",
+      "disconnects after a short time",
+    ],
+  },
+  "Automatic steering of the aircraft after touch down is affected by ": {
+    answer: "the runway localiser",
+    choices: [
+      "the area navigation system",
+      "the runway localiser",
+      "the airfield marker beacon",
+    ],
+  },
+  "The flare manoeuvre may be controlled by signals from ": {
+    answer: "radio altimeter",
+    choices: [
+      "radio altimeter",
+      "the glide slope receiver",
+      "the localiser receiver",
+    ],
+  },
+  "A triplex system looses one channel, the system is now, ": {
+    answer: "fail operational",
+    choices: ["fail passive", "fail operational", "fail redundant"],
+  },
+  "A fail passive system in the event of failure will ": {
+    answer: "produce no significant out of trim condition",
+    choices: [
+      "produce a significant out of trim condition",
+      "produce no significant out of trim condition",
+      "ensure the aircraft can still land automatically",
+    ],
+  },
+  "A triplex system loses one channel, the system becomes a ": {
+    answer: "duplex system",
+    choices: ["simplex system", "duplex system", "dual-dual system"],
+  },
+  "The two parameters used for category classification are ": {
+    answer: "decision height and runway visual range",
+    choices: [
+      "radio height/runway visual range",
+      "localiser and glideslope",
+      "decision height and runway visual range",
+    ],
+  },
+  "What is the controlling factor in the automatic flare mode? ": {
+    answer: "Radio altimeter",
+    choices: ["Decision height", "Radio altimeter", "Glideslope signal"],
+  },
+  "CAT-3b allows ": {
+    answer: "approach land and RVR in the order of 50 meters",
+    choices: [
+      "approach land and runway guidance with zero DH and RVR",
+      "approach land and RVR in the order of 50 meters",
+      "approach land and runway guidance with taxing visibility in the order of 50 meters",
+    ],
+  },
+  "The definition of fail operational is the ability of a system to ": {
+    answer: "continue to control after any first fault",
+    choices: [
+      "disconnect and leave the aircraft in trim",
+      "continue to control after any first fault",
+      "disconnect but leave the aircraft out of trim",
+    ],
+  },
+  "What is added to the flare computation at touchdown? ": {
+    answer: "Nose down bias",
+    choices: ["Nose down bias", "Nose up bias", "No signal"],
+  },
+  "What controls are used in response to the PFD? ": {
+    answer: "Nosewheel steering or rudder pedals",
+    choices: ["Ailerons", "Throttles", "Nosewheel steering or rudder pedals"],
+  },
+  "The ground run monitor (GRM) presents ": {
+    answer: "ground speed and distance to go",
+    choices: [
+      "distance to go",
+      "ground speed and distance to go",
+      "take off speed and distance to go",
+    ],
+  },
+  "For a vertical Gyro which is moved in pitch, which gimble would be moved to correct the pitch movement? ":
+    {
+      answer: "Longitudinal",
+      choices: [
+        "moved to correct the pitch movement? Lateral",
+        "Longitudinal",
+        "Normal",
+      ],
+    },
+  "Versine is used in which channel? ": {
+    answer: "Pitch",
+    choices: ["Pitch", "Roll", "Yaw"],
+  },
+  "With airspeed hold engaged whilst flying with Flight Director engaged, a down command means your speed has ":
+    {
+      answer: "decreased",
+      choices: [
+        "engaged, a down command means your speed has increased",
+        "decreased",
+        "is the same",
+      ],
+    },
+  "In the ATA zoning where is section 100 in on an aircraft ": {
+    answer: "at the lower section of the cabin up to the pressure bulkhead",
+    choices: [
+      "in the undercarriage bay including the doors",
+      "at the lower section of the cabin up to the pressure bulkhead",
+      "at the rear of the fuselage behind the bulkhead",
+    ],
+  },
+  "If a fault is detected during an autoland approach the system will totally disconnect if it is a ":
+    {
+      answer: "Simplex system",
+      choices: [
+        "totally disconnect if it is a Triplex system",
+        "Duplex system",
+        "Simplex system",
+      ],
+    },
+  "Other than spoilers, where are speed brakes located? ": {
+    answer: "Either side of the Fuselage",
+    choices: [
+      "On the wing",
+      "Under the Fuselage",
+      "Either side of the Fuselage",
+    ],
+  },
+  "With a trailing edge flap being lowered, due to rising gusts what will happen to the angle of attack? ":
+    {
+      answer: "Tend to increase",
+      choices: ["Tend to increase", "Tend to decrease", "Stay the same"],
+    },
+  "If a fly-by-wire system fails, the rudder ": {
+    answer: "remains at the neutral position",
+    choices: [
+      "remains at the neutral position",
+      "controls the aircraft in trim",
+      "remains in the previous position",
+    ],
+  },
+  "When downgrading an Autoland system what needs to be done? ": {
+    answer: "An entry in the log book and cockpit placarding",
+    choices: [
+      "Placards in the cockpit",
+      "An entry in the log book and cockpit placarding",
+      "Crew retraining",
+    ],
+  },
+  "A device used do dump lift from an aircraft is the ": {
+    answer: "spoiler",
+    choices: ["spoiler", "leading edge flaps", "trailing edge flaps"],
+  },
+  "Stall warning will be given at speeds ": {
+    answer: "that are higher than stall speed",
+    choices: [
+      "that are higher than stall speed",
+      "that are lower than stall speed",
+      "at the actual stall speed",
+    ],
+  },
+  "An aircraft will capture the auto land system at ": {
+    answer: "1500 ft",
+    choices: ["1500 ft", "2500 ft", "3500 ft"],
+  },
+  "An autopilot interlock circuit is to ": {
+    answer: "both a & b",
+    choices: [
+      "prevent the system engagement if a fault exists",
+      "disconnect the system if a fault appears",
+      "both a & b",
+    ],
+  },
+  "When working on a hydraulic operated flight control it is sensible to ": {
+    answer: "remove/disconnect hydraulic power",
+    choices: [
+      "remove/disconnect hydraulic power",
+      "remove/disconnect electrical power",
+      "pull the appropriate CB",
+    ],
+  },
+  "A unit with two springs and a mass pick off is ": {
+    answer: "an accelerometer",
+    choices: ["an accelerometer", "a gyroscope", "a tachogenerator"],
+  },
+  "The loss of the vertical gyro signal to the flight director system would cause ":
+    {
+      answer: "aircraft to overbank",
+      choices: [
+        "aircraft to underbank",
+        "aircraft to overbank",
+        "aircraft to remain in level flight",
+      ],
+    },
+  "During flare mode autothrottle will ": {
+    answer: "retard throttles to idle",
+    choices: [
+      "retard throttles to idle",
+      "disconnect autothrottle",
+      "select reverse thrust",
+    ],
+  },
+  "As the rotor head is tilted to travel forward what happens to the reward travelling blades pitch angle? ":
+    { answer: "Increases", choices: ["Increases", "Decreases", "No change"] },
+  "In a fully fly by wire system if the rudder becomes disconnected ": {
+    answer: "it is centralised by the airflow",
+    choices: [
+      "it is centralized by a spring",
+      "its control is maintained by electric trim",
+      "it is centralised by the airflow",
+    ],
+  },
+  "A vertical structural member forming part or full walls are ": {
+    answer: "bulkheads",
+    choices: ["bulkheads", "longerons", "frame"],
+  },
+  "A manual trim wheel, when fully moved in the direction of tail ": {
+    answer: "the up movement authority is effected",
+    choices: [
+      "the authority of elevators not effected",
+      "the up movement authority is effected",
+      "the down movement authority is effected",
+    ],
+  },
+  "When moving the control column ": {
+    answer: "sensors located under the control column produces a signal",
+    choices: [
+      "sensors located under the control column produces a signal",
+      "sensor located along the control run produces a signal",
+      "sensor in the AFCS computer produces a signal",
+    ],
+  },
+  "In the reversed camber horizontal stabilizer as shown": {
+    answer: "there is an increased tailplane down-force",
+    choices: [
+      "the elevator causes tail down movement i.e. increases tail plane down force",
+      "there is an increases tail plane up-force",
+      "there is an increased tailplane down-force",
+    ],
+  },
+  "In an Autoland, autothrottle is disengaged ": {
+    answer: "after reverse thrust is applied",
+    choices: [
+      "after reverse thrust is applied",
+      "after affixed period of the time after landing",
+      "manually after landing",
+    ],
+  },
+  "Acceleration error produces ": {
+    answer: "a false indication of right bank",
+    choices: [
+      "a false indication of left bank",
+      "a false indication of right bank",
+      "a false indication of climb",
+    ],
+  },
+  "The normal axis of a helicopter passes through ": {
+    answer:
+      "through the centre of intersection of longitudinal and lateral axis",
+    choices: [
+      "the centre of rotor disc",
+      "through the centre of intersection of longitudinal and lateral axis",
+      "a line parallel to rotor axis",
+    ],
+  },
+  "Zone 500 indicates as per ATA 100 ": {
+    answer: "Left wing",
+    choices: ["Door", "Left wing", "Right wing"],
+  },
+  "Shock stall": {
+    answer: "occurs at high speeds",
+    choices: [
+      "is a flap down stall",
+      "occurs at high speeds",
+      "occurs at low speeds",
+    ],
+  },
+  "Drooping of helicopter blades is compensated by": {
+    answer: "centrifugal force",
+    choices: ["flapping", "dragging", "centrifugal force"],
+  },
+  "During a turn": {
+    answer: "rudder to be maintained in centre position",
+    choices: [
+      "left rudder to be used",
+      "right rudder to be used",
+      "rudder to be maintained in centre position",
+    ],
+  },
+  "Align light flashes during alignment": {
+    answer: "A fault has occurred and system needs to be turned off",
+    choices: [
+      "A fault has occurred and system needs to be turned off",
+      "It is attracting operators attention",
+      "It is indicating progress of alignment",
+    ],
+  },
+  "During decent with power on in a helicopter": {
+    answer: "lift, drag, thrust and weight are acting on the helicopter",
+    choices: [
+      "lift, drag and thrust are acting on the helicopter",
+      "lift, drag, thrust and weight are acting on the helicopter",
+      "lift, weight and thrust are acting on the helicopter",
+    ],
+  },
+  "To transmit position feedback for actuators of roll and pitch control surfaces, in a fly by wire system":
+    {
+      answer: "LVDT is used hence ensuring interchangeability",
+      choices: [
+        "LVDT is used hence ensuring interchangeability",
+        "LVDT and RVDT are used for pitch and roll",
+        "Synchros are used",
+      ],
+    },
+  "As you approach supersonic speed": {
+    answer: "total drag is increased",
+    choices: [
+      "total drag is increased",
+      "lift is reduced",
+      "thrust is reduced",
+    ],
+  },
+  "Mach trim in some aircraft assists ": {
+    answer: "longitudinal stability",
+    choices: [
+      "longitudinal stability",
+      "lateral stability",
+      "vertical stability",
+    ],
+  },
+  "Main electric pitch trim is controlled by ": {
+    answer: "a switch on control wheel",
+    choices: [
+      "a switch on control wheel",
+      "a switch installed on centre pedestal panel",
+      "a wheel on the centre pedastal",
+    ],
+  },
+  "Purpose of the bellcrank is to": {
+    answer: "reverse direction and transmit motion",
+    choices: [
+      "transmit motion",
+      "reverse direction and transmit motion",
+      "adjust friction",
+    ],
+  },
+  "DH is based on": {
+    answer: "aircraft characteristics",
+    choices: [
+      "aircraft characteristics",
+      "experience of the crew",
+      "RVR transmitted by ATC",
+    ],
+  },
+  "Helicopter derives its lift from": {
+    answer: "the blade of the helicopter creates a low pressure above it",
+    choices: [
+      "the blade of the helicopter creates a low pressure above it",
+      "rotor acts as a airscrew",
+      "air is pushed downward",
+    ],
+  },
+  "A two bladed helicopter rotor on a central gimbal is called": {
+    answer: "semi rigid rotor",
+    choices: ["rigid rotor", "semi rigid rotor", "fully articulated rotor"],
+  },
+  "If the 'Q' feel in a powered control system fails": {
+    answer: "the pilot feels air loads lower than normal",
+    choices: [
+      "the failed system stops and it remains in this position",
+      "the pilot feels air loads higher than normal",
+      "the pilot feels air loads lower than normal",
+    ],
+  },
+  "When the bank angle limit is applied to the autopilot , it means": {
+    answer: "the max roll angle that can be demanded by the autopilot",
+    choices: [
+      "the max aileron angle that can be commanded",
+      "the max roll angle that can be demanded by the autopilot",
+      "maximum rudder deflection",
+    ],
+  },
+  "Servo tabs": {
+    answer: "move in such a way as to help move the control surface",
+    choices: [
+      "enable the pilot to bring the control surface back to neutral",
+      "move in such a way as to help move the control surface",
+      "provide artificial feel",
+      "move in such a way as to help move the control surface",
+    ],
+  },
+  "Spring Tabs": {
+    answer: "move in such a way as to help move the control surface",
+    choices: [
+      "enable the pilot to bring the control surface back to neutral",
+      "move in such a way as to help move the control surface",
+      "provide artificial feel",
+    ],
+  },
+  "When secondary stops are utilized in control surfaces, theycome in contact":
+    {
+      answer: "before the primary stops",
+      choices: [
+        "before the primary stops",
+        "after the primary stops",
+        "at the same time as the primary stops",
+      ],
+    },
+  "Helicopter cyclic stick is turned to the right": {
+    answer: "rotating aerofoil tilts to the right",
+    choices: [
+      "rotating aerofoil tilts to the right",
+      "pitch operating arms lengthen in one direction andshorten in another",
+      "rotating aerofoil tilts forward",
+    ],
+  },
+  "An aircraft with auto-land is fitted with a CMC": {
+    answer: "records all faults in non-volatile memory",
+    choices: [
+      "records all faults in volatile memory",
+      "records all faults in non-volatile memory",
+      "all memory is erased when aircraft lands",
+    ],
+  },
+  "A helicopter autopilot uses": {
+    answer:
+      "radio altitude for height hold and barometric altitudefor altitude hold",
+    choices: [
+      "radio altitude for height hold and barometric altitudefor altitude hold",
+      "barometric altitude for height hold and radio altitudefor altitude hold",
+      "barometric altitude for both height and altitude hold",
+    ],
+  },
+  "Which of the following modes does a autopilot go through in correct sequence?":
+    {
+      answer: "Attitude, flare, rollout",
+      choices: [
+        "in correct sequence?Flare, attitude, rollout",
+        "Attitude, flare, rollout",
+        "Rollout, attitude, flare",
+      ],
+    },
+  "When can other autopilot modes be select once Go Around has been selected?":
+    {
+      answer: "When reached a desired altitude",
+      choices: [
+        "selected?When aircraft has reached 5000ft",
+        "When reached a desired altitude",
+        "Disengage and reengage the AFCS system",
+      ],
+    },
+  "Once the G/S has been captured what other pitch modes are available?": {
+    answer: "No other pitch modes are available",
+    choices: [
+      "No other pitch modes are available",
+      "Only when the aircraft is above the glide slope beam",
+      "All are continuously available",
+    ],
+  },
+  "A spring balance control system you": {
+    answer: "can move the control surface on the ground",
+    choices: [
+      "can move the control surface on the ground",
+      "can move the control surface only by moving the tab",
+      "cannot move the control surface on the ground",
+    ],
+  },
+  "What is a versine signal attenuated with?": {
+    answer: "Increase in altitude",
+    choices: [
+      "Increase in airspeed",
+      "Increase in altitude",
+      "Decrease in altitude",
+    ],
+  },
+  "What controls are used in response to PVD display?": {
+    answer: "Nose wheel steering or rudder pedals",
+    choices: [
+      "Nose wheel steering or rudder pedals",
+      "Control wheel",
+      "PVD control unit",
+    ],
+  },
+  "The best design of a MRB is where the C of P ": {
+    answer: "does not move",
+    choices: [
+      "does not move",
+      "moves freely along the length of the blade",
+      "is insignificant",
+    ],
+  },
+  "The RAD alt electrical length for an helicopter is ": {
+    answer: "28ft",
+    choices: ["16ft", "12ft", "28ft"],
+  },
+  "The rotor cone is formed by ": {
+    answer: "centrifugal force and lift",
+    choices: [
+      "blade alignment",
+      "centrifugal force and lift",
+      "centrifugal force only",
+    ],
+  },
+  "Tracking is carried out to_____________the MRB tip path ": {
+    answer: "align",
+    choices: ["balance", "restore", "align"],
+  },
+  "Artificial feel is gained by using a": {
+    answer: "spring bias unit",
+    choices: ["hydraulic damper", "spring bias unit", "'feel' generator"],
+  },
+  "The ground run monitor presents information ": {
+    answer: "of distance to go and ground speed",
+    choices: [
+      "of distance to go and ground speed",
+      "duration of ground run",
+      "angle of crosstrack on ground",
+    ],
+  },
+  "The crew select DH on": {
+    answer: "the rad. alt display",
+    choices: [
+      "the altimeter",
+      "the DH annunciator panel",
+      "the rad. alt display",
+    ],
+  },
+  "If a helicopter rotor disc is rotating anticlockwise, viewed from above where would a pitch input be fed into the disc to move the helicopter backwards, 90 degrees to what? ":
+    {
+      answer: "Right of the longitudinal axis",
+      choices: [
+        "In front of the lateral axis",
+        "Right of the longitudinal axis",
+        "Left of the longitudinal axis",
+      ],
+    },
+  "The cyclic stick in an helicopter is": {
+    answer: "in the centre",
+    choices: ["to the left", "to the right", "in the centre"],
+  },
+  "An autopilot computer": {
+    answer: "is more sensitive to ILS than to VOR",
+    choices: [
+      "is more sensitive to ILS than to VOR",
+      "is more sensitive to VOR than to ILS",
+      "is the same sensitivity for VOR and ILS",
+    ],
+  },
+  "On a helicopter, what is vortex ring state? ": {
+    answer: "Tip vortex build-up during hover",
+    choices: [
+      "Tip vortex interference at high forward speed",
+      "Ground vortex interference when hovering close to the ground",
+      "Tip vortex build-up during hover",
+    ],
+  },
+  "The advancing blade of a helicopter is the one moving ": {
+    answer: "one moving forward into relative airflow",
+    choices: [
+      "one moving in direction of relative air flow",
+      "highest blade",
+      "one moving forward into relative airflow",
+    ],
+  },
+  "In air speed hold mode, a down displacement of the flight director pitch command bar signifies":
+    {
+      answer: "speed decrease",
+      choices: ["speed increase", "speed decrease", "height decrease"],
+    },
+  "Medium vibration of 4 to 6 times per revolution is experienced on a helicopter. The primary control method is ":
+    {
+      answer: "design of engine and gearbox supports",
+      choices: [
+        "inspect loose fixtures and fittings",
+        "design of engine and gearbox supports",
+        "inspect main rotor head and main drive shaft",
+      ],
+    },
+  "Krueger flaps make up part of the ": {
+    answer: "wing lower surface leading edge",
+    choices: [
+      "wing upper surface leading edge",
+      "wing lower surface trailing edge",
+      "wing lower surface leading edge",
+    ],
+  },
+  "Electronic stab trim switches are found on the ": {
+    answer: "control column",
+    choices: ["control column", "flight control panel", "behind thrust lever"],
+  },
+  "'Q' feel for the stabilizer requires": {
+    answer: "pitot and static",
+    choices: ["pitot only", "static only", "pitot and static"],
+  },
+  "When the aircraft nose yaws to the left, the yaw damper will apply corrective rudder to":
+    {
+      answer: "the right",
+      choices: [
+        "the right",
+        "the left",
+        "the left with some aileron assistance",
+      ],
+    },
+  "A yaw damper will apply rudder proportional to": {
+    answer: "rate of yaw",
+    choices: [
+      "amount of aircraft disturbance",
+      "attitude of aircraft",
+      "rate of yaw",
+    ],
+  },
+  "In a turn, wing spoilers may be deployed ": {
+    answer: "to assist the up going aileron",
+    choices: [
+      "to act as an airbrake, interacting with the ailerons",
+      "in unison with both the up going and down going ailerons",
+      "to assist the up going aileron",
+    ],
+  },
+  "Glideslope deviation signals are ": {
+    answer: "DC polarity sensitive",
+    choices: [
+      "DC polarity sensitive",
+      "AC phase sensitive",
+      "DC positive going only",
+    ],
+  },
+  "A triplex system loses one channel ": {
+    answer: "pilot can continue with autoland",
+    choices: [
+      "pilot can continue with autoland",
+      "pilot can use auto approach",
+      "pilot must make a full manual approach and land",
+    ],
+  },
+  "A series actuator in a helicopter autopilot system has ": {
+    answer: "10% authority",
+    choices: ["full authority", "50% authority", "10% authority"],
+  },
+  "Stall warning will be given ": {
+    answer: "before stall",
+    choices: ["before stall", "after stall", "at stall"],
+  },
+  "How are spoilers normally operated? ": {
+    answer: "Hydraulic actuator",
+    choices: ["Hydraulic actuator", "Air pistons", "Electrical motors"],
+  },
+  "The purpose of a force trim release system in an helicopter is to permit the ":
+    {
+      answer:
+        "pilot to move the cyclic stick to obtain desired new attitude without having to maintain the opposing forces of the artificial feel system forces",
+      choices: [
+        "pilot to move the cyclic stick to obtain desired new attitude without having to maintain the opposing forces of the artificial feel system forces",
+        "pilot to move the collective to obtain a power change",
+        "appropriate cyclic actuator to be over powered",
+      ],
+    },
+  "The neutral shift sensor ensures that ": {
+    answer:
+      "after an auto trim, the elevator is moved to align with the stabiliser",
+    choices: [
+      "after an auto trim, the elevator is moved to align with the stabiliser",
+      "after a mach trim, the stabiliser is moved to align with the elevator",
+      "after an auto trim, the stabiliser is moved to align with the elevator",
+    ],
+  },
+  "Aileron to rudder crossfeed is applied in autopilot systems to ": {
+    answer: "prevents aircraft yawing in the opposite direction to the turn",
+    choices: [
+      "assist the aircraft back to datum after disturbance in yaw",
+      "prevents slip and skid in yaw",
+      "prevents aircraft yawing in the opposite direction to the turn",
+    ],
+  },
+  "In a flight director system the radio signal outputs from the navigation receiver are ":
+    { answer: "DC", choices: ["DC", "AC", "pulsed DC"] },
+  "The stabiliser is set to high setting when ": {
+    answer: "the flaps are moving down",
+    choices: [
+      "the flaps are moving down",
+      "the flap are moving up",
+      "the flap are moving up or down",
+    ],
+  },
+  "An auto land system displays Land 2 another failure will make the system ": {
+    answer: "passive",
+    choices: ["operational", "passive", "simplex"],
+  },
+  "In helicopter Alt Hold uses a signal from ": {
+    answer: "the barometric alt capsule",
+    choices: [
+      "the barometric alt capsule",
+      "a rad alt output",
+      "a rad alt or capsule output depend on height",
+    ],
+  },
+  "On aircraft an auto land during auto flare the auto throttle will": {
+    answer: "retard the throttle",
+    choices: [
+      "retard the throttle",
+      "reverse thrust",
+      "control throttle for a IAS",
+    ],
+  },
+  "The normal axis on a helicopter is ": {
+    answer: "straight down the rotor head",
+    choices: [
+      "straight down the rotor head",
+      "at 90o to the C of G",
+      "at 90o to the rotor head",
+    ],
+  },
+  "Mach trim threshold are set by the ": {
+    answer: "manufacture",
+    choices: [
+      "pilot",
+      "engineer using aircraft maintenance manual",
+      "manufacture",
+    ],
+  },
+  "The versine signal is used in the ": {
+    answer: "pitch channel only",
+    choices: [
+      "pitch channel only",
+      "roll channel only",
+      "pitch and roll channel",
+    ],
+  },
+  "After a change in collective pitch the Rotor rpm will rise and fall. This is called ":
+    {
+      answer: "transient droop",
+      choices: ["transient droop", "static droop", "under swing"],
+    },
+  "The amount of travel of a series actuator is ": {
+    answer: "10% of control movement",
+    choices: [
+      "50% of control movement",
+      "10% of control movement",
+      "full control movement",
+    ],
+  },
+  "After a change in pitch of a rotor blade the blade will be at maximum flap at ":
+    { answer: "90o", choices: ["90o", "180o", "0o"] },
+  "The rotor disc is ": {
+    answer: "the distance between tip to tip",
+    choices: [
+      "the distance between tip to tip",
+      "the rotor head hub",
+      "the ground cushion",
+    ],
+  },
+  "The flight director is on a localizer when the radio deviation signal is lost the aircraft would ":
+    {
+      answer: "fly parallel to the localizer",
+      choices: [
+        "continue on flying on the localizer",
+        "fly parallel to the localizer",
+        "drift of from the localizer on the same heading",
+      ],
+    },
+  "Cat-2 autoland DH limits are ": {
+    answer: "below 200 feet but not less than 100 ft",
+    choices: [
+      "below 200 feet but not less than 100 ft",
+      "below 500 feet but not less than 400 ft.",
+      "below 300 feet and not less than 200 ft.",
+    ],
+  },
+  "Cat-1 autoland DH limits are ": {
+    answer: "not less than 200 ft.",
+    choices: [
+      "not less than 100 ft.",
+      "not less than 200 ft.",
+      "below 200 ft but not less than 100 ft.",
+    ],
+  },
+  "When GA is initiated? ": {
+    answer: "Auto throttle remains engaged giving correct G/A thrust",
+    choices: [
+      "Auto throttle disengages at 2000 ft/min rate and wings will level",
+      "Auto throttle remains engaged allowing pilot to control the throttles",
+      "Auto throttle remains engaged giving correct G/A thrust",
+    ],
+  },
+  "The controlling signal in pitch channel in the Flare mode are ": {
+    answer: "integrated pitch and radio altitude.",
+    choices: [
+      "integrated pitch and radio altitude.",
+      "G/S deviation and radio altitude.",
+      "integrated pitch and G/S deviation",
+    ],
+  },
+  "Rollout guidance after touch down is by ": {
+    answer: "automatic rudder control and nosewheel steering",
+    choices: [
+      "automatic rudder control and nosewheel steering",
+      "visual indication and nosewheel steering",
+      "visual indication and rudder control",
+    ],
+  },
+  "During autoland failure of one channel is detected ": {
+    answer: "all channels will disconnect in dulpex system.",
+    choices: [
+      "all channels will disconnect in triplex system.",
+      "all channels will disconnect in dulpex system.",
+      "all channels will disconnect in dual-dual system.",
+    ],
+  },
+  "In triplex autoland system failure of one channel will ": {
+    answer: "disconnect the failure channel and continue autoland approach",
+    choices: [
+      "disconnect all channels",
+      "disconnect the failure channel and continue autoland approach",
+      "disconnect the failure channel and continue with a manual approach",
+    ],
+  },
+  "During the flair mode the A/T throttle will ": {
+    answer: "retard throttle to idle.",
+    choices: [
+      "retard throttle to idle.",
+      "disconnect autothrottle",
+      "select reverse thrust.",
+    ],
+  },
+  "Roll out mode occurs ": {
+    answer: "after flare",
+    choices: ["after flare", "before flare", "at alert height"],
+  },
+  "High and low signal to voter are ": {
+    answer: "averaged",
+    choices: ["averaged", "removed", "added"],
+  },
+  "Basic monitoring is function of ": {
+    answer: "signal comparison",
+    choices: ["voting", "signal comparison", "signal summing"],
+  },
+  "In series rudder system ": {
+    answer: "the pilot can input to the system",
+    choices: [
+      "the pilot cannot input to the system",
+      "the pilot can input to the system",
+      "yaw damping is only possible signal input",
+    ],
+  },
+  "If a pointer is not centralised on a trim indicators, it means that ": {
+    answer: "the control system is out of trim",
+    choices: [
+      "the indicator is not serviceable",
+      "the control system is out of trim",
+      "the system is trimmed",
+    ],
+  },
+  "In parallel rudder system, ": {
+    answer: "The rudder pedals move in response to rudder movement",
+    choices: [
+      "the pilot can input on rudder pedals",
+      "The rudder pedals move in response to rudder movement",
+      "The rudder pedals are disconnected",
+    ],
+  },
+  "The aileron/rudder signal is demodulated in the rudder channel amplifier. This means it is ":
+    {
+      answer: "DC output whose polarity is related to the phase of AC input",
+      choices: [
+        "AC",
+        "DC",
+        "DC output whose polarity is related to the phase of AC input",
+      ],
+    },
+  "An increase in mach number will cause the ": {
+    answer: "Cof P to move rearwards giving less downwash on the tail plane",
+    choices: [
+      "Cof P to move rearwards giving less downwash on the tail plane",
+      "Cof P to move rearwards giving more downwash on the tail plane",
+      "Cof P to move forwards giving less downwash on the tail plane",
+    ],
+  },
+  "If a helicopter rotor disc is rotating anticlockwise, view from above where would a pitch input be fed into the disc to move the helicopter backwards, 90 degrees to what? ":
+    {
+      answer: "Right of the longitudinal axis",
+      choices: [
+        "In front of the lateral axis",
+        "Right of the longitudinal axis",
+        "Left of the longitudinal axis",
+      ],
+    },
+  "Forces on a helicopter in a power-on descent are ": {
+    answer: "lift, drag thrust, weight",
+    choices: [
+      "lift, drag thrust, weight",
+      "lift, drag, thrust",
+      "weight, drag, lift",
+    ],
+  },
+  "What is the primary purpose of a helicopter tail arm? ": {
+    answer:
+      "Provide a structure for mounting the stabiliser and anti torque rotor",
+    choices: [
+      "Provide a structure for mounting the stabiliser and anti torque rotor",
+      "Acts to help balance the centre of gravity of the helicopter",
+      "Provide directional control",
+    ],
+  },
+  "Alert Height is when": {
+    answer: "a decision of whether to land is made",
+    choices: [
+      "a decision of whether to land is made",
+      "an alert of the altitude of the aircraft is made",
+      "an alert of the position of the aircraft is made",
+    ],
+  },
+  "For a Vertical Gyro which is moved in pitch, which gimble would be moved to correct the pitch movement? ":
+    { answer: "Longitudinal", choices: ["Lateral", "Longitudinal", "Normal"] },
+  "Flap asymmetry causes the aircraft to ": {
+    answer: "go one wing down",
+    choices: ["nose up", "go one wing down", "nose down"],
+  },
+  "On a coupled approach what happens to the aircraft if it looses the localiser signal? ":
+    {
+      answer: "It will fly straight down the original course but will drift",
+      choices: [
+        "It will fly straight down the original course but will drift",
+        "It will fly in circles",
+        "It will fly on the heading the aircraft was on",
+      ],
+    },
+  "If an autopilot is fed with radio deviation ": {
+    answer: "it will fly in circles",
+    choices: [
+      "it will stand off the centre line by a fixed amount",
+      "it will fly in circles",
+      "it will fly on the heading the aircraft was on",
+    ],
+  },
+  "What colour are the autoland indication lights next to the pilots instruments with excess deviation? ":
+    { answer: "Amber", choices: ["Red", "Amber", "White"] },
+  "If an aircraft moves in yaw what axis is it moving about?": {
+    answer: "Normal",
+    choices: ["Normal", "Longitudinal", "Lateral"],
+  },
+  "What happens to the F/D command bars if the roll gyro fails in a turn? ": {
+    answer: "They disappear out of view",
+    choices: [
+      "They stay in the same place as nothing is there to null the input signal",
+      "They return back to neutral when the turn is complete",
+      "They disappear out of view",
+    ],
+  },
+  "The neutral shift system augments control of the": {
+    answer: "elevator",
+    choices: ["stabilizer", "elevator", "spoiler"],
+  },
+  "On a full time Fly-by-wire system a nose up command causes": {
+    answer:
+      "the two elevator surfaces on each side of the stabilizer to move up",
+    choices: [
+      "the two elevator surfaces on each side of the stabilizer to move up",
+      "all the elevators on each wing to move up",
+      "the two Ailerons on each wing to move upthe two elevator surfaces on each side of the stabilizer to move up",
+    ],
+  },
+  "What are ground spoilers used for?": {
+    answer: "To dump lift",
+    choices: [
+      "To dump lift",
+      "To assist the aircraft coming to a stop",
+      "To slow the aircraft",
+    ],
+  },
+  "If the aircraft is to be rolled to the right where does the pilot feed in this command?":
+    {
+      answer: "Control Wheel",
+      choices: ["Control Wheel", "Control Column", "Rudder Pedals"],
+    },
+  "What is the diagonal part of the landing gear called? ": {
+    answer: "Drag Strut",
+    choices: ["Drag Strut", "Drag Wire", "Shock Absorber"],
+  },
+  "What is the advancing blade on a helicopter doing? ": {
+    answer: "Increasing in lift",
+    choices: [
+      "Increasing in lift",
+      "Going to the highest point",
+      "Increasing in drag",
+    ],
+  },
+  "In a series actuator fitted to a helicopter how much authority does it have? ":
+    {
+      answer: "10% approximately",
+      choices: ["10% approximately", "100%", "50%"],
+    },
+  "If a series actuator is fitted in the cyclic control circuit of a helicopter what effect will an autopilot input have? ":
+    {
+      answer: "The cyclic lever will not move",
+      choices: [
+        "The cyclic lever will move in proportion to the autopilot input",
+        "The cyclic lever will not move",
+        "The flight director bars only will move",
+      ],
+    },
+  "What is the purpose of the autopilot trim indication? ": {
+    answer: "The voltage activity in the servo amp",
+    choices: [
+      "The voltage activity in the servo amp",
+      "Trim tab position",
+      "Control surface position",
+    ],
+  },
+  "What is the swash plate on a helicopter used for? ": {
+    answer: "Control of the pitch of the rotor blades",
+    choices: [
+      "Control of the pitch of the rotor blades",
+      "Control of the speed of the rotor blades",
+      "Control of the flap of the rotor blades",
+    ],
+  },
+  "With a control surface tab in the neutral position, what happens when the control surface is moved? ":
+    {
+      answer: "It moves in the opposite direction as the control surface",
+      choices: [
+        "It remains in the neutral position",
+        "It moves in the same direction as the control surface",
+        "It moves in the opposite direction as the control surface",
+      ],
+    },
+  "What should be carried out prior to working on or near control surfaces? ": {
+    answer: "Ensure Hydraulics are selected off",
+    choices: [
+      "Ensure Hydraulics are selected off",
+      "Pull & tag circuit breakers",
+      "Wear ear protection",
+    ],
+  },
+  "Upwash on a helicopter would result in ": {
+    answer: "increase in lift without an increase in power",
+    choices: [
+      "increase in lift without an increase in power",
+      "decrease in lift",
+      "decrease in speed",
+    ],
+  },
+  "What is the aural warning of an aircraft overspeed? ": {
+    answer: "Clacking sound",
+    choices: ["Bell sound", "Clacking sound", "Horn sound"],
+  },
+  "What is a slot used for? ": {
+    answer: "To reinforce the boundary layer",
+    choices: [
+      "To reinforce the boundary layer",
+      "Increased angle of attack during approach",
+      "Increase the speed of the airflow",
+    ],
+  },
+  "Angle of Attack is the angle between cord line and ": {
+    answer: "relative air flow",
+    choices: ["relative air flow", "tip path plane", "horizontal axis"],
+  },
+  "If cyclic is moved to the right ": {
+    answer: "the rotor blades on the right flap down",
+    choices: [
+      "POM shortens on one side and lengthens on another",
+      "the rotor blades on the right flap down",
+      "the rotor blades on the left flap down",
+    ],
+  },
+  "What would happen to an aircraft at low speed at high angle of attack had an aileron going down? ":
+    {
+      answer: "Increase stall speed",
+      choices: [
+        "Decrease stall speed",
+        "Increase stall speed",
+        "Have no effect on the stall speed",
+      ],
+    },
+  "A high lift device is used for ": {
+    answer: "take off and landing",
+    choices: ["take off and landing", "take off only", "landing only"],
+  },
+  "What is the major vertical component of an airframe that is a load bearing part of the structure that can be used as walls or partial walls? ":
+    { answer: "Bulkhead", choices: ["Frame", "Bulkhead", "Stringer"] },
+  "After a roll to the left of a statically unstable helicopter, the helicopter would ":
+    {
+      answer: "continue to roll further",
+      choices: [
+        "roll back to the horizontal",
+        "continue to roll further",
+        "remain at the position that it had rolled to",
+      ],
+    },
+  "How is a spoiler interconnected to other flight control systems? ": {
+    answer: "Spoiler to aileron",
+    choices: ["Spoiler to aileron", "Spoiler to flap", "Spoiler to elevator"],
+  },
+  "The difference between transient droop and static droop is ": {
+    answer: "underswing",
+    choices: ["underswing", "overswing", "a hole in one"],
+  },
+  "What is aileron droop? ": {
+    answer: "The droop of ailerons with no hydraulics on",
+    choices: [
+      "The leading edge of both ailerons presented to the airflow",
+      "One aileron lowered",
+      "The droop of ailerons with no hydraulics on",
+    ],
+  },
+  "What happens to a helicopter in autorotative flight? ": {
+    answer: "The rotor goes in the normal direction of rotation",
+    choices: [
+      "The cabin goes in the direction of rotation",
+      "The rotor goes in the normal direction of rotation",
+      "The rotor goes the opposite direction to the normal direction of rotation",
+    ],
+  },
+  "With a helicopter with a twin blade same gimbal it is ": {
+    answer: "semi rigid",
+    choices: ["semi rigid", "rigid", "fully articulating"],
+  },
+  "Earths atmosphere is ": {
+    answer: "1/5 oxygen, 4/5 nitrogen",
+    choices: [
+      "1/5 oxygen, 4/5 nitrogen",
+      "4/5 oxygen, 1/5 nitrogen",
+      "3/5 oxygen, 2/5 nitrogen",
+    ],
+  },
+  "Relative airflow over a helicopter blade ": {
+    answer: "increases at the tip",
+    choices: [
+      "increases at the tip",
+      "increases at the root",
+      "is unaffected by blade position",
+    ],
+  },
+  "RMI in ADF mode, the pointer is moved by a ": {
+    answer: "loop voltage",
+    choices: ["servomotor", "loop voltage", "Chinaman"],
+  },
+  "FMC changes movement via ": {
+    answer: "flight control computer",
+    choices: [
+      "A/P actuator",
+      "flight control computer",
+      "straight to the actuator",
+    ],
+  },
+  "Aircraft condition monitoring monitors ": {
+    answer: "certain parameters",
+    choices: [
+      "certain parameters",
+      "with a fault detector and tells master warning computer",
+      "and compares the faults on the aircraft with the CMC",
+    ],
+  },
+  "Increase in speed of spoilers is needed when ": {
+    answer: "at higher speeds",
+    choices: [
+      "the flaps are lowered",
+      "at higher speeds",
+      "the landing gear is extended",
+    ],
+  },
+  "What happens when a control stick is pulled back and to the left? ": {
+    answer: "Elevator up, right aileron down",
+    choices: [
+      "Elevator up, left aileron down",
+      "Elevator down, right aileron down",
+      "Elevator up, right aileron down",
+    ],
+  },
+  "If an elevator is fitted with a fixed tab in the down position, the control surface will ":
+    {
+      answer: "move up",
+      choices: ["move up", "move down", "remain at the same place"],
+    },
+  "Spring tabs ": {
+    answer: "cannot be adjusted",
+    choices: [
+      "cannot be adjusted in flight",
+      "can be adjusted in the flight deck",
+      "cannot be adjusted",
+    ],
+  },
+  "Rising gust in front of the leading edge with flaps lowered, AoA will ": {
+    answer: "increase",
+    choices: ["increase", "decrease", "remain"],
+  },
+  "If an aircraft moves in roll it is moving about the ": {
+    answer: "longitudinal axis",
+    choices: ["normal axis", "lateral axis", "longitudinal axis"],
+  },
+  "After a roll to the left of a statically stable helicopter , the helicopter would ":
+    {
+      answer: "come back to level flight",
+      choices: [
+        "continue to roll",
+        "increases roll",
+        "come back to level flight",
+      ],
+    },
+  "How does a delta wing aircraft move about the pitch and roll axis? ": {
+    answer: "Elevons",
+    choices: ["Elevators", "Elevons", "Ailerons"],
+  },
+  "If a roll was commenced, what command would the versine generator give? ": {
+    answer: "Up Elevator",
+    choices: ["Up Elevator", "Left rudder", "Down elevator"],
+  },
+  "What effect does lowering the flaps for takeoff have? ": {
+    answer: "Increases lift and drag",
+    choices: [
+      "Increases lift & reduces drag",
+      "Increases lift and drag",
+      "Increase lift only",
+    ],
+  },
+  "What effect does lowering flaps for takeoff have? ": {
+    answer: "Reduces takeoff and landing speeds",
+    choices: [
+      "Reduces takeoff and landing speeds",
+      "Reduces takeoff speeds only",
+      "Reduces landing speeds only",
+    ],
+  },
+  "A ‘q’ feel system supplies ": {
+    answer: "the pilot with ever increasing awareness of speed",
+    choices: [
+      "aerodynamic damping",
+      "the pilot with ever increasing awareness of speed",
+      "control movement effort relief",
+    ],
+  },
+  "Cat IIIB landing, up to what phase is LOC signal used? ": {
+    answer: "Flare",
+    choices: ["Roll out", "Flare", "Touchdown"],
+  },
+  "FMC mode that can be selected through the CDU is ": {
+    answer: "CRZ",
+    choices: ["DME Freq", "LNAV", "CRZ"],
+  },
+  "An uncorrected ADI is affected by ": {
+    answer: "roll",
+    choices: ["climb", "descent", "roll"],
+  },
+  "Flight director on VOR, course error wash out signal is lost, following the FD commands. Aircraft will ":
+    {
+      answer: "stay parallel to course",
+      choices: [
+        "stay on centre of course",
+        "stay parallel to course",
+        "follow the course with scalloping or bracketing",
+      ],
+    },
+  "Flight director on G/S capture, the pitch integration is ": {
+    answer: "to increase GS signal",
+    choices: [
+      "to increase GS signal",
+      "to decrease GS signal",
+      "to maintain GS signal",
+    ],
+  },
+  "A helicopter needs to re-trim ": {
+    answer: "indication is shown on the API",
+    choices: [
+      "indication is shown on the API",
+      "indication is shown on the command bars of the EHSI",
+      "indication is shown on the command bars of the attitude indicator",
+    ],
+  },
+  "API Trim pointers are fed by ": {
+    answer: "an LVDT",
+    choices: ["a synchro", "an RVDT", "an LVDT"],
+  },
+  "Transformer coupling between an ADI and a flight director computer is ": {
+    answer: "to protect the FD computer in case of an ADI failure",
+    choices: [
+      "to protect the ADI in event of a FD computer failure",
+      "to protect the FD computer in case of an ADI failure",
+      "to protect the FD computer in case of an HSI failure",
+    ],
+  },
+  "Transformer coupling between ADI and Flight director is to protect ": {
+    answer: "Flight director computer",
+    choices: ["ADI", "Flight director computer", "both of the above"],
+  },
+  "A HUMS in a helicopter is ": {
+    answer:
+      "a system which monitors time period of components in service and warns of a premature failure",
+    choices: [
+      "a vibration analysis system",
+      "a system which monitors time period of components in service and warns of a premature failure",
+      "a system which indicates a crack in the blade",
+    ],
+  },
+  "When the flaps are lowered ": {
+    answer: "the lift vector moves rearward",
+    choices: [
+      "the lift vector moves forward",
+      "the lift vector moves rearward",
+      "there is no effect on the lift vector",
+    ],
+  },
+  "With power applied to the autopilot but not engaged, the trim indicator will indicate ":
+    {
+      answer: "a standby electrical signal in the servo loop",
+      choices: [
+        "a standby electrical signal in the servo loop",
+        "that the gyro is out of the null and needs aligning",
+        "the trim system is out of datum",
+      ],
+    },
+  "Control loop gain with an autopilot is usually ": {
+    answer: "dependent on aircraft altitude",
+    choices: [
+      "dependent on aircraft altitude",
+      "100%",
+      "chosen as a compromise",
+    ],
+  },
+  "In an auto trim horizontal stabiliser, 'low' speed mode is when ": {
+    answer: "flaps are retracted",
+    choices: [
+      "flaps are retracted",
+      "landing gear up and locked",
+      "flaps extended",
+    ],
+  },
+  "On an Autoland coupled approach, a GPWS warning ": {
+    answer: "audio and Visual warning",
+    choices: [
+      "would initiate a Go Around",
+      "audio and Visual warning",
+      "visual warning only",
+    ],
+  },
+  "Direction of normal flight is changed by the pilot by applying pressure ": {
+    answer: "to the control wheel",
+    choices: [
+      "to the control wheel",
+      "to the control column",
+      "to the rudder pedals",
+    ],
+  },
+  "On a modern aircraft about to stall ": {
+    answer: "the outboard slats extend automatically",
+    choices: [
+      "the outboard slats extend automatically",
+      "engine power increases automatically",
+      "the flaps retract automatically",
+    ],
+  },
+  "Wing can spoilers be used ": {
+    answer: "as ground spoilers on landing",
+    choices: [
+      "to assist the respective down going aileron in a turn",
+      "as ground spoilers on landing",
+      "to assist the elevators",
+    ],
+  },
+  "Dutch Roll affects ": {
+    answer: "yaw and roll simultaneously",
+    choices: [
+      "pitch and roll simultaneously",
+      "pitch and yaw simultaneously",
+      "yaw and roll simultaneously",
+    ],
+  },
+  "Versine signal is governed by ": {
+    answer: "roll",
+    choices: ["roll", "pitch", "yaw"],
+  },
+  "Stick shaker activates at a speed which is above the stalling speed by ": {
+    answer: "7%",
+    choices: ["4%", "7%", "10.321%"],
+  },
+  "Oscillation and hunting of flight control surface are prevented by ": {
+    answer: "Tachogenerator",
+    choices: [
+      "Tachogenerator",
+      "Feedback from control surface",
+      "Feedback from servo motor",
+    ],
+  },
+  "When an hydraulic system is un pressurised, the position of flight control surfaces are ":
+    { answer: "droop", choices: ["down", "neutral", "droop"] },
+  "Mach trim counters": {
+    answer: "lateral instability",
+    choices: [
+      "longitudinal instability",
+      "lateral instability",
+      "vertical instability",
+    ],
+  },
+  "A split flap ": {
+    answer: "forms part of the trailing edge's lower surface when retracted",
+    choices: [
+      "forms part of the leading edge's lower surface when retracted",
+      "forms part of the trailing edge's upper surface when retracted",
+      "forms part of the trailing edge's lower surface when retracted",
+    ],
+  },
+  "When carrying out an autoland approach, VNAV is de-selected. The aircraft will enter MCP SPD mode when ":
+    {
+      answer: "the aircraft receives the first ILS signal",
+      choices: [
+        "aircraft will enter MCP SPD mode when APP switch is pressed",
+        "the aircraft captures the glideslope",
+        "the aircraft receives the first ILS signal",
+      ],
+    },
+  "Airspeed hold is a ": {
+    answer: "pitch mode",
+    choices: ["pitch mode", "lateral mode", "heading mode"],
+  },
+  "An anti-servo tab ": {
+    answer:
+      "moves in the same direction as the control surface to assist the pilot",
+    choices: [
+      "assists the pilot to move the controls back to neutral",
+      "moves in the same direction as the control surface to assist the pilot",
+      "moves in the opposite direction to the control surface to assist the pilot",
+    ],
+  },
+  "Cat 2 RVR if the alert height is 100 feet will be ": {
+    answer: "400m",
+    choices: ["300m", "400m", "800m"],
+  },
+  "Slats, when stowed, make up part of the wing ": {
+    answer: "leading edge upper surface",
+    choices: [
+      "trailing edge",
+      "leading edge lower surface",
+      "leading edge upper surface",
+    ],
+  },
+  "A plain flap ": {
+    answer: "When stowed makes up part of the wing trailing edge upper surface",
+    choices: [
+      "When stowed makes up part of the wing trailing edge lower surface",
+      "When stowed makes up part of the wing trailing edge upper surface",
+      "when deployed increases the camber of the wing",
+    ],
+  },
+  "The AFCS remains in control:": {
+    answer: "until 2 seconds after touchdown",
+    choices: [
+      "until 2 seconds after touchdown",
+      "until reverse thrust is selected",
+      "until disengaged by flight crew",
+    ],
+  },
+  "An autopilot PFCU servo brake is": {
+    answer: "energised off",
+    choices: [
+      "energised on",
+      "energised off",
+      "energised at the same time as the clutch",
+    ],
+  },
+  "An automatic disengagement of an autopilot will cause": {
+    answer: "a red warning light to illuminate and an aural warning",
+    choices: [
+      "a red warning light to illuminate",
+      "a red warning light to illuminate and an aural warning",
+      "an aural warning only",
+    ],
+  },
+  "Mach trimming is initiated by an input signal from": {
+    answer: "CADC",
+    choices: ["CADC", "IRS", "Vertical gyro"],
+  },
+  "Mach trim prevents": {
+    answer: "the nose dropping at high speed",
+    choices: [
+      "the nose dropping in a low speed turn",
+      "the nose lifting at high speed",
+      "the nose dropping at high speed",
+    ],
+  },
+  "Auto trimming trims the aircraft by": {
+    answer: "moving the leading edge of the stabiliser",
+    choices: [
+      "moving the leading edge of the stabiliser",
+      "movement of the elevator",
+      "movement of either the elevator or the stabiliser",
+    ],
+  },
+  "Automatic trimming starts on the detection of": {
+    answer: "standing load on the elevator",
+    choices: [
+      "loss of position feedback",
+      "standing load on the elevator",
+      "loss of servo input",
+    ],
+  },
+  "An autopilot runaway is prevented by": {
+    answer: "torque limiting devise",
+    choices: ["position feedback", "a fuse", "torque limiting devise"],
+  },
+  "An autopilot hardover runaway is caused by": {
+    answer: "loss of position feedback",
+    choices: [
+      "loss of position feedback",
+      "loss of servo power supply",
+      "loss of clutch supply",
+    ],
+  },
+  "Inner loop servo control of an autopilot will provide": {
+    answer: "stability only",
+    choices: [
+      "stability and navigation commands",
+      "navigation commands only",
+      "stability only",
+    ],
+  },
+  "Which side of the pilot is the collective?   ": {
+    answer: "Left",
+    choices: ["Left", "Right", "In-between legs"],
+  },
+  "What effect does the ground have on a helicopter?": {
+    answer: "Increases lift",
+    choices: ["Increases lift", "No effect", "Increases thrust"],
+  },
+  "What damps vibrations on a helicopter?  ": {
+    answer: "Pfifer damper",
+    choices: ["Pfifer damper", "Swashplate", "Scissor levers"],
+  },
+  "What design factors govern RPM of a helicopter rotor?": {
+    answer: "Weight of blade",
+    choices: ["Weight of blade", "Engine and gearbox", "Fineness ratio"],
+  },
+  "Relative velocity of rotor": {
+    answer: "increases at fwd travelling blade",
+    choices: [
+      "increases at fwd travelling blade",
+      "increases at retreating blade",
+      "is equal for all blades",
+    ],
+  },
+  "When OAT increases what happens to an helicopter operating ceiling?": {
+    answer: "Decrease",
+    choices: ["Increase", "Decrease", "No effect"],
+  },
 };
 
 export default questionBankAut;

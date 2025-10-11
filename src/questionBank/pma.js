@@ -2027,7 +2027,7 @@ const questionBankPMA = {
   },
   "The result of an insulation resistance test of an electrical cable": {
     answer:
-      "may vary with the weather conditions under which the aircraft is tested",
+      "will always be infinity if the cable is correctly installed",
     choices: [
       "also indicates continuity of the cable",
       "may vary with the weather conditions under which the aircraft is tested",
@@ -2618,7 +2618,7 @@ const questionBankPMA = {
     },
   "After a hydraulic accumulator has been installed and air charged, the main hydraulic system pressure gauge will not show hydraulic pressure reading until;":
     {
-      answer: "Air pressure has become equal to the fluid pressure",
+      answer: "The fluid side of the accumulator has been charged",
       choices: [
         "The fluid side of the accumulator has been charged",
         "At least one selector valve has been actuated to allow fluid flow to the fluid side of the accumulator",
@@ -5902,6 +5902,119 @@ const questionBankPMA = {
       "rectified D.C. voltage.",
       "A.C. voltage at twice the frequency of the excitation voltage.",
       "A.C. voltage at the same frequency as the excitation voltage.",
+    ],
+  },
+  "When flags such as NAV, HDG or GS are displayed on an HIS, the indication is:": {
+    answer: "That function is inoperative",
+    choices: [
+      "That function is inoperative",
+      "That function is operative",
+      "To call attention to deviation from desired setting or flight path, or heading",
+    ],
+  },
+  "A hydraulic accumulator is charge with an air preload of 1,000 PSI. When a hydraulic system pressure of 3,000 PSI is developed, the pressure on the air side of the accumulator will be:": {
+    answer: "3,000 PSI",
+    choices: [
+      "1,000 PSI",
+      "3,000 PSI",
+      "4,000 PSI",
+    ],
+  },
+   "How is the air in the hydraulic accumulator prevented from entering into the fluid system?": {
+    answer: "By physically separating the air chamber from the oil chamber with flexible or movable separator.",
+    choices: [
+      "By forcing the oil/air mixture through a centrifugal separating chamber that prevents the air from leaving the accumulator",
+      "By physically separating the air chamber from the oil chamber with flexible or movable separator.",
+      "By including a valve that automatically closes when the fluid level lowers to a preset amount.",
+    ],
+  },
+  "The air that is expended and no longer needed when an actuating unit is operated IN A Pneumatic System is?": {
+    answer: "Exhausted or dumped, usually overboard",
+    choices: [
+      "Charged or pressurized for use during the next operating cycle",
+      "Returned to the compressor",
+      "Exhausted or dumped, usually overboard",
+    ],
+  },
+  "Before removing the filter cap of a pressurized hydraulic reservoir, in order to service the system,": {
+    answer: "Relieve the air pressure",
+    choices: [
+      "Relieve the hydraulic system pressure",
+      "Pressurize all components in the system",
+      "Relieve the air pressure",
+    ],
+  },
+  "What device in a hydraulic system with a constant delivery pump allows circulation of the fluid when no demands are on the system?": {
+    answer: "Pressure regulator",
+    choices: [
+      "Pressure relief valve",
+      "Shuttle valve",
+      "Pressure regulator",
+    ],
+  },
+  "To ensure that a wing stalls at the root first, stall wedges are.": {
+    answer: "Installed on the wing leading edge at the wing root",
+    choices: [
+      "Installed at the wing trailing edge at the wing root",
+      "Installed on the wing leading edge at the wing root",
+      "Installed at the wing tip",
+    ],
+  },
+  "Installed radio equipment is protected from damage due to jolts and vibration by:": {
+    answer: "Shocks mounts",
+    choices: [
+      "Shocks mounts",
+      "Spring and/or viscous damper mounted racks",
+      "Rubber or foam cushioning material between circuit chassis and case",
+    ],
+  },
+  "What is the purpose of flapper – type check valves in integral fuel tanks:": {
+    answer: "To prevent fuel from flowing away from the boost pumps",
+    choices: [
+      "To prevent fuel from flowing away from the boost pumps",
+      "To allow defueling of the tanks by suction",
+      "To allow the engine – driven pumps to draw fuel directly from the tank if the boost pump fails",
+    ],
+  },
+  "What is required when operating two aircraft AC generators in parallel?": {
+    answer: "Frequency and voltage must both be equal",
+    choices: [
+      "Frequency and voltage must both be equal",
+      "Amperes and voltage must both be equal",
+      "Amperes and frequency must both be equal",
+    ],
+  },
+  "Circuits that must be operated only in an emergency or whose in advertent activation could endanger 
+	a system frequently employ:": {
+    answer: "Guarded switches",
+    choices: [
+      "Guarded switches",
+      "Push – pull – type circuit breakers only (no switches)",
+      "Spring – loaded to off toggle or rocker switches",
+    ],
+  },
+  "If it is necessary to use an electrical connector where it may be exposed to moisture, the mechanic should:": {
+    answer: "Use a special moisture – proof type",
+    choices: [
+      "Coat the connector with grease",
+      "Use a special moisture – proof type",
+      "Spray the connector with varnish or zinc – chromate",
+    ],
+  },
+  "What safely device is actuated by the compression and extension of a landing gear strut?": {
+    answer: "Ground safety switch",
+    choices: [
+      "Up lock switch",
+      "Downlock switch",
+      "Ground safety switch",
+    ],
+  },
+  "What controls the inflation sequence in a pneumatic deicer boot system:": {
+    answer: "Distributor valve",
+    choices: [
+      "Shuttle valve",
+      "Vacuum pump",
+      "Distributor valve",
     ],
   },
 };
