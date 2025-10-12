@@ -6311,6 +6311,1859 @@ const questionBankGen = {
     answer: "In C of A",
     choices: ["In C of A", "By constructor", "In regulations"],
   },
+
+  // Human Factor
+  "long sightedness is caused by": {
+    answer: "The eyeball being shorter than normal",
+    choices: [
+      "The eyeball being shorter than normal",
+      "The eyeball being longer than normal",
+      "The retina being too curved",
+    ],
+  },
+  "The cycle of REM sleep and stages  1 – 4 sleep": {
+    answer: "About every 90 minutes",
+    choices: [
+      "About hour every",
+      "About every 90 minutes",
+      "About every 30 minutes in early sleep extending to 2 hours in the night. ",
+    ],
+  },
+  "Anthropometry is": {
+    answer: "The study of human measurement",
+    choices: [
+      "Study of human behavior in response to stress  ",
+      "The study of human measurement",
+      "The study of the relationship between men and his working environment",
+    ],
+  },
+  "Loss of hearing due to damage in the ear drum or auditory ossicles is known as":
+    {
+      answer: "Conductive deafness",
+      choices: [
+        "Presbycusis",
+        "Noise induce hearing loss",
+        "Conductive deafness",
+      ],
+    },
+  "If information in the working memory is not rehearsed it will be lost in": {
+    answer: "10 to 20 seconds",
+    choices: ["1 to 2 minutes", "10 to 20 seconds", "30 to 45 seconds"],
+  },
+  "The ideal behavior of a professional aircraft engineer is": {
+    answer: "Both goal and person related",
+    choices: [
+      "Goal directed rather than person directed",
+      "Both goal and person related",
+      "Neither person nor goal related",
+    ],
+  },
+  "Strengthening and organizing the human memory when learning new task is believe      d to occur in.":
+    {
+      answer: "REM sleep",
+      choices: ["Slow wave sleep", "Stage 1 and 2 sleep", "REM sleep"],
+    },
+  "During a typical night sleep most time is spent in which of the stage of sleep":
+    { answer: "2", choices: ["1", "2", "REM"] },
+  "A domestic problem  will": {
+    answer: "Affect concentration and decision making abilities",
+    choices: [
+      "Affect flying by increasing arousal and hence performance",
+      "Affect concentration and decision making abilities",
+      "Counter any wok stresses",
+    ],
+  },
+  "The “credit and debit” system for measuring sleep/wake cycles allocates": {
+    answer: "2 points for sleep and 1 points for wake",
+    choices: [
+      "2 points for sleep and 1 points for wake",
+      "2 points for sleep and 3 points for wake",
+      "1 point for sleep and 2 points for wake ",
+    ],
+  },
+  "Changes in luminance level can be catered for in the eye by the": {
+    answer: "Iris",
+    choices: ["Cornea", "Lens", "Iris"],
+  },
+  "Continued loud noise can cause damage to the fine hairs in the": {
+    answer: "Cochlea",
+    choices: ["Cochlea", "Otoliths ", "Semicircular canals"],
+  },
+  "The pattern used to carry out a procedure such as an ultrasonic NDT check of an u      nder carriage is an example of":
+    {
+      answer: "Rules based behavior",
+      choices: [
+        "Rules based behavior",
+        "Skill based behavior",
+        "A motor programme procedure",
+      ],
+    },
+  "The amount of stress experienced with a particular task is dependent on": {
+    answer: "The perceived demand and perceived ability",
+    choices: [
+      "The perceived demand and perceived ability",
+      "The actual demand and actual ability",
+      "The perceived demand and the actual ability",
+    ],
+  },
+  "Amnesia tends to affect": {
+    answer: "Episodic memory",
+    choices: ["Episodic memory", "Semantic memory", "Working memory"],
+  },
+  "A part number not rehearsed will only remembered for approximately": {
+    answer: "30 seconds",
+    choices: ["30 seconds", "60 seconds", "90 seconds"],
+  },
+  "The greatest visual acuity is achieve": {
+    answer: "At the fovea",
+    choices: ["At the optic disc", "At the fovea", "By the retina"],
+  },
+  "Perception is the": {
+    answer:
+      "Organization, translation and reconstruction of information from the senses",
+    choices: [
+      "Organization, translation and reconstruction of information from the senses",
+      "Ability to respond to subliminal information received via the eye",
+      "Inability of the brain to segment information on hearing language spoken",
+    ],
+  },
+  "The most refreshing sleep is achieved when": {
+    answer: "Frequent short power naps are taken",
+    choices: [
+      "Frequent short power naps are taken",
+      "The body’s temperature is falling due to circadian rhythms",
+      "Sleep is extended beyond the average of 8 hours ",
+    ],
+  },
+  "The only drugs a licensed engineer may legally take at work are those": {
+    answer: "Listed in AWN 47 which require testing",
+    choices: [
+      "Listed in AWN 47 which require testing",
+      "Bought at chemist shop and taken as directed on the package",
+      "prescribed by a doctor and trialed for side effect  ",
+    ],
+  },
+  "The legal requirement for the fitness of the engineer to work and exercise his certifying privileges lies with the.":
+    {
+      answer: "Engineer himself",
+      choices: [
+        "certifying privileges lies with the.National airworthiness authority",
+        "Company’s management and QA department ",
+        "Engineer himself",
+      ],
+    },
+  "Most controlled and thoughtful aircraft engineers are considered to have the perso      nality characteristics of being a.":
+    {
+      answer: "Stable introvert",
+      choices: ["Stable introvert", "Stable extrovert", "Sober dysthymia  "],
+    },
+  "The style of leadership required to deal with an emergency situation is usually best        met by a manager with.":
+    {
+      answer: "An autocratic style",
+      choices: [
+        "A paternalistic nature",
+        "An autocratic style",
+        "An interactive style",
+      ],
+    },
+  "A group’s decision against the individuals better judgment and his willingness to conform is known as":
+    {
+      answer: "peer pressure",
+      choices: [
+        "conform is known asA risky shift",
+        "peer pressure",
+        "group compliance",
+      ],
+    },
+  "The minimum temperature allowed for manual working indoors under the workplac       e (Health and Welfare) Regulations 1992":
+    { answer: "130", choices: ["130", "210", "250"] },
+  "Colour rendition is the": {
+    answer: "Effect of artificial light on colour perception",
+    choices: [
+      "Effect of artificial light on colour perception",
+      "Level of candela of lux  on colour intensity",
+      "Bleaching effect of sunlight on material’s pigment",
+    ],
+  },
+  "When working at height guard rails": {
+    answer: "Should be at approximately waist height all around the platform",
+    choices: [
+      "Should be at ankle height so as to be able to sense the platform edges",
+      "Are not required if safely harnesses are being used by at least one person",
+      "Should be at approximately waist height all around the platform",
+    ],
+  },
+  "Ear protection should be worn in areas of noise when in height in eight working ho       urs the levels exceed":
+    {
+      answer: "85 decibles",
+      choices: ["65 decibels", "75 decibels", "85 decibles"],
+    },
+  "Communications from the shop floor to management are": {
+    answer: "Usually in the form of procedures",
+    choices: [
+      "Usually directives",
+      "Non directive",
+      "Usually in the form of procedures",
+    ],
+  },
+  "Information that is relatively simple and easily understood can be": {
+    answer: "A verbal briefing",
+    choices: [
+      "Given as an expansion",
+      "A verbal briefing",
+      "Given as a seminar",
+    ],
+  },
+  "An accident caused by incorrect assembly of a component by an engineer is known      as a.":
+    {
+      answer: "An active failure",
+      choices: ["A latent condition of failure", "An active failure", "A norm"],
+    },
+  "In Heinrichs Ratio there are": {
+    answer: "600 incidents for every fatal accident",
+    choices: [
+      "30 incidents for every accident",
+      "300 incidents for every 10 accidents",
+      "600 incidents for every fatal accident",
+    ],
+  },
+  "Functional checks are carried out": {
+    answer: "To prove correct installation of hidden functions",
+    choices: [
+      "To verify the quality of workmanship",
+      "To verify serviceability to laid down standards",
+      "To prove correct installation of hidden functions",
+    ],
+  },
+  "The part of an eye responsible for between 70% - 80% of the total focusing ability        is the":
+    { answer: "Cornea", choices: ["Cornea", "Iris", "Retina"] },
+  "Presbycusis is a term used to describe": {
+    answer: "Loss of hearing through ageing",
+    choices: [
+      "Conductive deafness    ",
+      "Noise induced hearing loss",
+      "Loss of hearing through ageing",
+    ],
+  },
+  "A reduction in mental capacity may be caused by": {
+    answer: "Hypoxia",
+    choices: [
+      "Working under high air pressure ",
+      "Hypoxia",
+      "Respiratory bronchitis",
+    ],
+  },
+  "The link between the receptors and perception is": {
+    answer: "The attentional mechanism",
+    choices: [
+      "A working memory",
+      "A long term memory",
+      "The attentional mechanism",
+    ],
+  },
+  "During sleep phases, muscles tension or relaxation can be measured by an": {
+    answer: "electromyogram (EMG)",
+    choices: [
+      "electromyogram (EMG)",
+      "Electroculogram (EOG)",
+      "Electroencphalogram (EEG)",
+    ],
+  },
+  "High amplitude delta waves are more frequent during": {
+    answer: "REM sleep",
+    choices: ["Light sleep", "Deep sleep", "REM sleep"],
+  },
+  "Information in the short term memory": {
+    answer: "Must be actively rehearsed to ensure long term retention",
+    choices: [
+      "Is not affected by the arrival of new information",
+      "Must be actively rehearsed to ensure long term retention",
+      "Can be retained for long periods",
+    ],
+  },
+  "During visual scanning the eye movement should be": {
+    answer: "Small and frequent",
+    choices: [
+      "Large and frequent",
+      "Small and infrequent",
+      "Small and frequent",
+    ],
+  },
+  "Amnessia tends to affect": {
+    answer: "Episodic memory",
+    choices: ["Episodic memory", "Semantic memory", "Working memory"],
+  },
+  "As we get older our responses generally tend to become": {
+    answer: "Slower and more accurate",
+    choices: [
+      "Slower and less accurate",
+      "Slower and more accurate",
+      "Faster and less accurate",
+    ],
+  },
+  "The long term memory can be classified as two types, ‘Semantic’ and ‘Episodic’,how do these compare?":
+    {
+      answer: "‘Semantic is more accurate and longer lasting than ‘episodic’",
+      choices: [
+        "‘Semantic is more accurate and longer lasting than ‘episodic’",
+        "‘Episodic’ is more accurate and longer lasting than ‘semantic’",
+        "‘Semantic’ is less accurate and longer lasting than ‘episodic’",
+      ],
+    },
+  "Stress management is": {
+    answer: "Coping with stress",
+    choices: [
+      "The removal of stress",
+      "The avoidance of stress",
+      "Coping with stress",
+    ],
+  },
+  "The behavior pattern used to carry out a procedure such as an ultrasonic NDT check of an undercarriage is an example":
+    {
+      answer: "Rule based procedure",
+      choices: [
+        "Rule based procedure",
+        "Skill based procedure",
+        "A motor programme procedure",
+      ],
+    },
+  "Information on drugs and alcohol can be found in.": {
+    answer: "AWN47",
+    choices: ["AWN3", "AWN47", "BCARs"],
+  },
+  "At what distance should a person without hearing difficulties be able to hear an average conversation voice in a quiet room.":
+    {
+      answer: "2 metres (6 feet)",
+      choices: [
+        "average conversation voice in a quiet room.1 metre (3 feet)",
+        "2 metres (6 feet)",
+        "3 metres (9 feet)",
+      ],
+    },
+  "The major concern of international civil aviation organization is": {
+    answer: "Safety",
+    choices: ["Health", "Safety", "Aircraft"],
+  },
+  "Human factor issues are difficult to deal with because it involves.": {
+    answer: "Human",
+    choices: ["Machines", "Software", "Human"],
+  },
+  "A) Maintenance errors are not inherent in a person.": {
+    answer: "A is true",
+    choices: ["A is true", "B is true", "A and B are true"],
+  },
+  "What are the two main mechanisms of safety and reliability?": {
+    answer: "Documentation system and quality system",
+    choices: [
+      "Documentation system and quality system",
+      "Planning system and maintenance system",
+      "Reliability system and maintenance system",
+    ],
+  },
+  "Which mechanism specifies the required procedure for carrying out work?": {
+    answer: "Documentation system",
+    choices: ["Maintenance system", "Documentation system", "Quality system"],
+  },
+  "The system that seeks to ensure that work to the highest possible standard is.":
+    {
+      answer: "Quality system",
+      choices: ["Maintenance system", "Documentation system", "Quality system"],
+    },
+  "Why is good vision necessary in engineering?": {
+    answer: "To avoid missing inspection defect",
+    choices: [
+      "To avoid making mistake",
+      "To avoid missing inspection defect",
+      "To avoid using the wrong part number",
+    ],
+  },
+  "Minor defect in vision can rectified by the wearing of spectacles.": {
+    answer: "In early age",
+    choices: ["In Old age ", "In middle age ", "In early age"],
+  },
+  "Hypermetropia is another name for.": {
+    answer: "Long sightedness",
+    choices: ["Short sightedness", "Medium sightedness", "Long sightedness"],
+  },
+  "What must a person who is shortsighted do for a close up work?": {
+    answer: "Remove his glass",
+    choices: ["Put on his glass", "Remove his glass", "Use torch light"],
+  },
+  "One of these factors will NOT affect a person’s clarity of vision": {
+    answer: "The structure of the object",
+    choices: [
+      "The amount of light available",
+      "The size and content of object",
+      "The structure of the object",
+    ],
+  },
+  "The lack of one or more spectral colour sensation of the eye is known as": {
+    answer: "Colour blindness",
+    choices: ["Binocular vision", "Colour blindness", "Monocular vision"],
+  },
+  "One of these is NOT a contributing factor to maintenance error": {
+    answer: "Maintenance and inspection policy",
+    choices: [
+      "Exploitation of aircraft",
+      "Incorrect removal and installation of component",
+      "Maintenance and inspection policy",
+    ],
+  },
+  "When there is general agreement that a person would have done other than what they did Is":
+    {
+      answer: "Human error",
+      choices: ["they did IsGeneral error", "Maintenance error", "Human error"],
+    },
+  "Action or inaction by a mechanic/engineer that leads to problem on the aircraft is…":
+    {
+      answer: "Maintenance error",
+      choices: ["General error", "Maintenance error", "Human error"],
+    },
+  "Example (s) of human error in aircraft maintenance could be.": {
+    answer: "All of the above",
+    choices: [
+      "Electrical wiring discrepancies.  ",
+      "Loose object left in aircraft",
+      "All of the above",
+    ],
+  },
+  "The environmental factor which could affect information processing are": {
+    answer: "All of the above",
+    choices: [
+      "Noise, temperature, light",
+      "Pressure of work and humidity",
+      "All of the above",
+    ],
+  },
+  "If normal speech cannot be heard at the distance of 2 metres, the level of the noise      is likely to be around":
+    { answer: "85db", choices: ["85db", "85m/s", "85ohms"] },
+  "The longest lasting memory is": {
+    answer: "Semantic memory",
+    choices: ["Echoic memory", "Semantic memory", "Episodic memory"],
+  },
+  "In which of these long term memories can information be lost with amnesia": {
+    answer: "Episodic memory",
+    choices: ["Echoic memory", "Semantic memory", "Episodic memory"],
+  },
+  "We need sleep so that our body can recuperate from": {
+    answer: "Physical and mental duty",
+    choices: [
+      "Physical and mental duty",
+      "Physical and organizational duty",
+      "Mental and learning duty           ",
+    ],
+  },
+  "Rapid eye movement (REM) sleep": {
+    answer: "Refreshes the brain",
+    choices: [
+      "Refreshes the body",
+      "Refreshes the brain",
+      "Stabilizes the stomach acid",
+    ],
+  },
+  "Sleep walking is one of the characteristics": {
+    answer: "Orthodox sleep",
+    choices: [
+      "Rapid eye movement (REM) sleep",
+      "Orthodox sleep",
+      "Paradoxical sleep",
+    ],
+  },
+  "An inability to stop falling asleep even when in sleep credit is called": {
+    answer: "Narcolepsy",
+    choices: ["Apnoea", "Narcolepsy", "Isomnia"],
+  },
+  "One of these is not the cause of fatigue": {
+    answer: "Less work load",
+    choices: [
+      "Lack of restful sleep",
+      "lack of physical or mental fitness",
+      "Less work load",
+    ],
+  },
+  "One of these is not the symptom of fatigue": {
+    answer: "desynchronization of the body cycle (Jet lag)",
+    choices: [
+      "Lack of awareness ",
+      "diminished motor skill",
+      "desynchronization of the body cycle (Jet lag)",
+    ],
+  },
+  "Lack of food can cause": {
+    answer: "Short term fatigue",
+    choices: ["Long term fatigue", "Short term fatigue", "Problem at work"],
+  },
+  "A. one of the major contributing factors to our functioning is stress": {
+    answer: "Both are correct",
+    choices: ["Both are not correct", "Both are correct", "Only A is correct"],
+  },
+  "According to our handout, which is the correct definition of stress": {
+    answer: "Stress is our body every day reaction",
+    choices: [
+      "Stress is accumulation of fatigue",
+      "Stress is the resistance to work load",
+      "Stress is our body every day reaction",
+    ],
+  },
+  "The popping sensation usually felt during climbing and descending in an aircraft is due to":
+    {
+      answer:
+        "Uneven pressure being equalized between the outer and middle ear",
+      choices: [
+        "to Even pressure being equalized between the outer and middle ear",
+        "Uneven pressure being equalized between the outer and middle ear",
+        "Uneven pressure being equalized between the outer and the inner ear",
+      ],
+    },
+  "One of these is NOT the characteristics of a good engineer": {
+    answer: "Time pressure",
+    choices: ["Sound knowledge of  his job", "Skill", "Time pressure"],
+  },
+  "Performance improves as temperature": {
+    answer: "Increase",
+    choices: ["Increase", "Decrease", "Remain constant"],
+  },
+  "What is the objective of  SHELL model": {
+    answer: "To optimize the relationship in the model",
+    choices: [
+      "To prevent maintenance error",
+      "To optimize the relationship in the model",
+      "To stress the importance of human factor",
+    ],
+  },
+  "What is the purpose of MORs": {
+    answer: "To bring safety related issues to NCAA",
+    choices: [
+      "To punish offenders ",
+      "To bring safety related issues to NCAA",
+      "Is an error defensive mechanism",
+    ],
+  },
+  "An ability to receive criticism is one of the criteria for assessing": {
+    answer: "ones assertiveness",
+    choices: ["ones assertiveness", "Ones complacency", "Ones awareness"],
+  },
+  "Mild disorientation is one of the symptoms of": {
+    answer: "Sleep deprivation",
+    choices: ["Stress", "Fatigue", "Sleep deprivation"],
+  },
+  "Which airworthiness notice provide guidance regarding the use of alcohol and drugs?":
+    { answer: "47", choices: ["45", "43", "47"] },
+  "Which ICAO annex  specified requirement regarding age, knowledge, experience, skill and medical fitness of license applicant.":
+    { answer: "Annex 1", choices: ["Annex 10", "Annex 1", "Annex 145"] },
+  "Why is shift work difficult with old age": {
+    answer: "Because it is difficult to reprogram the body clock",
+    choices: [
+      "Because of skill involved",
+      "Because it is difficult to reprogram the body clock",
+      "Light demand in age increases",
+    ],
+  },
+  "One of the simplest ways of preventing stress is": {
+    answer: "Getting your priority right",
+    choices: [
+      "Getting good job",
+      "Getting your priority right",
+      "To be positive always",
+    ],
+  },
+  "One of this is not an error contributing factor to an Aircraft?": {
+    answer: "Incorrect troubleshooting.",
+    choices: [
+      "Lack of sleep",
+      "Miscalibrated tool",
+      "Incorrect troubleshooting.",
+    ],
+  },
+  "The three phases in learning a skill are": {
+    answer: "Automatic, cognitive, associative",
+    choices: [
+      "Cognitive, automatic, associative",
+      "Cognitive, associative, automatic",
+      "Automatic, cognitive, associative",
+    ],
+  },
+  "Accidents and engineering faults are": {
+    answer: "significant and increasing",
+    choices: [
+      "insignificant and increasing",
+      "insignificant and decreasing",
+      "significant and increasing",
+    ],
+  },
+  "Information on drugs and alcohol can be found in": {
+    answer: "AWN 47",
+    choices: ["AWN 3", "AWN 47", "BCARs"],
+  },
+  "70 - 80% of the total focusing ability of the eye is carried out by the": {
+    answer: "cornea",
+    choices: ["iris", "lens", "cornea"],
+  },
+  "At what distance should a person without hearing difficulties be able to hear an average conversational voice in a quiet room":
+    {
+      answer: "2 metres (6 feet)",
+      choices: ["1 metre (3 feet)", "2 metres (6 feet)", "3 metres (9 feet)"],
+    },
+  "If you have been prescribed new medicine by your doctor you should": {
+    answer: "give the new medication a 24 hour trial",
+    choices: [
+      "continue with your normal shift pattern",
+      "give the new medication a 24 hour trial",
+      "take 3 days off work to try out the new medication",
+    ],
+  },
+  "After a general anaesthetic you should": {
+    answer:
+      "not return to work for at least 24 to 48 hours (depending on the individual)",
+    choices: [
+      "return to work as soon as possible",
+      "take at least  7 days off work",
+      "not return to work for at least 24 to 48 hours (depending on the individual)",
+    ],
+  },
+  "Your doctor has prescribed you tranquillizers as you are suffering from depression.  You should":
+    {
+      answer: "not work at all when taking the tranquillizers",
+      choices: [
+        "tell your employer and carry on work as normal",
+        "not work at all when taking the tranquillizers",
+        "not tell your employer and carry on work as normal",
+      ],
+    },
+  "The use of 'pep' pills by an aircraft engineer": {
+    answer: "should never be done (except for coffee)",
+    choices: [
+      "is recommended only when working late or on night shift as they stimulate the senses and make you less prone to accidents",
+      "can only be used if prescribed by your doctor",
+      "should never be done (except for coffee)",
+    ],
+  },
+  "You are taking SUDAFED to relief nasal congestion.  You should": {
+    answer: "avoid making engineering decisions or performing licensed duties",
+    choices: [
+      "continue to take them at work because SUDAFED has no side effects",
+      "stay away from work until you no longer require the SUDAFED",
+      "avoid making engineering decisions or performing licensed duties",
+    ],
+  },
+  "A perforated ear drum could occur if": {
+    answer: "you were subjected to continuous noise below 8 kHz",
+    choices: [
+      "you were subjected to continuous noise below 8 kHz",
+      "you blew your nose excessively",
+      "you were subjected to intermittent noise above 25 kHz",
+    ],
+  },
+  "How long is the short term memory good for remembering 7 items?": {
+    answer: "Up to 30 seconds",
+    choices: ["Up to 30 seconds", "30 to 60 seconds", "Above 60 seconds"],
+  },
+  "What is peer group pressure?": {
+    answer: "Our behaviour influenced by our friends and colleagues",
+    choices: [
+      "The influence the House of Lords have over the House of Commons",
+      "Our behaviour influenced by our friends and colleagues",
+      "The influence an individual has over a group of people",
+    ],
+  },
+  "What is white finger?": {
+    answer:
+      "A disorder of the finger which may occur through continuous use of pneumatic tools because of reduced blood flow",
+    choices: [
+      "A disorder of the finger which may occur through continuous use of pneumatic tools because of reduced blood flow",
+      "A reaction when the white blood cells die and contaminate the fingers",
+      "A skin disorder caused by extensive contact with oils and solvents",
+    ],
+  },
+  "What is slow wave sleep?": {
+    answer: "Stage 3/4 sleep",
+    choices: ["Stage 3/4 sleep", "REM", "Paradoxical sleep"],
+  },
+  "What constitutes a good work handover?": {
+    answer: "A written and verbal account of the work done",
+    choices: [
+      "A written documentation of the work done",
+      "A verbal account of the work done",
+      "A written and verbal account of the work done",
+    ],
+  },
+  "Environmental stresses are": {
+    answer: "caused by noise, fumes, heat and vibration",
+    choices: [
+      "caused by noise, fumes, heat and vibration",
+      "not normally cumulative",
+      "tolerated by everyone equally",
+    ],
+  },
+  "Phase 3/4 sleep": {
+    answer: "is most beneficial for the body's restoration",
+    choices: [
+      "can be induced by alcohol",
+      "occurs only once per sleep cycle",
+      "is most beneficial for the body's restoration",
+    ],
+  },
+  "In a discussion, the person who is most likely to be agreed with is": {
+    answer: "the person with the highest status",
+    choices: [
+      "the person with the highest status",
+      "the most argumentative person",
+      "the person who repeats the point most times",
+    ],
+  },
+  "What meal is most recommended after a long shift?": {
+    answer: "High carbohydrates",
+    choices: ["High carbohydrates", "Low carbohydrates", "High protein"],
+  },
+  "Long shift work will": {
+    answer: "always decrease your diagnostic and maintenance ability",
+    choices: [
+      "always  increase your diagnostic and maintenance ability",
+      "always decrease your diagnostic and maintenance ability",
+      "initially decrease your diagnostic and maintenance ability but eventually increase your diagnostic and maintenance ability as you get used to it",
+    ],
+  },
+  "When someone is working in an enclosed space (such a fuel tank), another person should be outside the space in constant communication to":
+    {
+      answer: "for safety reasons",
+      choices: [
+        "ensure compliance with the maintenance manual",
+        "provide instructions to the tradesman",
+        "for safety reasons",
+      ],
+    },
+  "The aim of human factors programs within an organizations is": {
+    answer:
+      "to optimize the relationship between maintenance personnel and systems with a view to improving safety, efficiency and well-being",
+    choices: [
+      "to reduce costs by increasing efficiency, safety and quality and decreasing waste through human error",
+      "to optimize the relationship between maintenance personnel and systems with a view to improving safety, efficiency and well-being",
+      "to safeguard the health and safety of maintenance personnel by reducing accidents in the workplace",
+    ],
+  },
+  "The scientific study of measurements of the human body is known as": {
+    answer: "anthropometrics",
+    choices: ["anthropometrics", "ergonomics", "physiology"],
+  },
+  "Acute stress is": {
+    answer: "typically intense but of short duration",
+    choices: [
+      "typically intense but of short duration",
+      "a frequently reoccurring stress or of long duration",
+      "intense stress of long duration",
+    ],
+  },
+  "What part of the SHEL model would the writing and interpretation of maintenance manuals fit into?":
+    { answer: "Software", choices: ["Software", "Hardware", "Environment"] },
+  "The 'error chain' theory refers to": {
+    answer:
+      "errors are caused by a chain of linked events, and the breaking of one link in the chain will prevent the error",
+    choices: [
+      "a company is only as good as its weakest employee or employees, and removal of that/those employee from the chain should prevent errors",
+      "errors are caused by a chain of linked events, and the breaking of one link in the chain will prevent the error",
+      "a chain of errors within an organizations can be investigated, and similar errors prevented by determining a common link between them",
+    ],
+  },
+  "What part of the eye controls the amount of light that is allowed to enter the eye?":
+    { answer: "The iris", choices: ["The cornea", "The iris", "The pupil"] },
+  "Learning of a routine by repeated practice is known as": {
+    answer: "motor programming",
+    choices: ["episodic memory", "motor programming", "cognitive learning"],
+  },
+  "An aircraft engineer who has 'responsibility'": {
+    answer:
+      "are liable to be called to account as being in charge or control of, or answerable for something",
+    choices: [
+      "must be licensed on the particular type of aircraft",
+      "is in a management position within their company hierarchy",
+      "are liable to be called to account as being in charge or control of, or answerable for something",
+    ],
+  },
+  "The ear is used to detect": {
+    answer: "acceleration",
+    choices: ["acceleration", "speed", "neither acceleration or speed"],
+  },
+  "Chronic stress is": {
+    answer: "a frequently reoccurring stress or of long duration",
+    choices: [
+      "typically intense but of short duration",
+      "a frequently reoccurring stress or of long duration",
+      "intense stress of long duration",
+    ],
+  },
+  "Smoking cannabis": {
+    answer: "subtly impairs performance for up to 24 hours",
+    choices: [
+      "subtly impairs performance for up to 24 hours",
+      "has only a short term affect upon performance",
+      "has a noticeable affect on a person’s behaviour and performance for up to 24 hours",
+    ],
+  },
+  "Employers must provide their employees with personal ear protectors if the noise level reaches":
+    { answer: "85 dB", choices: ["60 dB", "70 dB", "85 dB"] },
+  "The impact of human factors and human error is most important to": {
+    answer:
+      "It is equally important to technicians, engineers, planners and managers",
+    choices: [
+      "technicians and engineers",
+      "planners and managers",
+      "It is equally important to technicians, engineers, planners and managers",
+    ],
+  },
+  "What part of the SHEL model would the aircraft design fit into?": {
+    answer: "Hardware",
+    choices: ["Environment", "Hardware", "Liveware"],
+  },
+  "Murphy's law can be regarded as the notion": {
+    answer: "If something can go wrong it will",
+    choices: [
+      "If something can go wrong it will",
+      "If something goes wrong I am certain to get the blame",
+      "It can never happen to me",
+    ],
+  },
+  "Light enters the eye through the": {
+    answer: "cornea",
+    choices: ["cornea", "retina", "visual cortex"],
+  },
+  "Which type of memory is most susceptible to interference from external influences?":
+    {
+      answer: "Short term",
+      choices: ["Ultra short term", "Short term", "Long term"],
+    },
+  "Where are the responsibilities of Licensed Aircraft Engineers laid down?": {
+    answer: "AWN 3",
+    choices: ["The Air Navigation Order", "CAP 715", "AWN 3"],
+  },
+  "Performance is": {
+    answer:
+      "greatest only at one optimum level of arousal but diminishes as arousal decreases or increases",
+    choices: [
+      "directly proportional to the individual's state of arousal",
+      "inversely proportional to the individual's state of arousal",
+      "greatest only at one optimum level of arousal but diminishes as arousal decreases or increases",
+    ],
+  },
+  "Missing a break in an effort to get a job done within a certain time frame":
+    {
+      answer:
+        "can be counterproductive, as fatigue diminishes motor skills, perception, awareness and standards",
+      choices: [
+        "can be done by those actually doing the job providing the supervisors take regular breaks",
+        "can be done providing adequate rest period is available at the end of the shift",
+        "can be counterproductive, as fatigue diminishes motor skills, perception, awareness and standards",
+      ],
+    },
+  "The maximum allowable noise dose is": {
+    answer: "any combination of noise and time which exceeds 90 dB TWA",
+    choices: [
+      "85 dB",
+      "any combination of noise and time which exceeds 90 dB TWA",
+      "90 dB for 24 hours",
+    ],
+  },
+  "Tiredness causes visual acuity to": {
+    answer: "decrease",
+    choices: [
+      "increase",
+      "decrease",
+      "Visual acuity is not affected by tiredness",
+    ],
+  },
+  "Peripheral vision is detected by the": {
+    answer: "rods",
+    choices: ["cones", "rods", "fovea"],
+  },
+  "Extreme discomfort experienced by a maintenance engineer due to working in a confined space is known as":
+    {
+      answer: "claustrophobia",
+      choices: ["claustrophobia", "agoraphobia", "acrophobia"],
+    },
+  "A good shift handover should include details of": {
+    answer:
+      "tasks that have been completed; tasks in progress, their status, any problems encountered etc.; tasks to be carried out and general company and technical information.",
+    choices: [
+      "tasks that have been completed; tasks in progress, their status, any problems encountered etc.; tasks to be carried out and general company and technical information.",
+      "tasks that have been completed; persons who carried out the tasks; tasks to be carried out and general company and technical information.",
+      "tasks that have been completed; tasks in progress, their status, any problems encountered etc.; tasks to be carried out and tools required to carry out the tasks.",
+    ],
+  },
+  "The blood/alcohol limit is": {
+    answer:
+      "20 milligrams of alcohol per 100 millilitres of blood for commercial aircrew, air traffic controllers and maintenance engineers",
+    choices: [
+      "20 milligrams of alcohol per 100 millilitres of blood for commercial aircrew, air traffic controllers and 40 milligrams of alcohol per 100 millilitres of blood for maintenance engineers",
+      "40 milligrams of alcohol per 100 millilitres of blood",
+      "20 milligrams of alcohol per 100 millilitres of blood for commercial aircrew, air traffic controllers and maintenance engineers",
+    ],
+  },
+  "A company's safety policy should be defined in": {
+    answer: "the Maintenance Organization Exposition",
+    choices: [
+      "the Maintenance Organization Exposition",
+      "the Maintenance Schedule",
+      "in CAP 716",
+    ],
+  },
+  "Which of the following is least associated with the study of human factors?":
+    {
+      answer: "Health and Safety",
+      choices: ["Ergonomics", "Health and Safety", "Human error"],
+    },
+  "What part of the eye is colour sensitive?": {
+    answer: "The cones",
+    choices: ["The cones", "The rods", "The iris"],
+  },
+  "Paradoxical sleep is also known as": {
+    answer: "REM sleep",
+    choices: ["Stage 3 sleep", "Stage 4 sleep", "REM sleep"],
+  },
+  "Technical communication between two engineers can go wrong if": {
+    answer:
+      "the recipient makes an assumption of the meaning of the information being transmitted",
+    choices: [
+      "the recipient makes an assumption of the meaning of the information being transmitted",
+      "the sender uses a sketch to augment the information transmittal",
+      "the recipient uses body language to provide feedback to the sender",
+    ],
+  },
+  "What type of lens is used to overcome short sightedness?": {
+    answer: "Concave",
+    choices: ["Convex", "Concave", "Bi-focal"],
+  },
+  "To ensure that a technician remains reasonably current on the aircraft types to which they hold authorizations, they are required that":
+    {
+      answer:
+        "they are involved in at least 6 months of actual aircraft maintenance experience in any 2 year period and they have appropriate continuation/refresher training",
+      choices: [
+        "they are involved in at least 6 months of actual aircraft maintenance experience in any 2 year period only",
+        "they have appropriate continuation/refresher training only",
+        "they are involved in at least 6 months of actual aircraft maintenance experience in any 2 year period and they have appropriate continuation/refresher training",
+      ],
+    },
+  "For a man to maintain his  fitness and health the conducive maximum recommended alcohol intake is":
+    {
+      answer: "28 units per week",
+      choices: [
+        "3 - 4 units per week",
+        "28 units per week",
+        "28 units per day",
+      ],
+    },
+  "The type of memory which is most easily influenced by a person's expectations of what should have happened is the":
+    {
+      answer: "episodic memory",
+      choices: ["semantic memory", "episodic memory", "long term memory"],
+    },
+  "The inability for the eyes to accommodate sufficiently is known as": {
+    answer: "presbyopia",
+    choices: ["myopia", "hypermetropia", "presbyopia"],
+  },
+  "The difference between what a person 'can' do and what he 'will' do is largely determined by his":
+    {
+      answer: "motivation",
+      choices: [
+        "physical and mental health",
+        "motivation",
+        "education and training",
+      ],
+    },
+  "Whose responsibility is it that an engineer remains current on new technology and procedures?":
+    {
+      answer: "The engineer's",
+      choices: ["The engineer's", "The organization's", "The NCAA's"],
+    },
+  "When inspecting an airframe structure for small cracks, to avoid a crack being missed you should":
+    {
+      answer:
+        "constantly move the eye across and around the area of interest to avoid the crack falling into the eye's natural blind spot",
+      choices: [
+        "constantly move the eye across and around the area of interest to avoid the crack falling into the eye's natural blind spot",
+        "hold the vision stationary for several seconds on each area to allow the eye to focus correctly",
+        "not use a mirror as mirrors absorb and refract light and may obscure a crack",
+      ],
+    },
+  "What type of lens is used to correct long sightedness?": {
+    answer: "Convex",
+    choices: ["Convex", "Concave", "Bi-focal"],
+  },
+  "A violation in an aircraft maintenance procedure": {
+    answer:
+      "is usually carried out with the best intentions from a genuine desire to 'get the job done'",
+    choices: [
+      "is always considered an act of vandalism or sabotage",
+      "is usually carried out with the best intentions from a genuine desire to 'get the job done'",
+      "is always carried out to satisfy some personal need, often unrelated to the actual task",
+    ],
+  },
+  "Visual Acuity is the ability": {
+    answer: "of the eye to discriminate sharp detail at varying distances",
+    choices: [
+      "to differentiate between different colours",
+      "to detect objects in the peripheral vision",
+      "of the eye to discriminate sharp detail at varying distances",
+    ],
+  },
+  "According to Maslow, safety needs (protection from potentially dangerous objects or situations)":
+    {
+      answer: "is second only to physiological needs (food drink, oxygen etc.)",
+      choices: [
+        "is the most primal need of humans",
+        "is second only to physiological needs (food drink, oxygen etc.)",
+        "is the last need of human after all other needs have been satisfied.",
+      ],
+    },
+  "For a person with normal Circadian rhythms, the body temperature will be lowest":
+    {
+      answer: "between 4 and 6 o'clock in the morning",
+      choices: [
+        "at midday",
+        "upon waking",
+        "between 4 and 6 o'clock in the morning",
+      ],
+    },
+  "Which type of human error is easiest to correct?": {
+    answer: "Constant error",
+    choices: ["Variable error", "Constant error", "Reversible error"],
+  },
+  "If a maintenance engineer has a cold or flu he should": {
+    answer:
+      "absent himself from duty until fully recovered, regardless of other factors",
+    choices: [
+      "only absent himself from duty if his work contract includes sickness pay",
+      "only absent himself from duty if there are no staff shortages at his workplace or within his work team",
+      "absent himself from duty until fully recovered, regardless of other factors",
+    ],
+  },
+  "'Environmental capture' is a type of error possible when an engineer does the same job repeatedly":
+    {
+      answer: "on the same type of aircraft",
+      choices: [
+        "on the same type of aircraft",
+        "but on different types of aircraft",
+        "in a short timescale",
+      ],
+    },
+  "Consumption of alcohol": {
+    answer: "increases mental and physical reaction times",
+    choices: [
+      "increases mental and physical reaction times",
+      "decreases mental and physical reaction times",
+      "has no affect upon mental and physical reaction times",
+    ],
+  },
+  "The 'working memory' is": {
+    answer: "short term memory",
+    choices: [
+      "ultra short term memory",
+      "short term memory",
+      "long term memory",
+    ],
+  },
+  "Colour defective vision affects": {
+    answer: "almost 1 in 10 of men",
+    choices: [
+      "almost 1 in 10 of men",
+      "almost 1 in 10 of women",
+      "more women than men",
+    ],
+  },
+  "At lower light levels, the visual sensing is performed mainly by the": {
+    answer: "rods",
+    choices: ["cones", "rods", "fovea"],
+  },
+  "The symptoms of de-motivation are very similar to the symptoms of": {
+    answer: "stress",
+    choices: ["stress", "tiredness", "mental illness"],
+  },
+  "Alertness and performance is reduced when the body temperature is": {
+    answer: "below normal",
+    choices: ["below normal", "above normal", "either above or below normal"],
+  },
+  "In the 'slips, lapses and mistakes' definition of errors, forgetting to replace an engine cowling would be considered a":
+    { answer: "lapse", choices: ["slip", "lapse", "mistake"] },
+  "If an image formed on the retina of the eye is inverted relative to the viewers normal perception of the image, the viewer will":
+    {
+      answer: "behave and feel normal",
+      choices: [
+        "become disoriented and dizzy",
+        "behave and feel normal",
+        "consciously  mentally revert the image so as to make sense of his/her surroundings",
+      ],
+    },
+  "People with colour defective vision usually have difficulty differentiating between":
+    {
+      answer: "red and green",
+      choices: ["blue and yellow", "red and green", "blue and green"],
+    },
+  "The 'cocktail party effect' is descriptive of": {
+    answer: "selective attention",
+    choices: ["selective attention", "divided attention", "focused attention"],
+  },
+  "Hypermetropia is the medical name for": {
+    answer: "long sightedness",
+    choices: ["long sightedness", "short sightedness", "deafness"],
+  },
+  "What range of sound is usually impaired first with the onset of presbycusis":
+    {
+      answer: "high pitch sound",
+      choices: ["high pitch sound", "mid range sound", "low pitch sound"],
+    },
+  "The amount of light which is allowed to enter the eye can vary by a factor of":
+    { answer: "5:1", choices: ["5:1", "50:1", "500:1"] },
+  "The desire of an individual to 'conform' to a group by allowing one's opinions, attitudes and actions to be affected by prevailing conditions is known as":
+    {
+      answer: "peer pressure",
+      choices: ["culture issues", "esteem needs", "peer pressure"],
+    },
+  "A good rule of thumb for an adequate amount of sleep is": {
+    answer: "one hour of high quality sleep is good for two hours of activity",
+    choices: [
+      "two hours of high quality sleep is good for one hour of activity",
+      "one hour of high quality sleep is good for one hour of activity",
+      "one hour of high quality sleep is good for two hours of activity",
+    ],
+  },
+  "In the 'slips, lapses and mistakes' definition of errors, a mistake would typically occur at the":
+    {
+      answer: "planning stage",
+      choices: ["execution stage", "storage (memory) stage", "planning stage"],
+    },
+  "When a person moves from a poorly lit area to a well lit area, what is the minimum time they should allow for the eyes to adapt?":
+    { answer: "7 minutes", choices: ["7 minutes", "7 seconds", "30 seconds"] },
+  "From what age does hearing ability normally begin to decline?": {
+    answer: "30",
+    choices: ["30", "40", "50"],
+  },
+  "'Confirmation bias' is": {
+    answer:
+      "the subconscious attention to evidence which confirms an engineer's beliefs, and inattention to evidence which contradicts his beliefs",
+    choices: [
+      "the subconscious attention to evidence which confirms an engineer's beliefs, and inattention to evidence which contradicts his beliefs",
+      "an inspection of work carried out by an independent inspector or supervisor",
+      "error in work carried out by a supervisor who has also inspected and signed for his own work",
+    ],
+  },
+  "Finding that familiar tasks (such as programming the video recorder) seems more complicated than usual, could be an early indication of":
+    {
+      answer: "chronic fatigue",
+      choices: ["acute stress", "chronic fatigue", "a cold or flu"],
+    },
+  "Up to what proximity to an aircraft with engines running is the use of ear protection recommended for maintenance personnel?":
+    {
+      answer: "200 - 300 metres",
+      choices: ["20 - 30 metres", "200 - 300 metres", "2 - 3 metres"],
+    },
+  "A person with 20/40 vision has": {
+    answer: "worse eyesight as a person with 20/20 vision",
+    choices: [
+      "better eyesight than a person with 20/20 vision",
+      "worse eyesight as a person with 20/20 vision",
+      "the same eyesight as a person with 20/20 vision",
+    ],
+  },
+  "A person with low self-esteem is": {
+    answer: "more likely to conform to peer pressure",
+    choices: [
+      "more likely to conform to peer pressure",
+      "less likely to conform to peer pressure",
+      "Conformity to peer pressure is not affected by level of self-esteem",
+    ],
+  },
+  "Long term memory capacity is usually": {
+    answer: "unlimited",
+    choices: ["4 - 8 years", "12 months", "unlimited"],
+  },
+  "The only permitted stimulant is": {
+    answer: "caffeine",
+    choices: ["caffeine", "bromine", "amphetamine"],
+  },
+  "Motivation is": {
+    answer: "the thing that drives someone to do something",
+    choices: [
+      "the thing that drives someone to do something",
+      "a reward or punishment designed to reduce errors",
+      "a reward or punishment designed to increase work rate",
+    ],
+  },
+  "On a task that is complex, an engineer uses his own procedures due to pressure.  This is legally termed":
+    {
+      answer: "violation",
+      choices: ["violation", "initiative", "modification"],
+    },
+  "Large amounts of caffeine can": {
+    answer: "cause anxiety, headaches and stress",
+    choices: [
+      "cause anxiety, headaches and stress",
+      "improve alertness and increase awareness",
+      "reduce anxiety and stress",
+    ],
+  },
+  "The symptoms of stress are": {
+    answer:
+      "irritability, forgetfulness, sickness, absence from work, drug and alcohol abuse",
+    choices: [
+      "indications of improved work performance",
+      "violence, sickness, absence from work, drug and alcohol abuse",
+      "irritability, forgetfulness, sickness, absence from work, drug and alcohol abuse",
+    ],
+  },
+  "Sleeping tablets can": {
+    answer: "slow reaction time and dull the senses",
+    choices: [
+      "help REM sleep and realign circadian rhythms",
+      "slow reaction time and dull the senses",
+      "increase alertness after waking the following morning",
+    ],
+  },
+  "Peer pressure is": {
+    answer:
+      "the perceived pressure to conform to what you believe your colleagues expect of you.",
+    choices: [
+      "typified by the expression 'the way we do it around here'",
+      "the perceived pressure to carry out a task in the same way your colleagues would",
+      "the perceived pressure to conform to what you believe your colleagues expect of you.",
+    ],
+  },
+  "When working with bright lights consideration should be given to": {
+    answer: "glare",
+    choices: ["glare", "shadows", "blurred image"],
+  },
+  "Visual inspection by an 'experienced' maintenance engineer is": {
+    answer: "knowledge and rule base behaviour",
+    choices: [
+      "knowledge and rule base behaviour",
+      "skill and knowledge based behaviour",
+      "skill and rule based behaviour",
+    ],
+  },
+  "Information for certifying staff when medically unfit is found in": {
+    answer: "AWN 47",
+    choices: ["ANO", "AWN 3", "AWN 47"],
+  },
+  "The eyesight of an engineer is the responsibility of": {
+    answer: "the engineer",
+    choices: ["the optician", "the engineer", "the Quality Manager"],
+  },
+  "What effect would the consumption of 3 - 5 units of alcohol?": {
+    answer: "Loss of quality of sleep",
+    choices: [
+      "Loss of quality of sleep",
+      "Low REM sleep",
+      "A drop in body temperature",
+    ],
+  },
+  "The best type of handover is": {
+    answer: "the use of handover logs and a brief by the shift supervisor",
+    choices: [
+      "the use of handover logs and a brief by the shift supervisor",
+      "when each individual gets a personal handover of the job",
+      "when written instructions are given by the engineer finishing his shift to the engineer just beginning a shift.",
+    ],
+  },
+  "Long shift work": {
+    answer: "decreases the ability to recognize defects",
+    choices: [
+      "decreases the ability to recognize defects",
+      "increases the ability to recognize defects",
+      "has no effect on the ability to recognize defects",
+    ],
+  },
+  "A good team is one where every member has": {
+    answer: "an input",
+    choices: ["an opinion", "an input", "a job"],
+  },
+  "The memory can be aided by": {
+    answer: "a checklist",
+    choices: ["memory checking", "mind logging", "a checklist"],
+  },
+  "In AWN 47 what is the recommended hearing test?": {
+    answer:
+      "The ability to hear an average conversation voice at a distance of 6 feet",
+    choices: [
+      "The ability to hear an average conversation voice at a distance of 10 feet",
+      "The ability to hear a certain noise at 8 feet",
+      "The ability to hear an average conversation voice at a distance of 6 feet",
+    ],
+  },
+  "Cycles of sleep repeat": {
+    answer: "approximately each 90 minutes",
+    choices: [
+      "approximately each 4 hours",
+      "approximately each 90 minutes",
+      "approximately 20 minutes",
+    ],
+  },
+  "Iconic memory": {
+    answer: "stores visual information and lasts up to ½ second",
+    choices: [
+      "stores visual information and lasts up to ½ second",
+      "stores sounds and lasts up to 2 seconds",
+      "stores visual information and lasts up to 2 seconds",
+    ],
+  },
+  "The first stage in information processing is": {
+    answer: "perception",
+    choices: ["perception", "memorizing", "decision"],
+  },
+  "Information, if not rehearsed is lost in": {
+    answer: "10 - 20 seconds",
+    choices: ["10 - 20 seconds", "1 minute", "30 - 40 seconds"],
+  },
+  "In AWN 47, what is the standard hearing test?": {
+    answer: "The ability to hear a conversation in a quiet room at 2 metres",
+    choices: [
+      "The ability to hear a conversation in a quiet room at 2 metres",
+      "The ability to hear a conversation in a quiet room at 10 metres",
+      "The ability to hear a conversation in a noisy room at 2 metres",
+    ],
+  },
+  "Which of the following is true?": {
+    answer: "Noise does affect the standard of work with certain people",
+    choices: [
+      "Noise does not affect a person's standard of work",
+      "Noise does affect the standard of work with certain people",
+      "Noise affects the standard of work proportionately with the level of the noise",
+    ],
+  },
+  "AWN 47 states that the engineer": {
+    answer: "does not report for work if unfit",
+    choices: [
+      "is responsible for the work he has signed for",
+      "is responsible for health and safety",
+      "does not report for work if unfit",
+    ],
+  },
+  "Information in the short term memory not rehearsed will be lost is": {
+    answer: "10 - 20 seconds",
+    choices: ["1 - 3 months", "2 - 3 weeks", "10 - 20 seconds"],
+  },
+  "The effect on an engineer of environmental noise is": {
+    answer: "it decreases concentration and quality of work",
+    choices: [
+      "it improves concentration and quality of work",
+      "it decreases concentration and quality of work",
+      "it has no affect on concentration of quality of work",
+    ],
+  },
+  "If a 737 had both engines serviced and lost oil from both engines in flight, this":
+    {
+      answer: "would be a direct result of human error",
+      choices: [
+        "can be considered an acceptable probability",
+        "can be expected to happen statistically due to the number of aircraft in service",
+        "would be a direct result of human error",
+      ],
+    },
+  "What do you do when someone is hypothermic?": {
+    answer: "Warm them up",
+    choices: [
+      "Warm them up",
+      "Give them a drink because of dehydration",
+      "Feed them sweet things because of their diabetes",
+    ],
+  },
+  "An effective group work is when": {
+    answer: "everyone contributes in some way",
+    choices: [
+      "everyone discusses ideas and opinions",
+      "everyone has a job to do",
+      "everyone contributes in some way",
+    ],
+  },
+  "A stimulant allowed to be taken without a doctor's prescription is": {
+    answer: "caffeine",
+    choices: ["bromine", "caffeine", "antihistamine"],
+  },
+  "The conditions laid down in AWN 47 are applicable to aircraft engineers": {
+    answer: "when under the influence of drink or drugs",
+    choices: [
+      "who sign for work completed",
+      "for their safety at work",
+      "when under the influence of drink or drugs",
+    ],
+  },
+  "Which of the following defines a peer pressure situation?": {
+    answer: "Your colleagues pressuring you to work faster so they can go home",
+    choices: [
+      "Your girlfriend telling you to go out with her",
+      "Your supervising manager pressuring you to complete the current task on time",
+      "Your colleagues pressuring you to work faster so they can go home",
+    ],
+  },
+  "If the temperature is - 15oC and you are working on the line, you should": {
+    answer: "stop all maintenance until the weather improves",
+    choices: [
+      "stop all maintenance until the weather improves",
+      "carry on regardless of the weather to keep the aircraft flying",
+      "rotate engineers regularly and have a supervisor keep an eye on them",
+    ],
+  },
+  "What is the NCAA standard for vision?": {
+    answer: "Acceptable corrected vision",
+    choices: [
+      "Acceptable uncorrected vision",
+      "Acceptable corrected vision",
+      "18/20 vision",
+    ],
+  },
+  "Trouble shooting is": {
+    answer: "rule based",
+    choices: ["skill based", "knowledge based", "rule based"],
+  },
+  "A violation is": {
+    answer: "a deliberate departure from the rules",
+    choices: [
+      "a deliberate departure from the rules",
+      "an unintentional error",
+      "an intentional act of sabotage",
+    ],
+  },
+  "A mistake is": {
+    answer: "an unintentional error",
+    choices: [
+      "a deliberate departure from the rules",
+      "an unintentional error",
+      "an intentional act of sabotage",
+    ],
+  },
+  "Consumption of 3 - 4 units of alcohol before sleep can": {
+    answer: "decrease the quality of sleep",
+    choices: [
+      "lower the body temperature",
+      "decrease the quality of sleep",
+      "increase REM sleep",
+    ],
+  },
+  "The cycles of body temperature, sleep requirement and alertness are called":
+    {
+      answer: "circadian rhythms",
+      choices: ["earth cycles", "ecto - meridian cycles", "circadian rhythms"],
+    },
+  "In theory, human error is most likely to occur": {
+    answer: "when the body temperature is at its lowest",
+    choices: [
+      "when the body temperature is stable",
+      "during very hot weather",
+      "when the body temperature is at its lowest",
+    ],
+  },
+  "What happened to contribute towards the incident in 1995 where a Boeing 737 lost oil pressure and had to divert?":
+    {
+      answer:
+        "The HP rotor drive covers of both engines had not been refitted after a boroscope inspection",
+      choices: [
+        "The boroscope inspection had been inadequate",
+        "The HP rotor drive covers of both engines had not been refitted after a boroscope inspection",
+        "Both warning indications were faulty, due to crossed connections",
+      ],
+    },
+  "What is the most common cause of in-flight engine shutdown?": {
+    answer: "Incomplete installation",
+    choices: [
+      "Foreign object damage",
+      "Improper fault isolation, inspection or test",
+      "Incomplete installation",
+    ],
+  },
+  "Organizational culture (whether good or bad) is best described as": {
+    answer: "the way we do things around here",
+    choices: [
+      "the way we do things around here",
+      "written procedures",
+      "team resource management",
+    ],
+  },
+  "The main disadvantage of carrying out critical inspections under very bright artificial light is":
+    { answer: "glare", choices: ["shadows", "glare", "filtered light"] },
+  "An individual suffering from stress when confronted with a task within his capability is likely to think the task is":
+    {
+      answer: "someone else's responsibility",
+      choices: [
+        "too demanding",
+        "someone else's responsibility",
+        "not demanding enough",
+      ],
+    },
+  "An experienced engineer fits the wrong seal during a routine component change, this is":
+    {
+      answer: "rule based",
+      choices: ["skill based", "knowledge based", "rule based"],
+    },
+  "An engineer is working on a wing and kicks a spanner off into an engine cowl and breaks a sensor, this is":
+    {
+      answer: "skill based error",
+      choices: [
+        "skill based error",
+        "knowledge based error",
+        "rule based error",
+      ],
+    },
+  "AWN 47  does not mention": {
+    answer: "melatonin",
+    choices: ["sudafed", "pep's", "melatonin"],
+  },
+  "The incident in 1995 where a Boeing 737 lost oil pressure and had to divert was":
+    {
+      answer: "a typical human factors related error",
+      choices: [
+        "a typical human factors related error",
+        "to be expected due to the number of flights each day",
+        "due to Murphy's law",
+      ],
+    },
+  "3 - 4 units of alcohol taken before sleep reduces": {
+    answer: "both",
+    choices: ["quality of sleep", "quantity of sleep", "both"],
+  },
+  "The retina is situated": {
+    answer: "at the back of the eye with the optic nerve",
+    choices: [
+      "in front of the cornea",
+      "behind the cornea with the lens",
+      "at the back of the eye with the optic nerve",
+    ],
+  },
+  "An effective shift handover will comprise of": {
+    answer: "handing over ongoing tasks in a designated area",
+    choices: [
+      "the outgoing and incoming personnel individually handing over ongoing tasks",
+      "the shift supervisor informing personnel of all ongoing work",
+      "handing over ongoing tasks in a designated area",
+    ],
+  },
+  "Which is important in sleep?": {
+    answer: "Both",
+    choices: ["Quality", "Quantity", "Both"],
+  },
+  "The difference between a mistake and a violation is": {
+    answer: "a mistake is unintentional and a violation is deliberate",
+    choices: [
+      "a mistake is less serious than a violation",
+      "a violation is not deliberate",
+      "a mistake is unintentional and a violation is deliberate",
+    ],
+  },
+  "Stressors in the environment of noise and heat will cause": {
+    answer: "a loss of attention and a distraction",
+    choices: [
+      "a total loss of attention",
+      "a loss of attention and a distraction",
+      "no loss of attention",
+    ],
+  },
+  "When going from day shift to night shift, efficiency": {
+    answer: "will drop off in the first four weeks",
+    choices: [
+      "stays the same",
+      "will drop off in the first four weeks",
+      "will drop off after the first four weeks",
+    ],
+  },
+  "An engineer finds his own method of doing a repetitive job.": {
+    answer: "He is in regular violation",
+    choices: [
+      "He should be commended for his resourcefulness",
+      "He should hand it on to his junior colleagues",
+      "He is in regular violation",
+    ],
+  },
+  "When working on aircraft, the consumption of alcohol": {
+    answer:
+      "you cannot work on aircraft even 8 hours after consuming large quantities of alcohol",
+    choices: [
+      "a certain amount is permissible",
+      "is permissible providing the drink driving limit is not exceeded",
+      "you cannot work on aircraft even 8 hours after consuming large quantities of alcohol",
+    ],
+  },
+  "An experienced engineer is fitting a valve.  A required seal is not fitted.  What type of error is this?":
+    {
+      answer: "Rule based",
+      choices: ["Rule based", "Skill based", "Knowledge based"],
+    },
+  "Most engineering related incidents are due to": {
+    answer: "installing components incorrectly",
+    choices: [
+      "installing dirty connectors",
+      "installing components incorrectly",
+      "installing worn or old components",
+    ],
+  },
+  "What is the most important means of communication in aircraft maintenance engineering?":
+    { answer: "Written", choices: ["Written", "Implicit", "Verbal"] },
+  "Drinking 3 - 4 units of alcohol before sleeping results in": {
+    answer: "loss of quality sleep",
+    choices: [
+      "a drop in body temperature",
+      "loss of quality sleep",
+      "loss of non-REM sleep",
+    ],
+  },
+  "Environmental stresses in an extreme high temperature and noisy environment causes":
+    {
+      answer: "attention to be disturbed and distributed",
+      choices: [
+        "no loss of attention or distraction",
+        "total loss of attention",
+        "attention to be disturbed and distributed",
+      ],
+    },
+  "In an organization which practices human factors there is": {
+    answer: "no blame unless there is a deliberate violation",
+    choices: [
+      "a no blame culture",
+      "no blame unless there is a deliberate violation",
+      "punishment for all violations",
+    ],
+  },
+  "What effect does alcohol have on sleep?": {
+    answer: "Both",
+    choices: [
+      "Decreases quantity of sleep",
+      "Decreases quality of sleep",
+      "Both",
+    ],
+  },
+  "The hub of the SHEL model of human factors is": {
+    answer: "liveware",
+    choices: ["liveware", "hardware", "environment"],
+  },
+  "Motor programme refers to": {
+    answer:
+      "a task that has been carried out so many times that it becomes automatic",
+    choices: [
+      "a task that has been carried out so many times that it becomes automatic",
+      "motivational computer software",
+      "a task that becomes programmed into short term memory",
+    ],
+  },
+  "Memory which can be influenced by a person’s expectations of what should have happened is":
+    { answer: "episodic", choices: ["episodic", "semantic", "echoic"] },
+  "Little black books are": {
+    answer: "not to be used as information stored may be out of date",
+    choices: [
+      "not to be used as information stored may be out of date",
+      "a good time saving device for an engineer",
+      "ok as long as the information stored is from an approved source",
+    ],
+  },
+  "A person can be said to be motivated if": {
+    answer: "they are taking action to achieve something",
+    choices: [
+      "they are taking action to achieve something",
+      "they cut corners to get the job done quickly",
+      "they are on a productivity bonus",
+    ],
+  },
+  "Group polarisation can result in": {
+    answer: "a group making a more cautious or extreme decision",
+    choices: [
+      "a group making a more cautious or extreme decision",
+      "a group making a better decision than the individual",
+      "members of the group not talking to one another",
+    ],
+  },
+  "Narrowing of attention occurs in states of": {
+    answer: "high arousal",
+    choices: ["low arousal", "high arousal", "optimum arousal"],
+  },
+  "If you are given a task that you are unsure of you should": {
+    answer: "consult the appropriate approved data",
+    choices: [
+      "ask someone that’s done it before",
+      "consult the appropriate approved data",
+      "consult type course notes",
+    ],
+  },
+  "A type 1 visual inspection error occurs when": {
+    answer: "a good item is incorrectly identified as faulty",
+    choices: [
+      "a good item is incorrectly identified as faulty",
+      "a faulty item is missed",
+      "a duplicate inspection is not carried out",
+    ],
+  },
+  "Hypoxia can": {
+    answer:
+      "impair the sensitivity of the rods and hence have a detrimental effect on eyesight",
+    choices: [
+      "impair the sensitivity of the rods and hence have a detrimental effect on eyesight",
+      "improve the night vision of the cones of the eyes",
+      "cause a person to slip into a coma if they are not quickly warmed up again",
+    ],
+  },
+  "You are taking prescribed drugs.": {
+    answer:
+      "Carry on working, as long as you know the primary and secondary side effects",
+    choices: [
+      "Carry on working, as long as you know the primary and secondary side effects",
+      "Do not carry out aircraft maintenance",
+      "Carry on as normal",
+    ],
+  },
+  "Information in the long term memory": {
+    answer: "is easily lost",
+    choices: [
+      "is easily lost",
+      "is easily transferred to the short term memory",
+      "is only available under hypnosis",
+    ],
+  },
+  "How many things can be stored in the short term memory?": {
+    answer: "9 - 15",
+    choices: ["0 - 5", "9 - 15", "No limit"],
+  },
+  "Which of the following is an acceptable substance, with regard to aircraft maintenance?":
+    {
+      answer: "Caffeine",
+      choices: ["Caffeine", "Penicillin", "Beta Blockers"],
+    },
+  "What is the difference between error and violation?": {
+    answer: "Violation is deliberate, error is not",
+    choices: [
+      "Error is deliberate, violation is not",
+      "Violation is deliberate, error is not",
+      "No difference",
+    ],
+  },
+  "Which of the following statements is true regarding human performance?": {
+    answer:
+      "Human performance is better with less stress, irrespective of the time of day",
+    choices: [
+      "Human performance is better with less stress, and in the morning",
+      "Human performance is better with less stress, and in the afternoon",
+      "Human performance is better with less stress, irrespective of the time of day",
+    ],
+  },
+  "What causes the most aircraft accidents?": {
+    answer: "Communication",
+    choices: [
+      "Technical Fault",
+      "Communication",
+      "Misunderstanding between ATC and pilot on approach",
+    ],
+  },
+  "What is a latent failure?": {
+    answer:
+      "A mistake that has already been made, but has not yet caused an accident",
+    choices: [
+      "A mistake that has already been made, but has not yet caused an accident",
+      "Receiving bad instruction from a manager who is out of touch with maintenance",
+      "A failure which could not have been predicted",
+    ],
+  },
+  "What happens when you break the 'chain of error'?": {
+    answer: "Accident does not happen",
+    choices: [
+      "Accident does not happen",
+      "Accident happens",
+      "Pilot submits report within 72 hours",
+    ],
+  },
+  "Engineers often work on raised platforms, ladders etc. What dangers can this contribute to?":
+    {
+      answer: "Staging may be made of wood",
+      choices: [
+        "Staging may be made of wood",
+        "Ladder may slip and man falls",
+        "Two workers may be carrying out maintenance on the same lift",
+      ],
+    },
+  "Intense or loud noise may lead to": {
+    answer: "fatigue",
+    choices: ["fatigue", "deafness", "no effects"],
+  },
+  "After drinking alcohol, absorption is dependant on": {
+    answer: "time",
+    choices: ["weight", "age", "time"],
+  },
+  "Who is most likely to deviate from standard procedure?": {
+    answer: "Over confident, young man",
+    choices: [
+      "Old tired man",
+      "Over confident, young man",
+      "Young, inexperienced man",
+    ],
+  },
+  "The percentage of accidents attributable to aircraft maintenance and inspection causes is":
+    {
+      answer: "significant and rising",
+      choices: [
+        "significant and rising",
+        "now less significant due to more advanced maintenance practices",
+        "now less significant due to the introduction of more sophisticated aircraft",
+      ],
+    },
+  "Whilst working on an aircraft a spanner placed on the wing surface is kicked off and subsequently falls into an open engine cowl, breaking off a sensor connector.  This is an example of":
+    {
+      answer: "a skill based error",
+      choices: [
+        "a skill based error",
+        "a punishable occurrence",
+        "Murphy's law",
+      ],
+    },
+  "In the human eye most of the refraction required to bring an image into focus on the retina is accomplished by the":
+    { answer: "cornea", choices: ["cornea", "iris", "lens"] },
+  "The average capacity of the working memory is about": {
+    answer: "7 chunks of information",
+    choices: [
+      "4 chunks of information",
+      "12 chunks of information",
+      "7 chunks of information",
+    ],
+  },
+  "Itemized checklists should be dealt with": {
+    answer: "item by item, in order, to cover every step diligently",
+    choices: [
+      "as memorized",
+      "item by item, in order, to cover every step diligently",
+      "in any order, provided all steps are completed",
+    ],
+  },
+  "Successful working teams have the following attributes:-": {
+    answer:
+      "Members participate in team activities but retain their own individual requirements",
+    choices: [
+      "Members participate in team activities but retain their own individual requirements",
+      "All the team members work in isolation and therefore provide highly individual solutions to the same problems",
+      "All the members participate in team activities and discussions",
+    ],
+  },
+  "Good aircraft maintenance supervisory judgment is usually based upon": {
+    answer: "knowledge and experience and reference to approved data",
+    choices: [
+      "knowledge and experience and reference to course notes",
+      "the evidence available and forceful management ability",
+      "knowledge and experience and reference to approved data",
+    ],
+  },
+  "The intake of caffeine in moderate quantities can result in": {
+    answer:
+      "a temporary increase in the ability to sustain vigilance and increased alertness",
+    choices: [
+      "lack of sleep and subsequent disruption to the circadian rhythms",
+      "a temporary increase in the ability to sustain vigilance and increased alertness",
+      "anxiety, headaches and negative mood states",
+    ],
+  },
+  "Cold stress can be influenced by": {
+    answer: "the wind chill factor",
+    choices: [
+      "the wind chill factor",
+      "insufficient vitamins in the diet",
+      "a drop in body temperature",
+    ],
+  },
+  "Working excessively long shifts during unsociable hours can lead to": {
+    answer: "decreased ability to detect defects during aircraft maintenance",
+    choices: [
+      "decreased ability to detect defects during aircraft maintenance",
+      "increased ability to detect defects during aircraft maintenance",
+      "an increased immunity to stress",
+    ],
+  },
 };
 
 export default questionBankGen;

@@ -116,3 +116,12 @@ footer {
   font-weight: bold;
   /* box-shadow: 0px 0px 8px 0px black; */
 }
+
+@media (max-width: 600px) {
+  .exam_header {
+    font-size: 0.5rem;
+  }
+  .exam_header h1 {
+    padding-left: 8px;
+  }
+}
