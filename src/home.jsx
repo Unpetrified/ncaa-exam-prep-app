@@ -49,6 +49,7 @@ function ExamForm({ setDetails, details, questions, setQuestions }) {
           <option value="pma">Pressurized Metal Airframe</option>
           {/* <option value="avi">Avionics</option> */}
           <option value="aut">Auto Pilot</option>
+          <option value="ele">Electric Power</option>
           <option value="gen">General</option>
         </select>
         <label htmlFor="no">Number of question:</label>

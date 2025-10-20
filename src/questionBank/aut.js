@@ -3407,5 +3407,723 @@ const questionBankAut = {
     answer: "Decrease",
     choices: ["Increase", "Decrease", "No effect"],
   },
+  "The VOR/LOC mode is controlled by": {
+    answer: "Lateral only",
+    choices: ["Lateral and vertical channel", "Lateral only", "Pitch and yaw"],
+  },
+  "A hardover occurs in one channel, a dual Actuator Position Indicator will display?":
+    {
+      answer: "One pointer in one end and the other at the opposite end",
+      choices: [
+        "Both pointers positioned in the middle",
+        "One pointer at one end and the other positioned in the middle",
+        "One pointer in one end and the other at the opposite end",
+      ],
+    },
+  "Autopilot in Man/Auto (attitude retention), to change the aircraft attitude":
+    {
+      answer: "moves cyclic stick with mode engaged",
+      choices: [
+        "pilot disengages autopilot and moves cyclic stick",
+        "move beeper trim",
+        "moves cyclic stick with mode engaged",
+      ],
+    },
+  "Beeper trim allows movement in?": {
+    answer: "pitch and roll",
+    choices: ["pitch and yaw", "pitch", "pitch and roll"],
+  },
+  "The main component of a Helicopter AFCS are": {
+    answer: "Vertical gyro, three rate gyros and amplifier",
+    choices: [
+      "Vertical gyro, three rate gyros and amplifier",
+      "Vertical gyro, one rate gyro and amplifier",
+      "Three rate gyros and amplifier",
+    ],
+  },
+  "With a temperature decrease, altitude will;": {
+    answer: "Increase",
+    choices: ["Decrease", "Increase", "Be unchanged"],
+  },
+  "In altitude Hold/IAS, the autopilot controls the": {
+    answer: "Collective",
+    choices: ["Collective", "Cyclic stick", "Yaw"],
+  },
+  "When the Stick/Trim release button is pressed": {
+    answer: "Maintains actuator in the same position",
+    choices: [
+      "The actuators are disengaged",
+      "Disengages the actuator  while the aircraft is moved",
+      "Maintains actuator in the same position",
+    ],
+  },
+  "Autopilot warning on disengagement   is": {
+    answer: "Red light",
+    choices: ["An aural warning", "Amber light", "Red light"],
+  },
+  "A series actuator will cause movement of the": {
+    answer: "Control run only",
+    choices: [
+      "Pilots control only",
+      "Pilots control and the control run",
+      "Control run only",
+    ],
+  },
+  "An autopilot trim indicator monitors": {
+    answer: "control surface position",
+    choices: [
+      "voltage level in servo amp",
+      "trim tab position",
+      "control surface position",
+    ],
+  },
+  "An ALT HLD a pitch signal from the VG": {
+    answer: "Hold the aircraft at the datum",
+    choices: [
+      "Has no effect",
+      "Is washed out to o after a time delay",
+      "Hold the aircraft at the datum",
+    ],
+  },
+  "An autopilot turn command is": {
+    answer: "Only when the flaps are down",
+    choices: [
+      "Only when the flaps are down",
+      "Airspeed in below the preset level",
+      "In high speed flight only",
+    ],
+  },
+  "In a displacement autopilot, the  position feedback.": {
+    answer: "Totally opposes the demand when the control surface is centred",
+    choices: [
+      "Totally opposes the demand  control surface is at the demand position.",
+      "Totally opposes the demand when the control surface is centred",
+      "Is at zero the demand surface",
+    ],
+  },
+  "The operating limit of Mach trim are:": {
+    answer: "Set by the aircraft manufacturer",
+    choices: [
+      "Set by the aircraft manufacturer",
+      "Adjusted from the cockpit in flight",
+      "Adjusted by maintainance checks on the groud",
+    ],
+  },
+  "Quadrature rejection measures": {
+    answer: "Noise spikes and harmonics are rejected by fitter circuits.",
+    choices: [
+      "The correct phase of demand signal is maintained.",
+      "The correct frequency of the demand signal is maintained",
+      "Noise spikes and harmonics are rejected by fitter circuits.",
+    ],
+  },
+  "The autopilot may capture a new attitude with": {
+    answer: "IAS or vertical speed locks engaged.",
+    choices: [
+      "IAS lock only engaged",
+      "No pitch lock engage",
+      "IAS or vertical speed locks engaged.",
+    ],
+  },
+  "In a co-ordinated turn total lift will equal.": {
+    answer: "The resultant of total weight and centripetal force",
+    choices: [
+      "The resultant of total weight and centripetal force",
+      "LCOOSE",
+      "The vertical dynamic lift sensor output",
+    ],
+  },
+  "During ground operations the VG is deflected in roll, the versine": {
+    answer: "Give up elevator",
+    choices: [
+      "Give up elevator",
+      "Give down elevator",
+      "Reduce down going aileron movement.",
+    ],
+  },
+  "A roll command in turning the A/C  on to a new heading, the rate gyro": {
+    answer:
+      "Opposes the command as bank increase and assist the command as A/C returns to the wings level",
+    choices: [
+      "Is assisting the command to make the action more responsive.",
+      "Opposing the command to provide degree of damping",
+      "Opposes the command as bank increase and assist the command as A/C returns to the wings level",
+    ],
+  },
+  "A DLC system operates to maintain glideslope centre line by the operation of the:":
+    {
+      answer: "The spoilers",
+      choices: ["The slats", "The spoilers", "The flaps"],
+    },
+  "When the autopilot is operated in the vertical speed V/S mode the vertical speed thumb":
+    {
+      answer: "Will be stationary and indicate the selected V/S datum.",
+      choices: [
+        "Will be stationary and indicate the selected V/S datum.",
+        "Will more to indicate and deviation array from datum speed",
+        "Never moves before or after V/S mode selection except by the pilot to select a new datum",
+      ],
+    },
+  "On selection of “Turbulence Mode”:": {
+    answer: "The gain is reduced to prevent stresses to the airframe.",
+    choices: [
+      "The gain is doubled to reduce oscillation",
+      "The gain remains the same but the signals are phase advance",
+      "The gain is reduced to prevent stresses to the airframe.",
+    ],
+  },
+  "Heading error signal is the difference between\t(same question with number 97 different   answers selected)":
+    {
+      answer: "Selected heading and actual heading",
+      choices: [
+        "Selected heading and actual heading",
+        "Selected heading and track",
+        "Actual heading and actual track",
+      ],
+    },
+  "Heading error signal is the difference  between": {
+    answer: "Selected heading and actual heading",
+    choices: [
+      "Selected heading and actual heading",
+      "Selected heading and track",
+      "Actual heading and actual track",
+    ],
+  },
+  "Stability of the aircraft about the longitudinal axis is obtained by": {
+    answer: "Ailerons",
+    choices: ["Ailerons", "Elevator", "Keel and Fan"],
+  },
+  "The effect of position feedback in an autopilot system:direction.When the disturbance is corrected. ":
+    {
+      answer:
+        "Ensures that the control surface returns to the neutral position when the disturbance is corrected.",
+      choices: [
+        "Will ensure that the control surface is moved in the correct direction.",
+        "Ensures that the control surface returns to the neutral position when the disturbance is corrected.",
+        "Ensures that the magnitude of control surface movement is pre-calculated.",
+      ],
+    },
+  "The output of an E and I bar sensing device is: ": {
+    answer: "Phased sensed ac.",
+    choices: ["Phased sensed ac.", "Polarity sensed dc.", "Fixed polarity dc."],
+  },
+  "The sense of a control surface position feedback signal will: ": {
+    answer:
+      "Oppose the signal causing the displacement of the control surface.",
+    choices: [
+      "Assist the signal displacing the servo.",
+      "Reverse when the control surface limit is reached.",
+      "Oppose the signal causing the displacement of the control surface.",
+    ],
+  },
+  "The output of a slaved directional gyro to an autopilot consists of: ": {
+    answer: "Azimuth angle.",
+    choices: ["Pitch and roll angles.", "Azimuth rate.", "Azimuth angle."],
+  },
+  "Operation of the autopilot trim controller: ": {
+    answer: "Moves the trim tabs.",
+    choices: [
+      "Moves the trim tabs.",
+      "Allows slow autopilot commands to be applied.",
+      "Maintains the aircraft in straight and level flight.",
+    ],
+  },
+  "An autopilot turn control primarily controls: ": {
+    answer: "Ailerons.",
+    choices: ["Elevators.", "Rudder.", "Ailerons."],
+  },
+  "An autopilot three-axis rate transmitter produces signals proportional to: ":
+    {
+      answer: "Yaw rate, pitch rate and roll rate.",
+      choices: [
+        "Vertical acceleration, yaw rate and pitch rate.",
+        "Yaw rate, pitch rate and roll rate.",
+        "Rate of climb, rate of turn and longitudinal acceleration.",
+      ],
+    },
+  "An autopilot three-axis trim indicator shows out of trim condition by sensing: ":
+    {
+      answer: "Primary servomotor loads.",
+      choices: [
+        "Autopilot demands.",
+        "Vertical gyro error signals.",
+        "Primary servomotor loads.",
+      ],
+    },
+  "The term ‘positive feedback’ refers to signals which are: ": {
+    answer: "Of the same sense as the demand signal.",
+    choices: [
+      "The same magnitude as the demand signal.",
+      "Of the same sense as the demand signal.",
+      "Of the opposite sense as the demand signal.",
+    ],
+  },
+  "A servomechanism having a tachogenerator only as a feedback device will: ": {
+    answer: "Vary its speed with input error voltage.",
+    choices: [
+      "Vary its speed with input error voltage.",
+      "Have a constant speed for any input voltage.",
+      "Null out at a position dependant on input error voltage.",
+    ],
+  },
+  "The signal responsible for returning an aileron to its neutral position when an aircraft has reached its correct attitude as demanded by the ":
+    {
+      answer: "Position feedback.",
+      choices: ["Vertical gyro.", "Position feedback.", "Compass error."],
+    },
+  "After VOR capture on a ground check, aileron movement will depend upon: ": {
+    answer: "Course select error, radio deviation and bank angle.",
+    choices: [
+      "Heading error, course error and radio deviation.",
+      "Heading select error, radio deviation and airspeed.",
+      "Course select error, radio deviation and bank angle.",
+    ],
+  },
+  "The phase of a modulator signal corresponds to the: ": {
+    answer: "Polarity of a dc input signal.",
+    choices: [
+      "Phase sense of the input.",
+      "Polarity of a dc input signal.",
+      "Polarity of the reference signal.",
+    ],
+  },
+  "If the I bar of an E and I pickoff is out of datum position, the: ": {
+    answer: "Direction of displacement gives the output phase sense.",
+    choices: [
+      "Voltages on each secondary are equal and opposite.",
+      "Direction of displacement gives the output magnitude.",
+      "Direction of displacement gives the output phase sense.",
+    ],
+  },
+  "The signal from a VG is used in an autopilot to give an output which is proportional to: ":
+    {
+      answer: "Angle of disturbance.",
+      choices: [
+        "Rate of disturbance.",
+        "Heading error.",
+        "Angle of disturbance.",
+      ],
+    },
+  "For a rate gyro to detect roll movement its axis of spin must be: ": {
+    answer: "Athwartships.",
+    choices: [
+      "Athwartships.",
+      "On the longitudinal axis.",
+      "On the vertical axis.",
+    ],
+  },
+  "In an autopilot an integrator could be used to: ": {
+    answer: "Prevent the aircraft standing off a radio beam.",
+    choices: [
+      "Provide phase advance signals.",
+      "Help prevent oscillation.",
+      "Prevent the aircraft standing off a radio beam.",
+    ],
+  },
+  "Bank angle limiting concerns: ": {
+    answer: "Maximum aircraft angle of bank that the autopilot can demand.",
+    choices: [
+      "Maximum aileron angle.",
+      "Maximum aircraft angle of bank that the autopilot can demand.",
+      "Minimum aircraft angle of bank that the autopilot can demand.",
+    ],
+  },
+  "An autopilot using a vertical gyro will automatically disengage with: ": {
+    answer: "Loss of VG signal.",
+    choices: [
+      "Bank angle limit exceeded.",
+      "Loss of VG signal.",
+      "Limitation of VG signal.",
+    ],
+  },
+  "Mach lock mode can be operated with: ": {
+    answer: "Altitude hold mode disengaged.",
+    choices: [
+      "Altitude hold mode.",
+      "Altitude hold mode disengaged.",
+      "Altitude hold off or on.",
+    ],
+  },
+  "An autopilot disconnect is indicated by: ": {
+    answer: "Red light.",
+    choices: ["Amber light.", "No light.", "Red light."],
+  },
+  "When operated, an autopilot cut-out system: ": {
+    answer: "Disconnects the servomotor from the control surface.",
+    choices: [
+      "Disconnects the servomotor from the control surface.",
+      "Disconnects the electrical excitation to the servomotor but the servomotor is left connected to the control surface.",
+      "Allows the servomotor to remain on.",
+    ],
+  },
+  "Of the VOR and ILS signals which has the greater sensitivity: ": {
+    answer: "ILS.",
+    choices: ["ILS.", "VOR.", "Same sensitivity."],
+  },
+  "When using a rate gyro to detect pitch attitude change the gimbal ring ": {
+    answer: "15 degrees to the normal axis.",
+    choices: [
+      "Lateral.",
+      "15 degrees to the normal axis.",
+      "Vertical or longitudinal.",
+    ],
+  },
+  "In a rate/rate system: ": {
+    answer: "The servomotor speed depends on the angle of displacement.",
+    choices: [
+      "The servomotor speed is inversely proportional to the rate at which the disturbance takes place.",
+      "The servomotor speed is proportional to the rate at which the disturbance takes place.",
+      "The servomotor speed depends on the angle of displacement.",
+    ],
+  },
+  "In a displacement autopilot system the position feedback: ": {
+    answer: "Is zero at the demand position.",
+    choices: [
+      "Totally opposes the demand when the control surface is faired.",
+      "Totally opposes the demand when the control surface is at the demand position.",
+      "Is zero at the demand position.",
+    ],
+  },
+  "Servomotor mountings are fixed to the airframe to: ": {
+    answer: "Allow servomotor replacement without control run disturbance.",
+    choices: [
+      "Give a convenient point for torque measurement.",
+      "Obviate the necessity for a duplicate inspection.",
+      "Allow servomotor replacement without control run disturbance.",
+    ],
+  },
+  "In autopilot pre-engagement the synchronisation circuits ensure that the: ":
+    {
+      answer:
+        "Autopilot control circuits are at zero demand conditions prior to engagement.",
+      choices: [
+        "Trim indicators will read zero prior to engagement.",
+        "Autopilot control circuits are at zero demand conditions prior to engagement.",
+        "Aircraft will always be returned to straight and level flight when the autopilot is engaged.",
+      ],
+    },
+  "A ‘Voter’ system is used to ensure that: ": {
+    answer:
+      "In multiplex systems a faulty channel is automatically disengaged.",
+    choices: [
+      "The autopilot will disengage automatically if a fault occurs during the Approach/Land modes and audible and visual warnings occur.",
+      "All interlock circuit conditions are met prior to autopilot engagement.",
+      "In multiplex systems a faulty channel is automatically disengaged.",
+    ],
+  },
+  "A vertical gyro senses disturbances in: ": {
+    answer: "Two axes.",
+    choices: ["One axis.", "Two axes.", "Three axes."],
+  },
+  "A rate gyro senses disturbances in: ": {
+    answer: "One axis.",
+    choices: ["One axis.", "Two axes.", "Three axes."],
+  },
+  "A single rate gyro can be used to sense changes in attitude about: ": {
+    answer: "Two axes.",
+    choices: ["One axis.", "Two axes.", "Three axes."],
+  },
+  "The reference and variable signals of a VOR are compared for: ": {
+    answer: "Phase.",
+    choices: ["Amplitude.", "Frequency.", "Phase."],
+  },
+  "ILS glide slope carrier frequency is in the: ": {
+    answer: "UHF band.",
+    choices: ["UHF band.", "VHF band.", "HF band."],
+  },
+  "The localiser output signals from the navigation receiver are: ": {
+    answer: "Polarity-sensitive dc.",
+    choices: [
+      "Polarity-sensitive dc.",
+      "Phase-sensitive ac.",
+      "Always of the same phase or polarity.",
+    ],
+  },
+  "Marker beacons signals are used by the AFCS to sense: ": {
+    answer: "Distance from the runway threshold.",
+    choices: [
+      "Distance from the runway threshold.",
+      "Altitude of an aircraft on the approach.",
+      "Approach speed of the aircraft.",
+    ],
+  },
+  "When an aircraft overflies the localiser transmitter, the signals received will be: ":
+    {
+      answer: "In the same sense.",
+      choices: [
+        "In the same sense.",
+        "In a reverse sense.",
+        "So mixed as to be unreliable.",
+      ],
+    },
+  "The radiation pattern of a VOR station will transmit bearings that are: ": {
+    answer: "Magnetic.",
+    choices: ["True.", "Magnetic.", "Reciprocal."],
+  },
+  "Compatible autopilot modes are: ": {
+    answer: "Height lock and VOR.",
+    choices: [
+      "Height lock and VOR.",
+      "Vertical speed lock and height lock.",
+      "IAS and glideslope.",
+    ],
+  },
+  "The usable range of the ILS localiser beam is: ": {
+    answer: "About 15 miles greater than the glideslope.",
+    choices: [
+      "The same as the glideslope.",
+      "About 15 miles greater than the glideslope.",
+      "Less than the glideslope by about 17 miles.",
+    ],
+  },
+  "The pitch attitude of an aircraft with autopilot engaged can be changed ": {
+    answer: "Pitch switch, CWS, altitude hold, IAS hold.",
+    choices: [
+      "Pitch switch, CWS, altitude hold, IAS hold.",
+      "Pitch switch and CWS operation only.",
+      "Altitude hold but not IAS hold.",
+    ],
+  },
+  "The airspeed lock: ": {
+    answer: "Controls the pitch attitude of the aircraft.",
+    choices: [
+      "Operates the throttles to vary the airspeed.",
+      "Controls the pitch attitude of the aircraft.",
+      "Operates the speed brakes and spoilers.",
+    ],
+  },
+  "A heading error signal is generated by the difference between: ": {
+    answer: "Aircraft heading and datum.",
+    choices: [
+      "Selected track and datum.",
+      "Aircraft heading and datum.",
+      "Aircraft heading and selected course.",
+    ],
+  },
+  "Prior to engagement with autopilot power ON the trim indicators will indicate: ":
+    {
+      answer: "Standing voltage on the servo control loop.",
+      choices: [
+        "Standing voltage on the servo control loop.",
+        "Aircraft trim out of datum.",
+        "Trim control surface position.",
+      ],
+    },
+  "On an autopilot ground check, loss of servomotor rate feedback will: ": {
+    answer: "Cause the control to oscillate about its datum.",
+    choices: [
+      "Cause the control to oscillate about its datum.",
+      "Run the control to maximum displacement.",
+      "Disconnect the autopilot.",
+    ],
+  },
+  "A manometric airspeed lock will require: ": {
+    answer: "Pitot and static pressure.",
+    choices: [
+      "Static pressure only.",
+      "Pitot pressure only.",
+      "Pitot and static pressure.",
+    ],
+  },
+  "In an autopilot system, ‘q’ from the CADC is used for: ": {
+    answer: "Gain programming.",
+    choices: [
+      "Controlling altitude.",
+      "Controlling airspeed.",
+      "Gain programming.",
+    ],
+  },
+  "On an autopilot ground check, loss of control surface position feedback will cause: ":
+    {
+      answer: "The control surface to move to its maximum position.",
+      choices: [
+        "The control to oscillate about its datum.",
+        "The control surface to move to its maximum position.",
+        "Movement of the control surface in the opposite direction.",
+      ],
+    },
+  "The requirement of a synchronizing system is to: ": {
+    answer: "Disengage on autopilot engagement.",
+    choices: [
+      "Not disengage on autopilot engagement.",
+      "Disengage on autopilot engagement.",
+      "Not engage until autopilot engagement.",
+    ],
+  },
+  "Tachogenerator feedback: input. ": {
+    answer: "Damps oscillations of the control surface.",
+    choices: [
+      "Cannot be used to provide position feedback.",
+      "Is proportional to control surface movement in relation to demand input.",
+      "Damps oscillations of the control surface.",
+    ],
+  },
+  "What radio equipment can be used in an AFCS: ": {
+    answer: "VOR, ILS.",
+    choices: ["ADF, Radio Altitude.", "DME, ILS, ADF.", "VOR, ILS."],
+  },
+  "An electro-mechanical servo is powered: ": {
+    answer: "Electrically.",
+    choices: ["Electrically.", "Hydraulically.", "Pneumatically."],
+  },
+  "Compatible modes are: ": {
+    answer: "Altitude Hold/VOR.",
+    choices: [
+      "Altitude Hold/VOR.",
+      "Altitude Hold/Glideslope.",
+      "Heading/VOR.",
+    ],
+  },
+  "Localiser frequencies command: ": {
+    answer: "Yaw and roll.",
+    choices: ["Pitch and roll.", "Yaw and pitch.", "Yaw and roll."],
+  },
+  "The purpose of Duplex servomotors is to: ": {
+    answer: "Prevent hardover or runaway.",
+    choices: [
+      "Give fail passive operation.",
+      "Increase torque.",
+      "Prevent hardover or runaway.",
+    ],
+  },
+  "The circuit used for washout is a: ": {
+    answer: "Integrator.",
+    choices: ["Differentiator.", "Integrator.", "Modulator."],
+  },
+  "Successful synchronisation would be displayed by the trim indicator showing: ":
+    {
+      answer: "Zero.",
+      choices: ["Zero.", "Central.", "Control surface position."],
+    },
+  "Trim indicators are actuated by: ": {
+    answer: "DC milliammeters.",
+    choices: ["Synchros.", "DC milliammeters.", "LVDT."],
+  },
+  "Electrically-operated torque limiting is achieved by a: ": {
+    answer: "Resistor connected in series with the control phase.",
+    choices: [
+      "Resistor connected in series with the control phase.",
+      "Resistor connected in parallel with the control phase.",
+      "Resistor connected in series with the reference phase.",
+    ],
+  },
+  "‘q’ feel is used in relation to: ": {
+    answer: "Higher speed, more artificial feel.",
+    choices: [
+      "Lower speed, more artificial feel.",
+      "Higher speed, more artificial feel.",
+      "Higher speed, less artificial feel.",
+    ],
+  },
+  "An aural warning in an autopilot system will sound when: ": {
+    answer: "Autopilot is disengaged.",
+    choices: [
+      "Autopilot is disengaged.",
+      "Stabiliser trim is operated.",
+      "Altitude Hold is disconnected.",
+    ],
+  },
+  "The requirement of the position feedback signal is to: ": {
+    answer:
+      "Provide a signal proportional to the input signal angular displacement.",
+    choices: [
+      "Provide a signal proportional to the input signal angular displacement.",
+      "Minimise servo hunting.",
+      "Assist the input signal angular displacement.",
+    ],
+  },
+  "The Glideslope Receiver gives an output to the autopilot in: ": {
+    answer: "Roll only.",
+    choices: ["Roll and yaw.", "Pitch only.", "Roll only."],
+  },
+  "Modulation consists of converting: ": {
+    answer: "dc to phase-sensitive ac.",
+    choices: [
+      "ac to polarity-sensitive dc.",
+      "dc to phase-sensitive ac.",
+      "ac to polarity-sensitive ac.",
+    ],
+  },
+  "In a steady coordinated turn, heading signal to the autopilot is: ": {
+    answer: "Opposed by the VG signal.",
+    choices: [
+      "Assisted by the VG signal.",
+      "Opposed by the VG signal.",
+      "Both opposed and assisted at times.",
+    ],
+  },
+  "In a pitch mode, the VG signal will: ": {
+    answer: "Oppose servo signal.",
+    choices: ["Assist servo signal.", "Not be used.", "Oppose servo signal."],
+  },
+  "The pilot cannot use the autopilot to control the aircraft with: ": {
+    answer: "TCS.",
+    choices: ["CWS.", "Pitch Steering.", "TCS."],
+  },
+  "Loss of Rate Feedback signal results in: ": {
+    answer: "Oscillation of the control surface.",
+    choices: [
+      "Overshooting of the control surface.",
+      "No movement of the control surface.",
+      "Oscillation of the control surface.",
+    ],
+  },
+  "When the clutch is energised the servomotor is: ": {
+    answer: "Connected to the control surface.",
+    choices: [
+      "Connected to the control surface.",
+      "Disconnected from the control surface.",
+      "De-energised.",
+    ],
+  },
+  "A servomotor has torque limiting for the purpose of: ": {
+    answer: "Limiting the autopilots authority.",
+    choices: [
+      "Limiting the pilots control over the aircraft.",
+      "Limiting the autopilots authority.",
+      "Limiting the feedback to the control column.",
+    ],
+  },
+  "IAS Hold mode can only be engaged with altitude hold: ": {
+    answer: "Disengaged.",
+    choices: ["Disengaged.", "Engaged.", "Engaged or disengaged."],
+  },
+  "Over-amplification of the rate feedback signal will result in: ": {
+    answer: "Sluggish operation of the servo.",
+    choices: [
+      "Over-sensitive response of the servo.",
+      "No noticeable difference.",
+      "Sluggish operation of the servo.",
+    ],
+  },
+  "In manometric Height Lock signal magnitude: ": {
+    answer: "Decreases with increase in airspeed.",
+    choices: [
+      "Increases with increase in airspeed.",
+      "Decreases with increase in airspeed.",
+      "Decrease with decrease in airspeed.",
+    ],
+  },
+  "If a constant rate signal is fed to a Rate-Rate servo the servomotor will: ":
+    {
+      answer: "Run at a constant speed.",
+      choices: [
+        "Run at a constant speed.",
+        "Stop at a datum.",
+        "Be heavily damped.",
+      ],
+    },
+  "When would full-scale deflection occur on the course pointer in VOR: ": {
+    answer: "10 degrees off beam.",
+    choices: [
+      "2 degrees off beam.",
+      "5 degrees off beam.",
+      "10 degrees off beam.",
+    ],
+  },
+  "The term ‘Model Reference’ in an AFCS refers to: ": {
+    answer: "Gain programming.",
+    choices: ["Limiting.", "Integrating.", "Gain programming."],
+  },
 };
 export default questionBankAut;

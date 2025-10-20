@@ -2,6 +2,7 @@ import questionBankAut from "./questionBank/aut";
 import questionBankGen from "./questionBank/gen";
 import questionBankGTE from "./questionBank/gte";
 import questionBankPMA from "./questionBank/pma";
+import questionBankELE from "./questionBank/ele";
 
 export default function generateQuestion(num_of_questions, category) {
   let questionBank;
@@ -15,6 +16,9 @@ export default function generateQuestion(num_of_questions, category) {
       break;
     case "aut":
       questionBank = questionBankAut;
+      break;
+    case "ele":
+      questionBank = questionBankELE;
       break;
     default:
       questionBank = questionBankGen;
