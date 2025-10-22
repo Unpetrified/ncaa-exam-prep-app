@@ -6011,6 +6011,2655 @@ const questionBankPMA = {
     answer: "Distributor valve",
     choices: ["Shuttle valve", "Vacuum pump", "Distributor valve"],
   },
+
+  // DGCA MODULE 11 PART 06
+  "Aircraft emergency escape slides are usually pressurised with.": {
+    answer: "CO2",
+    choices: ["oxygen", "helium", "CO2"],
+  },
+  "Vertical projected separation between seat rows must be.": {
+    answer: "3 inches",
+    choices: ["4 inches", "3 inches", "5 inches"],
+  },
+  "Life jackets are inflated with cylinders of.": {
+    answer: "CO2",
+    choices: ["CO2", "air", "Nitrogen"],
+  },
+  "The minimum passenger aisle width for an aircraft with a seating capacity of 20 or more is.":
+    { answer: "15", choices: ["15", "dependant upon aircraft type", "24"] },
+  "When testing emergency slide bottles.": {
+    answer:
+      "all three pins must be shorted together and grounded to the cartridge body",
+    choices: [
+      "any pin could be checked by connecting directly to ground",
+      "one pin must be grounded to the cartridge body at one time",
+      "all three pins must be shorted together and grounded to the cartridge body",
+    ],
+  },
+  "Where would you find information regarding galley equipment?.": {
+    answer: "AWN 99",
+    choices: ["AWN 99", "BCARs", "ANO"],
+  },
+  "How do you clean seat belts?.": {
+    answer: "With warm water with low alkalinity soap",
+    choices: [
+      "With MEK",
+      "With white spirit",
+      "With warm water with low alkalinity soap",
+    ],
+  },
+  "After a successful ditching, the liferafts  deployment will.": {
+    answer:
+      "be rapid and obvious with easily and readily displayed instructions adjacent to the liferafts",
+    choices: [
+      "be rapid and obvious with easily and readily displayed instructions adjacent to the liferafts",
+      "be briefed by the cabin crew",
+      "have detailed instructions in a booklet in a seat pocket",
+    ],
+  },
+  "Type and Quantity of emergency equipment to be carried is specified in which document?.":
+    {
+      answer: "Schedule 4 of the ANO",
+      choices: [
+        "CAAIPs Leaflet 5-7",
+        "Schedule 4 of the ANO",
+        "Airworthiness Notice 79",
+      ],
+    },
+  "Where the aircraft passenger seating capacity exceeds 149 but less than 200 then:.":
+    {
+      answer: "2 megaphones are required",
+      choices: [
+        "1 megaphone is required",
+        "3 megaphones are required",
+        "2 megaphones are required",
+      ],
+    },
+  "Megaphones must be stowed so they can withstand an inertia force of.": {
+    answer: "9g",
+    choices: ["15g", "9g", "12g"],
+  },
+  "The cylinder in a life jacket is inflated using.": {
+    answer: "CO2",
+    choices: ["CO2", "nitrogen", "compressed air"],
+  },
+  "What is the minimum separation between a seat back cushion and another seat or fixed structure?.":
+    { answer: "26 inches", choices: ["28 inches", "24 inches", "26 inches"] },
+  "Cargo nets are manufactured from.": {
+    answer: "nylon",
+    choices: ["hessian", "nylon", "polypropylene"],
+  },
+  "A galley trolley will be designed to.": {
+    answer: "not exceed the floor loading limits",
+    choices: [
+      "does not matter as the trolleys move",
+      "not exceed the floor limits more than 3 times in one hour",
+      "not exceed the floor loading limits",
+    ],
+  },
+  "When loading a cargo aircraft.": {
+    answer: "the manufacturer specifies the maximum floor loads",
+    choices: [
+      "the weight limits of the aircraft could be exceeded under careful monitored circumstances",
+      "the CofG limits of the aircraft could be exceeded under careful monitored circumstances",
+      "the manufacturer specifies the maximum floor loads",
+    ],
+  },
+  "Galley equipment which does not need electrical power is called.": {
+    answer: "uncontrolled equipment",
+    choices: [
+      "controlled equipment",
+      "uncontrolled equipment",
+      "minimum equipment",
+    ],
+  },
+  "Galley trolleys must have placards indicating.": {
+    answer: "Must be stowed for take-off, landing and turbulence",
+    choices: [
+      "location, position, flight number",
+      "maximum weight, position, flight number",
+      "Must be stowed for take-off, landing and turbulence",
+    ],
+  },
+  "PTV type entertainment equipment.": {
+    answer:
+      "is installed with seat electronic unit and multiplexing techniques",
+    choices: [
+      "has no capacity for digital information processing and transmitting",
+      "is installed with seat electronic unit and multiplexing techniques",
+      "is not the part of maintenance schedule",
+    ],
+  },
+  "Hot fluids in an aircraft galley must have closed container lids at temperatures above.":
+    { answer: "45°C", choices: ["65°C", "55°C", "45°C"] },
+  "With regard to forward/rearward passenger seat installation.": {
+    answer:
+      "you can only fit seats as stated in the Declaration of Design and Performance (DPP)",
+    choices: [
+      "you can only fit seats facing forward",
+      "you can fit seats facing forward or rearward",
+      "you can only fit seats as stated in the Declaration of Design and Performance (DPP)",
+    ],
+  },
+  "Attendant call is achieved by pressing a button on the passenger service unit (PSU). To reset the light.":
+    {
+      answer: "the button is pushed again",
+      choices: [
+        "the button is pushed again",
+        "the button is pulled out",
+        "a reset switch on the attendants panel is operated",
+      ],
+    },
+  "On large aeroplanes, containerised cargo is held down by.": {
+    answer: "side cart guides and fore and aft latches",
+    choices: ["rope", "side cart guides and fore and aft latches", "netting"],
+  },
+  "A galley catering trolley with electrics is classed as.": {
+    answer: "a controlled item",
+    choices: [
+      "an uncontrolled item",
+      "a controlled item",
+      "neither, as it is removable",
+    ],
+  },
+  "The minimum vertical projected separation between seat rows is.": {
+    answer: "3 inches",
+    choices: ["7 inches", "3 inches", "5 inches"],
+  },
+  "On pulling the fire handle, the aural warning.": {
+    answer: "goes off, the light remains on, the generator goes off line",
+    choices: [
+      "goes off, the light goes off, hydraulics, bleed air and generator goes off",
+      "stays on, the light extinguishes, the generator goes off line",
+      "goes off, the light remains on, the generator goes off line",
+    ],
+  },
+  "Engine wing firebottles should be charged with nitrogen at 15°C to.": {
+    answer: "600 psi",
+    choices: ["1250 psi", "600 psi", "1500 psi"],
+  },
+  "In a capacitive fire detection system, if.": {
+    answer: "there is a break, the system will work but not test satisfactory",
+    choices: [
+      "there is a break, the system will not work",
+      "there is a break, the system will work but not test satisfactory",
+      "there is a short to earth, the system will work but not test satisfactory",
+    ],
+  },
+  "A fire detection zone wiring can pass through another fire zone when.": {
+    answer: "the system and the extinguishing system are the same",
+    choices: [
+      "the system and the extinguishing system are the same",
+      "the system is different but the extinguishant is the  same",
+      "the system is the same but the extinguishant is different",
+    ],
+  },
+  "When a fire test on a Systron Donor fire detector system is carried out.": {
+    answer: "it checks the integrity of the contacts",
+    choices: [
+      "a signal passes through the unbroken centre conductor to produce the warning",
+      "it checks the integrity of the contacts",
+      "the signal passes through the centre and back through the outer to give warning",
+    ],
+  },
+  "When inspecting lavatory installations.": {
+    answer:
+      "the ashtray should not be located close to the toilet paper holder",
+    choices: [
+      "the ashtray should not be located close to the toilet paper holder",
+      "No Smoking' sign should be fitted next to the ashtrays only",
+      "the ashtray must be made of a thermoplastic material",
+    ],
+  },
+  "Fire tests on aircraft internal furnishings must be carried out.": {
+    answer: "only when equipment items fail random tests",
+    choices: [
+      "every two years",
+      "every five years",
+      "only when equipment items fail random tests",
+    ],
+  },
+  "A cockpit check on the engine firewire system is a.": {
+    answer: "continuity check",
+    choices: ["calibration check", "continuity check", "function check"],
+  },
+  "When the fire handle is operated it.": {
+    answer:
+      "cuts off field current, hydraulics and fuel and operates fire extinguishers",
+    choices: [
+      "cuts off fuel and hydraulics. Generator remains on line to provide electrical power",
+      "cuts off field current, hydraulics and fuel and operates fire extinguishers",
+      "operates fire extinguisher only",
+    ],
+  },
+  "What is the contamination monitor for, in a Systron Donner fire detection system?.":
+    {
+      answer: "Dirty contacts",
+      choices: ["Volts drop", "Dirty contacts", "Integrity comparator"],
+    },
+  "Fireproofing of cabin material should be done.": {
+    answer: "when a sample fails",
+    choices: ["every 2 years", "when a sample fails", "every 5 years"],
+  },
+  "What test is carried out to ensure serviceability of a squib?.": {
+    answer: "A continuity check",
+    choices: [
+      "Bottles are fired",
+      "Safety ohmmeter is used to check voltage",
+      "A continuity check",
+    ],
+  },
+  "In a gas firewire system, what causes the firewire caption to come on when heat is applied?.":
+    {
+      answer: "Pressure",
+      choices: ["Continuity", "Pressure", "Capacitance increase"],
+    },
+  "Toilet fire detection issues can be found in. Page": {
+    answer: "AWN 83",
+    choices: ["AWN 83", "CAAIPs", "AWN 80"],
+  },
+  "The outside casing of a firewire has.": {
+    answer: "same potential as ground",
+    choices: [
+      "same potential as ground",
+      "28VDC potential above ground",
+      "115VDC potential above ground",
+    ],
+  },
+  "Smoke detectors consist of a.": {
+    answer: "photoelectric cell detecting 10% smoke",
+    choices: [
+      "lamp detecting 2% smoke",
+      "photoelectric cell detecting 10% smoke",
+      "photoelectric cell detecting 2% smoke",
+    ],
+  },
+  "What do you check when carrying out an insulation check on a continuous firewire loop?.":
+    {
+      answer: "The firewire",
+      choices: [
+        "The firewire, sensor & controller",
+        "The outside of the firewire to earth",
+        "The firewire",
+      ],
+    },
+  "When the fire-handle switch is pulled, a.": {
+    answer:
+      "red warning light stays on. Generator, hydraulics, & fuel is cut off",
+    choices: [
+      "red warning light stays on. Generator, hydraulics & fuel stays on",
+      "red warning light goes off. Generator goes offline",
+      "red warning light stays on. Generator, hydraulics, & fuel is cut off",
+    ],
+  },
+  "What are the minimum number of fire bottles in  a cabin with 201- 300 people?.":
+    {
+      answer: "4 Fire Extinguishers",
+      choices: ["3 BCF", "4 Fire Extinguishers", "4 Methyl Bromide"],
+    },
+  "How often do hand-held extinguishers have to be weighed?.": {
+    answer: "Annually",
+    choices: ["Bi-annually", "Every 5 years", "Annually"],
+  },
+  "The weight of an extinguisher is stamped.": {
+    answer: "on head fitting",
+    choices: ["on bracket", "on head fitting", "on base of body"],
+  },
+  "How can fire extinguisher be identified as being used?.": {
+    answer: "Weighed",
+    choices: ["Check the tell-tale wire", "Weighed", "Check the pressure"],
+  },
+  "Portable fire extinguishers are operated by.": {
+    answer:
+      "breaking the tell tale/tamper-proof seal then operated by the handle",
+    choices: [
+      "turning upside down and squeeze button/trigger",
+      "breaking the tell tale/tamper-proof seal then operated by the handle",
+      "one single operation until fire extinguisher is empty",
+    ],
+  },
+  "How many fire extinguishers are required on an aircraft with 501 passengers?.":
+    { answer: "7", choices: ["6", "7", "5"] },
+  "CO2 fire extinguishers are used on.": {
+    answer: "all fires in fuselage",
+    choices: ["all fires in fuselage", "engines only", "baggage holds only"],
+  },
+  "In an aircraft flying control system employing servo-tabs, the installation of external ground locks to the main control surface.":
+    {
+      answer: "would not prevent movement of the control column",
+      choices: [
+        "would not prevent movement of the control column",
+        "is unnecessary since the system is irreversible and therefore the control surface cannot be displaced by the wind",
+        "would also prevent movement of the control column",
+      ],
+    },
+  "A full time yaw damper system detects.": {
+    answer: "band pass frequencies",
+    choices: [
+      "band pass frequencies",
+      "all frequencies",
+      "only low frequencies",
+    ],
+  },
+  "With respect to flight spoilers, they.": {
+    answer: "can operate both on the ground and in flight",
+    choices: [
+      "can operate both on the ground and in flight",
+      "only operate on the ground",
+      "only operate in flight",
+    ],
+  },
+  "When the primary stops fitted to a control run have been contacted.": {
+    answer: "a clearance exists at the secondary stops",
+    choices: [
+      "a clearance exists at the secondary stops",
+      "the secondary stops have been over-ridden",
+      "the secondary stops will just be in contact",
+    ],
+  },
+  "Excessive wear on both sides of the control cable pulley groove is evidence of.":
+    {
+      answer: "pulley misalignment",
+      choices: [
+        "excessive cable tension",
+        "pulley misalignment",
+        "cable misalignment",
+      ],
+    },
+  "A universal protractor used to measure degrees of aileron travel should be zeroed.":
+    {
+      answer: "with the aileron in the neutral position",
+      choices: [
+        "when the aircraft is in level flight attitude",
+        "with the aileron in the neutral position",
+        "with the aileron in the down position",
+      ],
+    },
+  "A flying control static friction check.": {
+    answer:
+      "demonstrates the force the pilot requires to overcome system inertia and move the controls",
+    choices: [
+      "can only be carried out during flight",
+      "demonstrates the force the pilot requires to overcome system inertia and move the controls",
+      "will demonstrate that a high force is always necessary to operate non-powered controls",
+    ],
+  },
+  "What is an aileron balance cable for?.": {
+    answer: "To allow the cable to be tensioned",
+    choices: [
+      "To allow the cable to be tensioned",
+      "To correct for wing heaviness",
+      "To allow aircraft to fly hands off",
+    ],
+  },
+  "With the elevator trim wheel adjusted fully aft. (nose up), range of movement of the elevator is restricted.":
+    {
+      answer: "for 'up' travel movement",
+      choices: [
+        "would make no difference to the movement",
+        "for 'down' travel movement",
+        "for 'up' travel movement",
+      ],
+    },
+  "On the ground, spoilers/speedbrakes deploy to.": {
+    answer: "60°",
+    choices: ["15°", "30°", "60°"],
+  },
+  "In normal flight, if the control column is pulled back, a servo tab fitted to the elevator will.":
+    {
+      answer: "move down",
+      choices: ["move up", "remain in line with the elevator", "move down"],
+    },
+  "In normal flight, if the control wheel is moved to the left, then the aileron on the right wing will.":
+    {
+      answer: "increase the angle of attack of the right hand wing",
+      choices: [
+        "decrease the angle of attack of the right hand wing",
+        "increase the angle of attack of the right hand wing",
+        "keep the angle of attack of the right wing constant",
+      ],
+    },
+  "On an aircraft fitted with elevons in normal flight, if a column is moved forward, the elevons will.":
+    {
+      answer: "both move down",
+      choices: ["remain stationary", "both move down", "both move up"],
+    },
+  "In an aircraft system employing balance tabs, the installation of external ground locks between the control surface and the balance tabs.":
+    {
+      answer: "would prevent the movement of the control column",
+      choices: [
+        "would prevent the movement of the control column",
+        "is unnecessary since the system is irreversible",
+        "would not prevent the movement of the control column",
+      ],
+    },
+  "The two switches for pitch trim are located. Page": {
+    answer: "on the control column acting like an 'AND' switch",
+    choices: [
+      "on the control column acting like an 'AND' switch",
+      "on the control column with the captain having priority over the First Officer",
+      "on the control column acting like an 'OR' switch",
+    ],
+  },
+  "If the flaps are sluggish or erratic on final approach, the possible cause may be.":
+    {
+      answer: "flap motor internal leakage",
+      choices: [
+        "flap tracks out of rigging",
+        "bearing seized",
+        "flap motor internal leakage",
+      ],
+    },
+  "In fully Fly By Wire aircraft, wing root bending moments are reduced by.": {
+    answer: "symmetrical application of ailerons",
+    choices: [
+      "transfer of fuel from one wing tank to another",
+      "operation of the elevator",
+      "symmetrical application of ailerons",
+    ],
+  },
+  "Yaw damping rate changes with.": {
+    answer: "airspeed",
+    choices: ["airspeed", "flap position", "altitude"],
+  },
+  "What is the main purpose of a frize aileron?.": {
+    answer: "Decrease drag on the up going wing",
+    choices: [
+      "Decrease drag on the up going wing",
+      "Help pilot overcome aerodynamic loads",
+      "Increase drag on the up going wing",
+    ],
+  },
+  "What happens to a hydraulically operated flight control surface when pressure is removed?.":
+    {
+      answer: "Droop",
+      choices: ["Droop", "Remain in last position", "Go to neutral"],
+    },
+  "Oscillation and hunting of flight control surface are prevented by.": {
+    answer: "fitting a tachogenerator",
+    choices: [
+      "fitting a tachogenerator",
+      "feedback from the servo motor",
+      "feedback from control surface",
+    ],
+  },
+  "During an autopilot controlled turn.": {
+    answer: "ailerons, rudder and elevators will move",
+    choices: [
+      "ailerons, rudder and THS will move",
+      "ailerons and rudder will move",
+      "ailerons, rudder and elevators will move",
+    ],
+  },
+  "On a full fly-by-wire system, a speedbrake screwjack servomotor is controlled by the.":
+    {
+      answer: "flight control computer",
+      choices: [
+        "flight augmentation computer",
+        "flight control computer",
+        "flight management and guidance computer",
+      ],
+    },
+  "In a fly-by-wire aircraft, what controls the roll spoilers?.": {
+    answer: "Flight control computer",
+    choices: [
+      "Flight control computer",
+      "Flight augmentation computer",
+      "Flight management computer",
+    ],
+  },
+  "Active load control involves.": {
+    answer: "varying lift force to control vertical movement of the aircraft",
+    choices: [
+      "limiting the deflection of control surface with airspeed",
+      "intervention & monitoring the human pilot",
+      "varying lift force to control vertical movement of the aircraft",
+    ],
+  },
+  "Aileron input is fed into the yaw damper system to.": {
+    answer: "prevent adverse yaw in a turn",
+    choices: [
+      "prevent nose pitching down",
+      "prevent nose pitching up",
+      "prevent adverse yaw in a turn",
+    ],
+  },
+  "Differential aileron control will.": {
+    answer: "prevent yawing in conjunction with rudder input",
+    choices: [
+      "cause a nose up moment",
+      "prevent yawing in conjunction with rudder input",
+      "cause a nose down moment",
+    ],
+  },
+  "In an automatic flight control system, when may the yaw damper be applied?.":
+    {
+      answer: "During either manual or automatic control",
+      choices: [
+        "During manual control only",
+        "During either manual or automatic control",
+        "During automatic control only",
+      ],
+    },
+  "In an auto trim system, for the trim system to operate.": {
+    answer: "autopilot need not be engaged",
+    choices: [
+      "operation of the trim controls is required",
+      "autopilot need not be engaged",
+      "autopilot must be engaged",
+    ],
+  },
+  "In an autopilot coordinated turn, when the turn angle is reached.": {
+    answer: "the ailerons are faired",
+    choices: [
+      "both ailerons are down",
+      "one is up one is down",
+      "the ailerons are faired",
+    ],
+  },
+  "Fly-by-wire load alleviation function in turbulent weather conditions will result in.":
+    {
+      answer: "ailerons and spoiler moving symmetrically upward",
+      choices: [
+        "spoiler moving symmetrically upward",
+        "ailerons moving symmetrically upward",
+        "ailerons and spoiler moving symmetrically upward",
+      ],
+    },
+  "Autotrim will switch to 'slow' when.": {
+    answer: "flaps are retracted",
+    choices: [
+      "flaps are retracted",
+      "landing gear up and locked",
+      "flaps are extended",
+    ],
+  },
+  "Spoiler position feedback is provided by a.": {
+    answer: "an R.V.D.T",
+    choices: ["a S.C.M", "an R.V.D.T", "a microswitch"],
+  },
+  "Rudder 'Q' limiting.": {
+    answer: "restricts rudder movement with increase in airspeed",
+    choices: [
+      "restricts rudder movement with increase in airspeed",
+      "increases rudder movement with increase in airspeed",
+      "increases feel as airspeed increases",
+    ],
+  },
+  "Elevons combine the functions of both.": {
+    answer: "elevator and aileron",
+    choices: [
+      "elevator and aileron",
+      "rudder and aileron",
+      "rudder and elevator",
+    ],
+  },
+  "The aircraft is controlled about the lateral axis by the.": {
+    answer: "elevator",
+    choices: ["ailerons", "rudder", "elevator"],
+  },
+  "The aircraft is controlled about the normal axis by the.": {
+    answer: "rudder",
+    choices: ["elevato", "rudder", "ailerons"],
+  },
+  "The purpose of the Servo Valve in a power operated control is.": {
+    answer:
+      "to direct hydraulic fluid to the jack in response to the pilots control in cockpit",
+    choices: [
+      "to provide pressure to operate the control",
+      "to direct hydraulic fluid to the jack in response to the pilots control in cockpit",
+      "to revert the system to manual operation",
+    ],
+  },
+  "The aircraft is controlled about the longitudinal axis by the.": {
+    answer: "ailerons",
+    choices: ["ailerons", "elevator", "rudder"],
+  },
+  "Ruddervators when moved, will move.": {
+    answer:
+      "either opposite each other or together, depending on the selection",
+    choices: [
+      "either opposite each other or together, depending on the selection",
+      "together only",
+      "opposite to each other only",
+    ],
+  },
+  "As a consequence of the C of G being close to its aft limit.": {
+    answer: "the stick forces when pitching the nose down will be very high",
+    choices: [
+      "the stick forces when pitching the nose down will be very high",
+      "the stick forces to manoeuvre longitudinally will be low due to the low stability",
+      "the stick forces will be high in fore and aft pitch, due to the high longitudinal stability",
+    ],
+  },
+  "An anti-balance tab is moved.": {
+    answer: "via a fixed linkage",
+    choices: ["hydraulically", "when the C.G. changes", "via a fixed linkage"],
+  },
+  "When checking full range of control surface movement, they must be positioned by.":
+    {
+      answer:
+        "operating the flightdeck/cockpit controls until the system is against the primary stops",
+      choices: [
+        "operating the flightdeck/cockpit controls until the system is against the primary stops",
+        "moving them by hand directly until against the primary stops",
+        "moving them by hand directly until against the secondary stops",
+      ],
+    },
+  "The higher speed of the high wing in a banked turn causes it to have more drag than the low wing, this may be compensated for by.":
+    {
+      answer: "use of the rudder control",
+      choices: [
+        "operating the ailerons into the opposite sense once the correct angle of bank has been reached",
+        "use of the rudder control",
+        "increasing the 'nose up' pitch by use of the elevators",
+      ],
+    },
+  "The type of flap which extends rearwards when lowered is called a.": {
+    answer: "Fowler flap",
+    choices: ["split flap", "plain flap", "Fowler flap"],
+  },
+  "Which of the following trailing edge flaps give an increase in wing area?.":
+    {
+      answer: "Fowler flap",
+      choices: ["Split flap", "Slotted flap", "Fowler flap"],
+    },
+  "Which of the following is not a primary flying control?.": {
+    answer: "Tailplane",
+    choices: ["Tailplane", "Elevator", "Rudder"],
+  },
+  "A tab which assists the pilot to move a flying control by moving automatically in the opposite direction to the control surface is called a.":
+    {
+      answer: "geared balance tab",
+      choices: ["trim tab", "servo tab", "geared balance tab"],
+    },
+  "What is fitted on the aircraft to enable the pilot to reduce his speed rapidly in event of severe turbulence, or speed tending to rise above the Never Exceed Limit?.":
+    {
+      answer: "Air brakes",
+      choices: ["Wheel brakes", "Air brakes", "Lift dumpers"],
+    },
+  "Irreversibility of a fully powered control surface is provided by.": {
+    answer: "nulling of the servo valve",
+    choices: [
+      "nulling of the servo valve",
+      "air loads on the control surface",
+      "the jack ram being attached to structure",
+    ],
+  },
+  "Powered flight control systems are used on transport aircraft.": {
+    answer: "due to the increase in speed and size of aircraft",
+    choices: [
+      "because at low level air density is high",
+      "because the pilot has too many tasks to perform",
+      "due to the increase in speed and size of aircraft",
+    ],
+  },
+  "A differential aileron control system results in.": {
+    answer: "aileron drag being reduced on the outer wing in a turn",
+    choices: [
+      "aileron drag being reduced on the inner wing in a turn",
+      "aileron drag being compensated by small rudder movements",
+      "aileron drag being reduced on the outer wing in a turn",
+    ],
+  },
+  "If electrical power is removed from a fly by wire spoiler system, the spoiler panels.":
+    {
+      answer: "go to down if any are not already down",
+      choices: [
+        "go to down if any are not already down",
+        "go to full up",
+        "remain where they are",
+      ],
+    },
+  "The down position of the speed brake lever is detented to.": {
+    answer: "prevent inadvertent operation",
+    choices: [
+      "prevent inadvertent operation",
+      "lock the speed brakes down during flight",
+      "allow the ground speed brakes to be used on touchdown",
+    ],
+  },
+  "A stick shaker.": {
+    answer:
+      "is an eccentric flywheel driven by an electric motor and mounted on the control column",
+    choices: [
+      "is a linear actuator attached to the base of the control column",
+      "is an eccentric flywheel driven by an electric motor and mounted on the control column",
+      "vibrates the elevators to cause buffeting of the airframe",
+    ],
+  },
+  "If the control column is moved forward and to the left.": {
+    answer: "left aileron moves up, right aileron down, elevator down",
+    choices: [
+      "left aileron moves down, right aileron up, elevator down",
+      "left aileron moves up, right aileron down, elevator down",
+      "left aileron moves up, right aileron moves down, elevator up",
+    ],
+  },
+  "On an aircraft fitted with spoilers for lateral control, roll to the right is caused by.":
+    {
+      answer: "right spoiler extending, left spoiler remaining retracted",
+      choices: [
+        "left spoiler extending, right spoiler remaining retracted",
+        "right spoiler extending, left spoiler remaining retracted",
+        "both spoilers extending",
+      ],
+    },
+  "The yaw damper must be designed to allow the rudder to control in response to the aircraft's.":
+    {
+      answer: "dutch roll frequency",
+      choices: ["pitch Frequency", "roll frequency", "dutch roll frequency"],
+    },
+  "The alpha vane signal can be fed to __________ when the aircraft is close to stall.":
+    {
+      answer: "throttle lever",
+      choices: ["flap position", "fast/slow switch", "throttle lever"],
+    },
+  "Ground spoilers are used to.": {
+    answer: "decrease wing loading on landing",
+    choices: [
+      "increase wing loading on take-off",
+      "prevent FOD ingestion into the engines on landing and taxiing",
+      "decrease wing loading on landing",
+    ],
+  },
+  "The outboard ailerons on some aircraft.": {
+    answer: "are isolated to prevent aileron reversal",
+    choices: [
+      "are isolated at slow speeds",
+      "are isolated to prevent aileron reversal",
+      "are isolated to improve sensitivity",
+    ],
+  },
+  "A zero fuel test on a fuel quantity indicating system is carried out with.":
+    {
+      answer: "tanks empty apart from unusable fuel",
+      choices: [
+        "tanks completely full",
+        "tanks completely empty",
+        "tanks empty apart from unusable fuel",
+      ],
+    },
+  "After a tank bag has been replaced, a fuel flow test should be carried out at.":
+    {
+      answer: "engine inlet",
+      choices: ["tank outlet", "engine inlet", "tank shut-off valve point"],
+    },
+  "If an aircraft has ability to transfer fuel in flight, provision must be made to.":
+    {
+      answer: "shut off fuel before structural damage",
+      choices: [
+        "shut off fuel before structural damage",
+        "provide overflow facility to dump fuel",
+        "stop engine from using tank during transfer",
+      ],
+    },
+  "Pressure refuelling is carried out at.": {
+    answer: "40 PSI",
+    choices: ["20 PSI", "40 PSI", "15 PSI"],
+  },
+  "Cross feed valves permit fuel transfer from.": {
+    answer: "any tank to any engine",
+    choices: [
+      "tank to tank",
+      "left tank to right tank",
+      "any tank to any engine",
+    ],
+  },
+  "Integral fuel booster pumps.": {
+    answer: "lets the fuel do cooling",
+    choices: [
+      "require ram air cooling",
+      "lets the fuel do cooling",
+      "require no cooling",
+    ],
+  },
+  "In a light fixed wing aircraft, the fuel warning light indicates.": {
+    answer: "ice blockage, filter popped or pump fail",
+    choices: [
+      "pump failure",
+      "the tank does not pressurise",
+      "ice blockage, filter popped or pump fail",
+    ],
+  },
+  "When a fuel jettison valve is in transit, the magnetic indicator would show.":
+    {
+      answer: "amber and cross line",
+      choices: [
+        "amber and in line",
+        "amber and cross line",
+        "green and in line",
+      ],
+    },
+  "When considering the basic categories of fuel tank construction, which of the following is most prone to leaks?.":
+    { answer: "Integral", choices: ["Rigid", "Integral", "Flexible"] },
+
+  // DGCA MODULE 11 PART 07
+
+  "Hydraulic pressure can be restored by.": {
+    answer: "compressing the air charge in an accumulator",
+    choices: [
+      "compressing the air charge in an accumulator",
+      "the use of a pressure/heat exchanger",
+      "compressing the fluid in a reservoir",
+    ],
+  },
+  "What is the colour of the band on a hydraulic seal?.": {
+    answer: "Green",
+    choices: ["Yellow", "Green", "White"],
+  },
+  "A maintainer valve in an hydraulic system will.": {
+    answer:
+      "allow continued press to essential systems during times of reduced supply",
+    choices: [
+      "allow continued press to essential systems during times of reduced supply",
+      "dampen pressure inputs",
+      "maintain a high pressure to all systems",
+    ],
+  },
+  "Where is the temperature overheat switch located in a hydraulic pump?.": {
+    answer: "In the case drain",
+    choices: [
+      "In the pressure line",
+      "In the suction line",
+      "In the case drain",
+    ],
+  },
+  "What happens to hydraulic fluid when it is overheated?.": {
+    answer: "Increase acidity",
+    choices: ["Increase acidity", "Increase viscosity", "Increase alkalinity"],
+  },
+  "Accumulators as fitted to aircraft hydraulic systems.": {
+    answer: "store fluid under pressure",
+    choices: [
+      "are only ever used in an emergency",
+      "store fluid under pressure",
+      "provide additional fluid if leaks occur",
+    ],
+  },
+  "A Skydrol hydraulic fluid seal would be made of.": {
+    answer: "butyl rubber, ethylene propylene or Teflon",
+    choices: [
+      "natural rubber",
+      "synthetic rubber",
+      "butyl rubber, ethylene propylene or Teflon",
+    ],
+  },
+  "Synthetic hydraulic fluid subjected to overheating is high in.": {
+    answer: "acidity",
+    choices: ["acidity", "alkalinity", "viscosity"],
+  },
+  "A normal hydraulic system will.": {
+    answer: "show pressure and source of hydraulics",
+    choices: [
+      "show pressure and source of hydraulics",
+      "show fluid temperature and quantity",
+      "illuminate a light in the cockpit when the system is ready",
+    ],
+  },
+  "A constant volume hydraulic system uses what to relieve pressure in system when no services are being used?.":
+    {
+      answer: "ACOV",
+      choices: ["Pressure relief valve", "Return line back to pump", "ACOV"],
+    },
+  "The control of hydraulically powered emergency electrical generator frequency is by.":
+    {
+      answer: "angle of swashplate",
+      choices: ["restriction valve", "angle of swashplate", "IDG"],
+    },
+  "Hydraulic systems normally operate at.": {
+    answer: "3000 PSI",
+    choices: ["1800 PSI", "3000 PSI", "300 PSI"],
+  },
+  "When flushing hydraulic systems.": {
+    answer: "flush with same hydraulic oil",
+    choices: [
+      "flush with methylated spirit",
+      "flush with any hydraulic oil",
+      "flush with same hydraulic oil",
+    ],
+  },
+  "When replenishing a hydraulic system.": {
+    answer: "use the same/correct hydraulic fluid",
+    choices: [
+      "use any hydraulic fluid",
+      "use any hydraulic fluid made by the same manufacturer",
+      "use the same/correct hydraulic fluid",
+    ],
+  },
+  "When replacing a flexible pipe.": {
+    answer: "use two spanners to stop pipe from twisting",
+    choices: [
+      "do a bonding check",
+      "tighten only hand tight",
+      "use two spanners to stop pipe from twisting",
+    ],
+  },
+  "How do you remove air from hydraulic fluid?.": {
+    answer: "Pass over a tray",
+    choices: [
+      "Vent to atmosphere",
+      "Pass through a restriction",
+      "Pass over a tray",
+    ],
+  },
+  "A pressure control relay in a hydraulic pump is.": {
+    answer: "de-energised to start the pump",
+    choices: [
+      "energised to the run position",
+      "used to prevent anything happening until there is hydraulic pressure",
+      "de-energised to start the pump",
+    ],
+  },
+  "A constant delivery pump has its output varied with.": {
+    answer: "regulators",
+    choices: ["regulators", "gears", "servo pressure"],
+  },
+  "A variable angled pump starts at.": {
+    answer: "maximum stroke",
+    choices: ["half way position", "minimum stroke", "maximum stroke"],
+  },
+  "A check flow valve in a hydraulic system prevents.": {
+    answer: "reverse flow",
+    choices: ["pump cavitation", "reverse flow", "overpressure"],
+  },
+  "A duplex seal consist of.": {
+    answer: "a rubber 'T' section ring sandwiched between two Teflon rings",
+    choices: [
+      "a square section rubber ring within a steel washer",
+      "a hard rubber square section ring with a soft rubber square section inner ring",
+      "a rubber 'T' section ring sandwiched between two Teflon rings",
+    ],
+  },
+  "When is an hydraulic de-pressurising valve energised?.": {
+    answer: "When selected off",
+    choices: [
+      "When selected on",
+      "When there is sufficient hydraulic pressure available",
+      "When selected off",
+    ],
+  },
+  "An hydraulic closed system is one where.": {
+    answer: "pressure is maintained at the selector valves at all times",
+    choices: [
+      "pressure is maintained at the selector valves at all times",
+      "there is no pressure at the selector valves when no functions are required",
+      "most of the major components of the system are included in a self contained unit",
+    ],
+  },
+  "What constitutes a hydraulic power pack?.": {
+    answer: "Reservoir, pump, selector valve, filter",
+    choices: [
+      "Variable swashplate pump",
+      "Reservoir, pump, selector valve, filter",
+      "Hydraulic oil accumulator",
+    ],
+  },
+  "If an accumulator loses air pressure there will be.": {
+    answer: "rapid fluctuations of instruments",
+    choices: [
+      "rapid depressurisation of system",
+      "pump cavitation",
+      "rapid fluctuations of instruments",
+    ],
+  },
+  "A marker number on a pipe indicates.": {
+    answer: "the specification of the pipe throughout the pipe run",
+    choices: [
+      "the thickness of the wall on the pipe",
+      "the specification of the pipe throughout the pipe run",
+      "the type of fluid used to pressure test the pipe",
+    ],
+  },
+  "One reason for fitting an accumulator in an hydraulic system is to.": {
+    answer: "absorb pressure surges",
+    choices: [
+      "minimize the possibility of pump cavitation",
+      "absorb pressure surges",
+      "relieve excess pressure",
+    ],
+  },
+  "A thermal relief valve is fitted to an hydraulic system to.": {
+    answer: "relieve excess pressure",
+    choices: [
+      "prevent a leak back of pressure",
+      "prevent excess temperature",
+      "relieve excess pressure",
+    ],
+  },
+  "A component in a hydraulic system which ensures instantaneous action when a service is selected is.":
+    {
+      answer: "accumulator",
+      choices: ["accumulator", "engine driven pump", "selector"],
+    },
+  "A shuttle valve is used for.": {
+    answer: "change over from main to auxiliary system in the case of failure",
+    choices: [
+      "preventing fluid loss from a leaking jack",
+      "maintaining fluid press when the emergency system fails",
+      "change over from main to auxiliary system in the case of failure",
+    ],
+  },
+  "Restrictor valves in an hydraulic system are used to.": {
+    answer: "control the rate of system operation",
+    choices: [
+      "restrict the rate of pressure build up",
+      "control the rate of system operation",
+      "limit the maximum pressure",
+    ],
+  },
+  "The purpose of a mechanical sequence valve is to ensure the operation of.": {
+    answer: "landing gear and doors",
+    choices: [
+      "landing gear and doors",
+      "safety switches",
+      "brake anti-skid units",
+    ],
+  },
+  "The purpose of a non-return valve is to.": {
+    answer: "direct fluid to the hydraulic actuator",
+    choices: [
+      "direct fluid to the hydraulic actuator",
+      "restrict the movement of components",
+      "isolate one component from another",
+    ],
+  },
+  "The end fittings on a NRV are normally different to.": {
+    answer: "prevent incorrect installation",
+    choices: [
+      "facilitate bleeding of the system",
+      "allow a full flow from the valve",
+      "prevent incorrect installation",
+    ],
+  },
+  "A hydraulic accumulator is charged with initial air pressure of 1000 PSI. When the hydraulic system pressure of 3000 PSI is reached, the air pressure is.":
+    { answer: "3000 PSI", choices: ["4000 PSI", "3000 PSI", "1000 PSI"] },
+  "Automatic cut-out valve hammering is caused by.": {
+    answer: "low accumulator pressure",
+    choices: [
+      "low accumulator pressure",
+      "moisture in the fluid",
+      "relief valve set too high",
+    ],
+  },
+  "Hand pumps are normally single cylinder double acting because of the.": {
+    answer: "two NRVS fitted",
+    choices: ["two NRVS fitted", "relief valve", "piston ram displacement"],
+  },
+  "During a leak test of an hydraulic system, system pressure.": {
+    answer: "must be at maximum",
+    choices: [
+      "is not important",
+      "must be minimum working",
+      "must be at maximum",
+    ],
+  },
+  "Constant delivery hydraulic pumps.": {
+    answer: "require an automatic cut-out valve and accumulator in the system",
+    choices: [
+      "require an automatic cut-out valve in the system",
+      "require an automatic cut-out valve and accumulator in the system",
+      "are self idling",
+    ],
+  },
+  "Mechanical sequence valves are operated by.": {
+    answer: "a striker pin",
+    choices: ["a striker pin", "the pilot", "the operation of a NRV"],
+  },
+  "Pressure relay valves are fitted.": {
+    answer: "before a pressure gauge",
+    choices: [
+      "before a pressure gauge",
+      "before a pressure sequence valve",
+      "before a pressure relief valve",
+    ],
+  },
+  "Before checking the initial pressure in the hydraulic accumulator.": {
+    answer: "the fluid pressure must be released",
+    choices: [
+      "the reservoir must be checked for correct level",
+      "the fluid pressure must be released",
+      "all air must be bled from the system",
+    ],
+  },
+  "Hydraulic reservoirs are pressurized to.": {
+    answer: "minimize the possibility of pump cavitation",
+    choices: [
+      "provide a reserve of stored energy",
+      "maintain a constant fluid level",
+      "minimize the possibility of pump cavitation",
+    ],
+  },
+  "The essential components of a hydraulic system of the constant delivery type are an.":
+    {
+      answer: "accumulator and automatic cut-out valve",
+      choices: [
+        "accumulator and automatic cut-out valve",
+        "accumulator and shuttle valve",
+        "accumulator and relay valve",
+      ],
+    },
+  "An automatic cut-out valve will.": {
+    answer: "prevent the hydraulic lock forming",
+    choices: [
+      "limit pump wear",
+      "prevent the hydraulic lock forming",
+      "raise fluid boiling point",
+    ],
+  },
+  "A maintaining valve is fitted to a hydraulic system.": {
+    answer:
+      "to ensure a supply of fluid to essential services in the event of system failure",
+    choices: [
+      "to maintain a back pressure to the accumulator",
+      "relieve excessive pressure to return",
+      "to ensure a supply of fluid to essential services in the event of system failure",
+    ],
+  },
+  "A thermal relief valve.": {
+    answer: "senses fluid pressure",
+    choices: [
+      "senses fluid temperature change",
+      "senses fluid pressure",
+      "provides cooling for the fluid",
+    ],
+  },
+  "Hydraulic systems are normally flushed with.": {
+    answer: "the same type of fluid as used in the system",
+    choices: [
+      "methylated spirits",
+      "the same type of fluid as used in the system",
+      "any clean hydraulic fluid",
+    ],
+  },
+  "Phosphate Ester hydraulic fluid requires which kind of seals?.": {
+    answer: "Butyl Rubber",
+    choices: ["Butyl Rubber", "Synthetic Rubber", "Natural Rubber"],
+  },
+  "A RAT hydraulic pump is for.": {
+    answer: "flying controls if hydraulic power lost",
+    choices: [
+      "landing gear and auto-brake systems",
+      "nose wheel steering",
+      "flying controls if hydraulic power lost",
+    ],
+  },
+  "Hydraulic hand-pump fluid supply is taken from.": {
+    answer: "the bottom of the reservoir",
+    choices: [
+      "a tap into a convenient return line",
+      "a stack pipe higher than the normal level",
+      "the bottom of the reservoir",
+    ],
+  },
+  "Hand pumps in hydraulic systems are normally.": {
+    answer: "double acting",
+    choices: ["single acting", "low pressure", "double acting"],
+  },
+  "To enable an hydraulic system to operate two components requiring different pressures.":
+    {
+      answer: "a pressure reducing valve is used",
+      choices: [
+        "a pressure reducing valve is used",
+        "a pressure regulating valve is used",
+        "a pressure relief valve is used",
+      ],
+    },
+  "The force exerted by a hydraulic cylinder is equal to.": {
+    answer: "area * pressure",
+    choices: ["area * volume", "area * pressure", "pressure * stroke"],
+  },
+  "A tandem PFCU.": {
+    answer: "has the actuator rams co-axial",
+    choices: [
+      "has two control surfaces under its control",
+      "has the rams parallel",
+      "has the actuator rams co-axial",
+    ],
+  },
+  "The reason why slack must be left in a flexible hose during installation, is a flexible hose under pressure.":
+    {
+      answer: "contracts in length and expands in diameter",
+      choices: [
+        "expands in length and diameter",
+        "contracts in length and diameter",
+        "contracts in length and expands in diameter",
+      ],
+    },
+  "An automatic cut-out valve is necessary in a hydraulic system with.": {
+    answer: "a fixed volume pump",
+    choices: [
+      "a fixed volume pump",
+      "pressures above 3000 PSI",
+      "a variable volume pump",
+    ],
+  },
+  "How is a serrated rod ice detector bench tested?.": {
+    answer: "Screwdriver torque test",
+    choices: [
+      "Screwdriver torque test",
+      "By a motor load test",
+      "Motor test and go/no-go gap measurement",
+    ],
+  },
+  "Windshield heating provides.": {
+    answer: "impact resistance enhancement",
+    choices: [
+      "thermal expansion for a tighter fit",
+      "impact resistance enhancement",
+      "increases strength to resist cabin pressure",
+    ],
+  },
+  "At what pressure and temperature is anti ice fluid applied?.": {
+    answer: "70°C at 100 PSI",
+    choices: ["7°F at 100 PSI", "70°C at 100 PSI", "70°F at 10 PSI"],
+  },
+  "The advantage of leading edge fluid de-icing is.": {
+    answer: "aerodynamic shape is not disturbed",
+    choices: [
+      "less of a fire hazard",
+      "aerodynamic shape is not disturbed",
+      "more efficient",
+    ],
+  },
+  "On large transport aircraft, the windshield wiper system is.": {
+    answer: "independent on each side with different power sources",
+    choices: [
+      "one system for both sides but with the same power source",
+      "independent on each side but with the same power source",
+      "independent on each side with different power sources",
+    ],
+  },
+  "Prior to securing a leading edge de-icing boot you must.": {
+    answer: "remove all paint",
+    choices: [
+      "remove all paint",
+      "paint the surface",
+      "shave rivet to prevent further abrasion",
+    ],
+  },
+  "On a 'hot rod' type of ice detector, it is switched on.": {
+    answer: "when selected by the crew",
+    choices: ["all the time", "when selected by the crew", "when in the air"],
+  },
+  "Ice formation on wings is due to.": {
+    answer: "supercooled water changing state on contact with the wing",
+    choices: [
+      "suspended ice crystals melting on contact with the wing and instantly re-freezing",
+      "ice crystals forming layers on contact with the wing",
+      "supercooled water changing state on contact with the wing",
+    ],
+  },
+  "When a vibrating rod ice detector has de-iced, the warning lamp on the flight deck.":
+    {
+      answer: "goes out after a set period of time",
+      choices: [
+        "goes out immediately",
+        "goes out after one more cycle",
+        "goes out after a set period of time",
+      ],
+    },
+  "De-misting of passenger windows is provided by.": {
+    answer: "air from the cabin",
+    choices: [
+      "sealed window",
+      "an electrical heating element",
+      "air from the cabin",
+    ],
+  },
+  "In a cockpit window heater system, the autotransformer.": {
+    answer: "steps up output for severe weather conditions",
+    choices: [
+      "supplies DC power for heating",
+      "supplies AC Power for heating",
+      "steps up output for severe weather conditions",
+    ],
+  },
+  "Windshield rain repellent is applied.": {
+    answer: "when rain is on windows and spread by wipers",
+    choices: [
+      "when rain is on windows and spread by wipers",
+      "before rain and spread on window surface by wipers",
+      "when in heavy rain so vision is unobscured",
+    ],
+  },
+  "Pneumatic rain removal systems.": {
+    answer:
+      "use engine bleed air at high velocity to remove water droplets from windscreen",
+    choices: [
+      "use engine bleed air at high velocity to remove water droplets from windscreen",
+      "are not permitted on large transport aircraft",
+      "use a pneumatic motor to drive windscreen wipers",
+    ],
+  },
+  "Windscreen wiper torque tests are carried out at.": {
+    answer: "the shaft end",
+    choices: [
+      "blade attachment end",
+      "centre point of the blade",
+      "the shaft end",
+    ],
+  },
+  "Windscreen autotransformers.": {
+    answer: "step up voltage",
+    choices: [
+      "step down voltage",
+      "step up voltage",
+      "are used to supply extra current under difficult conditions",
+    ],
+  },
+  "An ice deposit formed when liquid water flows over the airframe before freezing, and which is dense, tough and sticks closely to the surface is called.":
+    { answer: "glaze Ice", choices: ["glaze Ice", "rime Ice", "hoar Frost"] },
+  "When testing pitot head heaters.": {
+    answer:
+      "they must only be switched on for the minimum time required to check serviceability",
+    choices: [
+      "they can only be checked by noting the temperature rise of the probe",
+      "they must only be switched on for the minimum time required to check serviceability",
+      "they should be switched on for five minutes to allow to stabilise before taking ammeter readings",
+    ],
+  },
+  "A rotary knife edge ice detector provides warning of ice by.": {
+    answer: "Both are correct",
+    choices: [
+      "increased torque caused by ice formation slowing the rotating wheel and illuminating a warning light in the cockpit",
+      "decreased torque caused by ice formation slowing the rotating wheel and illuminating a warning light in the cockpit",
+      "Both are correct",
+    ],
+  },
+  "Air for anti-icing of the wings is obtained from.": {
+    answer: "engine compressors",
+    choices: [
+      "air conditioning ducting",
+      "engine compressors",
+      "a combustion heater",
+    ],
+  },
+  "The usual material for pipelines in a fluid deice system.": {
+    answer: "nylon",
+    choices: ["stainless steel", "Monel", "nylon"],
+  },
+  "When operating a windscreen wiper on the ground, make sure to.": {
+    answer: "use water as lubricant when operating",
+    choices: [
+      "use slow wiper only",
+      "use water as lubricant when operating",
+      "place soft cloth between blade and window",
+    ],
+  },
+  "What is run-back ice?.": {
+    answer: "Glaze ice",
+    choices: ["Glaze ice", "Rime ice", "Glime ice"],
+  },
+  "Over inflated tyres may cause damage to the.": {
+    answer: "wheel flange",
+    choices: ["brake drum", "wheel hub", "wheel flange"],
+  },
+  "A brake debooster valve is provided for.": {
+    answer:
+      "applying brake pressure slowly and releasing the the brakes quickly",
+    choices: [
+      "applying brake pressure slowly and releasing the the brakes quickly",
+      "increasing the pressure and applying the brakes rapidly",
+      "decreasing the pressure and slowly releasing the brakes",
+    ],
+  },
+  "Tubeless tyres are stored.": {
+    answer: "vertically",
+    choices: [
+      "at 15 to 20 P.S.I",
+      "horizontally maximum of four high with smallest diameter tyre on top",
+      "vertically",
+    ],
+  },
+  "When servicing an oleo, fluid comes out of the air valve when the leg is depressurised?.":
+    {
+      answer: "The leg is serviceable - the separator has bottomed",
+      choices: [
+        "The leg is serviceable - the separator has bottomed",
+        "Leaking air/oil seals",
+        "Separator plate stuck open",
+      ],
+    },
+  "The type of fluid in an oleo strut will depend upon.": {
+    answer: "heat generated in operation of the system",
+    choices: [
+      "type of fluid most readily available",
+      "the type of seal material",
+      "heat generated in operation of the system",
+    ],
+  },
+  "A restrictor valve.": {
+    answer: "may be used to slow down undercarriage extension",
+    choices: [
+      "speed up the flow in one direction",
+      "may be used to slow down undercarriage extension",
+      "restrict the extent of travel of the undercarriage",
+    ],
+  },
+  "The function of the oil in a shock absorber is to.": {
+    answer: "damp the rebound",
+    choices: [
+      "ensure the separator does not bottom",
+      "damp the rebound",
+      "absorb the landing shock",
+    ],
+  },
+  "The purpose of the flutter plate in a shock absorber is to.": {
+    answer:
+      "permit free flow of oil during compression and restriction of oil during extension",
+    choices: [
+      "permit free flow of oil during compression and restriction of oil during extension",
+      "restrict the compression of the air",
+      "separate the oil from the air",
+    ],
+  },
+  "Made up wheels should be stored.": {
+    answer: "vertical at 20/30 PSI charge",
+    choices: [
+      "vertical at working pressure",
+      "vertical at 20/30 PSI charge",
+      "horizontal no more than 4 high",
+    ],
+  },
+  "After MLG down and securely locked, a red light is illuminated in the flight deck. The possible causes are.":
+    {
+      answer: "out of adjustment sensor",
+      choices: ["shorted sensor", "out of adjustment sensor", "wiring problem"],
+    },
+  "When checking for alignment of a MLG, check.": {
+    answer: "symmetry, tracking, camber",
+    choices: [
+      "symmetry, tracking, camber",
+      "symmetry, splay, tracking",
+      "symmetry, twist, tracking",
+    ],
+  },
+  "These markings are found on a tyre 32 x 10.45 R 14.What does the number 32 mean?.":
+    {
+      answer: "Outer diameter",
+      choices: ["Outer diameter", "Section width", "Inner diameter"],
+    },
+  "A green/grey dot marking on aircraft tyre casing represents.": {
+    answer: "breather points",
+    choices: [
+      "breather points",
+      "the light part of the tyre",
+      "military reference",
+    ],
+  },
+  "In detachable flange type wheels, the flange is secured by.": {
+    answer: "a lock ring",
+    choices: ["a retainer plate", "a lock ring", "bolts"],
+  },
+  "Fuse plugs in aircraft tyres are.": {
+    answer: "for overpressure protection",
+    choices: [
+      "for over temperature protection",
+      "for overpressure protection",
+      "to deflate the tyre before removal",
+    ],
+  },
+  "A breaker strip in an aircraft tyre is.": {
+    answer: "to provide strength",
+    choices: [
+      "to provide strength",
+      "to provide a wear indication",
+      "to indicate the position for tyre levers",
+    ],
+  },
+  "If fluid leaks along with air whilst oleo charging, this is.": {
+    answer: "caused by a leaky seal",
+    choices: [
+      "caused by a leaky seal",
+      "normal",
+      "due to excessive charging pressure",
+    ],
+  },
+  "A red dot / triangle mark on aircraft tyres means.": {
+    answer: "the light part of the tyre",
+    choices: [
+      "military reference",
+      "the light part of the tyre",
+      "breather points",
+    ],
+  },
+  "On selection of MLG down, the gear extends then begins to retract again. The cause is.":
+    {
+      answer: "a faulty selector valve",
+      choices: [
+        "a faulty selector valve",
+        "a faulty actuator",
+        "gear lowered at too high an airspeed",
+      ],
+    },
+  "When fitting a tyre, the red dot should be positioned.": {
+    answer: "adjacent to the charging valve",
+    choices: [
+      "on the other side of the wheel opposite to the charging valve",
+      "opposite the charging valve",
+      "adjacent to the charging valve",
+    ],
+  },
+  "Composite brake units.": {
+    answer:
+      "have less weight than normal brake units and have increased efficiency at high temperatures",
+    choices: [
+      "weigh the same as normal brake units and fade away athigh temperatures",
+      "have less weight than normal brake units but fade away at high temperatures",
+      "have less weight than normal brake units and have increased efficiency at high temperatures",
+    ],
+  },
+  "A restrictor valve can be used.": {
+    answer: "to reduce the speed of the undercarriage extension",
+    choices: [
+      "to increase the speed of undercarriage retraction",
+      "to increase the speed of the undercarriage extension",
+      "to reduce the speed of the undercarriage extension",
+    ],
+  },
+  "When an undercarriage is lowered, it tends to creep back up. The fault could be.":
+    {
+      answer: "a leaky selector valve",
+      choices: [
+        "the emergency system",
+        "a leaky selector valve",
+        "a stuck relief valve",
+      ],
+    },
+  "Vents holes are found on.": {
+    answer: "tubed and tubeless tyres",
+    choices: ["tubeless tyres", "tubed tyres", "tubed and tubeless tyres"],
+  },
+  "At what temperature does a yellow fuse plug melt at?.": {
+    answer: "200°C",
+    choices: ["150°C", "250°C", "200°C"],
+  },
+  "The cam plate in a nose undercarriage is.": {
+    answer: "to align for nose wheel on nose undercarriage retraction",
+    choices: [
+      "part of the shimmy damper",
+      "to align for nose wheel on nose undercarriage retraction",
+      "for alignment of the nose wheel steering on nose undercarriage extension",
+    ],
+  },
+  "What is tyre creep related to?.": {
+    answer: "Tyre moving around the wheel",
+    choices: [
+      "Horizontal movement of the tyre",
+      "Vertical movement of the tyre",
+      "Tyre moving around the wheel",
+    ],
+  },
+  "Aquaplaning' can be reduced by.": {
+    answer: "an anti-skid device",
+    choices: ["increased flaring", "lowering slats", "an anti-skid device"],
+  },
+  ".Why is a hydraulic damper fitted to a nose wheel steering system?.": {
+    answer: "To reduce vibration and shimmy",
+    choices: [
+      "To reduce vibration and shimmy",
+      "To centralise the nose wheel during an up selection",
+      "To centralise the nose leg assembly during an up selection",
+    ],
+  },
+  "What decides the type of oil used in an undercarriage leg?.": {
+    answer: "The types of seals the leg uses",
+    choices: [
+      "The material of the leg",
+      "The types of seals the leg uses",
+      "Neither, any oil can be used",
+    ],
+  },
+  "In an anti-skid system.": {
+    answer: "brakes are modulated to give most efficient braking",
+    choices: [
+      "brakes are modulated to give most efficient braking",
+      "brakes release on rising torque",
+      "brakes release on falling torque",
+    ],
+  },
+  "If an undercarriage oleo has insufficient deflection, the likely cause is.":
+    {
+      answer: "air pressure too high",
+      choices: [
+        "oil level too high",
+        "loss of pressure/leakage",
+        "air pressure too high",
+      ],
+    },
+  "A Maxaret is used in what system?.": {
+    answer: "Skid control",
+    choices: ["Tyre inflation", "Skid control", "Self centring landing gear"],
+  },
+  "The pilot receives an audible warning on the flight deck as the aircraft is descending to land. The most likely reason for this warning is.":
+    {
+      answer: "the landing gear is not locked down",
+      choices: [
+        "the airspeed is too high",
+        "the landing gear is not locked down",
+        "the rate of descent is too high",
+      ],
+    },
+  "A restrictor in the landing gear hydraulic retraction and lowering system is positioned in the.":
+    {
+      answer: "landing gear up line",
+      choices: [
+        "landing gear up line",
+        "landing gear down line",
+        "return line from the landing gear selector",
+      ],
+    },
+  "Wheel speed information is used in auto speed brake systems.": {
+    answer:
+      "to ensure the aircraft has touched down and to give a slight time lapse before spoiler deployment",
+    choices: [
+      "to stow the spoilers automatically when the aircraft has nearly stopped",
+      "to ensure the aircraft has touched down and to give a slight time lapse before spoiler deployment",
+      "to ensure the aircraft is still rolling",
+    ],
+  },
+  "A fusible plug fitted to an aircraft wheel prevents.": {
+    answer: "tyre bursts due to high temperatures created by excessive braking",
+    choices: [
+      "over inflation of tyres during servicing",
+      "brakes seizure, if brake stators and rotors weld together under excessive temperatures",
+      "tyre bursts due to high temperatures created by excessive braking",
+    ],
+  },
+  "If the shuttle valve was stuck in the normal position.": {
+    answer: "emergency braking will not be available",
+    choices: [
+      "neither system will be available",
+      "emergency braking will not be available",
+      "normal braking will not be available",
+    ],
+  },
+  "The breaker strip of a tyre is fitted.": {
+    answer: "between the tread rubber and the casing piles",
+    choices: [
+      "between the apex strip and the casing piles",
+      "between the bead and the casing piles",
+      "between the tread rubber and the casing piles",
+    ],
+  },
+  "Nose wheel steering in a modern aircraft is by.": {
+    answer: "a separate pilot operated control",
+    choices: [
+      "rudder pedals",
+      "the control column",
+      "a separate pilot operated control",
+    ],
+  },
+  "The fusible plugs installed in some aircraft wheel will.": {
+    answer: "melt at a specified elevated temperature",
+    choices: [
+      "facilitate servicing of the wheel assembly",
+      "melt at a specified elevated temperature",
+      "eliminate the need to check air pressure",
+    ],
+  },
+  "Excessive wear in the shoulder area of an aircraft tyre is an indication of.":
+    {
+      answer: "under-inflation",
+      choices: ["under-inflation", "over-inflation", "excessive toe-in"],
+    },
+  "Ribbed tyres with marker tie bars may be worn to.": {
+    answer: "the top of the tie bar",
+    choices: [
+      "the top of the tie bar",
+      "the base of the tie bar",
+      "1 mm from the rib base",
+    ],
+  },
+  "On large aircraft, bogie type undercarriages are used to.": {
+    answer: "spread the weight over a large area",
+    choices: [
+      "spread the weight over a large area",
+      "absorb increased landing shock",
+      "prevent skidding",
+    ],
+  },
+  "To position the bogie beam at a suitable angle for retraction and landing, a.":
+    {
+      answer: "hop damper is used",
+      choices: [
+        "castoring damper is used",
+        "snubber is used",
+        "hop damper is used",
+      ],
+    },
+  "Brake deboosters.": {
+    answer: "reduce the hydraulic pressure entering the brakes",
+    choices: [
+      "increase the hydraulic pressure entering the brakes",
+      "reduce the hydraulic pressure entering the brakes",
+      "assist the operation of the anti-skid unit",
+    ],
+  },
+  "A modulator is fitted in conjunction with.": {
+    answer: "anti-skid units",
+    choices: ["brake control valves", "non-return valve", "anti-skid units"],
+  },
+  "In the case of pressurized aircraft, the nose-wheel bay.": {
+    answer: "is not pressurized",
+    choices: [
+      "is pressurized to a value higher than ambient but less than cabin pressure",
+      "is subject to cabin pressure",
+      "is not pressurized",
+    ],
+  },
+  "The minimum aquaplaning ground speed is.": {
+    answer: "8.6 times the root square of the tyre pressure in psi",
+    choices: [
+      "9.6 times the root square of the tyre pressure in psi",
+      "8.6 times the root square of the tyre pressure in psi",
+      "8.6 times the tyre pressure in bar",
+    ],
+  },
+  "Tubed tyres are stored.": {
+    answer:
+      "horizontally, up to 4 in total in a rack with supporting tubes so each tyre is supported at 2 points",
+    choices: [
+      "horizontally, up to 4 in total staggering them to prevent distortion of beads",
+      "horizontally, up to 4 in total in a rack with supporting tubes so each tyre is supported at 2 points",
+      "horizontally, up to 4 in total with the smallest at the top",
+    ],
+  },
+  "On a main landing gear, what is positive camber?.": {
+    answer: "Bottom of wheels closer to fuselage",
+    choices: [
+      "Top of wheels closer to fuselage",
+      "Front of wheels closer to fuselage",
+      "Bottom of wheels closer to fuselage",
+    ],
+  },
+  "When the landing gear is locked up, the cockpit indicator shows.": {
+    answer: "no indication",
+    choices: ["red light", "no indication", "green light"],
+  },
+  "Tyre creep could be caused by.": {
+    answer: "under pressure",
+    choices: ["overpressure", "excessive wear", "under pressure"],
+  },
+  "When inflating a tyre and you notice ice in the valve stem.": {
+    answer: "wait for ice to melt before carrying on with inflation",
+    choices: [
+      "heat the valve stem gently with a blow torch",
+      "wait for ice to melt before carrying on with inflation",
+      "carry on inflating as ice in the valve stem is no problem",
+    ],
+  },
+  "A method of helping to prevent aquaplaning is by fitting tyres which have.":
+    {
+      answer: "water dispersing treads",
+      choices: ["water dispersing treads", "a plain tread", "twin contact"],
+    },
+  "Un-mounted tubeless tyres must be stored.": {
+    answer: "vertically",
+    choices: ["vertically", "horizontally", "in the manufactures boxes"],
+  },
+  "With a single oleo leg with a stub axle used, the torque links will.": {
+    answer: "keep the wheel in track",
+    choices: [
+      "keep the wheel in track",
+      "assist the wheel to castor",
+      "allow the wheel to shimmy",
+    ],
+  },
+  "When fitting a tyre to a hub, the red spot on the tyre should be in line with.":
+    {
+      answer: "the valve assembly",
+      choices: [
+        "maker's serial number",
+        "the valve assembly",
+        "opposite side to the valve assembly",
+      ],
+    },
+  "A red or yellow line on an inner tube would indicate.": {
+    answer: "heavy spot",
+    choices: ["light spot", "balance indicator", "heavy spot"],
+  },
+  "On a multi-brake unit with automatic adjusters, brake wear is checked by.": {
+    answer: "application of the brakes and checking indicator pin protrusion",
+    choices: [
+      "using a go-no go gauge to measure the gap between the cylinder and the thrust plate",
+      "application of the brakes and checking indicator pin protrusion",
+      "measuring the protrusion of the indicator pins with the brakes released",
+    ],
+  },
+
+  //DGCA MODULE 11 PART 08
+
+  "With aircraft lights - which of the following is true?.": {
+    answer: "Starboard light green, port light red, tail light white",
+    choices: [
+      "Starboard light green, port light red, tail light white",
+      "Starboard light red, port light green, tail light Red",
+      "Starboard light red, port light green, tail light White",
+    ],
+  },
+  "Emergency floor lighting system is inoperative, then.": {
+    answer: "the aircraft is allowed to fly empty to a main base",
+    choices: [
+      "the aircraft is not allowed to fly until repaired",
+      "the aircraft is allowed to fly in daylight conditions only",
+      "the aircraft is allowed to fly empty to a main base",
+    ],
+  },
+  "A fluorescent tube contains.": {
+    answer: "phosphor coatings, rare gases and mercury vapour",
+    choices: [
+      "orange coatings, rare gases and mercury vapour",
+      "phosphor coatings, rare gases and mercury vapour",
+      "iodine coatings and rare gases",
+    ],
+  },
+  "A white steady light is required.": {
+    answer:
+      "of at least 3 candelas, at the rear of the aircraft 70 degrees either side of dead astern",
+    choices: [
+      "of at least 3 candelas, at the rear of the aircraft 70 degrees either side of dead astern",
+      "of at least 3 lumens, at the rear of the aircraft 110 degrees either side of dead astern",
+      "of at least 3 candelas, at the rear of the aircraft 110 degrees either side of dead astern",
+    ],
+  },
+  "How many floor path lights can you fly with unserviceable?.": {
+    answer: "25%",
+    choices: ["15%", "25%", "20%"],
+  },
+  "What is the arc of a landing light?.": {
+    answer: "11°",
+    choices: ["15°", "11°", "20°"],
+  },
+  "The visible angle of a white tail navigation light is.": {
+    answer: "140°",
+    choices: ["11°", "140°", "110°"],
+  },
+  "Wing navigation lights must be visible through which angle?.": {
+    answer: "110°",
+    choices: ["110°", "125°", "180°"],
+  },
+  "Upper and lower strobe lights are coloured.": {
+    answer: "red",
+    choices: ["green", "red", "white"],
+  },
+  "Cargo bay lights on a modern aircraft are supplied by.": {
+    answer: "AC handling bus",
+    choices: ["AC handling bus", "DC handling bus", "the battery bus"],
+  },
+  "What will happen if the Master Dim and test switch is switched to the on position?.":
+    {
+      answer: "Rectangular indicator lights will illuminate",
+      choices: [
+        "Rectangular indicator lights will illuminate",
+        "All lights will illuminate",
+        "Dome lights will illuminate",
+      ],
+    },
+  "Escape route lighting must not have more than.": {
+    answer: "20% obscured",
+    choices: ["20% obscured", "10% obscured", "15% obscured"],
+  },
+  "How many emergency lights are allowed to be inoperative?.": {
+    answer: "25%",
+    choices: ["25%", "10%", "None"],
+  },
+  "The angle of a runway turnoff light is.": {
+    answer: "50°",
+    choices: ["40°", "60°", "50°"],
+  },
+  "Cabin fluorescent lighting circuits are supplied with.": {
+    answer: "115 V AC",
+    choices: ["28 V DC", "115 V AC", "28 V AC"],
+  },
+  "How are passenger reading lights normally tested?.": {
+    answer: "Each one is switched on individually at passenger panel",
+    choices: [
+      "Each one is switched on individually at passenger panel",
+      "By using a READ LIGHT TEST switch at any passenger panel",
+      "By using a READ LIGHT TEST switch on the cabin attendant panel",
+    ],
+  },
+  "In what position should the selector switch be for a standby and emergency lighting system during flight.":
+    { answer: "Armed", choices: ["Armed", "OFF", "ON"] },
+  "The emergency lighting system must be designed so that after any single transverse vertical separation of the fuselage during crash landing the maximum amount of emergency lighting that fails is.":
+    { answer: "25%", choices: ["15%", "10%", "25%"] },
+  "A rotating beacon must have a minimum light rating of.": {
+    answer: "20 candelas",
+    choices: ["100 candelas", "50 candelas", "20 candelas"],
+  },
+  "Service lights include.": {
+    answer:
+      "baggage compartment lights, avionics bay lights, refuelling lights",
+    choices: [
+      "refuelling lights, engine scanning lights, logo lights",
+      "avionics bay lights, engine scanning lights, baggage compartment lights",
+      "baggage compartment lights, avionics bay lights, refuelling lights",
+    ],
+  },
+  "If the 'blow-back' device on a landing lamp operates, how is it reset?.": {
+    answer: "Select full 'RETRACT'",
+    choices: [
+      "The linkage must be repositioned and latched when the aircraft is on the ground",
+      "Select full 'RETRACT'",
+      "It cannot. The unit must be replaced because of the high stress loads experienced",
+    ],
+  },
+  "Before touching or disconnecting a strobe light head, a time period must elapse to avoid electrical shock or burning. That time period is at least.":
+    { answer: "2 minutes", choices: ["2 minutes", "5 minutes", "1 minute"] },
+  "The rear light of an aircraft must be white and, in addition, must show through an inclusive angle of.":
+    {
+      answer: "140 degrees and be 3 candelas minimum",
+      choices: [
+        "110 degrees and be 5 candelas minimum",
+        "110 degrees and be 40 candelas minimum",
+        "140 degrees and be 3 candelas minimum",
+      ],
+    },
+  "Self-illuminating signs.": {
+    answer:
+      "are instantly seen in dark areas by persons who are not dark adapted",
+    choices: [
+      "are instantly seen in dark areas by persons who are not dark adapted",
+      "require a period of daylight, or intense artificial light to operate",
+      "are self powered and contain phosphor and helium gas",
+    ],
+  },
+  "When an annunciator light is selected to 'DIM', the resistor is in.": {
+    answer: "series with the light and the transistor is conducting",
+    choices: [
+      "parallel with the light and the transistor is not conducting",
+      "series with the light and the transistor is not conducting",
+      "series with the light and the transistor is conducting",
+    ],
+  },
+  "Storm lights are usually fluorescent lights that are switched on.": {
+    answer: "to reduce the effect of lightning on the pilot's sight",
+    choices: [
+      "because lightning has less effect on fluorescent lamp units",
+      "and the glare-shield lights are automatically dimmed",
+      "to reduce the effect of lightning on the pilot's sight",
+    ],
+  },
+  "Captain and First Officer's 'Dome' lights can be dimmed.": {
+    answer: "together - they are wired in series",
+    choices: [
+      "individually - they are wired in parallel",
+      "together - they are wired in series",
+      "First Officer's only in emergency mode",
+    ],
+  },
+  "In the CWS system, the caution light is coloured.": {
+    answer: "amber",
+    choices: ["red", "amber", "green"],
+  },
+  "On a CWS, which has the highest priority?.": {
+    answer: "Fire warning",
+    choices: ["Fire warning", "Hydraulic pump failure", "Duct overheat"],
+  },
+  "What inert gas is used in a typical strobe light?.": {
+    answer: "Xenon",
+    choices: ["Freon", "Halon", "Xenon"],
+  },
+  "Floor proximity lighting is a mandatory requirement and each light should be spaced.":
+    {
+      answer: "at 40 inch intervals",
+      choices: [
+        "at 60 inch intervals",
+        "at 70 inch intervals",
+        "at 40 inch intervals",
+      ],
+    },
+  "Tritium Gas is used in a.": {
+    answer: "self illuminating lights",
+    choices: ["strobe light", "landing Light", "self illuminating lights"],
+  },
+  "A strobe light is a light unit that takes form of glass tube filled with which gas and its light colour is what?.":
+    {
+      answer: "Xenon Gas and blue-white",
+      choices: [
+        "Xenon Gas and blue-white",
+        "Helium gas and white",
+        "Neon gas and blue",
+      ],
+    },
+  "The aircraft has a partial failure of its": {
+    answer: "continue with reduced passenger load",
+    choices: [
+      "continue with reduced passenger load",
+      "ferry flight to main base for rectification",
+      "ground the aircraft",
+    ],
+  },
+  "Navigation lights are supplied by the following circuit.": {
+    answer: "Single circuit",
+    choices: ["Dual circuit", "Single circuit", "Individual circuits"],
+  },
+  "Automatic no smoking sign will illuminate.": {
+    answer: "below 10,000ft and descending",
+    choices: [
+      "below 10,000ft and descending",
+      "when landing gear doors are not closed",
+      "when landing gear is up",
+    ],
+  },
+  "Anoxia is due to.": {
+    answer: "lack of oxygen",
+    choices: [
+      "lack of oxygen",
+      "low air pressure on the body",
+      "release of nitrogen bubbles in the blood",
+    ],
+  },
+  "The dilutor demand regulator functions.": {
+    answer: "when the user breathes in",
+    choices: [
+      "all the time",
+      "only when the supply valve is opened by the user",
+      "when the user breathes in",
+    ],
+  },
+  "To measure moisture in an oxygen system use.": {
+    answer: "a hygrometer using the dew point method",
+    choices: [
+      "a glass plate",
+      "litmus paper",
+      "a hygrometer using the dew point method",
+    ],
+  },
+  "Oxygen cylinder test dates.": {
+    answer: "are painted in white on the cylinder",
+    choices: [
+      "are painted in white on the cylinder",
+      "are variable depending on discharge",
+      "may be stencilled on the neck of the cylinder",
+    ],
+  },
+  "02 system pressure has leaked away after charging. What is the most probable cause?.":
+    {
+      answer: "Breathing regulator",
+      choices: [
+        "Supernumerator regular",
+        "Temperature compensator",
+        "Breathing regulator",
+      ],
+    },
+  "If an O2 system is leaking, where would you most likely find the cause?.": {
+    answer: "Loose connection",
+    choices: ["Thermal Relief Valve", "Loose connection", "Breathing mask"],
+  },
+  "As the cabin altitude reaches 3042 metres.": {
+    answer: "the 02 masks deploy automatically and hang half way extended",
+    choices: [
+      "the 02 masks deploy automatically and the crew activates the system from the emergency panel",
+      "the 02 masks deploy automatically and hang half way extended",
+      "the 02 masks deploy automatically and the crew must activate the system from the cockpit",
+    ],
+  },
+  "Oxygen cylinders are normally fitted with.": {
+    answer: "pressure and quantity gauges",
+    choices: [
+      "pressure and quantity gauges",
+      "oxygen purity gauge",
+      "temperature gauge",
+    ],
+  },
+  "A demand regulator in a portable oxygen bottle opens.": {
+    answer: "when breathing",
+    choices: ["all the time", "when breathing", "when 100% selected"],
+  },
+  "Portable oxygen bottles are fitted with.": {
+    answer: "a demand regulator",
+    choices: [
+      "a demand regulator",
+      "an overpressure indicator",
+      "an over temperature indicator",
+    ],
+  },
+  "American made crew oxygen cylinders are.": {
+    answer: "green in colour with a RH thread",
+    choices: [
+      "black in colour with a RH thread",
+      "green in colour with a LH thread",
+      "green in colour with a RH thread",
+    ],
+  },
+  "Which connector has a left hand thread?.": {
+    answer: "O2",
+    choices: ["N2", "Freon", "O2"],
+  },
+  "What is the principle of an O2 generator?.": {
+    answer: "Sodium chlorate and iron mixed by an electronic detonator",
+    choices: [
+      "Sodium chlorate and iron mixed by an electronic detonator",
+      "Sodium chlorate and iron using a mechanical detonator producing O2 when mixed with air",
+      "Sodium chloride and iron mixed by an electronic detonator",
+    ],
+  },
+  "What pressure are oxygen cylinders usually pressurised to?.": {
+    answer: "1800 PSI",
+    choices: ["300 PSI", "1800 PSI", "3000 PSI"],
+  },
+  "Oxygen storage cylinders, once charged should be.": {
+    answer: "turned on and safety wire-locked",
+    choices: [
+      "turned on by crew",
+      "turned off",
+      "turned on and safety wire-locked",
+    ],
+  },
+  "A thermal compensator is used in.": {
+    answer: "an oxygen system",
+    choices: ["a fuel system", "an oxygen system", "an hydraulic system"],
+  },
+  "When charging an oxygen bottle with gaseous oxygen, the oxygen is.": {
+    answer:
+      "passed into the bottle slowly to keep temperature at approximately ambient",
+    choices: [
+      "passed into the bottle as quickly as possible to keep the temperature down",
+      "passed into the bottle slowly to keep temperature at approximately ambient",
+      "passed into the bottle at any rate as this does not affect temperature",
+    ],
+  },
+  "Where are the left handed threads found in an oxygen system?.": {
+    answer: "Charging connection",
+    choices: ["Line valve", "Shut-off valve", "Charging connection"],
+  },
+  "Portable O2 diluter demand valve works when.": {
+    answer: "the user breathes in",
+    choices: [
+      "the user breathes in",
+      "100% is selected",
+      "less than 500 psi is in bottle",
+    ],
+  },
+  "A double headed oxygen pressure regulator is used for.": {
+    answer: "additional flightcrew",
+    choices: [
+      "additional flightcrew",
+      "changes in altitude",
+      "extra supply in case of emergency",
+    ],
+  },
+  "If an aircraft suddenly drops pressure at 14, 000 ft.": {
+    answer: "masks drop automatically",
+    choices: [
+      "passenger must get mask from overhead stowage",
+      "masks drop automatically",
+      "attendant must drop masks",
+    ],
+  },
+  "How do oxygen cylinders show over pressure?.": {
+    answer: "Green rupturing disc",
+    choices: ["Green rupturing disc", "Audible warning", "Red rupturing disc"],
+  },
+  "The life of an aircraft oxygen cylinder is.": {
+    answer: "5 years",
+    choices: ["2 years", "10 years", "5 years"],
+  },
+  "A discharged chemical generator is indicated by.": {
+    answer: "a change in colour",
+    choices: [
+      "a protruding pin",
+      "a change in colour",
+      "a broken tell-tale wire",
+    ],
+  },
+  "A chemical oxygen generator has a supply duration of at least.": {
+    answer: "15 minutes",
+    choices: ["15 minutes", "30 minutes", "5 minutes"],
+  },
+  "The oxygen line service valve must be.": {
+    answer: "wire locked open",
+    choices: [
+      "wire locked open",
+      "wire locked closed",
+      "only be wire locked with telltale wire",
+    ],
+  },
+  "Oxygen equipment must be carried by aircraft capable of flying above.": {
+    answer: "10,000ft",
+    choices: ["4,000 ft", "10,000ft", "8,000ft"],
+  },
+  "The critical altitude for oxygen requirement is approximately.": {
+    answer: "25,000 ft",
+    choices: ["38,000 ft", "25,000 ft", "4,000 ft"],
+  },
+  "If oxygen is not being supplied in normal flight conditions, the cabin altitude must be.":
+    {
+      answer: "at or below 8,000 ft",
+      choices: [
+        "at a maximum of 12,000 ft",
+        "at or below 8,000 ft",
+        "below 10,000 ft",
+      ],
+    },
+  "In a diluter demand oxygen system.": {
+    answer: "each member of the crew has a regulator",
+    choices: [
+      "oxygen is supplied with a continuous pressure flow",
+      "each member of the crew has a continuous oxygen supply",
+      "each member of the crew has a regulator",
+    ],
+  },
+  "In a continuous flow oxygen system, oxygen is supplied.": {
+    answer: "only when the supply has been regulated by the pilot",
+    choices: [
+      "only when the supply has been regulated by the pilot",
+      "on passenger inhaling into the mask",
+      "when the mask is plugged into the socket",
+    ],
+  },
+  "In the diluter demand oxygen system, selection of emergency on this regulator will result in.":
+    {
+      answer: "100% oxygen continuous flow at positive pressure",
+      choices: [
+        "100% oxygen at positive pressure",
+        "100% oxygen continuous flow at positive pressure",
+        "100% oxygen supply as the user inhales",
+      ],
+    },
+  "The cylinder of a portable oxygen set is made of.": {
+    answer: "alloy steel",
+    choices: ["aluminium", "stainless steel", "alloy steel"],
+  },
+  "Portable oxygen cylinders are normally charged to.": {
+    answer: "1,800 p.s.i",
+    choices: ["1,800 p.s.i", "2,000 p.s.i", "1,200 p.s.i"],
+  },
+  "Rate of flow of oxygen is given in.": {
+    answer: "litres/minute",
+    choices: ["pounds/minute", "litres/pounds", "litres/minute"],
+  },
+  "Oxygen cylinders are removed for overhaul and tested.": {
+    answer: "every 4 years",
+    choices: ["every 3 years", "every 6 years", "every 4 years"],
+  },
+  "Oxygen bottle capacity varies between.": {
+    answer: "80 2250 litres",
+    choices: ["80 2250 litres", "100 3200 litres", "200 2250 litres"],
+  },
+  "Oxygen bottle test and working pressures can be found.": {
+    answer: "stamped on the neck ring",
+    choices: [
+      "stamped on a metal label",
+      "stencilled on the bottle",
+      "stamped on the neck ring",
+    ],
+  },
+  "After installation, the oxygen bottle on/off valve is.": {
+    answer: "wire locked in the 'on'",
+    choices: [
+      "left in the 'on' position",
+      "left in the 'off' position until required",
+      "wire locked in the 'on'",
+    ],
+  },
+  "Dangerous pressure rise in oxygen cylinders.": {
+    answer: "is relieved by a bursting disc",
+    choices: [
+      "is relieved by a bursting disc",
+      "is relieved by a thermostat",
+      "is relieved by under pressurising the bottle",
+    ],
+  },
+  "To avoid condensation forming in an oxygen cylinder.": {
+    answer: "cylinder pressure is left at 200/300 p.s.i",
+    choices: [
+      "cylinder pressure is left at 300/400 p.s.i",
+      "cylinder pressure is left at 100/200 p.s.i",
+      "cylinder pressure is left at 200/300 p.s.i",
+    ],
+  },
+  "What determines the material used for oxygen pipe lines?.": {
+    answer: "The pressure used in the system",
+    choices: [
+      "The whims of the aircraft designer",
+      "The length of the pipe runs",
+      "The pressure used in the system",
+    ],
+  },
+  "The direction of flow in an oxygen non return valve is indicated.": {
+    answer: "by an arrow",
+    choices: ["by visual inspection", "by colour coding", "by an arrow"],
+  },
+  "Oxygen filters are made of.": {
+    answer: "sintered bronze",
+    choices: ["carbon fibres", "steel wool", "sintered bronze"],
+  },
+  "Satisfactory operation of the oxygen systems is indicated by.": {
+    answer: "flow indicators",
+    choices: ["flow indicators", "pressure indicators", "lack of Anoxia"],
+  },
+  "If a binding thread needs attention on an oxygen system.": {
+    answer: "Teflon tape may be used",
+    choices: [
+      "Teflon tape may be used",
+      "distilled water may be used sparingly",
+      "no lubricant may be used whatsoever",
+    ],
+  },
+  "The international marking for a breathing oxygen pipeline is a series of.": {
+    answer: "rectangles",
+    choices: ["diamonds", "dots", "rectangles"],
+  },
+  "Cylinders containing purified oxygen for breathing are painted.": {
+    answer: "black with a white collar",
+    choices: [
+      "black with a white collar",
+      "black",
+      "white with a black collar",
+    ],
+  },
+  "A suitable leak detecting solution for use on oxygen systems is.": {
+    answer: "leak testing solution to Spec. MIL-L-25567B",
+    choices: [
+      "leak testing solution to Spec. MIL-L-25567B",
+      "soapy water",
+      "grease free medical soap",
+    ],
+  },
+  "In areas closely associated with oxygen systems, particular care must be taken to avoid leaving.":
+    {
+      answer: "traces of oils or greases",
+      choices: [
+        "traces of oils or greases",
+        "acrylic based plastic materials",
+        "magnesium particles",
+      ],
+    },
+  "When working in the vicinity of an oxygen system.": {
+    answer: "oil must not come into contact with the system",
+    choices: [
+      "the area must be well ventilated",
+      "no electrical power must be used",
+      "oil must not come into contact with the system",
+    ],
+  },
+  "A chemical oxygen generator operates at.": {
+    answer: "45°C at 10 psi for 15 minutes",
+    choices: [
+      "45°C at 10 psi for 15 minutes",
+      "45°F at 10 psi for 15 minutes",
+      "45°K at 10 psi for 15 minutes",
+    ],
+  },
+  "When charging an oxygen bottle in situ.": {
+    answer: "charge in accordance with the temperature/pressure graph",
+    choices: [
+      "charge in accordance with the temperature/pressure graph",
+      "charge slowly through a water trap",
+      "slacken off the retaining straps first",
+    ],
+  },
+  "The gauge fitted to an oxygen bottle indicates.": {
+    answer: "pressure",
+    choices: ["pressure", "temperature", "purity"],
+  },
+  "The application of thread lubrication tape in an oxygen system should be.": {
+    answer:
+      "applied to all except the first two threads and not more than 3 complete wraps of tape",
+    choices: [
+      "applied to all except the first two threads and not more than 3 complete wraps of tape",
+      "applied to all except the first two threads and not more than one complete wrap of tape",
+      "applied to all the threads and not more than one complete wrap of tape",
+    ],
+  },
+  "High pressure lines in oxygen systems are made of.": {
+    answer: "stainless steel",
+    choices: ["stainless steel", "aluminium alloy", "titanium"],
+  },
+  "Lubricate oxygen connector threads using.": {
+    answer: "Teflon tape",
+    choices: ["hellerene", "Teflon tape", "WD40"],
+  },
+  "How is an expended chemical oxygen generator indicated?.": {
+    answer: "By a change in colour of heat sensitive paint",
+    choices: [
+      "A pressure seal would be broken",
+      "By a change in colour of heat sensitive paint",
+      "The indicator pin would be protruding",
+    ],
+  },
+  "Oxygen purging is a process of.": {
+    answer: "removing moisture from the system",
+    choices: [
+      "pressure testing the system",
+      "measuring the flow rate from the regulator",
+      "removing moisture from the system",
+    ],
+  },
+  "To check an oxygen system for moisture.": {
+    answer: "a hygrometer is used",
+    choices: [
+      "a sniff test is used",
+      "a hygrometer is used",
+      "pass 72 litres/min through a filter paper in a clean glass",
+    ],
+  },
+  "When the moisture separator is purged in a pneumatic system, it dumps.": {
+    answer: "just the moisture trap",
+    choices: [
+      "just the moisture trap",
+      "the whole system",
+      "the system between compressor and regulator valve",
+    ],
+  },
+  "The pneumatic system pump is a.": {
+    answer: "piston type",
+    choices: ["centrifugal type", "rotor vane type", "piston type"],
+  },
+  "In a pneumatic system, the maintainer valve will be fitted in supply lines to.":
+    {
+      answer: "non-essential equipment",
+      choices: [
+        "essential equipment",
+        "all equipment",
+        "non-essential equipment",
+      ],
+    },
+  "High pressure pneumatic source is a.": {
+    answer: "reciprocating pump",
+    choices: ["reciprocating pump", "centrifugal Compressor", "butterfly pump"],
+  },
+  "High pressure pneumatic pump is a.": {
+    answer: "reciprocating pump",
+    choices: ["reciprocating pump", "spur gear", "butterfly pump"],
+  },
+  "If the pneumatic water drain trap is left open for a long time it will drain.":
+    {
+      answer: "between the compressor and the PRV",
+      choices: [
+        "between the compressor and the PRV",
+        "just the moisture trap",
+        "all the system",
+      ],
+    },
+  "On a high pressure pneumatic system, if the drain plug for oil and water is left open for long periods of time, the system would.":
+    {
+      answer: "lose pressure from the compressor side only",
+      choices: [
+        "lose pressure from the compressor side only",
+        "lose pneumatic pressure partially",
+        "lose all pressure",
+      ],
+    },
+  "What is important about the air entering a dry air pump?.": {
+    answer: "It must be filtered",
+    choices: [
+      "It must be filtered",
+      "It must be pressure controlled",
+      "It must be temperature controlled",
+    ],
+  },
+  "What type of compressor is used on a pneumatic system?.": {
+    answer: "Positive displacement type",
+    choices: [
+      "Rotary vane type",
+      "Spur gear type",
+      "Positive displacement type",
+    ],
+  },
+  "Toilet flush motor is protected from overheat by.": {
+    answer: "thermal protection",
+    choices: [
+      "thermal protection",
+      "water cooling",
+      "cooling fan on timer switch",
+    ],
+  },
+  "What is the purpose of thermal protection on electric toilet motor?.": {
+    answer: "Prevent motor overheating and become fire hazard",
+    choices: [
+      "Prevent motor overheating and become fire hazard",
+      "Prevent toilet freezing",
+      "Stop motor running beyond 10 seconds if timer become unserviceable",
+    ],
+  },
+  "Waste water drain masts.": {
+    answer: "are heated using low amperage with the aircraft on ground only",
+    choices: [
+      "are not heated",
+      "are heated using low amperage in the Air and on ground",
+      "are heated using low amperage with the aircraft on ground only",
+    ],
+  },
+  "Drinking water pipes are prevented from freezing by.": {
+    answer: "wrapping the pipes with heated tapes or ribbons",
+    choices: [
+      "installation of neoprene foam insulation",
+      "wrapping the pipes with heated tapes or ribbons",
+      "placing the pipes adjacent to hot water piping",
+    ],
+  },
+  "Toilets are the subject of.": {
+    answer: "AWN 83",
+    choices: ["AWN 83", "AWN 79", "AWN 80"],
+  },
+  "Toilet waste valves are.": {
+    answer: "spring loaded closed",
+    choices: [
+      "not spring loaded",
+      "spring loaded open",
+      "spring loaded closed",
+    ],
+  },
+  "The heater used on a drain mast would be a.": {
+    answer: "ribbon heater",
+    choices: ["induction heater", "hot air blower", "ribbon heater"],
+  },
+  "A toilet recirculation fan is unserviceable in flight.": {
+    answer: "Close toilet until landing",
+    choices: [
+      "Close toilet until landing",
+      "You can use the toilet as the toxic chemical toilet",
+      "It can be overcome by thermal compensating device",
+    ],
+  },
+  "Primary Radar is.": {
+    answer: "for ground use only",
+    choices: [
+      "for ground use only",
+      "reflected signal from aircraft's own radar",
+      "interrogation of aircraft's transponder",
+    ],
+  },
+  "A battery in situ on an aircraft charges at a fairly constant rate because generator voltage remains constant.":
+    {
+      answer:
+        "may charge at an excessive rate if initial battery voltage is low",
+      choices: [
+        "may charge slowly if initial battery voltage is low",
+        "may charge at an excessive rate if initial battery voltage is low",
+        "may not charge",
+      ],
+    },
+  "To parallel an alternating current generator with one or more other generators, phase A must be.":
+    {
+      answer: "in-phase with other generators and CBA only",
+      choices: [
+        "in-phase with other generators and CBA only",
+        "90 degrees out-of-phase and ABC",
+        "in-phase with other generators and ABC",
+      ],
+    },
+  "On an unparalleled twin generator alternating current system, the phase of the second generator to be brought on line.":
+    {
+      answer: "must be in-phase prior to paralleling",
+      choices: [
+        "must be in-phase prior to paralleling",
+        "is important if the first generator fails",
+        "is unimportant",
+      ],
+    },
+  "When an autopilot is Fail Passive,.": {
+    answer: "the pilot must resume control and land the aircraft",
+    choices: [
+      "the aircraft reverts to fail operational autopilot",
+      "the pilot must resume control and land the aircraft",
+      "the autoland can continue",
+    ],
+  },
+  "On the direct current short shunt generator circuit shown, output voltage at the load is 200V. What is the voltage across the shunt winding?.":
+    { answer: "200V", choices: ["200V", "206V", "212V"] },
+  "On a direct current circuit, current limiters.": {
+    answer: "prevent excessive current to the load circuit",
+    choices: [
+      "prevent excessive current to the field circuit",
+      "allow excessive current to the load circuit",
+      "prevent excessive current to the load circuit",
+    ],
+  },
+  "On a direct current twin generator system, the paralleling relay contacts close when the oncoming generators voltage is.":
+    {
+      answer: "above bus voltage",
+      choices: [
+        "above bus voltage",
+        "below bus voltage",
+        "the same as bus voltage",
+      ],
+    },
+  "On an aircraft's navigation displays, distance measuring equipment gives.": {
+    answer: "slant range to beacon",
+    choices: [
+      "height and range to beacon",
+      "ground range to beacon",
+      "slant range to beacon",
+    ],
+  },
+  "On a modern aircraft flight instrument display system, Radio deviation is shown on.":
+    { answer: "EHSI & EADI", choices: ["EADI", "EHSI & EADI", "EHSI"] },
+  "On a flight management system, the database is updated every.": {
+    answer: "1 Month",
+    choices: ["2 Months", "3 Months", "1 Month"],
+  },
+  "The decision height light will illuminate when.": {
+    answer: "the aircraft's indicated altitude is above decision height",
+    choices: [
+      "the decision height is selected",
+      "the aircraft's indicated altitude is above decision height",
+      "the aircraft's indicated altitude is below decision height",
+    ],
+  },
+  "In a Central Air Data Computer (CADC) system, Mach information is derived from.":
+    {
+      answer: "indicated airspeed and altitude",
+      choices: [
+        "indicated airspeed and altitude",
+        "pitot and static pressures",
+        "indicated air speed and total air temperature",
+      ],
+    },
+  "In a Central Air Data Computer (ADC), Indicated Air Speed (IAS) is produced from.":
+    {
+      answer: "pitot and static air pressure",
+      choices: [
+        "pitot pressure only",
+        "pitot and static air pressure",
+        "static pressure only",
+      ],
+    },
 };
 
 export default questionBankPMA;

@@ -8089,6 +8089,7276 @@ const questionBankGTE = {
     answer: "Synthetic",
     choices: ["Synthetic", "Phosphate Ester", "Mineral"],
   },
+
+  // GAS TURBINE ENGINE-UNKNOWN
+
+  "A dirty compressor will result in high operating:": {
+    answer: "RPM",
+    choices: ["RPM", "Temperature", "Torque"],
+  },
+  "Bleed valves are:": {
+    answer: "Open temperature",
+    choices: ["Open at all rpm", "Open temperature", "Open at low rpm"],
+  },
+  "If the turbine and compressor are mismatched, it will lead to:": {
+    answer: "Severe vibration",
+    choices: [
+      "Severe vibration",
+      "Loss of power and high specific fuel consumption",
+      "High gas temperature",
+    ],
+  },
+  "When a gas turbine engine is started, in what position are the bleed valves?":
+    {
+      answer: "Open position",
+      choices: [
+        "Closed position",
+        "Open position",
+        "In the controlled position",
+      ],
+    },
+  "What is the purpose of a diffuser section of a turbine engine?": {
+    answer: "To decrease velocity and increase pressure",
+    choices: [
+      "To decrease velocity and increase pressure",
+      "To increase velocity and decrease pressure",
+      "To increase velocity and increase pressure",
+    ],
+  },
+  "When gas passes through the turbine:": {
+    answer: "Pressure, velocity and temperature decrease",
+    choices: [
+      "Pressure, velocity and temperature decrease",
+      "Pressure and temperature decrease, velocity increases",
+      "Pressure and velocity increase, temperature decrease",
+    ],
+  },
+  "At what point in an axial – flow turbojet engine will the highest gas pressures occur?  changed":
+    {
+      answer: "At the compressor outlet",
+      choices: [
+        "At the turbine entrance",
+        "Within the burner section",
+        "At the compressor outlet",
+      ],
+    },
+  "One function of the nozzle diaphragm in a turbine engine is to:": {
+    answer:
+      "Direct the flow of gases to strike the turbine blades at the desire angle",
+    choices: [
+      "Decrease the velocity of exhaust gases",
+      "Center the fuel spray in the combustion chamber",
+      "Direct the flow of gases to strike the turbine blades at the desire angle",
+    ],
+  },
+  "The fan rotational speed of a dual axial compressor fan engine is the same as the:":
+    {
+      answer: "Low pressure compressor",
+      choices: [
+        "Low pressure compressor",
+        "Forward turbine wheel",
+        "High pressure compressor",
+      ],
+    },
+  "The abbreviation Pt7 used in the turbine engine terminology means:": {
+    answer: "The total pressure at station No.7",
+    choices: [
+      "The total inlet pressure",
+      "Pressure and temperature at station No.7",
+      "The total pressure at station No.7",
+    ],
+  },
+  "In a turbine engine with a dual – spool compressor, the low speed compressor:":
+    {
+      answer: "Seeks its own best operating speed",
+      choices: [
+        "Always turns at the same speed as the high speed compressor",
+        "Is connected directly to the high speed compressor",
+        "Seeks its own best operating speed",
+      ],
+    },
+  "The velocity of subsonic air as it flows through a convergent nozzle": {
+    answer: "Increases",
+    choices: ["Increases", "Decreases", "Remain constant"],
+  },
+  "The velocity of supersonic air as it flows through a divergent nozzle:": {
+    answer: "Increases",
+    choices: [
+      "Increases",
+      "Decreases",
+      "Is inversely proportional to the temperature",
+    ],
+  },
+  "The pressure of subsonic air as it flows through a convergent nozzle:": {
+    answer: "Decreases",
+    choices: ["Increases", "Decreases", "Remains constant"],
+  },
+  "The pressure of supersonic air as flows through a divergent nozzle": {
+    answer: "Decreases",
+    choices: [
+      "Increases",
+      "Decreases",
+      "Inversely proportional to the temperature",
+    ],
+  },
+  "Which of the following is a primary engine instrument?": {
+    answer: "Tachometer",
+    choices: ["Tachometer", "Air speed indicator", "Torque meter"],
+  },
+  "The general engine control parameters are:": {
+    answer: "Temperature, pressure and speed",
+    choices: [
+      "Temperature, pressure and speed",
+      "Temperature, torque and speed",
+      "Temperature, power and torque",
+    ],
+  },
+  "Fuel entering the combustion chamber from an atomizer enters as:": {
+    answer: "Fuel in air pulses",
+    choices: ["A fuel/air mixture", "Fuel continuously", "Fuel in air pulses"],
+  },
+  "Why is the fuel tank vented:": {
+    answer: "To maintain equal pressure with increase in altitude",
+    choices: [
+      "To maintain equal pressure with increase in altitude",
+      "To allow for evaporation",
+      "To allow for overspill due to over filling",
+    ],
+  },
+  "Some high – volume turboprop and turbojet engines are equipped with two – spool or spilt compressors when these engines are operated at high altitudes, the:":
+    {
+      answer:
+        "Low – pressure rotor will increase in speed as the compressor load decreases in lower density air",
+      choices: [
+        "Low – pressure rotor will increase in speed as the compressor load decreases in lower density air",
+        "Throttle must be retarded to prevent over speeding of the high – pressure rotor due to the lower density",
+        "Low – pressure rotor will decrease in speed as the compressor load decrease in the lower density air",
+      ],
+    },
+  "Turbine nozzle diaphragms located on the upstream side of each turbine wheel, are used in the gas turbine to:":
+    {
+      answer:
+        "Increase the velocity of the heated gases flowing past this point",
+      choices: [
+        "Decrease the velocity of the heated gases flowing past this point",
+        "Direct the flow gases parallel to the vertical line of the turbine blades",
+        "Increase the velocity of the heated gases flowing past this point",
+      ],
+    },
+  "Where is the highest gas pressure in a turbojet engine?": {
+    answer: "In the entrance of the burner section",
+    choices: [
+      "At the outlet of the tailpipe section",
+      "At the entrance of the turbine section",
+      "In the entrance of the burner section",
+    ],
+  },
+  "What is the function of the stator vane assembly at the discharge end of a typical Axial – flow compressor":
+    {
+      answer: "To straighten airflow to eliminate turbulence",
+      choices: [
+        "To straighten airflow to eliminate turbulence",
+        "To direct the flow of gases into the combustion chambers",
+        "To increase air swirling motion into the combustion chambers",
+      ],
+    },
+  "The turbine section of a jet engine:": {
+    answer: "Drives the compressor section",
+    choices: [
+      "Increases air velocity to generate thrust forces",
+      "Utilizes heat energy to expand and accelerate the incoming gas flow",
+      "Drives the compressor section",
+    ],
+  },
+  "In the dual axial – flow or twin spool compressor system, the first stage turbine drives the:":
+    {
+      answer: "N2 compressor",
+      choices: ["N1 and N2 compressor", "N2 compressor", "N1 compressor"],
+    },
+  "What are the two basic elements of the turbine section in a turbine engine?":
+    {
+      answer: "Stator and rotor",
+      choices: ["Impeller", "Hot and cold", "Stator and rotor"],
+    },
+  "What turbine engines section provides for proper mixing of the fuel and air?":
+    {
+      answer: "Combustion section",
+      choices: ["Combustion section", "Compressor section", "Diffuser section"],
+    },
+  "During the cycle of a gas turbine engine, combustion takes place:": {
+    answer: "Continuously",
+    choices: ["Once per revolution", "Twice per revolution", "Continuously"],
+  },
+  "In a turbo jet engine, combustion occurs at a:": {
+    answer: "Constant pressure",
+    choices: ["Constant velocity", "Constant volume", "Constant pressure"],
+  },
+  "Why is a capacitor type ignition system used in turbine engines?": {
+    answer: "For its high heat intensity",
+    choices: [
+      "It eliminates flash over",
+      "For its high heat intensity",
+      "For its low voltage",
+    ],
+  },
+  "High energy ignition is required because of the:": {
+    answer: "Low flash point of the fuel",
+    choices: [
+      "High flash point of the fuel",
+      "Low flash point of the fuel",
+      "Absorbed moisture content",
+    ],
+  },
+  "When starting a turbine engine, a hung start is indicated if the engine:": {
+    answer: "Fails to reach idle RPM",
+    choices: [
+      "Exhaust gas temperature exceeds specified limits",
+      "Fails to reach idle RPM",
+      "RPM exceeds specified operating speed",
+    ],
+  },
+  "The air passing through the combustion chamber of a turbine engine is:": {
+    answer: "Used to support combustion and to cool the engine",
+    choices: [
+      "Used to support combustion and to cool the engine",
+      "Entirely combined with fuel and burned",
+      "Speeded up and heated by the action of the turbines",
+    ],
+  },
+  "A high bypass engine results in": {
+    answer: "Greater propulsive efficiency",
+    choices: [
+      "Overall slower airflow and greater propulsive efficiency",
+      "Overall faster airflow",
+      "Greater propulsive efficiency",
+    ],
+  },
+  "The main purpose of combustion is:": {
+    answer: "To increase the gas velocity",
+    choices: [
+      "To increase the gas density",
+      "To increase the gas pressure",
+      "To increase the gas velocity",
+    ],
+  },
+  "The air used for combustion is termed:": {
+    answer: "Primary air",
+    choices: ["Primary air", "Secondary air", "Combustion"],
+  },
+  "The flame temperature is approximately:": {
+    answer: "2000 deg. C",
+    choices: ["500 deg. C", "2000 deg. C", "4000 deg. C"],
+  },
+  "When light – up takes place:": {
+    answer: "Inter – connectors spread the flame to adjacent spread tubes",
+    choices: [
+      "Each flame tube is isolated from its neighbor",
+      "Inter – connectors spread the flame to adjacent spread tubes",
+      "The nozzle guide vanes spread the heat to adjacent tunes",
+    ],
+  },
+  "Combustion is initiated in the combustion chamber by:": {
+    answer: "Igniter plugs",
+    choices: ["Igniter plugs", "Sparking plugs", "Glowing plugs"],
+  },
+  "What is the main advantage of the duplex fuel nozzle?": {
+    answer:
+      "Ability to provide good fuel atomization and proper spray pattern at all rates of fuel delivery and flow without the necessity utilizing abnormally high Fuel pressure",
+    choices: [
+      "Ability to provide good fuel atomization and proper spray pattern at all rates of fuel delivery and flow without the necessity utilizing abnormally high Fuel pressure",
+      "Better fuel/air atomization at higher engine rpm",
+      "It is a lot cheaper and cost effective than others",
+    ],
+  },
+  "Temperature within the combustion system is limited by:": {
+    answer: "Turbine material limitations",
+    choices: [
+      "Detonation point of the fuel",
+      "Turbine material limitations",
+      "Velocity and pressure of the gases at the turbine",
+    ],
+  },
+  "The type of the material used to make most turbine engine igniter plugs is:":
+    { answer: "Tungsten", choices: ["Tungsten", "Inconel", "Nickel chromium"] },
+  "How does a dual axial – flow compressor improve the efficiency of a turbojet engine:":
+    {
+      answer: "Higher compression ratios can be obtained",
+      choices: [
+        "More turbine wheels can be used",
+        "Higher compression ratios can be obtained",
+        "The velocity of the air entering the combustion chamber is increased",
+      ],
+    },
+  "In a false (hung) engine start:": {
+    answer: "The engine will light up, but not accelerate",
+    choices: [
+      "The engine will not light up",
+      "The engine will light up, but not accelerate",
+      "The engine will not rotate",
+    ],
+  },
+  "Using standard atmospheric conditions, the standard sea level temperature is":
+    { answer: "59", choices: ["29", "59", "59"] },
+  "What is the purpose of distribution basket in the combustion section of some engines?":
+    {
+      answer: "Allows air to be distributed evenly into the combustion chamber",
+      choices: [
+        "Allows air to be distributed evenly into the combustion chamber",
+        "Allows fuel to be distributed into the combustion chamber",
+        "Allows exhaust gas to be distributed evenly out of the combustion chamber",
+      ],
+    },
+  "During starting, if the bleed valve is struck in the closed position, it will result in:":
+    {
+      answer: "High engine temperature",
+      choices: [
+        "High engine temperature",
+        "Low engine temperature",
+        "Will not affect engine temperature",
+      ],
+    },
+  "The primary purpose of bled valve is:": {
+    answer: "To prevent compressor stall",
+    choices: [
+      "To allow air to escape so as to prevent compressor from over speeding",
+      "To prevent compressor stall",
+      "To supply anti – icing air",
+    ],
+  },
+  "The most common combustor used on turbo shafts is the:": {
+    answer: "Annular combustor",
+    choices: ["Axial combustor", "Can anular combustor", "Annular combustor"],
+  },
+  "What is the function of a fire detection system:": {
+    answer: "To activate a warning device in the event of a powerplant fire",
+    choices: [
+      "To discharge the powerplant fire – extinguishing system at the origin of the fire",
+      "To activate a warning device in the event of a powerplant fire",
+      "To identify the location of a powerplant fire",
+    ],
+  },
+  "When starting a turbine engine:": {
+    answer:
+      "A hot start indicated if the exhaust gas temperature exceeds specified limits",
+    choices: [
+      "A hot start indicated if the exhaust gas temperature exceeds specified limits",
+      "An excessively lean mixture is likely to cause a hot start",
+      "Release the starter switch as soon as indication of light – off occurs",
+    ],
+  },
+  "A turbo prop engine derives its thrust by": {
+    answer: "Reaction of the prop- wash",
+    choices: [
+      "Impingement of prop -wash on the outside air",
+      "Reaction of the prop- wash",
+      "Reaction of propulsion gases",
+    ],
+  },
+  "When the leading edge of a first – stage turbine blade is found to have stress Rupture cracks, which of the following should be suspected?":
+    {
+      answer: "Overtemperature condition",
+      choices: [
+        "Faulty cooling shield",
+        "Overtemperature condition",
+        "Overspeed condition",
+      ],
+    },
+  "What is the proper starting sequence for a turbojet engine?": {
+    answer: "Starter, ignition, fuel",
+    choices: [
+      "Ignition, starter, fuel",
+      "Starter, ignition, fuel",
+      "Starter, fuel, ignition",
+    ],
+  },
+  "What is used in turbine engines to aid in stabilization of compressor airflow during low thrust engine operation?":
+    {
+      answer: "Variable guide vanes and/or compressor bleed valves",
+      choices: [
+        "Stator vanes and rotor vanes",
+        "Variable guide vanes and/or compressor bleed valves",
+        "Pressurization and dump valves",
+      ],
+    },
+  "The type of oil pumps most commonly used on turbine engines are classified as:":
+    {
+      answer: "Positive displacement",
+      choices: [
+        "Positive displacement",
+        "Variable displacement",
+        "Constant speed",
+      ],
+    },
+  "How are most aircraft turbine engine fire extinguishing systems activated:":
+    {
+      answer: "Electrically discharge cartridges",
+      choices: [
+        "Electrically discharge cartridges",
+        "Manual remote control valve",
+        "Push rod assembly",
+      ],
+    },
+  "What types of fuel filters are in use?": {
+    answer:
+      "Paper cartridge type, screen type, convoluted screen, screen disk type",
+    choices: [
+      "Paper filter and chamois filter",
+      "Non – metallic filter and leather filter",
+      "Paper cartridge type, screen type, convoluted screen, screen disk type",
+    ],
+  },
+  "The viscosity of the fuel:": {
+    answer: "Affects the spray pattern",
+    choices: [
+      "Affects the spray pattern",
+      "Enables lower fuel pressure to be used",
+      "Determines the amount of carbon deposits",
+    ],
+  },
+  "What is the purpose of the burner drain valve?": {
+    answer:
+      "To drain overboard any fuel that may try collect in the combustion section after engine shut - down",
+    choices: [
+      "To drain overboard any water that may try to collect in the combustion section",
+      "To drain overboard any fuel that may try collect in the combustion section after engine shut - down",
+      "To drain overboard any oil that may collect in the combustion chamber",
+    ],
+  },
+  "Which of the following is not a factoring in the operation of an automatic fuel Control unit used in the turbine engine?":
+    {
+      answer: "Mixture control position",
+      choices: [
+        "Compressor inlet air density",
+        "Throttle position",
+        "Mixture control position",
+      ],
+    },
+  "A weak fuel to air mixture along with normal airflow through a turbine engine may result in:":
+    {
+      answer: "A lean die – out",
+      choices: ["A rich flameout", "A lean die – out", "High EGT"],
+    },
+  "Which of the following defects is most common in a turbojet engine hot section?":
+    { answer: "Cracking", choices: ["Distortion", "Cracking", "Galling"] },
+  "Air used to cool the turbine:": {
+    answer: "Mixed with hot gas flow through the turbine",
+    choices: [
+      "Mixed with hot gas flow through the turbine",
+      "Mixed with hot gas flow at the propelling nozzle",
+      "Vented overboard",
+    ],
+  },
+  "Hot spots on the tail cone of a turbine engine are possible indicators of a malfunctioning nozzle or:":
+    {
+      answer: "A faulty combusting chamber",
+      choices: [
+        "A faulty combusting chamber",
+        "A faulty igniter plug",
+        "An improperly position tail cone",
+      ],
+    },
+  "Anti – icing of jet engine air inlets is commonly accomplished by:": {
+    answer: "Engine bleed air ducted through critical areas",
+    choices: [
+      "Electrical heating elements inside the inlet guide vanes",
+      "Engine bleed air ducted through critical areas",
+      "Electric heating elements located within the engine air inlet cowling",
+    ],
+  },
+  "What type of fire detection system is used in an engine nacelle?": {
+    answer: "Rate of temperature rise detector",
+    choices: [
+      "Smoke detector",
+      "Fuel/air vapour detector",
+      "Rate of temperature rise detector",
+    ],
+  },
+  "A continuous loop is what type of fire detection system?": {
+    answer: "Overheat",
+    choices: ["Spot detector", "Overheat", "Rate of temperature rise"],
+  },
+  "What should be done initially if a turbine engine catches fire when starting?":
+    {
+      answer: "Turn off the fuel and continue engine rotation with the starter",
+      choices: [
+        "Turn off the fuel and continue engine rotation with the starter",
+        "Continue engine start rotation and discharge a fire extinguisher into the intake",
+        "Continue starting attempt in order to blow out the fire",
+      ],
+    },
+  "What is the basic function if engine oil in a gas turbine?": {
+    answer: "All of the above",
+    choices: ["Cooling only", "Lubrication only", "All of the above"],
+  },
+  "The oil pressure relief valve is located between the:": {
+    answer: "Oil pump and internal oil system",
+    choices: [
+      "Oil pump and internal oil system",
+      "Oil cooler and the scavenging pump",
+      "Scavenging pump and the tank",
+    ],
+  },
+  "A high viscosity index means that the oil viscosity:": {
+    answer: "Will not vary greatly with temperature change",
+    choices: [
+      "Will vary greatly with temperature change",
+      "Will not vary greatly with temperature change",
+      "Has a large index number",
+    ],
+  },
+  "The oil used in the engine is:": {
+    answer: "Synthetic anti – freeze oil",
+    choices: [
+      "Synthetic anti – freeze oil",
+      "Low viscosity mineral oil",
+      "Vegetable oil with detergent added",
+    ],
+  },
+  "The oil pressure in the oil cooler is limited by:": {
+    answer: "By – pass valve",
+    choices: ["Relief valve", "By – pass valve", "Reverse flow valve"],
+  },
+  "The oil pressure in the cooler is :": {
+    answer: "Higher than the fuel pressure",
+    choices: [
+      "Higher than the fuel pressure",
+      "Lower than the fuel pressure",
+      "Same as the fuel pressure",
+    ],
+  },
+  "Oil returning to the tank passes through:": {
+    answer: "Scavenge pump filter",
+    choices: [
+      "Pressure pump filter",
+      "Scavenge pump filter",
+      "Oil tank filter",
+    ],
+  },
+  "The output of the scavenge pump:": {
+    answer: "Is greater than the pressure pump",
+    choices: [
+      "Is greater than the pressure pump",
+      "Is less than the pressure pump",
+      "Is the same as the pressure pump",
+    ],
+  },
+  "One reason for excessive oil usage is:": {
+    answer: "Air seals not sealing",
+    choices: [
+      "Blocked oil filter",
+      "Air seals not sealing",
+      "An over hot engine",
+    ],
+  },
+  "Scavenge pump is associated with:": {
+    answer: "Dry sump engines",
+    choices: ["Wet sump engines", "Dry sump engines", "All of the above"],
+  },
+  "The scavenge pump apart from pumping oil:": {
+    answer: "Also pump out air",
+    choices: [
+      "Also pumps out water",
+      "Also pump out air",
+      "Also pumps out residual oil slit",
+    ],
+  },
+  "What colour code is used to identify lubrication lines:": {
+    answer: "A yellow band around the lines",
+    choices: [
+      "A series of red, green and black bands around the lines",
+      "A series of black and blue bands around the lines",
+      "A yellow band around the lines",
+    ],
+  },
+  "What is the possible cause when turbine engine indicates no change in power setting parameters, but oil temperature is high?":
+    {
+      answer: "Engine main bearing distress",
+      choices: [
+        "High scavenge pump oil flow",
+        "Engine main bearing distress",
+        "Turbine damage and/or loss of turbine efficiency",
+      ],
+    },
+  "An exhaust cone placed aft of the turbine in a jet engine will cause the pressure in the first part of the exhaust duct to?":
+    {
+      answer: "Increase and the velocity to decrease",
+      choices: [
+        "Increase and the velocity to decrease",
+        "Increase and the velocity to increase",
+        "Decrease and the velocity to increase",
+      ],
+    },
+  "The function of the exhaust cone assembly of turbine engine is to?": {
+    answer: "Straighten and collect the exhaust gases into a solid exhaust jet",
+    choices: [
+      "Collects the exhaust gases and act as noise suppressor",
+      "Swirl and collect the exhaust gases into a single exhaust jet",
+      "Straighten and collect the exhaust gases into a solid exhaust jet",
+    ],
+  },
+  "The core engine’ or ‘gas generator’ is made up of the following components:":
+    {
+      answer: "Turbine, combustion chamber, compressor.",
+      choices: [
+        "Inlet, compressor, combustion chamber, turbine , exhaust.",
+        "Turbine, combustion chamber, compressor.",
+        "Compressor, turbine exhaust, propelling nozzle",
+      ],
+    },
+  "A purpose of the shrouds on the turbine blades of the axial – flow engine is to?":
+    {
+      answer: "Reduce vibration",
+      choices: [
+        "Reduce vibration",
+        "Increase tip speed",
+        "Reduce air entrance",
+      ],
+    },
+  "Main bearing oil seals used with turbine engines are usually what type(s)?":
+    {
+      answer: "Labyrinth and/or carbon rubbing",
+      choices: [
+        "Labyrinth and/or carbon rubbing",
+        "Teflon and synthetic rubber",
+        "Labyrinth and/or silicone rubber",
+      ],
+    },
+  "Who establishes mandatory replacement times for the critical components of turbine engines?":
+    {
+      answer: "The engine manufacturer",
+      choices: [
+        "The FAA",
+        "The operator working in conjunction with the FAA",
+        "The engine manufacturer",
+      ],
+    },
+  "Turbine blades are generally more susceptible to operating damage than compressor blades because of?":
+    {
+      answer: "Exposure to high temperatures",
+      choices: [
+        "Higher centrifugal loading",
+        "Exposure to high temperatures",
+        "High pressure and high velocity gas flow",
+      ],
+    },
+  "Reduced blade vibration and improved air flow characteristics in gas turbines are brought about by?":
+    {
+      answer: "Shrouded turbine rotor blades",
+      choices: [
+        "Fir – tree blade attachment",
+        "Impulse type blades",
+        "Shrouded turbine rotor blades",
+      ],
+    },
+  "The efficiency of a gas turbine engine at altitude": {
+    answer: "Increases",
+    choices: ["Decrease", "Remain Constant", "Increases"],
+  },
+
+  // Gas Turbine Engine Practice Questions -2
+
+  "The cycle of a gas turbine engine is:": {
+    answer: "continuous",
+    choices: [
+      "completed in one revolution of engine",
+      "completed in two revolution of the engine",
+      "continuous",
+    ],
+  },
+  "Engines having two independent moving systems are:": {
+    answer: "twin spool engines",
+    choices: ["compound engines", "twin spool engines", "complex engines"],
+  },
+  "Compression ratio of compressor of gas turbine Engine is:": {
+    answer: "outlet pressure to Inlet pressure",
+    choices: [
+      "outlet pressure to Inlet pressure",
+      "measured across all rotor stages of compressor",
+      "mass of airflow to combustion",
+    ],
+  },
+  "Torque pressure indication to measure power output of an engine is:": {
+    answer:
+      "only used when engine output pressure is used for torque not for thrust",
+    choices: [
+      "used in all Gas Turbine engines",
+      "not used in Gas Turbine engines",
+      "only used when engine output pressure is used for torque not for thrust",
+    ],
+  },
+  "Manifold pressure is measured in:": {
+    answer: "direct absolute pressure in inch of Hg",
+    choices: [
+      "direct absolute pressure in Bars",
+      "differential pressure in mill bars",
+      "direct absolute pressure in inch of Hg",
+    ],
+  },
+  "Typically a torque pressure indication system is:": {
+    answer: "direct Oil Pressure sensing type",
+    choices: [
+      "differential pressure type",
+      "remote synchronous type",
+      "direct Oil Pressure sensing type",
+    ],
+  },
+  "A tachometer used to measure Rev/Min in turbine engine:": {
+    answer: "develops its own power for the system",
+    choices: [
+      "develops its own power for the system",
+      "28Vdc required",
+      "115Vac required",
+    ],
+  },
+  "Primary power for electronic engine control:": {
+    answer: "Permanent Magnet Alternator",
+    choices: [
+      "115V ac essential bus",
+      "on side 115V ac bus bar supply",
+      "Permanent Magnet Alternator",
+    ],
+  },
+  "Leads to measure thermocouple temperature are:": {
+    answer: "calibrated for circuit in used and cannot be shortened",
+    choices: [
+      "calibrated for circuit in used and cannot be shortened",
+      "affected by Magnetic and electrical interference",
+      "insulated by heat legging device to reduce errors in the indication end",
+    ],
+  },
+  "A thermocouple sensing system test set requires:": {
+    answer: "a serviceable battery",
+    choices: ["a serviceable battery", "No power", "24V dc"],
+  },
+  "The HP compressor is powered by:": {
+    answer: "the first set of turbines",
+    choices: [
+      "the first set of turbines",
+      "the last set of turbines",
+      "the intermediate compressor",
+    ],
+  },
+  "Torque is measured in gas turbine engines:": {
+    answer: "where there is a free turbine providing the power",
+    choices: [
+      "never",
+      "where there is a free turbine providing the power",
+      "on small pure jet engines",
+    ],
+  },
+  "What is the supply voltage to tacho generators?": {
+    answer: "It has no supply",
+    choices: ["28vdc", "115vac", "It has no supply"],
+  },
+  "A FADEC takes measurements of engine speed,": {
+    answer: "temperature and pressure",
+    choices: ["temperature and pressure", "temperature", "pressure"],
+  },
+  "The fuel metering valve in the hydro mechanical unit of a FADEC system is operated by:":
+    {
+      answer: "fuel servo pressure",
+      choices: [
+        "hydraulic servo pressure",
+        "fuel servo pressure",
+        "electrical servo",
+      ],
+    },
+  "Boost pressure is:": {
+    answer: "the absolute of the manifold chamber",
+    choices: [
+      "atmospheric above ambient",
+      "atmospheric below ambient",
+      "the absolute of the manifold chamber",
+    ],
+  },
+  "To check/test a temperature indicator you would:": {
+    answer: "connect a decade box in place of the temperature sensing element",
+    choices: [
+      "connect a decade box in place of the temperature sensing element",
+      "connect a decade box in series with the temperature sensing element",
+      "connect a decade box in parallel with the temperature sensing element",
+    ],
+  },
+  "Calibration for a ratiometer type temperature indicator takes into account:":
+    {
+      answer: "the material of the sensing element",
+      choices: [
+        "the material of the coils",
+        "the material of the sensing element",
+        "the type of representation on the dial",
+      ],
+    },
+  "Reverse thrust can only be selected when the throttle is:": {
+    answer: "at the idle stop",
+    choices: ["75% power position", "open", "at the idle stop"],
+  },
+  "On a FADEC engine, the EEC:": {
+    answer:
+      "has electronic control of the hydro-mechanical fuel control unit in all modes",
+    choices: [
+      "has electronic control of the hydro-mechanical fuel control unit in all modes",
+      "has electronic control of d hydromechanical fuel control in some modes",
+      "has mechanical control of d hydromechanical fuel control system",
+    ],
+  },
+  "EPR is a measure of:": {
+    answer: "Exhaust pressure compared to compressor inlet pressure",
+    choices: [
+      "Exhaust pressure compared to compressor inlet pressure",
+      "Exhaust pressure compared to combustion pressure",
+      "Combustion pressure compared to compressor inlet pressure",
+    ],
+  },
+  "What exactly does a thermocouple measure?": {
+    answer: "Hot junction temperature",
+    choices: [
+      "The difference between the hot and cold junction",
+      "Hot junction temperature",
+      "Cold junction temperature",
+    ],
+  },
+  "In a temperature sensing ratio meter what determines the actual temperature?":
+    {
+      answer: "The material of the sensor",
+      choices: [
+        "The material of the sensor",
+        "The material of the sensing coil",
+        "The material of the balancing coil",
+      ],
+    },
+  "Torque is a useful measure:": {
+    answer: "On engines where a portion of thrust is used to produce torque",
+    choices: [
+      "On engines where a portion of thrust is used to produce torque",
+      "On engines which only produce thrust",
+      "On all engines",
+    ],
+  },
+  "Boost pressure is a measure of:": {
+    answer: "Manifold pressure",
+    choices: [
+      "Manifold pressure",
+      "Atmospheric pressure plus turbocharger inlet pressure",
+      "Atmospheric pressure less turbocharger inlet pressure",
+    ],
+  },
+  "The test switch of a continuous loop fire detector gives a:": {
+    answer: "continuity check",
+    choices: ["continuity check", "bonding check", "insulation check"],
+  },
+  "What are the types of continuous fire detection system? ": {
+    answer: "Capacitance and resistance",
+    choices: [
+      "Capacitance and resistance",
+      "Capacitance",
+      "Inductance and capacitance",
+    ],
+  },
+  "During normal running conditions:": {
+    answer: "combustion is self supporting",
+    choices: [
+      "combustion is continuously supported by ignition",
+      "combustion is intermittently supported by ignition",
+      "combustion is self supporting",
+    ],
+  },
+  "What indication does the pilot receive that thrust reversers have deployed?":
+    {
+      answer: "A sequence of lights",
+      choices: [
+        "A feeling of rapid deceleration",
+        "An audible warning",
+        "A sequence of lights",
+      ],
+    },
+  "On a fixed pitch propeller single engine aircraft, what is indicated as a measure of power?":
+    {
+      answer: "Engine speed",
+      choices: ["Oil pressure", "Engine speed", "Cylinder head temp"],
+    },
+  "From where is manifold pressure taken on a supercharged engine?": {
+    answer: "Between the carburettor and the induction ports",
+    choices: [
+      "Between the carburettor and the supercharger",
+      "Between the supercharger and the throttle",
+      "Between the carburettor and the induction ports",
+    ],
+  },
+  "What is an engine stage?": {
+    answer: "One rotor plus one stator",
+    choices: [
+      "One rotor plus one stator",
+      "One IGV and one rotor",
+      "One compressor rotor and one nozzle guide vane",
+    ],
+  },
+  "The air data input to the FADEC fails. The result will be:": {
+    answer: "the FADEC reverts to the failsafe mode",
+    choices: [
+      "a lack of flight data",
+      "uncorrected data from hard wired analogue sensors is utilised",
+      "the FADEC reverts to the failsafe mode",
+    ],
+  },
+  "Torque measurement is taken from the:": {
+    answer: "reduction gearbox",
+    choices: ["free turbine shaft", "reduction gearbox", "prop shaft"],
+  },
+  "A FADEC system consists of:": {
+    answer: "HMU, sensors and an EEC",
+    choices: [
+      "HMU, sensors and an EEC",
+      "HMU, ADC and sensors",
+      "EEC, ADC and sensors",
+    ],
+  },
+  "What power supply is required for a thermocouple system to work?": {
+    answer: "Neither of the above",
+    choices: ["Direct current", "Alternating current", "Neither of the above"],
+  },
+  "In a 24 thermocouple system, one thermocouple goes open circuit. What error is detected at the indicator?":
+    {
+      answer: "None",
+      choices: ["None", "No indication", "Gauge freezes at last known reading"],
+    },
+  "In a thermocouple temperature sensing system, what is the purpose of the compensating resistor?":
+    {
+      answer:
+        "To correct for varying ambient temperatures at the cold junction",
+      choices: [
+        "To standardise the reading for different engine types",
+        "To correct for varying ambient temperatures at the cold junction",
+        "To correct for varying ambient temperatures at the hot junction",
+      ],
+    },
+  "In a dive, with the throttles fixed, the EPR will:": {
+    answer: "not change",
+    choices: ["increase", "decrease", "not change"],
+  },
+  "How is the N1 and N2 measured on a triple spool engine?": {
+    answer: "Pulse type speed probes",
+    choices: [
+      "Pulse type speed probes",
+      "Tachometer connected to the external gearbox",
+      "Tachometer connected to the internal gearbox",
+    ],
+  },
+  "A twin spool engine has:": {
+    answer: "two turbines on two shafts",
+    choices: [
+      "one turbine on one shaft",
+      "two turbines on one shaft",
+      "two turbines on two shafts",
+    ],
+  },
+  "A free turbine aircraft engine is most likely to be used on a:": {
+    answer: "a helicopter engine",
+    choices: [
+      "high bypass engine",
+      "a direct coupled engine",
+      "a helicopter engine",
+    ],
+  },
+  "Propeller speed is measured from:": {
+    answer: "a slip ring pulse probe",
+    choices: [
+      "a slip ring pulse probe",
+      "a tachometer on the LP turbine shaft",
+      "a pulse probe at the engine side of the reduction gear",
+    ],
+  },
+  "Propeller torque is analogous to:": {
+    answer: "shaft horsepower",
+    choices: ["engine RPM", "shaft horsepower", "propeller RPM"],
+  },
+  "How is power indicated on a fixed pitch propeller?": {
+    answer: "RPM gauge",
+    choices: ["RPM gauge", "Torque gauge", "Horsepower gauge"],
+  },
+  "What are the units of manifold pressure on a normally aspirated engine?": {
+    answer: "Inches of mercury",
+    choices: ["PSI", "Inches of water", "Inches of mercury"],
+  },
+  "In a FADEC what is the result of Channel A failing to receive information from a sensor?":
+    {
+      answer: "Channel A will take the information from channel B",
+      choices: [
+        "Channel B will assume control",
+        "Channel A will take the information from channel B",
+        "Channel A will take the information from the backup sensor",
+      ],
+    },
+  "A synchro pressure measuring system requires:": {
+    answer: "alternating current",
+    choices: ["alternating current", "direct current", "either ac or dc"],
+  },
+  "A synchro pressure measuring system works on the principle of changes in pressure related to changes in:":
+    { answer: "flux", choices: ["frequency", "voltage", "flux"] },
+  "Pure jet engines use:": {
+    answer: "stagnation thermocouples",
+    choices: [
+      "stagnation thermocouples",
+      "rapid response",
+      "variable resistance thermocouples",
+    ],
+  },
+  "Modern oil pressure servo transmitters sense:": {
+    answer: "differential pressure",
+    choices: ["differential pressure", "absolute pressure", "HP oil pressure"],
+  },
+  "EGT thermocouples are usually made of:": {
+    answer: "chromel and alumel",
+    choices: [
+      "nickel and platinum",
+      "chromel and platinum",
+      "chromel and alumel",
+    ],
+  },
+  "Thrust is generated in a turboprop system by:": {
+    answer: "moving a large mass of air slowly",
+    choices: [
+      "moving a small mass of air quickly",
+      "moving a large mass of air quickly",
+      "moving a large mass of air slowly",
+    ],
+  },
+  "Power is adjusted in a variable pitch turboprop aircraft by:": {
+    answer: "increasing fuel flow",
+    choices: ["increasing RPM", "increasing fuel flow", "increasing pitch"],
+  },
+  "Thrust in a high bypass engine is measured by measuring:": {
+    answer: "neither of d above, thrust is not indicated in flight",
+    choices: [
+      "N3 RPM",
+      "fuel flow",
+      "neither of d above, thrust is not indicated in flight",
+    ],
+  },
+  "EPR is a ratio of:": {
+    answer: "P1 to P(fan)",
+    choices: ["P1 to P4", "P1 to P(fan)", "P1 to P6"],
+  },
+  "The majority of power in a free turbine engine is used to:": {
+    answer: "drive the free turbine",
+    choices: [
+      "drive the gas generator",
+      "drive the free turbine",
+      "expel gases through the exhaust",
+    ],
+  },
+  "The total power in a turboprop engine is the:": {
+    answer: "ESHP",
+    choices: ["SHP", "ESHP", "BHP"],
+  },
+  "To measure oil temperature, which of the following would most likely be used?":
+    {
+      answer: "Resistance temperature measurement",
+      choices: [
+        "Resistance temperature measurement",
+        "Thermocouple measurement",
+        "Optical pyrometer",
+      ],
+    },
+  "EPR is measured between inlet and:": {
+    answer: "jet pipe",
+    choices: ["jet pipe", "cold and hot exhaust", "front of turbine"],
+  },
+  "One stage of a turbine is:": {
+    answer:
+      "n.g.v then turbine blade (1 guide vane + turbine rotor and stator)",
+    choices: [
+      "n.g.v then turbine blade (1 guide vane + turbine rotor and stator)",
+      "turbine blade then n.g.v",
+      "i.g.v then turbine blade",
+    ],
+  },
+  "In a flow type fuel system, fuel shutoff is done by:": {
+    answer: "mechanical ball valve",
+    choices: ["mechanical ball valve", "FCU torque motor", "l.p fuel cock"],
+  },
+  "The fuel flow transmitter is downstream of:": {
+    answer: "L.P pump",
+    choices: ["pr sov", "H.P pump", "L.P pump"],
+  },
+  "How is fuel flow varied in a variable displacement pressure type pump?": {
+    answer: "Alter the cam plate angle",
+    choices: [
+      "Alter the cam plate angle",
+      "Remote servo pressure",
+      "Direct cable to cam plate",
+    ],
+  },
+  "Advantage of flow type over pressure type is:": {
+    answer: "it can take into account rpm, pressure(ambient) and E.G.T",
+    choices: [
+      "it has lower pressure so greater reliability",
+      "it can take into account rpm, pressure(ambient) and E.G.T",
+      "has no need for fly weights and governors",
+    ],
+  },
+  "When the full authority fuel control unit is changed, the rating plug:": {
+    answer: "stays with the engine",
+    choices: [
+      "stays with the engine",
+      "stays with the FAFC",
+      "is replaced every time",
+    ],
+  },
+  "The EEC is powered and able to operate via:": {
+    answer:
+      "The EEC is capable of being powered by both independently depending on conditions",
+    choices: [
+      "only a dedicated alternators",
+      "the aircraft electrical system",
+      "The EEC is capable of being powered by both independently depending on conditions",
+    ],
+  },
+  "The EEC uses:": {
+    answer: "ARINC 429 formatted data",
+    choices: [
+      "ARINC 429 formatted data",
+      "ARINC 629 formatted data",
+      "uses neither ARINC 429 or 629 formatted data",
+    ],
+  },
+  "The fuel metering unit has direct inputs via:": {
+    answer: "the EEC, fire control handle and the engine master switch",
+    choices: [
+      "only the EEC",
+      "the EEC and the fire control handle",
+      "the EEC, fire control handle and the engine master switch",
+    ],
+  },
+  "The optimum turbine speed is defined as:": {
+    answer: "the most efficient speed of the turbine",
+    choices: [
+      "the most efficient speed of the turbine",
+      "100% rpm of the engine",
+      "95 % rpm of the engine",
+    ],
+  },
+  "An increase in fuel flow through the impeller type fuel flow transmitter is measured by:":
+    {
+      answer: "impeller lags turbine",
+      choices: [
+        "drum lags impeller",
+        "impeller lags turbine",
+        "decreasing angle between the two",
+      ],
+    },
+  "No power to EGT is indicated by:": {
+    answer: "yellow flag in front counter",
+    choices: [
+      "yellow flag in front counter",
+      "bug moves in the x direction",
+      "bug moves in the y direction",
+    ],
+  },
+  "Connection to a tachogenerator:": {
+    answer: "3 phase star",
+    choices: ["3 phase star", "3 phase delta", "2 phase star"],
+  },
+  "A short circuit in a d.c ratio meter will give:": {
+    answer: "minimum scale reading",
+    choices: [
+      "maximum scale reading",
+      "zero scale reading",
+      "minimum scale reading",
+    ],
+  },
+  "An open circuit in a d.c ratio meter will give:": {
+    answer: "maximum scale reading",
+    choices: [
+      "maximum scale reading",
+      "zero scale reading",
+      "minimum scale reading",
+    ],
+  },
+  "A compressor shaft rotates on:": {
+    answer: "ball and roller bearings",
+    choices: [
+      "sintered bearings",
+      "ball and roller bearings",
+      "plain bearings",
+    ],
+  },
+  "The EEC changes power settings by:": {
+    answer: "changing the fuel flow input",
+    choices: [
+      "changing the throttle lever angle",
+      "changing the fuel flow input",
+      "changing the airflow input",
+    ],
+  },
+  "A torque pressure measuring indicator is fed by:": {
+    answer: "direct oil pressure",
+    choices: [
+      "direct oil pressure",
+      "differential pneumatic pressure",
+      "servo operated",
+    ],
+  },
+  "The tachogenerator output has:": {
+    answer: "A Variable frequency",
+    choices: [
+      "A fixed frequency",
+      "A Variable frequency",
+      "A DC Current output",
+    ],
+  },
+  "On a fuel flow measuring device located on the engine:": {
+    answer: "no adjustments can be made",
+    choices: [
+      "no adjustments can be made",
+      "external adjustments can be made for maximum rate fuel flow",
+      "external adjustments can be made for minimum rate fuel flow",
+    ],
+  },
+  "Where is the hot junction of an EGT thermocouple system found?": {
+    answer: "Downstream of the combustion chamber",
+    choices: [
+      "In the indicator",
+      "Upstream of the combustion chamber",
+      "Downstream of the combustion chamber",
+    ],
+  },
+  "The fan on a turbofan engine is turned by:": {
+    answer: "the turbine section",
+    choices: [
+      "induction of the air across the fan into the compressor",
+      "the turbine section",
+      "the combustion chamber gases",
+    ],
+  },
+  "When terminating connections for a EGT sensing system:": {
+    answer:
+      "ensure that the pins and sockets are of the same material as the leads",
+    choices: [
+      "ensure that the pins and sockets are correctly crimped and brazed",
+      "ensure that all connections are silver soldered",
+      "ensure that the pins and sockets are of the same material as the leads",
+    ],
+  },
+  "An EPR gauge indicates '1'. You should:": {
+    answer: "do nothing this is what it should read with the engine shut down",
+    choices: [
+      "adjust the indicator back to zero",
+      "replace the indicator, there is no adjustment",
+      "do nothing this is what it should read with the engine shut down",
+    ],
+  },
+  "A Gas Turbine's propulsion force is produced by:": {
+    answer: "reaction of the rearward moving gases",
+    choices: [
+      "reaction of the rearward moving gases",
+      "impingement of the gases on the surrounding air",
+      "induced airflow into the engine",
+    ],
+  },
+  "In a single spool gas turbine engine the compressor rev/min is:": {
+    answer: "equal to the turbine speed",
+    choices: [
+      "more than the turbine speed",
+      "less than the turbine speed",
+      "equal to the turbine speed",
+    ],
+  },
+  "A tacho pointer is moved by:": {
+    answer: "drag cup coupling",
+    choices: ["drag cup coupling", "ac servo motor", "synchronous motor"],
+  },
+  "In a twin spool engine:": {
+    answer:
+      "the LP turbine drives the LP compressor and the HP turbine drives the HP compressor",
+    choices: [
+      "the HP turbine drives both LP and HP compressors",
+      "the LP turbine drives the LP compressor and the HP turbine drives the HP compressor",
+      "the HP turbine drives the LP compressor and the LP turbine drives the HP compressor",
+    ],
+  },
+  "Relative permeability of fuel is also known as:": {
+    answer: "dielectric constant of the fuel",
+    choices: [
+      "density of the fuel",
+      "weight of the fuel",
+      "dielectric constant of the fuel",
+    ],
+  },
+  "An EMF is produced by a thermocouple. This is sensed:": {
+    answer: "at the cold junction",
+    choices: [
+      "at the hot junction",
+      "at the cold junction",
+      "between the hot and cold junctions",
+    ],
+  },
+  "Supervisory EEC sends its output to the:": {
+    answer: "HMU/FFG",
+    choices: ["fuel valve", "HMU/FFG", "EGT thermocouple circuit"],
+  },
+  "Ratiometer pointer movement is achieved by:": {
+    answer:
+      "two opposing coils providing a torque in a permanent magnetic field",
+    choices: [
+      "one coil providing a torque against a permanent magnet",
+      "two opposing coils providing a torque in a varying magnetic field",
+      "two opposing coils providing a torque in a permanent magnetic field",
+    ],
+  },
+  "A fuel flow transmitter requires a motor or a synchronous motor to have a:":
+    {
+      answer: "constant frequency within small tolerances",
+      choices: [
+        "constant voltage within small tolerances",
+        "constant frequency within small tolerances",
+        "low EMF as it is immersed in fuel",
+      ],
+    },
+  "A boost gauge measures:": {
+    answer: "absolute pressure on the inlet port",
+    choices: [
+      "absolute pressure on the inlet port",
+      "brake mean effective pressure",
+      "gauge pressure at the injector",
+    ],
+  },
+  "On a thermocouple circuit on a non FADEC engine, what is the purpose of the ballast resistor?":
+    {
+      answer: "To standardise both engine's EGT readings",
+      choices: [
+        "To compensate for ambient temperatures",
+        "To standardise both engine's EGT readings",
+        "To compensate for altitude",
+      ],
+    },
+  "Boost pressure is measured in:": {
+    answer: "inches of Hg",
+    choices: ["inches of Hg", "inches of water", "PSI"],
+  },
+  "Power is adjusted in a gas turbine engine by:": {
+    answer: "increasing fuel flow",
+    choices: [
+      "increasing airflow to the combustion chamber",
+      "increasing air and fuel flow",
+      "increasing fuel flow",
+    ],
+  },
+  "The EPR reading is taken from a ratio of:": {
+    answer: "jet pipe pressure to compressor inlet pressure",
+    choices: [
+      "jet pipe pressure to compressor inlet pressure",
+      "compressor delivery pressure to compressor inlet pressure",
+      "turbine inlet pressure to compressor delivery pressure",
+    ],
+  },
+  "The basic gas turbine engine cycle is:": {
+    answer: "induction, compression, combustion, expansion, exhaust",
+    choices: [
+      "induction, compression, combustion, expansion, exhaust",
+      "induction, compression, expansion, combustion, exhaust",
+      "compression, combustion, induction, expansion, exhaust",
+    ],
+  },
+  "The high bypass duct:": {
+    answer: "improves propulsive efficiency",
+    choices: [
+      "drives a cabin air compressor",
+      "provides engine cooling",
+      "improves propulsive efficiency",
+    ],
+  },
+  "If an engines FADEC system loses air data permanently the pilot will:": {
+    answer: "select alternate pilot static",
+    choices: [
+      "select alternate pilot static",
+      "switch to alt on the relevant EEC",
+      "turn that EEC off",
+    ],
+  },
+  "An EPR system reads slightly over 1, this would mean:": {
+    answer: "no action required this is normal",
+    choices: [
+      "the transmitter datum point has moved and needs replacing",
+      "no action required this is normal",
+      "the indicator needs re-calibrating back to 1",
+    ],
+  },
+  "Manifold pressure is measured:": {
+    answer: "at inlet port above and below ambient conditions",
+    choices: [
+      "at inlet port above and below ambient conditions",
+      "at inlet port above and below standard atmosphere at sea level",
+      "at inlet port indicating boost pressure",
+    ],
+  },
+  "A temperature indicating system incorporating a resistance bulb on a selected range has pointer movement:":
+    {
+      answer: "proportional to bulb resistance",
+      choices: [
+        "proportional to bulb resistance",
+        "inversely proportional to bulb resistance",
+        "resistance does not affect pointer movement",
+      ],
+    },
+  "In a ducted fan engine, the fan is driven by the:": {
+    answer: "turbine",
+    choices: [
+      "accessory gearbox",
+      "turbine",
+      "air passing over the compressor",
+    ],
+  },
+  "In a FADEC system, active control switchover occurs:": {
+    answer: "on shutdown",
+    choices: [
+      "on shutdown",
+      "when channels A and B are healthy",
+      "on engine startup only",
+    ],
+  },
+  "Gas turbines work on the:": {
+    answer: "brayton cycle",
+    choices: ["otto cycle", "brayton cycle", "diesel cycle"],
+  },
+  "Oil systems consists of:": {
+    answer: "3 systems",
+    choices: ["2 systems", "3 systems", "4 systems"],
+  },
+  "With the EEC in control the throttle levers are always:": {
+    answer: "anywhere between the fully fwd and fully aft positions",
+    choices: [
+      "in the fully forward position",
+      "in the fully aft position",
+      "anywhere between the fully fwd and fully aft positions",
+    ],
+  },
+  "Turboprop thermocouple probes are:": {
+    answer: "rapid response",
+    choices: ["rapid response", "stagnation", "surface mounted"],
+  },
+  "Propelling nozzle provide:": {
+    answer: "pressure and velocity thrust",
+    choices: [
+      "pressure thrust",
+      "velocity thrust",
+      "pressure and velocity thrust",
+    ],
+  },
+  "How are the combustion chambers cooled?": {
+    answer: "By H.P compressor air",
+    choices: [
+      "By L.P compressor air",
+      "By H.P compressor air",
+      "By fan pressure air",
+    ],
+  },
+  "Fan blade speed is measured by:": {
+    answer: "phonic wheel",
+    choices: ["phonic wheel", "drag cup and tachometer", "eddy currents"],
+  },
+  "FADECs operate by:": {
+    answer: "2 units each capable of independent control",
+    choices: [
+      "2 controlling 1 operating",
+      "1 controlling 1 operating",
+      "2 units each capable of independent control",
+    ],
+  },
+  "When a thermocouple fails, the temperature reading will:": {
+    answer: "stay the same",
+    choices: ["over read", "under read", "stay the same"],
+  },
+  "An aircraft flying at 500mph would typically use:": {
+    answer: "turbojet",
+    choices: ["turbojet", "turbofan", "turboprop"],
+  },
+  "The inlet of a turbo fan is:": {
+    answer: "divergent",
+    choices: ["divergent", "convergent", "convergent-divergent"],
+  },
+  "What is the pressure increase over one stage of a centrifugal compressor?": {
+    answer: "5:1",
+    choices: ["5:1", "1.2:1", "8:1"],
+  },
+  "The bleed valve on an engine at start up is:": {
+    answer: "open",
+    choices: ["open", "closed", "modulating"],
+  },
+  "E.G.T. thermocouples are usually made of:": {
+    answer: "chromel and alumel",
+    choices: [
+      "nickel and platinum",
+      "chromel and platinum",
+      "chromel and alumel",
+    ],
+  },
+  "The principle of operation of a DC ratio meter is:": {
+    answer: "two coils moving in a non-uniform magnetic field",
+    choices: [
+      "one coil moving in a uniform magnetic field",
+      "two coils moving in a uniform magnetic field",
+      "two coils moving in a non-uniform magnetic field",
+    ],
+  },
+  "A thermocouple indicator is basically a:": {
+    answer: "millivoltmeter",
+    choices: ["millivoltmeter", "milliohmeter", "milliammeter"],
+  },
+  "If a FADEC loses its ADC input, in the short term it will:": {
+    answer: "go into soft redundancy",
+    choices: [
+      "go into soft redundancy",
+      "go into hard redundancy",
+      "go to limit protection mode",
+    ],
+  },
+  "With an aircraft with a fixed pitch propeller, what indication has the pilot got of the output power?":
+    {
+      answer: "engine speed indicator",
+      choices: ["fuel flow", "oil pressure", "engine speed indicator"],
+    },
+  "The primary purpose of an EEC is:": {
+    answer: "to save fuel, reduce crew workload and reduce maintenance costs",
+    choices: [
+      "to change analogue inputs into digital format to provide glass cockpit information and reduce flight crew workload",
+      "to change analogue inputs into digital format to reduce flight crew workload and provide maintenance information",
+      "to save fuel, reduce crew workload and reduce maintenance costs",
+    ],
+  },
+  "If a tacho generator indicated in reverse, the probable cause is:": {
+    answer: "two phases cross connected",
+    choices: [
+      "wrong input frequency",
+      "two phases cross connected",
+      "supply and transmitter cross connected",
+    ],
+  },
+  "A sensing element goes open circuit in a ratio meter. What will be happen?":
+    {
+      answer: "Full scale deflection",
+      choices: [
+        "Temperature indicates below ambient",
+        "Full scale deflection",
+        "Hairspring takes indicator off scale",
+      ],
+    },
+  "A thermocouple is constructed of:": {
+    answer: "two dissimilar metals welded together",
+    choices: [
+      "two dissimilar metals welded together",
+      "two dissimilar metals with an air gap between them",
+      "three dissimilar metals welded together",
+    ],
+  },
+  "A thermocouple indication is taken from the:": {
+    answer: "cold junction",
+    choices: [
+      "hot junction",
+      "cold junction",
+      "difference btw the hot junction & the cold junction",
+    ],
+  },
+  "On a twin spool engine, the HP compressor is driven by:": {
+    answer: "early stages of the turbine",
+    choices: [
+      "ram air over the compressor",
+      "early stages of the turbine",
+      "later stages of the turbine",
+    ],
+  },
+  "In a multiple probe thermocouple system, what is the effect if one probe fails?":
+    {
+      answer: "No noticeable effect",
+      choices: [
+        "No noticeable effect",
+        "Reduction in temp reading",
+        "Increase in temp reading",
+      ],
+    },
+  "In a gas turbine if air is tapped from the H.P bleed:": {
+    answer: "EPR decreases and EGT increases",
+    choices: [
+      "EPR decreases and EGT increases",
+      "EPR stays constant and EGT decreases",
+      "EPR increases and EGT decreases",
+    ],
+  },
+  "The vane on a vane type fuel flow measuring device becomes stuck. What safety backup is available for the engine fuel flow?":
+    {
+      answer: "A differential pressure bypass valve",
+      choices: [
+        "A fuel bleed valve",
+        "A bypass valve",
+        "A differential pressure bypass valve",
+      ],
+    },
+  "In a FADEC engine with a hydro mechanical fuel system, how is fuel flow controlled?":
+    {
+      answer: "By electro-hydraulic servo valves (EHSVs)",
+      choices: [
+        "By fuel pressure",
+        "By electro-hydraulic servo valves (EHSVs)",
+        "By oil hydraulics",
+      ],
+    },
+  "In the HEIU the discharge resistors:": {
+    answer: "allows the capacitors to discharge when the unit is switched off",
+    choices: [
+      "allows sufficient voltage to be stored to provide relight facilities up to 55,000 ft",
+      "protects the unit from excessive voltages",
+      "allows the capacitors to discharge when the unit is switched off",
+    ],
+  },
+  "A modular constructed gas turbine engine means that:": {
+    answer: "its major components can be removed and replaced",
+    choices: [
+      "its major components can be removed and replaced",
+      "all engines have a specific component layout",
+      "the engine is constructed by the vertical assembly technique",
+    ],
+  },
+  "The purpose of a high bypass ducted fan engine is to:": {
+    answer: "improve efficiency",
+    choices: ["improve efficiency", "improve thrust", "reduce size"],
+  },
+  "When using a test set to test an EGT thermocouple circuit:": {
+    answer: "no compensation for ambient temperature is required",
+    choices: [
+      "no compensation for ambient temperature is required",
+      "only consider ambient temperature compensation if the ambient temperature is over 20°C",
+      "always compensate for ambient temperature",
+    ],
+  },
+  "Where is EGT measured?": {
+    answer: "Downstream of the combustion chamber",
+    choices: [
+      "In the combustion chamber",
+      "Downstream of the combustion chamber",
+      "Upstream of the combustion chamber",
+    ],
+  },
+  "How does a boost gauge compensate for altitude changes?": {
+    answer: "Spring sealed bellows",
+    choices: [
+      "Spring sealed bellows",
+      "Two bellows against atmospheric pressure",
+      "There is no compensation",
+    ],
+  },
+  "What does a stage consist of?": {
+    answer: "Rotor and stator",
+    choices: ["Rotor", "Stator", "Rotor and stator"],
+  },
+  "What drives the high pressure compressor?": {
+    answer: "Nearest Turbine",
+    choices: [
+      "Nearest Turbine",
+      "Furthest away turbine",
+      "All turbines combined",
+    ],
+  },
+  "What is the working cycle of the gas turbine engine?": {
+    answer: "Induction, compression, combustion, expansion and exhaust",
+    choices: [
+      "Induction, compression, combustion, expansion and exhaust",
+      "Compression, induction, combustion, expansion and exhaust",
+      "A high bypass ratio engine Drives a large ducted fan",
+    ],
+  },
+  "A fuel flow gauge which incorporates a moving vane also incorporates:": {
+    answer: "A pressure differential sensing bypass valve",
+    choices: [
+      "A pressure differential sensing bypass valve",
+      "A pressure relief valve",
+      "A temperature relief valve",
+    ],
+  },
+  "An EEC’s main purpose is to:": {
+    answer:
+      "Convert engine sensor inputs to digital for display purposes in a glass cockpit",
+    choices: [
+      "Convert engine sensor inputs to digital for display purposes in a glass cockpit",
+      "Convert engine sensor inputs to digital format, reduce costs & improve performance",
+      "Reduce pilot workload, improve performance & use less fuel",
+    ],
+  },
+  "A FADEC systems main components include:": {
+    answer: "ECU, HMU Alternator and Sensor",
+    choices: [
+      "ECU, HMU Alternator and Sensor",
+      "ECU, Hydrostatic unit and sensors",
+      "HMU Alternator, Hydrostatic unit and sensors",
+    ],
+  },
+  "If the FADEC system temporarily loses ADC input, what is the effect?": {
+    answer: "Soft reversionary",
+    choices: ["Soft reversionary", "Hard reversionary", "Limiter mode"],
+  },
+  "How is the fuel metered in an HMU?": {
+    answer: "Electronic servo motor",
+    choices: [
+      "Fuel pressure servo",
+      "Electronic servo motor",
+      "Hydraulic fluid pressure servo",
+    ],
+  },
+  "If after connection a tacho generator indicator moves the wrong way, what is the likely cause?":
+    {
+      answer:
+        "The transmitter & receiver connections have been connected the wrong way around",
+      choices: [
+        "Two stator windings have been switched",
+        "The transmitter & receiver connections have been connected the wrong way around",
+        "Transmitter was installed incorrectly",
+      ],
+    },
+  "The tacho generator output:": {
+    answer: "Has an output frequency which is proportional to engine speed",
+    choices: [
+      "Has a fixed frequency",
+      "Has an output frequency which is proportional to engine speed",
+      "Has an output frequency which is inversely proportional to engine speed",
+    ],
+  },
+  "In a multiple probe thermo couple system, what is the effect if one probe failed?":
+    {
+      answer: "Reduction in temp reading",
+      choices: [
+        "No noticeable effect",
+        "Reduction in temp reading",
+        "Increase in temp reading",
+      ],
+    },
+  "In a ratiometer, if an open circuit occurs:": {
+    answer: "the zero power spring will pull the indicator to zero",
+    choices: [
+      "The ratiometer will go full scale deflection",
+      "the zero power spring will pull the indicator to zero",
+      "The ratiometer will remain in a constant position",
+    ],
+  },
+  "What will happen if the forward speed is increased and the thrust levers remain stationary?":
+    {
+      answer: "EPR decreases",
+      choices: ["EPR decreases", "EPR increases", "No effect"],
+    },
+  "If air is bled from the high pressure compressor:": {
+    answer: "EPR decreases and TGT increases",
+    choices: [
+      "EPR increases",
+      "EPR decreases and TGT increases",
+      "EPR decreases and TGT decreases",
+    ],
+  },
+  "On a fixed pitch propeller single engined aircraft, what is indicated as a measure of power?":
+    {
+      answer: "Engine speed",
+      choices: ["Oil pressure", "Engine speed", "Cylinder head temperature"],
+    },
+  "When heat is added to the combustion chamber:": {
+    answer: "pressure changes slightly and volume increases",
+    choices: [
+      "pressure changes slightly and volume increases",
+      "pressure increases rapidly volume remains constant",
+      "pressure rises at chamber outlet",
+    ],
+  },
+  "A divergent duct will cause a decrease in:": {
+    answer: "velocity, increase pressure",
+    choices: [
+      "pressure, increase velocity",
+      "velocity, increase pressure",
+      "velocity, pressure remains constant",
+    ],
+  },
+  "To ensure an engine sustains self sustain speed:": {
+    answer: "idle increases with density decrease",
+    choices: [
+      "idle increases with density increase",
+      "idle increases with density decrease",
+      "idle remains same for any density",
+    ],
+  },
+  "The diffuser after the compressor, before the combustion chamber:": {
+    answer: "decreases velocity, pressure increases",
+    choices: [
+      "increases velocity, decreases pressure",
+      "increases velocity, pressure remains constant",
+      "decreases velocity, pressure increases",
+    ],
+  },
+  "What may be an indication of a bleed valve stuck in the closed position?": {
+    answer: "Low EGT reading",
+    choices: [
+      "Over speed",
+      "Low EGT reading",
+      "Compressor stalling at low RPM",
+    ],
+  },
+  "Seals on a gas turbine engine restrict leakage of oil by:": {
+    answer: "air pressure",
+    choices: [
+      "spring pressure",
+      "air pressure",
+      "closely tolerated contacting components",
+    ],
+  },
+  "The main advantage of FADEC is:": {
+    answer: "efficiency is always maximum",
+    choices: [
+      "it has electrical control of hydro mechanical unit in all modes",
+      "it changes TLA to most efficient EPR rating",
+      "efficiency is always maximum",
+    ],
+  },
+  "A shroud placed around fuel nozzles:": {
+    answer: "prevents carbon build up",
+    choices: [
+      "flakes the carbon to minimise accumulations",
+      "builds up carbon deposits to assist atomisation",
+      "prevents carbon build up",
+    ],
+  },
+  "In a compressor diffusion action takes place across:": {
+    answer: "rotors and stators",
+    choices: ["rotors", "stators", "rotors and stators"],
+  },
+  "Fir tree turbine blade attachment locates the blade:": {
+    answer: "allows slight movement",
+    choices: ["radially", "axially", "allows slight movement"],
+  },
+  "A factor that limits EGT is:": {
+    answer: "turbine",
+    choices: ["turbine", "compressors", "jet pipe"],
+  },
+  "Excessive EGT can:": {
+    answer: "cause damage to turbine",
+    choices: [
+      "cause damage to jet pipe",
+      "cause damage to turbine",
+      "cause NGV to creep",
+    ],
+  },
+  "Creep may occur to turbine blades due to:": {
+    answer: "over-temp with excessive centrifugal loads",
+    choices: [
+      "prolonged low RPM use",
+      "over-temp with excessive centrifugal loads",
+      "high back pressures",
+    ],
+  },
+  "Water/methanol solution is": {
+    answer: "de-mineralised water methanol depending on engine",
+    choices: [
+      "de-mineralised water methanol depending on engine",
+      "distilled water",
+      "town water/methanol depending on engine",
+    ],
+  },
+  "Oil used in a gas turbine engine is usually:": {
+    answer: "synthetic",
+    choices: ["synthetic", "mineral", "natural"],
+  },
+  "Pipes around engines are:": {
+    answer: "stainless steel",
+    choices: ["mild seamless steel", "stainless steel", "aluminium"],
+  },
+  "Thrust changing with temperatures:": {
+    answer: "will increase at low temperatures",
+    choices: [
+      "will increase at low temperatures",
+      "will decrease at low temperatures",
+      "will increase at high temperatures",
+    ],
+  },
+  "Water/methanol is injected:": {
+    answer: "at high temperatures or high altitudes",
+    choices: [
+      "at high temperature, at high altitudes",
+      "at high temperatures",
+      "at high temperatures or high altitudes",
+    ],
+  },
+  "Inlet side of a fuel pump has:": {
+    answer: "wire mesh filter",
+    choices: [
+      "wire mesh filter",
+      "wire wound filter",
+      "threaded micron filter",
+    ],
+  },
+  "Across the turbines:": {
+    answer: "turbines cool",
+    choices: [
+      "turbines cause temperature rise",
+      "isometric expansion takes place",
+      "turbines cool",
+    ],
+  },
+  "Forces driving turbine are due to:": {
+    answer: "momentum and directional acceleration of gases",
+    choices: [
+      "momentum and directional acceleration of gases",
+      "aerodynamic lift imposing impulse on blades",
+      "expansion of gases",
+    ],
+  },
+  "Impulse turbine blades run cooler than reaction because:": {
+    answer: "temperature drop across NGV is greater",
+    choices: [
+      "impulse spin faster radially",
+      "converging rotors Increase velocity",
+      "temperature drop across NGV is greater",
+    ],
+  },
+  "When thrust is selected to Increase power, pressure drop across FCU:": {
+    answer: "increases",
+    choices: ["drops", "remains the same", "increases"],
+  },
+  "Vane type oil pump output is controlled by:": {
+    answer: "outlet pressure against spring pressure",
+    choices: [
+      "output pressure controlling plate angle",
+      "outlet pressure controlling servo",
+      "outlet pressure against spring pressure",
+    ],
+  },
+  "The intake of a Gas Turbine Engine is designed to:": {
+    answer: "provide turbulent free air",
+    choices: [
+      "protect compressor from FOD",
+      "provide turbulent free air",
+      "provide streamlined fairing for aircraft",
+    ],
+  },
+  "Ways to test serviceability of a fixed fire bottle in situ are:": {
+    answer: "pressure, pop up indicator, blow-out disc",
+    choices: [
+      "weigh, pressure, pop up indicator",
+      "pressure, pop up indicator, blow-out disc",
+      "weigh, pressure, blow-out disc",
+    ],
+  },
+  "An abraidable lining in the fan case:": {
+    answer: "provides acoustic medium",
+    choices: [
+      "prevents fan blade tip rub",
+      "produces less leakage at tips for anti-ice",
+      "provides acoustic medium",
+    ],
+  },
+  "Fibrous metallic lining for noise suppression is used:": {
+    answer: "in hot area",
+    choices: ["in hot area", "in cold area", "for lobe type noise suppressors"],
+  },
+  "Noise lining in the fan area is made from:": {
+    answer: "porous type Honeycomb and backing sheet",
+    choices: [
+      "layers of bonded resin",
+      "porous type Honeycomb and backing sheet",
+      "felt with aluminium sheet",
+    ],
+  },
+  "An increase in turbine diameter is cause by:": {
+    answer: "over temp/centrifugal loads",
+    choices: [
+      "over speed",
+      "products of combustion",
+      "over temp/centrifugal loads",
+    ],
+  },
+  "A jet engine has a high oil temperature but all other power parameters are normal. The probable cause is:":
+    {
+      answer: "a main bearing in distress",
+      choices: [
+        "a main bearing in distress",
+        "gear box leakage",
+        "a large quantity of oil being returned to tank",
+      ],
+    },
+  "If the throttle position remains constant:": {
+    answer: "with increasing OAT, RPM and TGT will increase",
+    choices: [
+      "with increasing OAT,TGT will increase",
+      "with decreasing OAT , RPM will increase",
+      "with increasing OAT, RPM and TGT will increase",
+    ],
+  },
+  "The ring of fixed blades at the intake of an axial flow compressor are called:":
+    {
+      answer: "inlet guide vanes",
+      choices: [
+        "inlet guide vanes",
+        "first stage stator blades",
+        "first stage diffuser blades",
+      ],
+    },
+  "A powerplant consists of:": {
+    answer:
+      "the complete engine as it would be found on aircraft including aH connections, controls, cowlings, intake etc",
+    choices: [
+      "a basic engine plus thrust reversal exhaust system and gear box with accessories",
+      "the complete engine as it would be found on aircraft including aH connections, controls, cowlings, intake etc",
+      "a basic engine plus E.C.U",
+    ],
+  },
+  "The velocity of air on entry to compressor inlet on an aircraft flying supersonic speed would be controlled at":
+    { answer: "Mach 1", choices: ["Mach 1", "Mach 2.2", "Mach 0.4"] },
+  "The optimum air speed for entrance into the compressor is approximately:": {
+    answer: "Mach 0.4",
+    choices: ["Mach 0.4", "same as aircraft speed", "Mach 1"],
+  },
+  "When EEC supervisory circuit sense a fault on the engine, fault announciator light will be on and EEC will:":
+    {
+      answer: "remove fuel, down trimming signal immediately",
+      choices: [
+        "remove fuel, down trimming signal immediately",
+        "remove fuel, down trimming signal only after landing",
+        "remove fuel, down trimming signal only when EEC switch selected off",
+      ],
+    },
+  "When installing flow valve on 'two shot' fire extinguishing system care must be taken to make sure:":
+    {
+      answer: "flow arrow would be in a correct direction",
+      choices: [
+        "flow valve is pointing towards the respective bottle",
+        "priority system must have the bigger flow side",
+        "flow arrow would be in a correct direction",
+      ],
+    },
+  "On a gas turbine engine d.c. starting circuit, if there is an open circuit on the contact of the over speed relay:":
+    {
+      answer: "no power supply is connected to the starter motor",
+      choices: [
+        "no power supply is connected to the starter motor",
+        "starter motor will stop only when starter switch selected off",
+        "starter motor will continue to run for 30 sec and then stop",
+      ],
+    },
+  "The field of the D.C. motor used on gas turbine engine is:": {
+    answer: "series or compound",
+    choices: ["series or compound", "series only", "shunt or compound"],
+  },
+  "Omission of crushable washer on engine fire wire connector will:": {
+    answer: "allow moisture ingress",
+    choices: [
+      "affect fire wire continuity",
+      "allow moisture ingress",
+      "affect fire wire capacitance",
+    ],
+  },
+  "Discharge cartridges of the fire bottle have:": {
+    answer: "life time in hours/or calendar and replace which ever is sooner",
+    choices: [
+      "life time in hours/or calendar and replace which ever is sooner",
+      "life time in hours/calendar and replace which ever is longer",
+      "no life time it is only replaced when unserviceable",
+    ],
+  },
+  "In Flight the engine EEC controls:": {
+    answer: "fuel flow",
+    choices: ["fuel flow", "throttle position", "EGT"],
+  },
+  "When 'blow out' is selected on the Gas Turbine Engine starting circuit:": {
+    answer: "the over-speed relay will de-energise the starter circuit",
+    choices: [
+      "the starter motor stopped only when starter switch selected off",
+      "ignition is continuously on",
+      "the over-speed relay will de-energise the starter circuit",
+    ],
+  },
+  "After an unsuccessful start of an engine:": {
+    answer:
+      "unburnt fuel can be evacuated by motoring the engine with HP cock closed",
+    choices: [
+      "unburnt fuel can be evacuated by motoring the engine with HP cock closed",
+      "the engine has to be left for some time before another start",
+      "unburnt fuel can be drained from fuel drainage lines",
+    ],
+  },
+  "When cleaning salt from compressor:": {
+    answer: "use water at low power then water at Hi power",
+    choices: [
+      "use water then manufacture cleaning solution",
+      "use water at low power then water at Hi power",
+      "never use water .use only recommended solution",
+    ],
+  },
+  "A FADED does not have which of the following?": {
+    answer: "Automatic control of engine fire bottles",
+    choices: [
+      "An automatic starting capability",
+      "Control of thrust reverser operation",
+      "Automatic control of engine fire bottles",
+    ],
+  },
+  "A full Authority FADEC consists of:": {
+    answer: "electronic control and sensors",
+    choices: [
+      "electronic control only",
+      "electronic control and sensors",
+      "electronic control and throttle position transmitter",
+    ],
+  },
+  "What Indication does the pilot receive that thrust reversers have deployed?":
+    {
+      answer: "A sequence of lights",
+      choices: [
+        "A feeling of rapid deceleration",
+        "An audible warning",
+        "A sequence of lights",
+      ],
+    },
+  "What angle are the exhaust gases turned through in a clamshell type thrust reverser?":
+    {
+      answer: "135 degrees",
+      choices: ["45 degrees", "180 degrees", "135 degrees"],
+    },
+  "If an Inlet is choked then velocity:": {
+    answer: "decreases and pressure increases",
+    choices: [
+      "increases and pressure increases",
+      "decreases and pressure increases",
+      "increases and pressure decreases",
+    ],
+  },
+  "During acrobatic manoeuvres what prevents fuel from spilling out of fuel tank vents:":
+    {
+      answer: "float operated valves",
+      choices: [
+        "float operated valves",
+        "baffle plates in tanks",
+        "booster pump differential pressure",
+      ],
+    },
+  "If an aircraft climbs with a fixed throttle position:": {
+    answer: "thrust decreases and rpm increases",
+    choices: [
+      "thrust and rpm remain the same",
+      "thrust increases and rpm remains the same",
+      "thrust decreases and rpm increases",
+    ],
+  },
+  "The bearings of a compressor rotor are usually:   ": {
+    answer: "ball and roller",
+    choices: ["sintered", "ball and roller", "plain"],
+  },
+  "A jet engine derives its thrust by:  ": {
+    answer: "reaction of the propelling gases",
+    choices: [
+      "drawing air into the compressor",
+      "impingement of the propelling gases on the outside air",
+      "reaction of the propelling gases",
+    ],
+  },
+  "What will be the effect of operating the intake anti-icing system of a gas turbine engine?  ":
+    {
+      answer: "A decrease in power",
+      choices: [
+        "A decrease in power",
+        "Increased power at altitude",
+        "Increased power for take off",
+      ],
+    },
+  "An advantage of a centrifugal compressor is:": {
+    answer: "it is robust and can stand some shock from ‘icing up’",
+    choices: [
+      "it is dynamically balanced",
+      "it is robust and can stand some shock from ‘icing up’",
+      "it is unaffected by turbulence",
+    ],
+  },
+  "Variable inlet guide vanes prevent:": {
+    answer: "compressor stalling",
+    choices: [
+      "compressor runaway",
+      "compressor stalling",
+      "ice build up on compressor blades",
+    ],
+  },
+  "During acceleration, the fuel flow is increased at a controlled rate in order to:":
+    {
+      answer: "prevent surge and the risk of flame-out",
+      choices: [
+        "increase s.f",
+        "",
+        "prevent fuel pump damage",
+        "prevent surge and the risk of flame-out",
+      ],
+    },
+  "Which of the following is the least likely indication of a main bearing failure?":
+    {
+      answer: "High oil pressure",
+      choices: [
+        "High oil temperature",
+        "High oil consumption",
+        "High oil pressure",
+      ],
+    },
+  "An axial flow compressor surges when:": {
+    answer: "all stages are stalled",
+    choices: [
+      "all stages are stalled",
+      "early stages are stalled",
+      "later stages are stalled",
+    ],
+  },
+  "As a consequence of tapping air from the compressor, the TGT will:": {
+    answer: "rise",
+    choices: ["rise", "remain constant", "fall"],
+  },
+  "Compressor air bleeds promote d flow of air thru the early stages by: ": {
+    answer: "opening to allow air out",
+    choices: ["opening to allow air in", "opening to allow air out", "closing"],
+  },
+  "Compressor blades have reduced angle of attacked tips:": {
+    answer: "to allow uniform axial velocity",
+    choices: [
+      "to allow uniform axial velocity",
+      "to prevent turbine stall",
+      "to increase velocity",
+    ],
+  },
+  "The chip detector in the oil system is a:": {
+    answer: "magnetic plug in the return line",
+    choices: [
+      "magnetic plug in the return line",
+      "window in the oil pump",
+      "window in the pump casing",
+    ],
+  },
+  "Nozzle guide vanes give:": {
+    answer: "pressure decrease, velocity increase",
+    choices: [
+      "pressure increase, velocity decrease",
+      "pressure decrease, velocity increase",
+      "pressure increase, velocity increase",
+    ],
+  },
+  "After shutdown, flames are present in the exhaust pipe. The probable cause is:":
+    {
+      answer: "a defective pressurizing and dump valve",
+      choices: [
+        "a defective fuel control unit (FCU)",
+        "a defective HP cock",
+        "a defective pressurizing and dump valve",
+      ],
+    },
+  "The BPC controls the FCU by:": {
+    answer: "pressure sensing",
+    choices: ["pressure sensing", "temperature sensing", "density sensing"],
+  },
+  "If the LP cock is used to shutdown an engine: ": {
+    answer: "the fuel pump will run dry",
+    choices: [
+      "the fuel pump will run dry",
+      "the FCU will continue to function",
+      "flames will appear in the exhaust",
+    ],
+  },
+  "Compressor surge is caused by:": {
+    answer: "over fuelling",
+    choices: [
+      "over fuelling",
+      "rapid closing of the throttle",
+      "prolonged engine running at high RPM",
+    ],
+  },
+  "Shrouding of stator blade tips is to:": {
+    answer: "minimise vibration",
+    choices: [
+      "prevent tip turbulence",
+      "ensure adequate cooling",
+      "minimise vibration",
+    ],
+  },
+  "The RPM for maximum power would be:": {
+    answer: "lower on a colder day",
+    choices: [
+      "lower on a colder day",
+      "lower on a hotter day",
+      "greater on a colder day",
+    ],
+  },
+  "The spark in the HE igniter is supplied by: ": {
+    answer: "a capacitor",
+    choices: ["a capacitor", "the AC busbar", "a contact circuit breaker"],
+  },
+  "If the swash plate of a positive displacement swash plate pump is perpendicular to the axis of the pump, the flow will be:":
+    { answer: "zero", choices: ["reversed", "zero", "maximum"] },
+  "What is DERD 2494?": {
+    answer: "Kerosene",
+    choices: ["Kerosene", "Oil", "Wide cut gasoline"],
+  },
+  "The burner fuel flow is at maximum at:": {
+    answer: "I.S.A. sea level",
+    choices: ["altitude", "I.S.A. sea level", "10oC above I.S.A. sea level"],
+  },
+  "Engine thrust varies with temperature:": {
+    answer:
+      "low temperature gives greater mass flow and therefore greater thrust",
+    choices: [
+      "low temperatures give low thrust",
+      "increase in temperature gives greater thrust because of low friction in compressors",
+      "low temperature gives greater mass flow and therefore greater thrust",
+    ],
+  },
+  "A Pitot intake is divergent from front to rear because it: ": {
+    answer: "produces the maximum amount of ram compression",
+    choices: [
+      "reduces ram compression and turbulence",
+      "speeds up the air before it hits the compressor face",
+      "produces the maximum amount of ram compression",
+    ],
+  },
+  "A method of comparing engine efficiencies is by comparing:": {
+    answer: "specific fuel consumption",
+    choices: [
+      "thrust to weight ratio",
+      "specific fuel consumption",
+      "fuel consumption",
+    ],
+  },
+  "When rotating, the gear type oil pump:": {
+    answer:
+      "draws oil into the pump and carries it round between the gear teeth and casing",
+    choices: [
+      "draws oil into the pump and carries it round between the gear teeth and casing",
+      "oil is drawn into the pump and through the intermeshing gears to the outlet",
+      "oil is drawn into the pump, half being carried around between pump and casing, the other half passing between the gears to the outlet",
+    ],
+  },
+  "A high viscosity index means the oil viscosity:  ": {
+    answer: "will not vary greatly with temperature change",
+    choices: [
+      "will vary greatly with temperature change",
+      "will not vary greatly with temperature change",
+      "has a large index number",
+    ],
+  },
+  "The type of fuel control unit most commonly used in modern jet engines is: ":
+    {
+      answer: "hydro-mechanical",
+      choices: ["electrical", "mechanical", "hydro-mechanical"],
+    },
+  "Self sustaining speed is:": {
+    answer: "the RPM at which the engine continues without external assistance",
+    choices: [
+      "the RPM at which the engine continues without external assistance",
+      "V1 speed",
+      "take off velocity",
+    ],
+  },
+  "Pressure rise across a single spool axial flow compressor is:  ": {
+    answer: "up to fifteen to one",
+    choices: ["two to one", "four to one", "up to fifteen to one"],
+  },
+  "What purpose do the diffuser vanes of a centrifugal compressor serve?   ": {
+    answer: "To convert kinetic energy into pressure energy",
+    choices: [
+      "To increase the air velocity",
+      "To convert pressure energy into kinetic energy",
+      "To convert kinetic energy into pressure energy",
+    ],
+  },
+  "The main reason for adding methanol to the water is to:": {
+    answer: "prevent mixture freezing",
+    choices: [
+      "supply the additional heat required",
+      "temper the cooling effect of the water to prevent distortion",
+      "prevent mixture freezing",
+    ],
+  },
+  "In a reverse flow system the last stage of an axial flow compressor is often centrifugal, this is to:":
+    {
+      answer: "provide initial turning of the airflow",
+      choices: [
+        "provide initial turning of the airflow",
+        "prevent compressor surge",
+        "increase the temperature rise",
+      ],
+    },
+  "Reverse thrust can only be selected when the throttle is:   ": {
+    answer: "closed",
+    choices: ["75% power position", "open", "closed"],
+  },
+  "The overall air/fuel ratio of a combustion chamber can vary between:": {
+    answer: "45:1 and 130:1",
+    choices: ["10:1 and 45:1", "45:1 and 130:1", "130:1 and 200:1"],
+  },
+  "How is servo pressure, which is used to control fuel pump swash plate angle, obtained?":
+    {
+      answer: "From pump delivery pressure through fixed restrictions",
+      choices: [
+        "From pump inlet pressure thru fixed restrictions",
+        "From pump delivery pressure through fixed restrictions",
+        "From pump delivery pressure through variable restrictions",
+      ],
+    },
+  "Why is the Barometric Pressure Control fitted in a gas turbine engine fuel system  ":
+    {
+      answer:
+        "To vary pressure pump output in relation to the pressure variation at the intake",
+      choices: [
+        "To decrease the fuel flow to the burners with increased air intake pressure",
+        "To proportion the fuel flow between primary and main burner lines",
+        "To vary pressure pump output in relation to the pressure variation at the intake",
+      ],
+    },
+  "When light-up takes place: ": {
+    answer: "Interconnectors spread the heat to adjacent flame tubes",
+    choices: [
+      "the nozzle guide vanes spread the heat to adjacent flame tubes",
+      "Interconnectors spread the heat to adjacent flame tubes",
+      "each flame tube is isolated from its neighbours",
+    ],
+  },
+  "During any stabilised running condition the spill or half ball valve is:  ":
+    {
+      answer: "lightly seated",
+      choices: ["open fully", "closed fully", "lightly seated"],
+    },
+  "The swash plate in a fuel pump (stati": {
+    answer: "in the maximum position",
+    choices: [
+      "in the minimum position",
+      "in the maximum position",
+      "at some intermediate position",
+    ],
+  },
+  "Bearing seal failure would most probably cause:  ": {
+    answer: "high oil consumption",
+    choices: [
+      "high oil temperature",
+      "low oil pressure",
+      "high oil consumption",
+    ],
+  },
+  "The purpose of the rotating guide vanes on a centrifugal compressor is to:":
+    {
+      answer: "provide initial diffusing of the air",
+      choices: [
+        "prevent damage by solid objects",
+        "direct the air smoothly into the impeller",
+        "provide initial diffusing of the air",
+      ],
+    },
+  "With fixed throttle in a climb:": {
+    answer: "RPM will increase",
+    choices: [
+      "RPM will increase",
+      "RPM will decrease",
+      "RPM will remain constant",
+    ],
+  },
+  "A kinetic valve is a device used to control HP pump output. This is achieved by movement of a: ":
+    {
+      answer: "knife blade",
+      choices: ["needle valve", "diaphragm and half ball valve", "knife blade"],
+    },
+  "The point of maximum velocity in the engine is in the:": {
+    answer: "exhaust exit nozzle",
+    choices: [
+      "exhaust exit nozzle",
+      "combustion chamber",
+      "nozzle guide vanes",
+    ],
+  },
+  "The minimum bend radius for a continuous loop type fire wire is:  ": {
+    answer: '1"',
+    choices: ['1/8"', '1/2"', '1"'],
+  },
+  "The compression ratio of a jet engine is:": {
+    answer:
+      "the ratio btw compressor inlet pressure and compressor outlet pressure",
+    choices: [
+      "the compressor outlet pressure divided by the number of compressor stages",
+      "the ratio between turbine pressure and compressor outlet pressure",
+      "the ratio btw compressor inlet pressure and compressor outlet pressure",
+    ],
+  },
+  "In the H.E.I.U. the discharge resistors:": {
+    answer: "allows the capacitors to discharge when the unit is switched off",
+    choices: [
+      "allows sufficient voltage to be stored to provide relight facilities up to 55,000 ft",
+      "protects the unit from excessive voltages",
+      "allows the capacitors to discharge when the unit is switched off",
+    ],
+  },
+  "A free turbine is one in which:": {
+    answer:
+      "there is a reduction gear between the compressor and power output shaft",
+    choices: [
+      "there is no mechanical connection between the compressor turbine and the power shaft",
+      "the compressor shaft is not mechanically connected to the compressor turbine",
+      "there is a reduction gear between the compressor and power output shaft",
+    ],
+  },
+  "Why do the holes in the body of the duple burner provide air to the shroud around the burner head? ":
+    {
+      answer: "To minimise carbon formation on the burner face",
+      choices: [
+        "To reduce burner temperature",
+        "To minimise carbon formation on the burner face",
+        "To assist atomisation of the fuel at slow running",
+      ],
+    },
+  "The air passing through the combustion chamber of a jet engine is:": {
+    answer: "used to support combustion and to cool the engine",
+    choices: [
+      "used to support combustion and to cool the engine",
+      "entirely combined with fuel and burned",
+      "speeded up and heated by the action of the turbines",
+    ],
+  },
+  "Water used in a thrust augmentation system should be demineralised to prevent:  ":
+    {
+      answer: "fouling the blades and vanes",
+      choices: [
+        "blocking the jet",
+        "fouling the blades and vanes",
+        "carbon formation",
+      ],
+    },
+  "A Convergent-Divergent nozzle:": {
+    answer: "makes maximum use of Pressure thrust",
+    choices: [
+      "produces a type of thrust known as kinetic thrust",
+      "makes maximum use of Pressure thrust",
+      "requires the aircraft to be travelling at supersonic speeds",
+    ],
+  },
+  "A toroidal vortex is:  ": {
+    answer: "a region in the combustion chamber of low velocity re-circulation",
+    choices: [
+      "a bull-nosed cowling for deflecting air from the static",
+      "a vapour trail visible in moist air conditions",
+      "a region in the combustion chamber of low velocity re-circulation",
+    ],
+  },
+  "The quantity of water usually carried by an aircraft equipped with water injection is enough for: ":
+    {
+      answer: "1 take-off",
+      choices: ["1 take-off", "2 take-offs", "3 take-offs"],
+    },
+  "A fuel system icing inhibitor is a fuel additive which:": {
+    answer: "prevents the water in the fuel freezing",
+    choices: [
+      "prevents the fuel from freezing",
+      "prevents the water in the fuel freezing",
+      "prevents both the water and the fuel freezing",
+    ],
+  },
+  "Why are two or more turbine wheels coupled?   ": {
+    answer: "so power output is doubled",
+    choices: [
+      "so power output is doubled",
+      "to keep turbine rotor diameter small",
+      "to simplify dynamic balancing",
+    ],
+  },
+  "On front fan engines, to obtain thrust reversal, the:": {
+    answer: "cold stream is reversed",
+    choices: [
+      "hot stream is reversed",
+      "cold stream is reversed",
+      "hot and cold streams are reversed",
+    ],
+  },
+  "How are extinguisher spray rings checked for freedom from obstruction? ": {
+    answer: "Blowing through with compressed air",
+    choices: [
+      "Blowing through with compressed air",
+      "Firing the system",
+      "Pumping water through the system",
+    ],
+  },
+  "What is a ‘cannular’ combustion system?": {
+    answer: "A set of flame tubes, enclosed in a common air casing",
+    choices: [
+      "One common flame tube closed in a common air casing",
+      "A set of flame tubes, enclosed in a common air casing",
+      "A set of flame tubes, each mounted in a separate air casing",
+    ],
+  },
+  "Exhaust noise can be reduced by:  ": {
+    answer: "increasing the mixing rate",
+    choices: [
+      "lowering the vibration frequency",
+      "increasing the jet velocity",
+      "increasing the mixing rate",
+    ],
+  },
+  "The rate of discharge of a H.E.I.U. is": {
+    answer: "60 - 100 per minute",
+    choices: [
+      "4 discharges per revolution",
+      "60 - 100 per minute",
+      "60 - 100 per second",
+    ],
+  },
+  "Fuel entering the combustion chamber from an atomizer spray nozzle enters as:":
+    {
+      answer: "a fuel/air mixture",
+      choices: [
+        "a fuel/air mixture",
+        "fuel in air pulses",
+        "fuel continuously",
+      ],
+    },
+  "Why are oil seals pressurised?    ": {
+    answer:
+      "To ensure that the oil is prevented from leaving the bearing housing",
+    choices: [
+      "To ensure minimum oil loss",
+      "To ensure oil is forced into the bearings",
+      "To ensure that the oil is prevented from leaving the bearing housing",
+    ],
+  },
+  "A bleed valve:": {
+    answer: "relieves compressor choking at low RPM",
+    choices: [
+      "relieves compressor choking at low RPM",
+      "bleeds air from compressor for intake de-icing",
+      "controls air intake pressure",
+    ],
+  },
+  "If a compressor has a compression ratio of 9:1 and an intake compression of 2:1 what is the overall compression ratio?":
+    {
+      answer: "18:1",
+      choices: [
+        "11:1",
+        "18:1",
+        "9:1 intake compression does not add to the overall compression ratio of the system",
+      ],
+    },
+  "A compressor stage stalls when:": {
+    answer: "smooth airflow is disrupted",
+    choices: [
+      "compression ratio is too high",
+      "adiabatic temperature rise is too high",
+      "smooth airflow is disrupted",
+    ],
+  },
+  "Inlet guide vanes are fitted to:  ": {
+    answer: "control the angle of airflow into the compressor",
+    choices: [
+      "guide the airflow",
+      "control the angle of airflow into the compressor",
+      "control the quantity of air entering the intake",
+    ],
+  },
+  "Why in an axial flow compressor is the cross sectional area of the compressor air duct reduced at each stage:":
+    {
+      answer: "to maintain the velocity of the air under rising pressure",
+      choices: [
+        "to decrease the velocity of the air rising under pressure",
+        "to maintain the velocity of the air under rising pressure",
+        "to permit stronger, shorter blades to be used in the later stages",
+      ],
+    },
+  "Why do the holes in the body of the duple burner provide air to shroud around the burner head?":
+    {
+      answer: "to minimise carbon formation",
+      choices: [
+        "to reduce burner temperature",
+        "to minimise carbon formation",
+        "to assist atomisation of the fuel at slow running",
+      ],
+    },
+  "At constant RPM the pressure ratio of the compressor and the temperature rise across the compressor:":
+    {
+      answer: "remains constant irrespective of height",
+      choices: [
+        "remains constant irrespective of height",
+        "decrease with height",
+        "increases with height",
+      ],
+    },
+  "With an electrical ice protection system, the heating elements operate:": {
+    answer: "intermittently",
+    choices: [
+      "continuously",
+      "intermittently",
+      "part continuous-part intermittent",
+    ],
+  },
+  "When accelerating from 'light-up' to ground idling speed, the EGT will:": {
+    answer: "increase above idle value then decrease to normal",
+    choices: [
+      "increase above idle value then decrease to normal",
+      "decrease below idle value then increase to normal",
+      "remain constant",
+    ],
+  },
+  "Air through the compressor, before entering the combustion chamber passes:  ":
+    {
+      answer: "through divergent passage to increase the pressure",
+      choices: [
+        "through nozzles to increase the velocity",
+        "through divergent passage to increase the pressure",
+        "through divergent passage to decrease the pressure",
+      ],
+    },
+  "Why is it necessary to control fuel supply to the engine during rapid acceleration?  ":
+    {
+      answer: "To prevent excessively high EGT and possible compressor surge",
+      choices: [
+        "",
+        "To prevent excessively high EGT and possible compressor surge",
+        "To prevent compressor stall above cruise RPM",
+      ],
+    },
+  "An advantage of an annular combustion system is:": {
+    answer:
+      "decrease in combustor length compared to a tubo-annular combustor of the same output",
+    choices: [
+      "decrease in combustor length compared to a tubo-annular combustor of the same output",
+      "unrestricted airflow at maximum RPM",
+      "diameter of engine is reduced due to the cans being smaller",
+    ],
+  },
+  "A gas turbine engine is stopped by closing: ": {
+    answer: "HP cock",
+    choices: ["HP cock", "LP cock", "throttle valve"],
+  },
+  "Low mass airflow through a compressor will produce:": {
+    answer: "stalling of early stages",
+    choices: [
+      "have no effect",
+      "stalling of rear stages",
+      "stalling of early stages",
+    ],
+  },
+  "Why is the low pressure fuel pump fitted in a gas turbine engine aircraft?":
+    {
+      answer:
+        "To maintain a vapour free pressure from the aircraft fuel tanks to the HP fuel pump",
+      choices: [
+        "To maintain a vapour free pressure from the aircraft fuel tanks to the HP fuel pump",
+        "As an emergency in case of failure of the HP pump",
+        "As a booster to the HP pump for excess fuel required during sudden throttle openings",
+      ],
+    },
+  "If compressor surge occurs it is recognized by:   ": {
+    answer: "coughing in compressor and vibration",
+    choices: [
+      "fluctuating RPM and fuel flow",
+      "fluctuating EGT and oil temperature",
+      "coughing in compressor and vibration",
+    ],
+  },
+  "An abradable lining around the fan is to:": {
+    answer: "strengthen EPR value",
+    choices: [
+      "prevent fan blade tip rub",
+      "provide less leakage for anti-icing",
+      "strengthen EPR value",
+    ],
+  },
+  "If air is taken from the compressor for air conditioning or anti-icing:  ": {
+    answer: "thrust will decrease EGT will increase",
+    choices: [
+      "thrust will decrease EGT will decrease",
+      "thrust will increase EGT will increase",
+      "thrust will decrease EGT will increase",
+    ],
+  },
+  "A “wet start” is indicated by:": {
+    answer: "no temperature indication",
+    choices: [
+      "low rpm",
+      "a prolonged cranking period",
+      "no temperature indication",
+    ],
+  },
+  "With the aircraft stationary, propulsive efficiency:": {
+    answer: "is minimum",
+    choices: ["is minimum", "depends on RPM", "is maximum"],
+  },
+  "What is the Engine Pressure Ratio (EPR) used to indicate? ": {
+    answer: "The thrust produced by the engine",
+    choices: [
+      "The thrust produced by the engine",
+      "To limit the maximum exhaust gas temperature",
+      "As a cross check for minimum acceptable thrust",
+    ],
+  },
+  "The efficiency conversion of kinetic energy into propulsive work is a measure of:":
+    {
+      answer: "propulsive efficiency",
+      choices: [
+        "thermal efficiency",
+        "propulsive efficiency",
+        "mechanical efficiency",
+      ],
+    },
+  "The engine accelerates to idling by:": {
+    answer: "combined efforts of starter motor and gas flow",
+    choices: [
+      "starter motor",
+      "gas flow",
+      "combined efforts of starter motor and gas flow",
+    ],
+  },
+  "Running clearance is kept to a minimum to reduce: ": {
+    answer: "tip losses",
+    choices: ["aerodynamic buffeting", "temperature loss", "tip losses"],
+  },
+  "Two basic types of turbine blades are:  ": {
+    answer: "reaction and impulse",
+    choices: [
+      "tangential and reaction",
+      "reaction and impulse",
+      "impulse and vector",
+    ],
+  },
+  "Adiabatic compression is:   ": {
+    answer: "no loss or gain of heat",
+    choices: [
+      "an isothermal process",
+      "no loss or gain of heat",
+      "an increase in kinetic energy",
+    ],
+  },
+  "Allowable damage on the first stage compressor blade is restricted to:   ": {
+    answer: "middle third of the blade to the outer edge",
+    choices: [
+      "root end of the blade",
+      "middle third of the blade to the outer edge",
+      "outer third of the blade to the outer edge",
+    ],
+  },
+  "A turbine disc is:     ": {
+    answer: "a disc at the core of the engine that the blades are attached to",
+    choices: [
+      "a segmented or complete shroud on blade tips that reduces leakage",
+      "a disc at the core of the engine that the blades are attached to",
+      "a shroud around the stators of the turbine",
+    ],
+  },
+  "When carrying out a borescope the damage on turbine blades that would indicate a failure is:":
+    {
+      answer: "tip curl",
+      choices: ["colour changes", "tip curl", "speckling"],
+    },
+  "Power is adjusted in a gas turbine engine by:   ": {
+    answer: "increasing air and fuel flow",
+    choices: [
+      "increasing airflow to the combustion chamber",
+      "increasing air and fuel flow",
+      "increasing fuel flow",
+    ],
+  },
+  "An HMU receives its signals from:": {
+    answer: "EEC",
+    choices: ["EEC", "ADC", "thrust lever resolvers"],
+  },
+  "In a ducted fan engine, the fan is driven by the:   ": {
+    answer: "turbine",
+    choices: [
+      "accessory gearbox",
+      "turbine",
+      "air passing over the compressor",
+    ],
+  },
+  "The engine rating plug:   ": {
+    answer: "is permanently connected to the Engine casing",
+    choices: [
+      "is permanently connected to the EEC",
+      "is permanently connected to the Engine casing",
+      "is connected to the EPR transmitter",
+    ],
+  },
+  "In a FADEC system, active control switchover occurs: ": {
+    answer: "on engine start up only",
+    choices: [
+      "on shutdown",
+      "when channels A and B are healthy",
+      "on engine start up only",
+    ],
+  },
+  "An APU is on line above:  ": {
+    answer: "100%",
+    choices: ["75%", "95%", "100%"],
+  },
+  "The fuel flow in a turbo-prop engine is controlled:  ": {
+    answer: "manually",
+    choices: [
+      "manually",
+      "automatically",
+      "manually, to compensate for high density",
+    ],
+  },
+  "On storage of engine the desiccant is:  ": {
+    answer: "looked at 24 hrs later if its blue it is ok",
+    choices: [
+      "looked at 24 hrs later if pink it should be replaced",
+      "looked at within 24 hrs if its blue it is ok",
+      "looked at 24 hrs later if its blue it is ok",
+    ],
+  },
+  "The valve on a vane type fuel flow measuring device becomes stuck. What safety backup is available for the engine fuel flow? ":
+    {
+      answer: "a bypass valve",
+      choices: [
+        "a fuel bleed valve",
+        "a bypass valve",
+        "a differential pressure bypass valve",
+      ],
+    },
+  "An APU may be considered to be:": {
+    answer: "constant speed",
+    choices: [
+      "constant speed",
+      "variable speed, standby engine",
+      "variable speed, self contained engine",
+    ],
+  },
+  "An APU power lever is located:": {
+    answer: "An APU is fully automatic and does not require a power lever",
+    choices: [
+      "behind the throttles",
+      "at the Flight Engineer Station",
+      "An APU is fully automatic and does not require a power lever",
+    ],
+  },
+  "Flat Rated thrust is defined as:    ": {
+    answer:
+      "the thrust at the ambient temperature point above which thrust drops below 100%",
+    choices: [
+      "the thrust at the ambient temperature point above which thrust drops below 100%",
+      "that power achieved at Idle RPM",
+      "that power achieved at Maximum EGT",
+    ],
+  },
+  "Supervisory EEC sends its output to the:  ": {
+    answer: "HMU/FFG",
+    choices: ["fuel valve", "HMU/FFG", "EGT thermocouple circuit"],
+  },
+  "After placing an engine into storage, details would be recorded in:": {
+    answer: "Engine log book",
+    choices: ["Technical Log", "Engine log book", "Aircraft log book"],
+  },
+  "An APU consists of:  ": {
+    answer: "a power compressor and load compressor",
+    choices: [
+      "a load compressor and free turbine",
+      "a power compressor and directly connected turbine",
+      "a power compressor and load compressor",
+    ],
+  },
+  "A convergent exhaust nozzle produces mainly:": {
+    answer: "Momentum thrust",
+    choices: [
+      "Momentum thrust",
+      "Pressure thrust",
+      "Momentum and Pressure thrust",
+    ],
+  },
+  "When storing an engine the fuel system is to be inhibited. How is this done?  ":
+    {
+      answer: "Remove plugs rotate engine then add oil",
+      choices: [
+        "Remove plugs rotate engine then add oil",
+        "Rotate engine whilst adding oil then remove plugs",
+        "Add oil leaving plugs in",
+      ],
+    },
+  "Variable Ramp Intakes restrict airflow by:  ": {
+    answer: "creating shockwaves in the intake",
+    choices: [
+      "reducing the area of the intake",
+      "diverting the airflow around the intake",
+      "creating shockwaves in the intake",
+    ],
+  },
+  "The accessory gearbox of a high bypass engine is located:": {
+    answer: "on the HP Compressor housing",
+    choices: [
+      "in the fwd bearing housing",
+      "on the HP Compressor housing",
+      "on the left side of the fan case",
+    ],
+  },
+  "Tip speed of a centrifugal compressor can reach:  ": {
+    answer: "Mach 1.3",
+    choices: ["Mach 0.8", "Mach 1", "Mach 1.3"],
+  },
+  "A broadband vibration reading indicates:  ": {
+    answer: "the average vibration",
+    choices: [
+      "the N1 vibration",
+      "the average vibration",
+      "the peak allowable vibration",
+    ],
+  },
+  "Thrust rating on an FADEC controlled engine can be changed by:": {
+    answer: "changing the engine rating plug",
+    choices: [
+      "varying the EPR datum plug",
+      "varying the ballast resistor in the EGT system",
+      "changing the engine rating plug",
+    ],
+  },
+  "A full flow oil system has:": {
+    answer: "a variable oil pressure dependant upon throttle setting",
+    choices: [
+      "a single fixed minimum oil pressure",
+      "a hot and cold oil pressure limit",
+      "a variable oil pressure dependant upon throttle setting",
+    ],
+  },
+  "In a large commercial passenger transport aircraft the APU supplies:": {
+    answer: "pneumatics and electrics",
+    choices: ["pneumatics", "electrics", "pneumatics and electrics"],
+  },
+  "Vibration analysers determine which component is vibrating by analysing:": {
+    answer: "frequency",
+    choices: ["frequency", "amplitude", "voltage"],
+  },
+  "Turbine case cooling utilizes: ": {
+    answer: "Fan Air",
+    choices: ["HP Compressor Air", "LP Compressor Air", "Fan Air"],
+  },
+  "When both channels are healthy they will alternate:": {
+    answer: "on each engine start",
+    choices: [
+      "on each engine start",
+      "when one channel fails",
+      "as selected on the flightdeck",
+    ],
+  },
+  "The purpose of the LP fuel pump is to: ": {
+    answer: "ensure the HP fuel pump does not cavitate",
+    choices: [
+      "ensure the fuel flow governor gets enough fuel",
+      "pump fuel from the aircraft fuel tanks to the engine",
+      "ensure the HP fuel pump does not cavitate",
+    ],
+  },
+  "The resultant velocity of air exiting an axial compressor stage depends upon:  ":
+    {
+      answer: "Both of the above",
+      choices: [
+        "aircraft forward speed",
+        "compressor RPM",
+        "Both of the above",
+      ],
+    },
+  "Thrust in a high bypass fan engine is indicated by:": {
+    answer: "N1 RPM or EPR",
+    choices: ["N1 RPM or EPR", "N3 RPM or P1/P4 ratio", "N1 RPM or N3 RPM"],
+  },
+  "In a FADEC what is the result of Channel A failing to receive information from a sensor?  ":
+    {
+      answer: "Channel A will take the information from channel B",
+      choices: [
+        "Channel B will assume control",
+        "Channel A will take the information from channel B",
+        "Channel A will take the information from the backup sensor",
+      ],
+    },
+  "Thrust in a high bypass engine is indicated by measuring: ": {
+    answer: "neither of the above, thrust is not indicated in flight",
+    choices: [
+      "N3 RPM",
+      "fuel flow",
+      "neither of the above, thrust is not indicated in flight",
+    ],
+  },
+  "Air for anti-icing is taken from:": {
+    answer: "HP compressor",
+    choices: ["LP compressor", "HP compressor", "accessory Gearbox"],
+  },
+  "Dilution air is placed:   ": {
+    answer:
+      "in the dilution zone of the combustion chamber after the primary zone",
+    choices: [
+      "in the primary zone of the combustion chamber",
+      "in the swirl vanes of the combustor",
+      "in the dilution zone of the combustion chamber after the primary zone",
+    ],
+  },
+  "A felt filter in an oil lubrication system should be:   ": {
+    answer: "removed and replaced with a new filter element",
+    choices: [
+      "removed and cleaned in a container of lead free petrol",
+      "removed and replaced with a new filter element",
+      "removed and cleaned in MEK",
+    ],
+  },
+  "What filter is used in a oil scavenge pump in the inlet side of the pump?": {
+    answer: "Wire mesh filter",
+    choices: ["Wire wound filter", "Wire mesh filter", "Threaded filter"],
+  },
+  "Anti-icing for a turboprop is achieved by:": {
+    answer: "electric bonded heater mats",
+    choices: [
+      "bleed air supply from compressor",
+      "electric bonded heater mats",
+      "hot oil supply from lubrication system",
+    ],
+  },
+  "HEIU ignitor plugs receive their electrical supply from:": {
+    answer: "discharge capacitor",
+    choices: [
+      "discharge inductor",
+      "discharge capacitor",
+      "starter system electrical circuit",
+    ],
+  },
+  "Switch over on a FADEC engine occurs:": {
+    answer: "only on engine startup",
+    choices: [
+      "only on engine startup",
+      "when engine is shut down",
+      "when the A and B channels are 'healthy'",
+    ],
+  },
+  "Vibration pick-ups are located: ": {
+    answer: "on the turbine case",
+    choices: [
+      "on the turbine case",
+      "on the fan/compressor case",
+      "on both fan and turbine cases",
+    ],
+  },
+  "A divergent intake is:": {
+    answer: "divergent from front to rear",
+    choices: [
+      "convergent/Divergent from front to rear",
+      "divergent/Convergent from front to rear",
+      "divergent from front to rear",
+    ],
+  },
+  "High frequency vibration:": {
+    answer: "causes engine components to crack",
+    choices: [
+      "energises air particles prior to compression",
+      "can give an indication of a fluctuating (EPR)",
+      "causes engine components to crack",
+    ],
+  },
+  "What is used as an extinguishant in fire bottles?  ": {
+    answer: "Halogenated hydrocarbons",
+    choices: ["Water", "Halogenated hydrocarbons", "Freon compounds"],
+  },
+  "What purpose does the nose cone serve on the (N1) fan on a high bypass engine?":
+    {
+      answer: "Streamlined fairing",
+      choices: [
+        "Assist in diffusing airflow",
+        "Reduce and straighten any turbulent air",
+        "Streamlined fairing",
+      ],
+    },
+  "Which law relates to the kinetic, pressure, and potential energy in fluid flow?":
+    {
+      answer: "Bernoulli's theorem",
+      choices: ["Charles's law", "Bernoulli's theorem", "Newton's laws"],
+    },
+  "An HEIU is rated in:": {
+    answer: "Joules",
+    choices: ["Watts", "Joules", "Amps"],
+  },
+  "In a capacitive type fuel quantity indicating system the tank units are connected in":
+    { answer: "parallel", choices: ["", "series/parallel", "parallel"] },
+  "Fuel trimming on a turbo prop engine is:": {
+    answer: "governor controlled",
+    choices: ["automatic", "pilot controlled", "governor controlled"],
+  },
+  "With external power applied the engine will not run up to idle after reaching starting speed. The likely fault would be with the:":
+    {
+      answer: "Fuel Control Unit",
+      choices: ["battery", "clutch", "Fuel Control Unit"],
+    },
+  "If the area of the nozzle was too large the effect is:": {
+    answer: "exit velocity lower causing loss of the thrust",
+    choices: [
+      "exit velocity lower causing loss of the thrust",
+      "exit velocity lower, negligible effect on thrust",
+      "will 'choke' at mach 1",
+    ],
+  },
+  "What controls the fuel trimmer on a turbo prop engine?": {
+    answer: "Engine Speed Governor",
+    choices: [
+      "Propeller Control Unit",
+      "Engine Speed Governor",
+      "The blade angle",
+    ],
+  },
+  "Water methanol injection will increase thrust by up to:": {
+    answer: "30%",
+    choices: ["30%", "70%", "50%"],
+  },
+  "A glow plug operates:": {
+    answer: "by heat action",
+    choices: ["manually", "electrically", "by heat action"],
+  },
+  "The approximate % of the mass airflow taken in by name tube shout is:": {
+    answer: "18%",
+    choices: ["18%", "82%", "8%"],
+  },
+  "The density of gas may be expressed as:": {
+    answer: "weight/volume",
+    choices: ["pressure/volume", "volume/weight", "weight/volume"],
+  },
+  "Advantage of an axial flow over a centrifugal flow GTE": {
+    answer: "high peak efficiencies",
+    choices: [
+      "low weight",
+      "high peak efficiencies",
+      "power required for starting is less",
+    ],
+  },
+  "How are turbine disks attached to the shaft in GTE": {
+    answer: "belted",
+    choices: ["belted", "splined", "curvic couplings"],
+  },
+  "The position of fuel heater in fuel system is:": {
+    answer: "before the LP fuel filter",
+    choices: [
+      "after the LP fuel filter and before the HP pump",
+      "before the LP fuel filter",
+      "between the fuel control unit and the burner manifold",
+    ],
+  },
+  "Injection of water/methanol into compressor inlet causes:": {
+    answer: "increase in power without the need for burning extra fuel",
+    choices: [
+      "increase in power without the need for burning extra fuel",
+      "increase in power due to the burning of methanol alone",
+      "increased efficiency of the engine due to reduced icing in the airflow",
+    ],
+  },
+  "Flame stabilization in combustion chamber is achieved by:": {
+    answer: "the airflow pattern",
+    choices: [
+      "the airflow pattern",
+      "the correct air/fuel ratio",
+      "the correct burner pressure",
+    ],
+  },
+  "A variable geometry intake at subsonic speeds:": {
+    answer: "throat area is increased",
+    choices: [
+      "jet pipe area is increased",
+      "throat area is decreased",
+      "throat area is increased",
+    ],
+  },
+  "Electrical anti-ice:": {
+    answer: "heats elements, placed under mats around engine",
+    choices: [
+      "heats elements, placed under mats around engine",
+      "heats air which is distributed around engine",
+      "heats oil which Is distributed around engine",
+    ],
+  },
+  "Fuel nozzles are cleaned:": {
+    answer: "in-situ with detergent solution",
+    choices: [
+      "with a rag and solvent",
+      "in-situ with detergent solution",
+      "in-situ with carbon solution",
+    ],
+  },
+  "Forward engine mounts take which loads?": {
+    answer: "Thrust, vertical and  shear loads",
+    choices: [
+      "Thrust, vertical and impact",
+      "Thrust, vertical and  shear loads",
+      "Centrifugal, thrust and axial",
+    ],
+  },
+  "When running down an engine:": {
+    answer: "it should be done as slowly as possible to reduce thermal stress",
+    choices: [
+      "it should be done as quickly as possible to stop excess of fuel gathering",
+      "it should be done as slowly as possible to reduce thermal stress",
+      "it should be done as slowly as possible to assist thermal stress",
+    ],
+  },
+  "To check a fire bottle in situ is serviceable:": {
+    answer: "check blow out disc only",
+    choices: [
+      "weigh it, check blow out discs, check pressure",
+      "check blow out disc, pop up indicators, expiry date and pressure",
+      "check blow out disc only",
+    ],
+  },
+  "The specific gravity of fuel effects:": {
+    answer: "aircraft range",
+    choices: ["aircraft range", "engine efficiency", "thrust rating"],
+  },
+  "Reheat is the term used to describe:": {
+    answer: "adding fuel in the exhaust section",
+    choices: [
+      "adding fuel in the exhaust section",
+      "adding of fuel in the compressor section",
+      "adding of fuel in the turbine section",
+    ],
+  },
+  "The cycling speed of the electrical de-icing mat:": {
+    answer: "is affected by weather conditions",
+    choices: [
+      "is not affected by weather conditions",
+      "comes in 4 speeds",
+      "is affected by weather conditions",
+    ],
+  },
+  "Lobe type exhaust noise suppressors are made from:": {
+    answer: "heat resistant alloy",
+    choices: ["steel", "heat resistant alloy", "composite Material"],
+  },
+  "Compressor blades reduce in length:": {
+    answer:
+      "from L.P to H.P section to maintain uniform velocity in compressor",
+    choices: [
+      "from L.P to H.P section to maintain uniform velocity in compressor",
+      "from root to tip to maintain correct angle of attack",
+      "from tip to root to maintain uniform velocity in compressor",
+    ],
+  },
+  "Injection of water methanol into compressor inlet causes:": {
+    answer: "increase in power without the need for burning extra fuel",
+    choices: [
+      "increase in power without the need for burning extra fuel",
+      "increase in power due to the burning of methanol alone",
+      "increased efficiency of the engine due to reduced icing in the airflow",
+    ],
+  },
+  "Deposit build up on compressor blades:": {
+    answer: "can decrease compressor efficiency and cause corrosion",
+    choices: [
+      "can decrease compressor efficiency and cause corrosion",
+      "will not decrease efficiency but may cause corrosion",
+      "airflow is too fast for deposits to build up",
+    ],
+  },
+  "The EEC receives its primary power from:": {
+    answer: "separate permanent magnet alternator",
+    choices: [
+      "115VAC main BUS",
+      "115VAC emergency BUS",
+      "separate permanent magnet alternator",
+    ],
+  },
+  "The fuel trimmer on a turbo-prop engine is operated:": {
+    answer: "automatically controlled in conjunction with FCU",
+    choices: [
+      "manually, to prevent high EGT due to altitude increase",
+      "automatically controlled in conjunction with FCU",
+      "manually to prevent excessive RPM at high altitude",
+    ],
+  },
+  "Vibration signals picked up:": {
+    answer: "frequencies filtered to exclude unwanted frequencies",
+    choices: [
+      "go through half wave rectifier to indicator",
+      "go straight to indicator",
+      "frequencies filtered to exclude unwanted frequencies",
+    ],
+  },
+  "The variable inlet guide vanes are operated:": {
+    answer: "by fuel pressure",
+    choices: [
+      "electrically from cockpit",
+      "by fuel pressure",
+      "using N1 fan speed",
+    ],
+  },
+  "The resistor in a D.C. starter motor:": {
+    answer: "prevents current surge when motor is at low rpm",
+    choices: [
+      "prevents over speed",
+      "prevents current surge when motor is at low rpm",
+      "used when D.C. motor falls",
+    ],
+  },
+  "Forward engine mounts take which form:": {
+    answer: "forgings",
+    choices: ["castings", "forgings", "fabricated sheet steel"],
+  },
+  "Resistive type fire wires are tested using:": {
+    answer: "megger ohmmeter",
+    choices: ["megger ohmmeter", "megger/voltmeter", "ammeter/ohmmeter"],
+  },
+  "When testing an installed fire bottle:": {
+    answer: "a safety ohmmeter is used",
+    choices: [
+      "a safety ohmmeter is used",
+      "a lamp and 1,5v cell used",
+      "a multimeter used",
+    ],
+  },
+  "On checking a fault free fire detection system:": {
+    answer:
+      "use a megger only for a short while as it can polarise the element",
+    choices: [
+      "use megger as per normal",
+      "use a megger only for a short while as it can polarise the element",
+      "a megger is never to be used",
+    ],
+  },
+  "On the approach:  ": {
+    answer: "RPM should be at high",
+    choices: [
+      "RPM should be at or above the minimum for maximum acceleration",
+      "RPM should be lower than minimum for maximum acceleration",
+      "RPM should be at high",
+    ],
+  },
+  "What is a compressor stage? ": {
+    answer: "One rotor plus one stator",
+    choices: [
+      "One rotor plus one stator",
+      "One IGV and one rotor",
+      "One compressor rotor and one nozzle guide vane",
+    ],
+  },
+  "Torque measurement is taken from the:   ": {
+    answer: "reduction gearbox",
+    choices: ["free turbine shaft", "reduction gearbox", "prop shaft"],
+  },
+  "A FADEC system consists of:   ": {
+    answer: "HMU, sensors and an EEC",
+    choices: [
+      "HMU, sensors and an EEC",
+      "HMU, ADC and sensors",
+      "EEC, ADC and sensors",
+    ],
+  },
+  "For an APU to run 'unmanned' it must be equipped with:": {
+    answer: "an audible fire warning",
+    choices: [
+      "an audible fire warning",
+      "an automatic fire extinguishing system",
+      "both an audible fire warning and an automatic fire extinguishing system",
+    ],
+  },
+  "As air is bled of the engine, EGT will:  ": {
+    answer: "increase",
+    choices: ["remain constant", "increase", "decrease"],
+  },
+  "Turbine rear struts:": {
+    answer: "straighten the gas flow",
+    choices: [
+      "straighten the gas flow",
+      "increase the velocity of the gas flow",
+      "increase the pressure of the gas flow",
+    ],
+  },
+  "The inlet door of a variable geometry intake at supersonic speeds will be:":
+    { answer: "closed", choices: ["open", "mid-Position", "closed"] },
+  "An engine in storage for 7 days should:": {
+    answer: "be fitted with covers and blanks and apertures covered",
+    choices: [
+      "be run twice in that week",
+      "be fitted with covers and blanks and apertures covered",
+      "have storage oil placed in engine",
+    ],
+  },
+  "Bowing of turbine blades indicate:": {
+    answer: "over-temperature condition",
+    choices: [
+      "over-speed condition",
+      "over-temperature condition",
+      "under-temperature condition",
+    ],
+  },
+  "What bearing is used to take axial loads on a main rotation shaft of a gas turbine engine? ":
+    {
+      answer: "Ball bearing",
+      choices: ["Plain bearing", "Roller bearing", "Ball bearing"],
+    },
+  "On an impulse-reaction turbine blade it is:": {
+    answer: "impulse at the root and reaction at the tip",
+    choices: [
+      "impulse at the root and reaction at the tip",
+      "reaction at the root and impulse at the tip",
+      "impulse and reaction all the way along the blade",
+    ],
+  },
+  "When operating engine in icing conditions care should be taken with:": {
+    answer: "temperatures below +10 degrees Celsius with visible moisture",
+    choices: [
+      "temperatures below 0 degrees Celsius",
+      "temperatures below –10 degrees Celsius",
+      "temperatures below +10 degrees Celsius with visible moisture",
+    ],
+  },
+  "In a Tachometer generator:": {
+    answer: "frequency output is proportional to engine speed",
+    choices: [
+      "the frequency output is constant",
+      "the frequency output is inversely proportional to engine speed",
+      "frequency output is proportional to engine speed",
+    ],
+  },
+  "On a (VP) cocoon bag, if the humidity indicator turns pink/lilac:": {
+    answer: "dessicant is ineffective and needs changing",
+    choices: [
+      "dessicant is ineffective and needs changing",
+      "dessicant is effective and does not need changing",
+      "dessicant is changed weekly",
+    ],
+  },
+  "Turbine creep effects:  ": {
+    answer: "turbine blades",
+    choices: ["NGV’s", "turbine blades", "turbine discs"],
+  },
+  "Creep is:": {
+    answer: "a permanent deformation of turbine",
+    choices: [
+      "a permanent deformation of turbine",
+      "a temporary deformation of turbine",
+      "not found in turbines",
+    ],
+  },
+  "Creep overall: ": {
+    answer: "increases turbine diameter",
+    choices: [
+      "decreases turbine diameter",
+      "has no effect on turbine diameter",
+      "increases turbine diameter",
+    ],
+  },
+  "Thrust reversal on a high bypass engine is achieved by: ": {
+    answer: "blocker doors",
+    choices: ["clamshell configuration", "bucket type doors", "blocker doors"],
+  },
+  "Acoustic linings made from composite materials are used in what section of the engine? ":
+    {
+      answer: "Cold section only",
+      choices: [
+        "Hot section and Cold Section",
+        "Cold section only",
+        "Not used to suppress noise",
+      ],
+    },
+  "Vibration mounts are used for:": {
+    answer:
+      "preventing engine vibration loads being transmitted to the airframe structure",
+    choices: [
+      "preventing engine vibration loads being transmitted to the airframe structure",
+      "damping out vibration stresses on engine when being transported on an engine stand",
+      "stopping vibrations entering the engines",
+    ],
+  },
+  "An APU is:": {
+    answer: "a self contained constant speed gas turbine engine",
+    choices: [
+      "a reserved engine in case of a main engine failure",
+      "a self contained variable speed gas turbine engine",
+      "a self contained constant speed gas turbine engine",
+    ],
+  },
+  "An aircraft has a heavy landing and on inspection of the engine mounting bolts the bolts torque loading has reduced, you should:":
+    {
+      answer:
+        "remove bolt and carry out inspection as the bolt may have increased in length due to heavy landing",
+      choices: [
+        "re-torque bolt up to correct torque value",
+        "add washers to take up any gap or slackness and re-torque to correct value",
+        "remove bolt and carry out inspection as the bolt may have increased in length due to heavy landing",
+      ],
+    },
+  "With an increase in forward speed the engine thrust:": {
+    answer: "decreases slightly but recover due to ram effect",
+    choices: [
+      "increases with an increase in forward speed",
+      "decreases with an increase in forward speed",
+      "decreases slightly but recover due to ram effect",
+    ],
+  },
+  "If damage is found to the reverse thrust cascade vanes and need replacing you can:":
+    {
+      answer:
+        "only replace vanes wit new ones that have the correct part as the originals removed",
+      choices: [
+        "interchange the cascade vanes as they are interchangeable",
+        "replace damaged vanes with 45 degree vanes",
+        "only replace vanes wit new ones that have the correct part as the originals removed",
+      ],
+    },
+  "A fixed throttle with increased mass airflow:": {
+    answer: "EPR remains constant",
+    choices: ["EPR goes up", "EPR goes down", "EPR remains constant"],
+  },
+  "Fuel heater prevents:   ": {
+    answer: "LP filter icing",
+    choices: ["HP filter icing", "LP filter icing", "Neither"],
+  },
+  "When a volume of air is compressed:": {
+    answer: "heat is gained",
+    choices: ["no heat is lost or gained", "heat is lost", "heat is gained"],
+  },
+  "On a FADEC engine the EEC: ": {
+    answer:
+      "has electronic control of the hydro-mechanical fuel control unit in all modes",
+    choices: [
+      "has electronic control of the hydro-mechanical fuel control unit in all modes",
+      "has electronic control of d hydromechanical fuel control in some modes",
+      "has mechanical control of d hydromechanical fuel control system",
+    ],
+  },
+  "Fire extinguishers work by:": {
+    answer: "combining with remaining oxygen to get rid of it",
+    choices: [
+      "combining with remaining oxygen to get rid of it",
+      "creating more oxygen",
+      "reducing oxygen",
+    ],
+  },
+  "The air used for combustion is:   ": {
+    answer: "Primary",
+    choices: ["Primary", "Secondary", "Primary and secondary"],
+  },
+  "Compression occurs:  ": {
+    answer: "across stators and rotors",
+    choices: ["across rotors", "across stators", "across stators and rotors"],
+  },
+  "Ignitor plugs are cleaned by:": {
+    answer: "compressed air and brushing lightly with soft brush",
+    choices: [
+      "compressed air and brushing lightly with soft brush",
+      "light sand blasting",
+      "steel wool",
+    ],
+  },
+  "On a FADEC engine, the channel reset:": {
+    answer: "selects standby which becomes active on the next start",
+    choices: [
+      "always selects A channel",
+      "selects standby which becomes active on the next start",
+      "selects B channel",
+    ],
+  },
+  "HEIU works by:": {
+    answer: "a discharging capacitor",
+    choices: ["a contact breaker", "a discharging capacitor", "ac busbar"],
+  },
+  "Water methanol for cooling is injected: ": {
+    answer: "compressor inlet or outlet",
+    choices: [
+      "compressor inlet or outlet",
+      "combustion chamber",
+      "engine hot zone",
+    ],
+  },
+  "The highest turbine bearing temperature takes place:": {
+    answer: "at shutdown",
+    choices: ["at shutdown", "at startup", "all the time"],
+  },
+  "On an EGT thermocouple system, the hot junction:": {
+    answer: "is placed downstream of the combustion chamber",
+    choices: [
+      "is placed downstream of the combustion chamber",
+      "is placed up stream of the combustion chamber",
+      "is placed in cockpit",
+    ],
+  },
+  "Increasing ram effect with increased speed:": {
+    answer: "increases thrust due to increased maximum airflow",
+    choices: [
+      "reduces thrust due to reduced turbine temperature",
+      "reduces thrust due to reduced compressor efficiency",
+      "increases thrust due to increased maximum airflow",
+    ],
+  },
+  "On an rpm system using a synchronous generator, the pointer is deflected by:":
+    {
+      answer: "ac servomotor",
+      choices: ["potentiometer", "ac servomotor", "Wheatstone bridge"],
+    },
+  "Fuel system inhibiting oil is:": {
+    answer: "mineral oil",
+    choices: ["kerosene", "mineral oil", "light anti-freeze oil"],
+  },
+  "Fire detection systems which are routed through another zone:  ": {
+    answer: "are not allowed",
+    choices: [
+      "must be protected by the use of heat sinks",
+      "must be protected from heat sources in the zone",
+      "are not allowed",
+    ],
+  },
+  "Torque pressure is usually read from:  ": {
+    answer: "direct reading pressure gauge",
+    choices: ["direct reading pressure gauge", "torque meter", "tension gauge"],
+  },
+  "A high bypass engine results in:": {
+    answer: "overall slower airflow and greater propulsive efficiency",
+    choices: [
+      "overall slower airflow and greater propulsive efficiency",
+      "overall faster airflow",
+      "greater propulsive efficiency",
+    ],
+  },
+  "Shrouded blades allow: ": {
+    answer: "thinner more efficient blade sections to be used",
+    choices: [
+      "higher turbine inlet temperatures",
+      "thinner more efficient blade sections to be used",
+      "smaller inlets to be used",
+    ],
+  },
+  "When using Prist or Biopor:": {
+    answer: "It is left and burnt with the fuel",
+    choices: [
+      "It is left and burnt with the fuel",
+      "it is flushed out immediately",
+      "it is diluted with water to a 3-1 mix",
+    ],
+  },
+  "NGV form:": {
+    answer: "convergent duct",
+    choices: ["parallel duct", "convergent duct", "divergent duct"],
+  },
+  "In the combustion chamber:": {
+    answer: "pressure static decreases slightly and volume increases",
+    choices: [
+      "pressure static and volume remains constant",
+      "pressure static decreases slightly and volume increases",
+      "pressure static and volume decreases",
+    ],
+  },
+  "On an injection system: ": {
+    answer: "de-mineralised water/methanol is injected",
+    choices: [
+      "town water/methanol is injected",
+      "methanol is injected neat",
+      "de-mineralised water/methanol is injected",
+    ],
+  },
+  "On an aircraft with a non-hydromechanical max rpm governor using fuel of low S.G":
+    {
+      answer: "maximum rpm is always controlled by pilot",
+      choices: [
+        "maximum rpm may have to be manually controlled by pilot",
+        "maximum rpm is always controlled by pilot",
+        "maximum rpm is never controlled by pilot",
+      ],
+    },
+  "Pipe, electrical cables and associated components of a fire-detection system should be:":
+    {
+      answer: "fire resistant",
+      choices: ["fire proof", "fire resistant", "fire retardant"],
+    },
+  "The drag cup in a Tacho-generator is balanced by:": {
+    answer: "calibrated hairspring",
+    choices: [
+      "calibrated hairspring",
+      "adjustment screw",
+      "adjustable counterbalance weights",
+    ],
+  },
+  "After placing an engine in a MVP envelope:": {
+    answer: "check humidity indicator after 24 hours",
+    choices: [
+      "check humidity indicator after 24 hours",
+      "check humidity indicator after 12 hours",
+      "check humidity indicator after 48 hours",
+    ],
+  },
+  "The EPR system reads just over 1:   ": {
+    answer: "the system needs re-calibration back to “1”",
+    choices: [
+      "this is a normal condition and does not need attention",
+      "the system has failed and needs attention",
+      "the system needs re-calibration back to “1”",
+    ],
+  },
+  "On a vapour proof cocoon, there is a:": {
+    answer: "moisture indicator",
+    choices: ["temperature indicator", "moisture indicator", "humidifier"],
+  },
+  "A fixed throttle with increased mass airflow:  ": {
+    answer: "EPR remains constant",
+    choices: ["EPR goes up", "EPR goes down", "EPR remains constant"],
+  },
+  "Fuel heater prevents:": {
+    answer: "LP filter icing",
+    choices: ["HP filter icing", "LP filter icing", "Neither"],
+  },
+  "When a volume of air is compressed:  ": {
+    answer: "heat is gained",
+    choices: ["no heat is lost or gained", "heat is lost", "heat is gained"],
+  },
+  "The air used for combustion is:": {
+    answer: "Primary",
+    choices: ["Primary", "Secondary", "Primary and secondary"],
+  },
+  "Ignitor plugs are cleaned by:  ": {
+    answer: "compressed air and brushing lightly with soft brush",
+    choices: [
+      "compressed air and brushing lightly with soft brush",
+      "light sand blasting",
+      "steel wool",
+    ],
+  },
+  "On a FADEC engine, the channel reset: ": {
+    answer: "selects standby which becomes active on the next start",
+    choices: [
+      "always selects A channel",
+      "selects standby which becomes active on the next start",
+      "selects B channel",
+    ],
+  },
+  "HEIU works by:   ": {
+    answer: "a discharging capacitor",
+    choices: ["a contact breaker", "a discharging capacitor", "ac busbar"],
+  },
+  "Water methanol for cooling is injected:  ": {
+    answer: "compressor inlet or outlet",
+    choices: [
+      "compressor inlet or outlet",
+      "combustion chamber",
+      "engine hot zone",
+    ],
+  },
+  "Increasing ram effect with increased speed:   ": {
+    answer: "increases thrust due to increased maximum airflow",
+    choices: [
+      "reduces thrust due to reduced turbine temperature",
+      "reduces thrust due to reduced compressor efficiency",
+      "increases thrust due to increased maximum airflow",
+    ],
+  },
+  "On an rpm system using a synchronous generator, the pointer is deflected by: ":
+    {
+      answer: "ac servomotor",
+      choices: ["potentiometer", "ac servomotor", "wheatstone bridge"],
+    },
+  "Fire detection systems which are routed through another zone:": {
+    answer: "are not allowed",
+    choices: [
+      "must be protected by the use of heat sinks",
+      "must be protected from heat sources in the zone",
+      "are not allowed",
+    ],
+  },
+  "Torque pressure is usually read from: ": {
+    answer: "direct reading pressure gauge",
+    choices: ["direct reading pressure gauge", "torque meter", "tension gauge"],
+  },
+  "A high bypass engine results in:   ": {
+    answer: "overall slower airflow and greater propulsive efficiency",
+    choices: [
+      "overall slower airflow and greater propulsive efficiency",
+      "overall faster airflow",
+      "greater propulsive efficiency",
+    ],
+  },
+  "In the combustion chamber:  ": {
+    answer: "pressure static decreases slightly and volume increases",
+    choices: [
+      "pressure static and volume remains constant",
+      "pressure static decreases slightly and volume increases",
+      "pressure static and volume decreases",
+    ],
+  },
+  "On an injection system:": {
+    answer: "de-mineralised water/methanol is injected",
+    choices: [
+      "town water/methanol is injected",
+      "methanol is injected neat",
+      "de-mineralised water/methanol is injected",
+    ],
+  },
+  "Pipe, electrical cables and associated components of a fire-detection system should be: ":
+    {
+      answer: "fire resistant",
+      choices: ["fire proof", "fire resistant", "fire retardant"],
+    },
+  "After placing an engine in a MVP envelope:  ": {
+    answer: "check humidity indicator after 24 hours",
+    choices: [
+      "check humidity indicator after 24 hours",
+      "check humidity indicator after 12 hours",
+      "check humidity indicator after 48 hours",
+    ],
+  },
+  "The EPR system reads just over 1:": {
+    answer: "the system needs re-calibration back to “1”",
+    choices: [
+      "this is a normal condition and does not need attention",
+      "the system has failed and needs attention",
+      "the system needs re-calibration back to “1”",
+    ],
+  },
+  "Noise from the jet wake when untreated by suppression is:": {
+    answer: "low frequency, high decibel",
+    choices: [
+      "low frequency, high decibel",
+      "high frequency, high decibel",
+      "low frequency, low decibel",
+    ],
+  },
+  "When testing an EGT system:   ": {
+    answer: "the OAT is neglected",
+    choices: [
+      "the OAT is neglected",
+      "the OAT is always taken into consideration",
+      "OAT is only taken into consideration when over 20ºC",
+    ],
+  },
+  "A free turbine is usually found on a:  ": {
+    answer: "Turbo prop",
+    choices: ["Turbo- fan", "Turbo-jet", "Turbo prop"],
+  },
+  "If the LP shaft shears: ": {
+    answer: "turbine runaway occurs",
+    choices: [
+      "turbine runaway occurs",
+      "compressor overspeed occurs",
+      "compressor underspeed occurs",
+    ],
+  },
+  "A turbo-shaft engine has:   ": {
+    answer: "the power shaft is not connected to the compressor",
+    choices: [
+      "a mechanical connection between compressor and turbine",
+      "the power shaft is not connected to the compressor",
+      "none of the above",
+    ],
+  },
+  "Normal fuel/air ratio for successful combustion is? ": {
+    answer: "15:1",
+    choices: ["15:1", "10:1", "25:1"],
+  },
+  "A magnetic chip detector inspection must be carried out: ": {
+    answer: "with engine cold",
+    choices: [
+      "within a specified time from shutdown",
+      "with engine running",
+      "with engine cold",
+    ],
+  },
+  "A fire wire is installed: ": {
+    answer:
+      "to withstand inertia, vibration, etc, encountered during normal operation",
+    choices: [
+      "to withstand inertia, vibration, etc, encountered during normal operation",
+      "vertically",
+      "horizontally",
+    ],
+  },
+  "APU has:": {
+    answer: "automatically controlled thrust and is self contained",
+    choices: [
+      "automatically controlled thrust and is self contained",
+      "constant speed and is self contained",
+      "variable speed and is self contained",
+    ],
+  },
+  "Anti-ice is recommended during:": {
+    answer: "when OAT is +10C and visible moisture",
+    choices: [
+      "when OAT is below –10C",
+      "thunderstorms",
+      "when OAT is +10C and visible moisture",
+    ],
+  },
+  "Of the following, which engine type would most likely have a noise suppresser unit installed?  ":
+    { answer: "turbojet", choices: ["turboprop", "turbojet", "turboshaft"] },
+  "Bleed valves are normally spring loaded to the:": {
+    answer: "open position",
+    choices: ["closed position", "mid-position", "open position"],
+  },
+  "Foreign object damage on compressor, when boroscoping is indicated by:": {
+    answer: "nicks and scores",
+    choices: ["tip curl", "nicks and scores", "flats"],
+  },
+  "A magnetic chip detector detects:": {
+    answer: "magnetised particles",
+    choices: [
+      "particles held in suspension",
+      "magnetised particles",
+      "particles which are too small for d naked eye",
+    ],
+  },
+  "Resistive and capacitive type firewires are tested with:": {
+    answer: "megger/ohmmeter",
+    choices: ["megger/ohmmeter", "megger/voltmeter", "multimeter"],
+  },
+  "Engine anti-ice is taken from:": {
+    answer: "HP compressor",
+    choices: ["HP compressor", "LP compressor", "Turbine"],
+  },
+  "Fire wire clips have rubber in them to: ": {
+    answer: "strengthen the wire",
+    choices: [
+      "insulate the fire wire electrically",
+      "stop heat transfer to the element",
+      "strengthen the wire",
+    ],
+  },
+  "The symbol for designating the speed of a single compressor engine is  ": {
+    answer: "N1",
+    choices: ["N.G", "N", "N1"],
+  },
+  "APU shut down is initiated by:  ": {
+    answer: "low oil pressure, fire warning, hot oil temperature",
+    choices: [
+      "low oil pressure, fire warning",
+      "low oil pressure, fire warning, hot oil temperature",
+      "high oil pressure, fire warning, hot oil temperature",
+    ],
+  },
+  "What happens when bulb type thermometer resistive element goes open circuit?":
+    {
+      answer: "read more than ambient",
+      choices: [
+        "read less than ambient",
+        "read more than ambient",
+        "no reading given",
+      ],
+    },
+  "When an installed engine is not to be used for a period of up to 7 days:": {
+    answer: "it is only necessary to blank off all apertures",
+    choices: [
+      "it is necessary to inhibit the engine",
+      "it is only necessary to blank off all apertures",
+      "run the engine as prescribed in the Flight Manual",
+    ],
+  },
+  "With a decrease in fuel SG, what is the result on uncompensated governor?  ":
+    {
+      answer: "max RPM decrease",
+      choices: ["max RPM up", "max RPM decrease", "no effect"],
+    },
+  "Installed engines must be re-preserved after preservation at least every:": {
+    answer: "six months",
+    choices: ["six months", "six days", "six weeks"],
+  },
+  "At altitude idling rpm is:": {
+    answer: "Higher than at sea level",
+    choices: [
+      "Higher than at sea level",
+      "Lower than at sea level",
+      "Same as at sea level",
+    ],
+  },
+  "In a choked nozzle velocity increases:": {
+    answer: "pressure increases",
+    choices: ["pressure decreases", "pressure increases", "density decreases"],
+  },
+  "When the engine is not running. The EPR gauge shows 1.0 then:  ": {
+    answer: "it is normal",
+    choices: [
+      "the transmitter is faulty",
+      "it is normal",
+      "the receiver is faulty",
+    ],
+  },
+  "Fuel flow indication is taken from:  ": {
+    answer: "after the HP pump",
+    choices: [
+      "after the fuel heater",
+      "after the HP pump",
+      "after the LP pump",
+    ],
+  },
+  "The test switch of a continuous loop detector gives a:": {
+    answer: "continuity check",
+    choices: ["continuity check", "bonding check", "insulation check"],
+  },
+  "When using water methanol in an axial flow compressor, it is injected in:": {
+    answer: "compressor inlet or burner section",
+    choices: ["burner", "compressor inlet or burner section", "intake"],
+  },
+  "Secondary air in the combustion chamber is used for:": {
+    answer: "cooling",
+    choices: ["combustion", "cooling", "increasing axial velocity of gases"],
+  },
+  "Bleed valves are:   ": {
+    answer: "closed at high RPM",
+    choices: [
+      "closed at low RPM",
+      "closed at high RPM",
+      "always slightly open",
+    ],
+  },
+  "Inlet guide vanes are anti-iced with:": {
+    answer: "engine bleed air",
+    choices: ["thermal blankets", "rubber boots", "engine bleed air"],
+  },
+  "How is engine oil usually cooled? ": {
+    answer: "by a fuel/oil cooler",
+    choices: ["by a fuel/oil cooler", "by ram air", "by bleed air"],
+  },
+  "Thrust:    ": {
+    answer: "increases with low temperature",
+    choices: [
+      "decreases with low temperature",
+      "increases with low temperature",
+      "increases with high temperature",
+    ],
+  },
+  "The highest pressure in a gas turbine is: ": {
+    answer: "just after the last compressor stage but before the burner",
+    choices: [
+      "just after the last compressor stage but before the burner",
+      "at the burner exit",
+      "at the nozzle exit",
+    ],
+  },
+  "Duplex burners have: ": {
+    answer: "two calibrated outlets",
+    choices: ["variable orifices", "a spring", "two calibrated outlets"],
+  },
+  "What power is required for EGT gauge indication?   ": {
+    answer: "no power - it is self generating",
+    choices: ["115V AC", "28V DC", "no power - it is self generating"],
+  },
+  "If the LP compressor shaft severed:": {
+    answer: "the LP turbine will speed up and the LP compressor will slow down",
+    choices: [
+      "the LP turbine will speed up and the LP compressor will slow down",
+      "the HP compressor will slow down",
+      "the LP compressor of cruise thrust",
+    ],
+  },
+  "The forces driving a turbine round are due to:": {
+    answer: "impulse and reaction",
+    choices: ["impulse and reaction", "impulse only", "reaction only"],
+  },
+  "Run down time is indicative of:": {
+    answer: "the freedom of rotation of the compressor",
+    choices: [
+      "compressor malfunction",
+      "the freedom of rotation of the compressor",
+      "an FCU malfunction",
+    ],
+  },
+  "The propulsive efficiency is:  ": {
+    answer: "high, with a high mass flow acceleration",
+    choices: [
+      "high, with a high mass flow acceleration",
+      "low, with a low mass flow acceleration",
+      "high, with a low mass flow acceleration",
+    ],
+  },
+  "A hung start or false start is one in which:  ": {
+    answer: "‘light up’ occurs, but the RPM does not increase",
+    choices: [
+      "there is no ’light up’",
+      "the engine does not rotate",
+      "‘light up’ occurs, but the RPM does not increase",
+    ],
+  },
+  "The maximum RPM of a turbine engine is limited by:": {
+    answer:
+      "reduction of the fuel pump stroke by a spill valve sensitive to centrifugally generated fuel pressure",
+    choices: [
+      "a temperature sensitive device which reduces the fuel pump speed",
+      "diversion of some of the fuel pump outlet flow by a spill valve sensitive to burner fuel pressure",
+      "reduction of the fuel pump stroke by a spill valve sensitive to centrifugally generated fuel pressure",
+    ],
+  },
+  "The function of a labyrinth seal is to create: ": {
+    answer: "a restricted leakage of air between fixed and rotating components",
+    choices: [
+      "an airtight seal between fixed and rotation components",
+      "a restricted leakage of air between fixed and rotating components",
+      "an airtight seal between fixed adjacent casing surfaces",
+    ],
+  },
+  "Intake air turbulence:  ": {
+    answer: "decreases the efficiency of the compressor",
+    choices: [
+      "has little effect on the efficiency of the compressor",
+      "increases the efficiency of the compressor",
+      "decreases the efficiency of the compressor",
+    ],
+  },
+  "To what condition does the fuel flow respond during aircraft acceleration:":
+    {
+      answer: "mass airflow rate through the engine",
+      choices: [
+        "the change in pressure at the compressor intake",
+        "the effect of ‘ram-air’ at altitude",
+        "mass airflow rate through the engine",
+      ],
+    },
+  "An ignitor plug for a large gas turbine takes the form of a: ": {
+    answer: "surface discharge plug",
+    choices: ["surface discharge plug", "sparking plug", "‘glow’ plug"],
+  },
+  "On an axial flow, dual compressor forward fan engine, the fan turns the same speed as the:":
+    {
+      answer: "low pressure turbine",
+      choices: [
+        "high pressure compressor",
+        "low pressure turbine",
+        "forward turbine wheel",
+      ],
+    },
+  "A by-pass engine LP compressor:": {
+    answer: "supplies more air than is required for combustion",
+    choices: [
+      "supplies less air than is required for combustion",
+      "supplies more air than is required for combustion",
+      "supplies only the required quantity of combustion",
+    ],
+  },
+  "A turbo jet engine gives:  ": {
+    answer: "large acceleration to a small mass of air",
+    choices: [
+      "small acceleration to a large mass of air",
+      "large acceleration to a small mass of air",
+      "large acceleration to a large weight of air",
+    ],
+  },
+  "In a free turbine:": {
+    answer: "there is no mechanical connection with the compressor",
+    choices: [
+      "there is a clutch between compressor and power output shaft",
+      "there is no mechanical connection with the compressor",
+      "there is a direct drive with a free-wheel unit",
+    ],
+  },
+  "If an electrical de-icing system is operating, thrust will: ": {
+    answer: "decrease",
+    choices: ["decrease", "increase", "remain constant"],
+  },
+  "A method of comparing engine efficiencies is by comparing:  ": {
+    answer: "specific fuel consumption",
+    choices: [
+      "thrust to weight ratio",
+      "fuel consumption",
+      "specific fuel consumption",
+    ],
+  },
+  "'Ram effect' due to aircraft forward speed will cause the efficiency of the engine to: ":
+    {
+      answer: "increase",
+      choices: ["remain constant", "increase", "decrease"],
+    },
+  "The efficiency of a gas turbine engine at altitude:  ": {
+    answer: "increases",
+    choices: ["decreases", "increases", "remains constant"],
+  },
+  "Bernoulli's Theorem states that at any point in a flow of gas:  ": {
+    answer: "the total energy remains constant",
+    choices: [
+      "the static pressure is less than the dynamic pressure",
+      "the static pressure and dynamic pressure are equal",
+      "the total energy remains constant",
+    ],
+  },
+  "A bypass ratio of 5:1 indicates that the bypass flow is:  ": {
+    answer: "five times the hot stream",
+    choices: [
+      "equal to 1/5 of the hot stream",
+      "five times the cold stream",
+      "five times the hot stream",
+    ],
+  },
+  "In a turbo jet engine, combustion occurs at:  ": {
+    answer: "constant pressure",
+    choices: ["constant velocity", "constant volume", "constant pressure"],
+  },
+  "The working fluid of a gas turbine engine is: ": {
+    answer: "air",
+    choices: ["air", "gasoline", "kerosene"],
+  },
+  "As subsonic air flows through a convergent nozzle the velocity:": {
+    answer: "increases",
+    choices: ["increases", "decreases", "remains constant"],
+  },
+  "The stator vanes in an axial-flow compressor:": {
+    answer: "convert velocity energy into pressure energy",
+    choices: [
+      "convert velocity energy into pressure energy",
+      "convert pressure energy onto velocity energy",
+      "direct air into the first stage rotor vanes at the proper angle",
+    ],
+  },
+  "What units in a gas turbine engine aid in stabilisation of the compressor during low thrust engine operations? ":
+    {
+      answer: "Bleed air valves",
+      choices: ["Bleed air valves", "Stator vanes", "Inlet guide vanes"],
+    },
+  "A nozzle is ‘choked’ when the gas flow or air flow at the throat is:  ": {
+    answer: "sonic",
+    choices: ["subsonic", "sonic", "supersonic"],
+  },
+  "In the dual axial-flow or two spool compressor system, the 1st stage turbine drives:":
+    {
+      answer: "N2 compressor",
+      choices: ["N1&N2 compressors", "N2 compressor", "N1 compressor"],
+    },
+  "During the high RPM range on an axial flow gas turbine engine, in what position are the variable intake guide vanes and bleed valves:":
+    {
+      answer: "at minimum swirl position, bleed valves closed",
+      choices: [
+        "at maximum swirl position, bleed valves open",
+        "at maximum swirl position, bleed valves closed",
+        "at minimum swirl position, bleed valves closed",
+      ],
+    },
+  "When reheat is used EPR:   ": {
+    answer: "Remains constant",
+    choices: ["Is reduced", "Is increased", "Remains constant"],
+  },
+  "Which of the following units are generally used to measure aircraft noise?   ":
+    {
+      answer: "Effective perceived noise decibels (EPNdB)",
+      choices: [
+        "decibels (dB)",
+        "Effective perceived noise decibels (EPNdB)",
+        "sound pressure",
+      ],
+    },
+  "What is the maximum practical angle through which the gas flow can be turned during thrust reversal? ":
+    { answer: "1350", choices: ["1800", "1350", "500"] },
+  "A carbon seal has which type of sealing arrangement?": {
+    answer: "full contact with casing",
+    choices: [
+      "full contact with race",
+      "full contact with labyrinth",
+      "full contact with casing",
+    ],
+  },
+  "On a FADEC engine: ": {
+    answer:
+      "A channel uses a separate winding of control alternator to B channel",
+    choices: [
+      "A and B channel use the same phases of the motor",
+      "A channel uses control alternator and B channel uses aircraft bus power",
+      "A channel uses a separate winding of control alternator to B channel",
+    ],
+  },
+  "A bellmouth compressor inlet is used on: ": {
+    answer: "helicopters",
+    choices: [
+      "aircraft with low ground clearance",
+      "helicopters",
+      "supersonic aircraft",
+    ],
+  },
+  "Electrical de-icing operates: ": {
+    answer: "cyclically dependent on ambient air temperature",
+    choices: [
+      "cyclically independent of ambient air temperature",
+      "cyclically dependent on ambient air temperature",
+      "operates continuously",
+    ],
+  },
+  "The inlet door on a variable geometry intake is open at:": {
+    answer: "subsonic speeds",
+    choices: ["subsonic speeds", "supersonic speeds", "idle speed"],
+  },
+  "The compensation device on an EGT system must be re-calibrated after:  ": {
+    answer: "does not need calibration",
+    choices: [
+      "manufacture and overhaul",
+      "each time a part of the system is replaced",
+      "does not need calibration",
+    ],
+  },
+  "During start the ’starter light’ remains on after light up:": {
+    answer: "the engine should be shut down immediately",
+    choices: [
+      "this should be neglected",
+      "it should be monitored for 30secs and if still illuminated the engine should be shutdown",
+      "the engine should be shut down immediately",
+    ],
+  },
+  "A felt filter in an oil lubrication system should be:": {
+    answer: "removed and replaced with a new filter element",
+    choices: [
+      "removed and cleaned in a container of lead free petrol",
+      "removed and replaced with a new filter element",
+      "removed and cleaned in MEK",
+    ],
+  },
+  "Vibration pick-ups are located:": {
+    answer: "on the turbine case",
+    choices: [
+      "on the turbine case",
+      "on the fan/compressor case",
+      "on both fan and turbine cases",
+    ],
+  },
+  "What is used as an extinguishant in fire bottles?": {
+    answer: "Halogenated hydrocarbons",
+    choices: ["Water", "Halogenated hydrocarbons", "Freon compounds"],
+  },
+  "The force which opposes twisting deformation in a material is:": {
+    answer: "Torsion",
+    choices: ["Strain", "Stress", "Torsion"],
+  },
+  "A force perpendicular to a beam is:": {
+    answer: "Compressive",
+    choices: ["Compressive", "Shear", "Tensile"],
+  },
+  "What is the speed of sound in air at 0 degrees C?": {
+    answer: "331 metres per second",
+    choices: [
+      "331 metres per second",
+      "240 metres per second",
+      "300 metres per second",
+    ],
+  },
+  "What temperature scale is used with the Combined Gas laws:": {
+    answer: "Kelvin",
+    choices: ["Centigrade", "Fahrenheit", "Kelvin"],
+  },
+
+  // GTE General NCAA 2
+
+  "At what part in an axial flow compressor will you experience the highest temperatures?":
+    {
+      answer: "At the turbine entrance",
+      choices: [
+        "At the turbine entrance",
+        "Within the burner section",
+        "At the compressor outlet",
+      ],
+    },
+  "One of the functions of the nozzle diaphragm in a turbine engine is to;": {
+    answer:
+      "Direct the flow of gases to strike the turbine blades at a desired angle",
+    choices: [
+      "Decrease the velocity of the exhaust gases",
+      "Center the fuel into the combustion chamber",
+      "Direct the flow of gases to strike the turbine blades at a desired angle",
+    ],
+  },
+  "The rotational speed the dual axial compressor forward fan is same as the?":
+    {
+      answer: "Low pressure compressor",
+      choices: [
+        "Low pressure compressor",
+        "Forward turbine wheel",
+        "High pressure compressor",
+      ],
+    },
+  "What is the function of a stator vane attached to the discharge end of a typical axial- flow compressor?":
+    {
+      answer: "To straighten the airflow, thereby eliminating turbulence",
+      choices: [
+        "To straighten the airflow, thereby eliminating turbulence",
+        "To direct the flow of gases into the combustion chamber",
+        "To increase air swirling motion into the combustion chamber",
+      ],
+    },
+  "The turbine section of a jet engine": {
+    answer: "Drives the compressor section",
+    choices: [
+      "Increases air velocity to generate thrust forces",
+      "Utilizes heat energy to expand and accelerate the incoming gas flow",
+      "Drives the compressor section",
+    ],
+  },
+  "In a dual axial-flow compressor or twin spool compressor, the first stage turbine drives the?":
+    {
+      answer: "N2 compressors",
+      choices: ["N1 and N2 compressors", "N2 compressors", "N1 compressors"],
+    },
+  "What are the two basic components of a turbine engine?": {
+    answer: "Stator and rotor",
+    choices: ["Impeller and diffuser", "Stator and rotor", "Hot and cold"],
+  },
+  "What are two elements in a centrifugal compressor?": {
+    answer: "Impeller and diffuser",
+    choices: [
+      "Turbine and compressor",
+      "Bucket and expander",
+      "Impeller and diffuser",
+    ],
+  },
+  "How does a dual axial-flow compressor increase the efficiency of the turbojet engine?":
+    {
+      answer: "Higher compression ratios can be obtained",
+      choices: [
+        "More turbine wheels can be used",
+        "Higher compression ratios can be obtained",
+        "The velocity of the air entering the combustion chamber has been increased",
+      ],
+    },
+  "Three types of turbine blades are;": {
+    answer: "Impulse, reaction and impulse-reaction",
+    choices: [
+      "Reaction, converging and diverging",
+      "Impulse, reaction and impulse-reaction",
+      "Impulse, vector and impulse-vector",
+    ],
+  },
+  "Which statements are true as regarding aircraft propulsion?  1 An engine driven propeller imparts a relatively small amount of acceleration to a large amount of mass of air  2 A turbojet engine imparts a large amount of acceleration to a small amount of mass of air  3 In modern turboprop engines, nearly 50% of the exhaust gas energy is extracted by turbine to drive the propeller and the compressor with the rest providing thrust forces":
+    { answer: "1 and 2", choices: ["1, 2, and 3", "1 and 2", "1 and 3"] },
+  "An advantage of the axial flow compressor is its?": {
+    answer: "High peak efficiency",
+    choices: [
+      "Low starting power requirement",
+      "Low weight",
+      "High peak efficiency",
+    ],
+  },
+  "What is the purpose of the stator blades in the compressor section of the turbine engine?":
+    {
+      answer: "Control the direction of the airflow",
+      choices: [
+        "Stabilize the pressure of the airflow",
+        "Control the direction of the airflow",
+        "Increase the velocity of the airflow",
+      ],
+    },
+  "In which type of turbine engines combustion chambers is the case and liner removed and installed as a unit during routine maintenance?":
+    {
+      answer: "Can type",
+      choices: ["Can type", "Can-annular", "Annular type"],
+    },
+  "The diffuser section of the jet engine is located where?": {
+    answer: "Between the compressor section and the burner section",
+    choices: [
+      "Between the burner section and the turbine section",
+      "Between station No. 7 and station No. 8",
+      "Between the compressor section and the burner section",
+    ],
+  },
+  "The highest heat to metal contact in a jet engine is in the?": {
+    answer: "Turbine inlet guide vanes",
+    choices: ["Burner cans", "Turbine inlet guide vanes", "Turbine blades"],
+  },
+  "Between each row of rotating blades in a turbine engine compressor, there is a row stationary blades which act to diffuse the air. The stationary blades are called?":
+    { answer: "Stators", choices: ["Buckets", "Rotors", "Stators"] },
+  "In a turbine engine with a dual spool compressor, the low speed compressor":
+    {
+      answer: "Seeks its own best speed",
+      choices: [
+        "Always turn at a high speed as the high speed compressor",
+        "Is connected directly to the high speed compressor",
+        "Seeks its own best speed",
+      ],
+    },
+  "What is the function of the inlet guide vane assembly in an axial-flow compressor?":
+    {
+      answer: "Directs the airflow to the first stage rotor at a proper angle",
+      choices: [
+        "Directs the airflow to the first stage rotor at a proper angle",
+        "Converts velocity energy into pressure energy",
+        "Converts pressure energy into velocity energy",
+      ],
+    },
+  "The stator vane on an axial flow compressor": {
+    answer: "Converts velocity energy into pressure energy",
+    choices: [
+      "Converts pressure energy into velocity energy",
+      "Converts velocity energy into pressure energy",
+      "Directs airflow to the first stage rotors at a proper angle",
+    ],
+  },
+  "What is the major function of the turbine wheel assembly in a turbo jet engine":
+    {
+      answer: "Supplies the power to drive the compressors",
+      choices: [
+        "Directs the gases at a proper direction to the tail pipe",
+        "Supplies the power to drive the compressors",
+        "Increases the temperature of the turbine exhaust gases",
+      ],
+    },
+  "The stator blades in the compressor section of an axial-flow compressor engine":
+    {
+      answer: "Decreases the air velocity and prevents swirling",
+      choices: [
+        "Increases air velocity and prevents air swirling",
+        "Straighten the airflow and accelerates it",
+        "Decreases the air velocity and prevents swirling",
+      ],
+    },
+  "A gas turbine engine comprises of which of the following sections?": {
+    answer: "Compressor, combustion chamber and a turbine",
+    choices: [
+      "Compressor, diffuser, and stator",
+      "Turbine, combustion chamber and stator",
+      "Compressor, combustion chamber and a turbine",
+    ],
+  },
+  "The non-rotation axial flow compressor airfoils in an aircraft gas turbine engine are called?":
+    {
+      answer: "Stator vanes",
+      choices: ["Pressurization vanes", "Stator vanes", "Bleed vanes"],
+    },
+  "The air passing through the combustion chamber of a turbine engine is": {
+    answer: "Used to support combustion and cool the engine",
+    choices: [
+      "Used to support combustion and cool the engine",
+      "Entirely combined with fuel and burned",
+      "Speeded up and heated by the action of the turbines",
+    ],
+  },
+  "The stators vanes in the turbine section of a gas turbine engine": {
+    answer: "Increase the velocity of gas flow",
+    choices: [
+      "Increase the velocity of gas flow",
+      "Decrease the velocity of gas flow",
+      "Increase the pressure of the gas flow",
+    ],
+  },
+  "The compression ratio of an axial flow compressor engine is a function of the?":
+    {
+      answer: "Number of compressor stages",
+      choices: [
+        "Number of compressor stages",
+        "Rotor diameter",
+        "Air inlet velocity",
+      ],
+    },
+  "Why do some turbine engines have more than one turbine wheels on a single shaft?":
+    {
+      answer:
+        "To extract more power from the exhaust gases than a single wheel can absorb",
+      choices: [
+        "To facilitate the balancing of the turbine wheels",
+        "To help stabilize the pressure between the compressor and the turbine",
+        "To extract more power from the exhaust gases than a single wheel can absorb",
+      ],
+    },
+  "Which of the following combustion sections are commonly used on turbine engines?":
+    {
+      answer: "Multi-can, annular and can-annular",
+      choices: [
+        "Annular, variable, and cascade vane type",
+        "Can, multi-can and variable type",
+        "Multi-can, annular and can-annular",
+      ],
+    },
+  "In what section of the turbine engine is the jet nozzle located?": {
+    answer: "Exhaust",
+    choices: ["Combustion", "Turbine", "Exhaust"],
+  },
+  "i. Engine pressure ratio (EPR) of the exhaust gas pressure to engine inlet air pressure, and indicates the amount of thrust produced. Ii. EPR is the ration of exhaust gas pressure to engine air inlet pressure, and indicates volumetric efficiency. As regarding the above two;":
+    {
+      answer: "Only i. is correct",
+      choices: [
+        "Only i. is correct",
+        "Only ii. is correct",
+        "Both i. and ii. are correct",
+      ],
+    },
+  "What is the first engine instruments indication of a successful start of a turbine engine?":
+    {
+      answer: "A rise in the exhaust gas temperature",
+      choices: [
+        "A rise in engine fuel flow",
+        "A rise in engine oil pressure",
+        "A rise in the exhaust gas temperature",
+      ],
+    },
+  "Which of the following variables is most critical during turbine engine operation?":
+    {
+      answer: "Turbine inlet temperature",
+      choices: [
+        "Compressor inlet air temperature",
+        "Compressor RPM",
+        "Turbine inlet temperature",
+      ],
+    },
+  "What should be done initially if a turbine engine catches fire at start up?":
+    {
+      answer: "Turn off the fuel and continue engine rotation with the starter",
+      choices: [
+        "Turn off the fuel and continue engine rotation with the starter",
+        "Continue engine start rotation and discharge a fire extinguisher into the intake",
+        "Continue starting attempt in order to blow out the fire",
+      ],
+    },
+  "What is the proper starting sequence of a turbojet engine?": {
+    answer: "Starter, ignition, fuel",
+    choices: [
+      "Ignition, starter, fuel",
+      "Starter, ignition, fuel",
+      "Starter, fuel, ignition",
+    ],
+  },
+  "Generally, when starting a turbine engine, the starter should be disengaged when;":
+    {
+      answer: "After the engine has reached self-accelerating speed",
+      choices: [
+        "After the engine has reached self-accelerating speed",
+        "Only after the engine has reached full idle RPM",
+        "When the ignition and fuel systems have been activated",
+      ],
+    },
+  "The stator vanes in the turbine section of a gas turbine engine": {
+    answer: "Increase the velocity of gas flow",
+    choices: [
+      "Increase the velocity of gas flow",
+      "Decrease the velocity of gas flow",
+      "Increases gas pressure",
+    ],
+  },
+  "Why do some turbine engines have more than one turbine wheels on a single shaft?...(NOT NCAA QUESTION)":
+    {
+      answer:
+        "To extract more power from the exhaust gases than a single wheel can absorb",
+      choices: [
+        "To facilitate the balancing of the turbine wheels",
+        "To help stabilize the pressure between the compressor and the turbine",
+        "To extract more power from the exhaust gases than a single wheel can absorb",
+      ],
+    },
+  "In a turbine engine, where is the turbine discharge pressure indicator sensor located?":
+    {
+      answer: "Immediately aft of the last turbine stage",
+      choices: [
+        "At the aft end of the compressor section",
+        "At a location in the exhaust cone that is determined to be subjected to the highest pressure",
+        "Immediately aft of the last turbine stage",
+      ],
+    },
+  "In an axial-flow turbine engine, compressor bleed air is sometimes used to aid cooling the?":
+    {
+      answer: "Turbines, vanes, blades and the bearings",
+      choices: [
+        "Fuel",
+        "Inlet guide vanes",
+        "Turbines, vanes, blades and the bearings",
+      ],
+    },
+  "In a turbine engine, what is/are the components that operate at the highest temperatures?":
+    {
+      answer: "First stage turbine nozzle guide vanes",
+      choices: [
+        "First stage turbine nozzle guide vanes",
+        "Turbine disks",
+        "Exhaust cone",
+      ],
+    },
+  "Frequently, an aircraft’s APU (auxiliary) generator is;": {
+    answer: "Identical to an engine driven generators",
+    choices: [
+      "Identical to an engine driven generators",
+      "Supplements the aircraft’s engine driven generator output in the event of peak load",
+      "Has a higher capacity than the engine driven generators",
+    ],
+  },
+  "An APU is usually rotated during start cycle by?": {
+    answer: "An electric starter",
+    choices: [
+      "A turbine impingement system",
+      "A pneumatic starter",
+      "An electric starter",
+    ],
+  },
+  "Which statement is true as regarding jet engines?": {
+    answer:
+      "At the higher engine speeds, thrust increases rapidly with small increase in RPM",
+    choices: [
+      "At the lower engine speeds, thrust increases rapidly with small increase in RPM",
+      "At the higher engine speeds, thrust increases rapidly with small increase in RPM",
+      "The thrust delivered per pound of air consumed id less at high altitude than at low altitude",
+    ],
+  },
+  "The velocity of subsonic air as it flows through a convergent nozzle;": {
+    answer: "Increases",
+    choices: ["Increases", "Decreases", "Remains constant"],
+  },
+  "The pressure of subsonic air as it passes through a convergent nozzle": {
+    answer: "Decreases",
+    choices: ["Increases", "Decreases", "Remains constant"],
+  },
+  "The Brayton cycle is commonly known as the constant": {
+    answer: "Pressure",
+    choices: ["Pressure", "Temperature", "Mass cycle"],
+  },
+  "Which of the following variables affect the air inlet density of a turbine engine?\ti. Speed of the aircraft ii, Compression ratio iii. Turbine inlet temperature iv, Altitude of the aircraft v. Ambient temperature vi, Turbine and compressor efficiency":
+    {
+      answer: "i. iv. and v",
+      choices: ["i. iii. and vi.", "i. iv. and v", "iv, v and vi"],
+    },
+  "on a gas turbine engine, operating at a constant power, the application of engine anti- icing will result in;":
+    {
+      answer: "Noticeable shift in EPR",
+      choices: [
+        "Noticeable shift in EPR",
+        "A false EPR reading",
+        "An increase in EPR\t(PLS FIND OUT)",
+      ],
+    },
+  "On a reciprocating engine aircraft using a shrouded exhaust muffler system as a source of cabin heat, the exhaust system should be?":
+    {
+      answer:
+        "Visually inspected for any indications of crack or operational carbon monoxide detection test should be done.",
+      choices: [
+        "Visually inspected for any indications of crack or operational carbon monoxide detection test should be done.",
+        "Replaced at each reciprocating engine overhaul by a new or overhauled exhaust system or a hydrostatic test should be done",
+        "Removed and exhaust muff should be inspected for cracks by using magnetic particles inspection method or a hydrostatic test should be done on the exhaust muffler",
+      ],
+    },
+  "The viscosity of a liquid is a measure of its;": {
+    answer: "Resistance to flow",
+    choices: [
+      "Resistance to flow",
+      "Rate of change of internal friction with change in temperature",
+      "Weight or density",
+    ],
+  },
+  "The recommended aircraft engine lubricants are;": {
+    answer: "Mineral or synthetic based",
+    choices: [
+      "Mineral or synthetic based",
+      "Vegetable, mineral or synthetic based",
+      "Animal, mineral or synthetic based",
+    ],
+  },
+  "Which of these is a desirable characteristics of an engine lubrication oil?":
+    {
+      answer: "High flash point",
+      choices: ["Low flash point", "High flash point", "High viscosity"],
+    },
+  "What is an advantage of the annular system compared with the multiple chamber system?":
+    {
+      answer: "It gives better pressure distribution",
+      choices: [
+        "It gives better pressure distribution",
+        "It results in a lower gas temperature",
+        "It overcomes the difficulty of keeping the flame stable",
+      ],
+    },
+  "What is the primary purpose of an oil- fuel heat exchanger?.....〈NOT NCAA QUESTION〉":
+    {
+      answer: "Cool the oil",
+      choices: ["Cool the fuel", "Cool the oil", "De-aerate the oil"],
+    },
+  "Which statement is true regarding the air passing through the combustion chamber of the jet engine?":
+    {
+      answer: "Most is used for engine cooling",
+      choices: [
+        "Most is used for engine cooling",
+        "Most is used to support combustion",
+        "A small percentage is usually bled off at this point to be used for air conditioning and or other pneumatic powered systems",
+      ],
+    },
+  "What is the function of a fire detection system?": {
+    answer: "To activate a warning device in the event of a power plant fire",
+    choices: [
+      "To discharge the power plant fire extinguishing system at the origin of the fire",
+      "To activate a warning device in the event of a power plant fire",
+      "Identify the location of a power plant fire",
+    ],
+  },
+  "Which of the following fire detectors are commonly used in the power section of an engine nacelle?":
+    {
+      answer: "Rate-of-temperature-rise  detectors",
+      choices: [
+        "CO detectors",
+        "Smoke detectors",
+        "Rate-of-temperature-rise  detectors",
+      ],
+    },
+  "A continuous loop fire detector is what type of detector?": {
+    answer: "Overheat detector",
+    choices: [
+      "Spot detector",
+      "Overheat detector",
+      "Rate-of-temperature-rise  detector",
+    ],
+  },
+  "How are most aircraft turbine engine fire- extinguishing systems activated?":
+    {
+      answer: "Electrically discharged cartridges",
+      choices: [
+        "Electrically discharged cartridges",
+        "Manual remote control valve",
+        "Pushrod assembly",
+      ],
+    },
+  "Which of the following is the safest fire extinguishing agent to use, from a standpoint of toxicity and corrosion hazards?":
+    {
+      answer: "Bromotrifluoromethane  (Halon  1301)",
+      choices: [
+        "Dibromodifluoromethane  (Halon  1202)",
+        "Bromochlorodifluoromethane  ((Halon  1211)",
+        "Bromotrifluoromethane  (Halon  1301)",
+      ],
+    },
+  "If the turbine and compressor are mismatched it will cause:": {
+    answer: "Severe vibration",
+    choices: [
+      "Severe vibration",
+      "Loss of power and high S.F.C.",
+      "High gas temperature",
+    ],
+  },
+  "The power required to drive the compressor and components is approx.": {
+    answer: "60% of energy available after combustion",
+    choices: [
+      "10% of energy available after combustion",
+      "40% of energy available after combustion",
+      "60% of energy available after combustion",
+    ],
+  },
+  "What operational force causes the greatest stress on a propeller?": {
+    answer: "Centrifugal force",
+    choices: [
+      "Aerodynamic twisting force",
+      "Centrifugal force",
+      "Thrust bending force",
+    ],
+  },
+  "What prevents pressure within the lubricating oil tank from rising above or falling below ambient pressure?":
+    {
+      answer: "Oil tank vent",
+      choices: [
+        "Oil tank check valve",
+        "Oil pressure relief valve",
+        "Oil tank vent",
+      ],
+    },
+  "What is the purpose of a last chance oil filter?": {
+    answer: "To filter the oil immediately before it enters the main bearings",
+    choices: [
+      "To prevent damage to the oil spray nozzle",
+      "To filter the oil immediately before it enters the main bearings",
+      "To assure a clean supply of oil to the lubrication system",
+    ],
+  },
+  "Noise producing zones of a turbine engine are?": {
+    answer: "Compressor, Turbine, and exhaust.",
+    choices: [
+      "Compressor, Combustion chamber and exhaust",
+      "Turbine, Combustion chamber and exhaust",
+      "Compressor, Turbine, and exhaust.",
+    ],
+  },
+  "A thrust reverser cannot be operated until": {
+    answer: "Thrust levers are at idle speed setting.",
+    choices: [
+      "Spoilers are deployed",
+      "Flaps are down",
+      "Thrust levers are at idle speed setting.",
+    ],
+  },
+  "When a gas (exit air) velocity at jet pipe reaches Mach.1 it is said to be…":
+    { answer: "Chocked.", choices: ["Expedited", "Sprayed", "Chocked."] },
+
+  // GAS TURBINE POWER PLANT 2
+
+  "Airflow through a convergent duct causes:": {
+    answer: "Increase in velocity, decrease in pressure",
+    choices: [
+      "Increase in velocity, increase in pressure",
+      "Increase in velocity, decrease in pressure",
+      "Decrease in velocity, increase in pressure",
+    ],
+  },
+  "The determining factors of engine power are:": {
+    answer: "RPM and torque",
+    choices: [
+      "Horse power and output shaft rpm",
+      "Take-off power and shaft horsepower",
+      "RPM and torque",
+    ],
+  },
+  "What parameter of the rotor blades determines the power required to maintain a constant rpm?":
+    { answer: "Pitch", choices: ["Length", "Pitch", "Speed"] },
+  "In an axial flow jet engine the turbine rotates but the engine does not start, the cause is:":
+    {
+      answer: "A defective starter relay",
+      choices: [
+        "A defective starter",
+        "A wrong battery",
+        "A defective starter relay",
+      ],
+    },
+  "Which instrument is used to monitor the integrity of the turbine and the overall operating conditions of a turbine engine":
+    {
+      answer: "Turbine inlet temperature (TIT) indicator",
+      choices: [
+        "Oil temperature gauge",
+        "EPR indicator",
+        "Turbine inlet temperature (TIT) indicator",
+      ],
+    },
+  "A disadvantage of a double sided impeller is:": {
+    answer: "Pre-heating of the air occurs",
+    choices: [
+      "Pre-heating of the air occurs",
+      "The frontal area of the engine is increased",
+      "A large turbine must be used",
+    ],
+  },
+  "A complete ‘stage’ of an axial flow compressor consists of:": {
+    answer: "One rotor and stator assembly",
+    choices: [
+      "One assembly and guide vane",
+      "One stator assembly and guide vane",
+      "One rotor and stator assembly",
+    ],
+  },
+  "The efficiency of a compressor is shown by:": {
+    answer: "The pressure during compression",
+    choices: [
+      "The pressure during compression",
+      "The velocity during compression",
+      "The temperature change during compression",
+    ],
+  },
+  "Attachment of blades to the compressor disc:": {
+    answer: "Allows slight movement to relieve stress concentration",
+    choices: [
+      "Allows slight movement to relieve stress concentration",
+      "Is rigid",
+      "Allows slight movement because of different expansion rates",
+    ],
+  },
+  "The fan rotational speed of a dual axial compressor forward fan engine is the same as the":
+    {
+      answer: "Low-pressure compressor",
+      choices: [
+        "Low-pressure compressor",
+        "forward turbine wheel",
+        "high-pressure compressor",
+      ],
+    },
+  "If compressor surge occurs, it is recognized by:": {
+    answer: "Coughing in the compressor and vibration",
+    choices: [
+      "Fluctuating R.P.M and fuel flow",
+      "Fluctuating J.P.T. and thrust",
+      "Coughing in the compressor and vibration",
+    ],
+  },
+  "To assist in acceleration time, most turbo shaft engines use one of the following system:":
+    {
+      answer: "Bleed valves, particle separators",
+      choices: [
+        "Ejector, relief valves and pressure regulator",
+        "Bleed valves, particle separators",
+        "Bleed valves, bleed ports, variable stators",
+      ],
+    },
+  "The gas turbine compression ratio is:": {
+    answer: "Compressor discharge pressure/compressor inlet pressure",
+    choices: [
+      "Compressor discharge pressure/compressor inlet pressure",
+      "Compressor inlet pressure/compressor discharge pressure",
+      "Cool Air by-pass through the duct/flow of air passed through the high pressure system",
+    ],
+  },
+  "The most convenient measurement of torque is in the form of what?": {
+    answer: "Inch pounds",
+    choices: [
+      "Inch pounds",
+      "Foot pounds",
+      "Pounds per square foot",
+      "Torque=force x radius",
+    ],
+  },
+  "The most widely used engine on helicopters is what series of engines?": {
+    answer: "Allison 250 series",
+    choices: ["Lycoming 350 series", "PT6-3 series", "Allison 250 series"],
+  },
+  "Where will the highest gas pressure occur?": {
+    answer:
+      "After leaving the compressor and before entering the combustion chamber",
+    choices: [
+      "In the combustion chamber",
+      "At the turbine outlet",
+      "After leaving the compressor and before entering the combustion chamber",
+    ],
+  },
+  "The Air used for combustion is termed": {
+    answer: "Primary Air",
+    choices: ["Primary Air", "Secondary Air", "Combustion Air"],
+  },
+  "The flame temperature is approximately": {
+    answer: "2000oC",
+    choices: ["500oC", "2000oC", "400oC"],
+  },
+  "When light up takes places": {
+    answer: "Inter connectors spread the heat to adjacent flame tubes",
+    choices: [
+      "Each flame tube is isolated from its neighbor",
+      "Inter connectors spread the heat to adjacent flame tubes",
+      "The nozzle guide vanes spread the heat to adjacent spread tubes",
+    ],
+  },
+  "Why is it necessary to have a combustion chamber drain system?": {
+    answer:
+      "To prevent initial over fueling on start up, or when there is a wet start",
+    choices: [
+      "To prevent pressure build up in the combustion chamber",
+      "To allow moisture content in fuel to drain away",
+      "To prevent initial over fueling on start up, or when there is a wet start",
+    ],
+  },
+  "Combustion is initiated in the combustion chamber by": {
+    answer: "Igniter plugs",
+    choices: ["Igniter plugs", "Sparking plugs", "Glowing plugs"],
+  },
+  "What is the main advantage of duplex fuel nozzle?": {
+    answer:
+      "Ability to provide good fuel atomization and proper spray pattern at all rates of fuel delivery and airflow without the necessity of utilizing abnormally high fuel pressure",
+    choices: [
+      "Ability to provide good fuel atomization and proper spray pattern at all rates of fuel delivery and airflow without the necessity of utilizing abnormally high fuel pressure",
+      "Better fuel/Air atomization at higher engine RPM",
+      "It is a lot cheaper and cost effective than others",
+    ],
+  },
+  "The turbine disc is cooled by": {
+    answer: "Compressor delivery Air",
+    choices: [
+      "Compressor delivery Air",
+      "L.P Air",
+      "Intermediate pressure air",
+    ],
+  },
+  "What type of fuel filters are in use?": {
+    answer:
+      "Paper cartridge type, screen type, convoluted screen, screen disk type",
+    choices: [
+      "Paper filter and chamois filter",
+      "Non-metallic filter and leather filter",
+      "Paper cartridge type, screen type, convoluted screen, screen disk type",
+    ],
+  },
+  "The primary cause of blade creep are:": {
+    answer: "Engine R.P.M and temperature",
+    choices: [
+      "Type of fuel and engine hours run",
+      "Engine R.P.M and temperature",
+      "Gas leakage at the tip and temperature",
+    ],
+  },
+  "During normal engine running conditions:": {
+    answer: "Combustion is self supporting",
+    choices: [
+      "Combustion is continuously supported by ignition",
+      "Combustion is intermittently supported by ignition",
+      "Combustion is self supporting",
+    ],
+  },
+  "If the turbine and compressor are mismatched it will cause": {
+    answer: "Severe vibration",
+    choices: [
+      "Severe vibration",
+      "Loss of power and high specific fuel consumption",
+      "High gas temperature",
+    ],
+  },
+  "When a gas turbine engine is started, in what position are the bleed valves":
+    {
+      answer: "Open position",
+      choices: [
+        "Closed position",
+        "Open position",
+        "In the controlled position",
+      ],
+    },
+  "Temperature within the combustion system is limited by": {
+    answer: "Turbine material limitations",
+    choices: [
+      "Detonation point of the fuel",
+      "Turbine material limitations",
+      "Velocity and pressure of the gasses at the turbine",
+    ],
+  },
+  "The type of material used to make turbine engine igniter plugs is?": {
+    answer: "Nickel chromium",
+    choices: ["Tungsten", "Inconel", "Nickel chromium"],
+  },
+  "What is the most common method of attaching turbine disks to the shaft in a turbine engine?":
+    { answer: "Keyed", choices: ["Bonding", "Bolting", "Keyed"] },
+  "The viscosity of the fuel": {
+    answer: "Affects the spray pattern",
+    choices: [
+      "Affects the spray pattern",
+      "Enabled lower fuel pressure to be used",
+      "Determined the amount of carbon deposits",
+    ],
+  },
+  "What is the purpose of the diffuser section of a turbine engine?": {
+    answer: "To decrease velocity, increase pressure",
+    choices: [
+      "To decrease velocity, increase pressure",
+      "To increase velocity, decrease pressure",
+      "To increase velocity, increase pressure",
+    ],
+  },
+  "The oil pressure relief valve is located between the": {
+    answer: "Oil pump and the internal oil system",
+    choices: [
+      "Oil pump and the internal oil system",
+      "Oil cooler and the scavenging pump",
+      "Scavenging pump and the tank",
+    ],
+  },
+  "high viscosity index means that the oil viscosity": {
+    answer: "Will not vary greatly with temperature change",
+    choices: [
+      "Will vary greatly with temperature change",
+      "Will not vary greatly with temperature change",
+      "Has a large index number",
+    ],
+  },
+  "The oil in the engine is:": {
+    answer: "Synthetic anti-freeze oil",
+    choices: [
+      "Synthetic anti-freeze oil",
+      "Low viscosity mineral oil",
+      "Vegetable oil with detergent added",
+    ],
+  },
+  "The oil pressure in the cooler is": {
+    answer: "Higher than the fuel pressure",
+    choices: [
+      "Higher than the fuel pressure",
+      "Lower than the fuel pressure",
+      "Same as the fuel pressure",
+    ],
+  },
+  "The engine casing is vented by": {
+    answer: "Centrifugal breather",
+    choices: [
+      "External gearbox drive shaft",
+      "Centrifugal breather",
+      "Through the oil tank",
+    ],
+  },
+  "Air used to cool the turbine is": {
+    answer: "Mixed with hot gas flow through the turbine",
+    choices: [
+      "Mixed with hot gas flow through the turbine",
+      "Mixed with the hot gas flow at the propelling nozzle",
+      "Vented overboard",
+    ],
+  },
+  "The advantage of an air starter system is:": {
+    answer: "Light, simple and economical",
+    choices: [
+      "Light, simple and economical",
+      "Provides a more rapid start",
+      "No risk of engine fire during starting",
+    ],
+  },
+  "An advantage of a gas turbine starter is:": {
+    answer: "Provide high power for low weight",
+    choices: [
+      "Provide high power for low weight",
+      "Does not require external connections",
+      "Uses a low volatile fuel",
+    ],
+  },
+  "When reheat is selected and in operation, the mass gas flow:": {
+    answer: "Remains the same",
+    choices: ["Increase", "Decrease", "Remains the same"],
+  },
+  "Screen Linear in the jet pipe": {
+    answer: "Acts as noise suppressors",
+    choices: [
+      "Prevent unstable combustion",
+      "Prevent cyclic vibration of large amplitude",
+      "Acts as noise suppressors",
+    ],
+  },
+  "What is the purpose of radial strut in the compressor front support?": {
+    answer:
+      "To strengthen and support radially the front compressor from the impart of in- coming air",
+    choices: [
+      "To direct and distribute air into the compressor rotor in an efficient manner",
+      "To strengthen and support radially the front compressor from the impart of in- coming air",
+      "To protect the front compressor from foreign object damage (F.O.D)",
+    ],
+  },
+  "In a free turbine, there is:": {
+    answer: "No mechanical connection",
+    choices: [
+      "A clutch between the compressor and the power output shaft",
+      "No mechanical connection",
+      "A direct drive with a free wheel unit",
+    ],
+  },
+  "Inlet guide vanes prevent": {
+    answer: "Compressor stall",
+    choices: [
+      "Ice building up on compressor blades",
+      "Compressor stall",
+      "Compressor runway",
+    ],
+  },
+  "When gas passes through the turbine": {
+    answer: "Pressure, velocity and temperature decreases",
+    choices: [
+      "Pressure, velocity and temperature decreases",
+      "Pressure and temperature decrease, velocity increase",
+      "Pressure and velocity increase, temperature decrease",
+    ],
+  },
+  "Fuel entering the combustion chamber from an atomizer enters as": {
+    answer: "Fuel continuously",
+    choices: ["A fuel/air mixture", "Fuel continuously", "Fuel in air pulses"],
+  },
+  "In the event of a surge occurring, the correct action to take would be": {
+    answer: "to close throttle slowly",
+    choices: [
+      "to close throttle slowly",
+      "to open throttle fully",
+      "to apply rotor brake",
+    ],
+  },
+  "What is the purpose of vibration damper?": {
+    answer: "Absorb vibration in the compressor",
+    choices: [
+      "Absorb vibration in the turbine section",
+      "Absorb vibration in the exhaust section",
+      "Absorb vibration in the compressor",
+      "Eliminate compressors rumbling",
+    ],
+  },
+  "Why is the fuel tank vented?": {
+    answer: "To maintain equal pressure with increase in altitude",
+    choices: [
+      "To maintain equal pressure with increase in altitude",
+      "To allow for evaporation",
+      "To allow for over spill due to over filling",
+    ],
+  },
+  "The output of the scavenge pump": {
+    answer: "Is greater than the pump pressure",
+    choices: [
+      "Is greater than the pump pressure",
+      "Is less than the pressure pump",
+      "Is the same as the pressure pump",
+    ],
+  },
+  "If metal particles are seen on turbine blades:": {
+    answer: "Reject the engine",
+    choices: [
+      "Clean off and check after the next flight",
+      "Reject the engine",
+      "Accept as a deferred defect",
+    ],
+  },
+  "On what is the compressor mounted?": {
+    answer: "Ball and roller bearings",
+    choices: [
+      "Plain bearing",
+      "Ball and roller bearings",
+      "Tapered roller bearings",
+    ],
+  },
+  "One function of the nozzle diaphragm in a turbine engine is to": {
+    answer:
+      "Direct the flow of gases to strike the turbine blades at a desired angle-",
+    choices: [
+      "decrease the velocity of exhaust gases",
+      "center the fuel spray in the combustion chamber",
+      "Direct the flow of gases to strike the turbine blades at a desired angle-",
+    ],
+  },
+  "What is the profile of a turbine engine compressor blade?": {
+    answer: "A cutout that reduces blade tip thickness",
+    choices: [
+      "The leading edge of the blade",
+      "A cutout that reduces blade tip thickness",
+      "The curvature of the blade root",
+    ],
+  },
+  "In a false (hung) engine start": {
+    answer: "The engine will light, but not accelerate",
+    choices: [
+      "The engine will not light",
+      "The engine will light, but not accelerate",
+      "The engine will not rotate",
+    ],
+  },
+  "What is the purpose of burner drain valve?": {
+    answer:
+      "To drain over board any fuel that may try to collect in the combustion section after an engine shut down",
+    choices: [
+      "To drain over board any water that may try to collect in the combustion section",
+      "To drain over board any fuel that may try to collect in the combustion section after an engine shut down",
+      "To drain over board any oil that may try to collect in the combustion section",
+    ],
+  },
+  "If the L.P shaft shears": {
+    answer: "The L.P. turbine overspeeds",
+    choices: [
+      "The L.P. compressor overspeeds",
+      "The L.P. turbine overspeeds",
+      "The L.P. turbine overspeeds",
+    ],
+  },
+  "An engine that does not accelerate": {
+    answer: "Has a misbalance of fuel flow",
+    choices: [
+      "Has the starter clutch worn",
+      "Has a misbalance of fuel flow",
+      "The I.G.Vs has not moved",
+    ],
+  },
+  "Bleed valves closes": {
+    answer: "At high R.P.M",
+    choices: ["At low R.P.M", "They are never fully closed", "At high R.P.M"],
+  },
+  "The scavenge pump apart from pumping oil": {
+    answer: "Also pumps out Air",
+    choices: [
+      "Also pumps out water",
+      "Also pumps out Air",
+      "Also pumps out residual oil slit",
+    ],
+  },
+  "What is the main structural support in some jet engines?": {
+    answer: "Gearbox\t****",
+    choices: ["Compressor", "Turbine", "Gearbox\t****"],
+  },
+  "The action of a diode can be best described as": {
+    answer: "A rectifier",
+    choices: ["An inverter", "A rectifier", "A current cut-out switch"],
+  },
+  "What colour code is used to identify lubrication line": {
+    answer: "A yellow band around the lines",
+    choices: [
+      "A series of red, green and black bands around the lines",
+      "A series of black and blue bands around the lines",
+      "A yellow band around the lines",
+    ],
+  },
+  "During starting, if the bleed valve is stuck in the closed position, it will result in:":
+    {
+      answer: "High engine temperature",
+      choices: [
+        "High engine temperature",
+        "Low engine temperature",
+        "Will not affect engine temperature",
+      ],
+    },
+  "Which of the following is not a factor in the operation of an automatic fuel control unit used in turbine engine":
+    {
+      answer: "Mixture control position",
+      choices: [
+        "Compressor inlet air density",
+        "Throttle position",
+        "Mixture control position",
+      ],
+    },
+  "The primary purpose of bleed valve is": {
+    answer: "To prevent compressor stall",
+    choices: [
+      "To allow air to escape so as to prevent compressor from over speeding",
+      "To prevent compressor stall",
+      "To supple anti-icing air",
+    ],
+  },
+  "The shaft turbine is designed to produce": {
+    answer: "Shaft horsepower rather than thrust",
+    choices: [
+      "Shaft thrust",
+      "Shaft horsepower rather than thrust",
+      "Brake horsepower",
+    ],
+  },
+  "The turbo shaft engine usually contain": {
+    answer: "gear reduction to reduce turbine speed",
+    choices: [
+      "direct shaft to reduce turbine speed",
+      "free turbine to reduce turbine speed",
+      "gear reduction to reduce turbine speed",
+    ],
+  },
+  "Most of the helicopter turbines today use": {
+    answer: "Axial centrifugal compressors",
+    choices: [
+      "Centrifugal compressors",
+      "Axial compressors",
+      "Axial centrifugal compressors",
+    ],
+  },
+  "The most common combustor used on turboshaft is the": {
+    answer: "Annular combustor",
+    choices: ["Axial combustion", "Cannular combustor", "Annular combustor"],
+  },
+  "The Turbo shaft horse power is usually expressed in": {
+    answer: "Shaft horsepower",
+    choices: ["Brake horsepower", "Shaft horsepower", "Torque horsepower"],
+  },
+  "Following a temporary repair the aircraft may be flown at the discretion of the:":
+    {
+      answer: "L.A.E who did the work",
+      choices: ["Engineer", "Aircraft commander", "L.A.E who did the work"],
+    },
+  "An aircraft type certificate may be:": {
+    answer: "Issued to a prototype aircraft by the Authority",
+    choices: [
+      "Issued to a prototype aircraft by the manufacturer",
+      "Issued to a prototype aircraft by the Authority",
+      "Issued to a series aircraft by the manufacturer",
+    ],
+  },
+  "A certificate of fitness for flight is valid for a maximum of:": {
+    answer:
+      "Seven days provided the Airworthiness of the aircraft has not changed",
+    choices: [
+      "Seven days provided the Airworthiness of the aircraft has not changed",
+      "Two years",
+      "Until the next maintenance check",
+    ],
+  },
+  "An Air Operator Certificate": {
+    answer:
+      "Must be held by an operator who uses aircraft for the purpose of public Transport",
+    choices: [
+      "Is required by members of a flight crew",
+      "Is not required if an approved maintenance schedule is in operation",
+      "Must be held by an operator who uses aircraft for the purpose of public Transport",
+    ],
+  },
+  "How many days shall each applicant make the application for an initial issue of AOC?":
+    { answer: "90 days", choices: ["30 days", "60 days", "90 days"] },
+  "What is the full meaning of the acronym AMO?": {
+    answer: "Approved Maintenance Organization",
+    choices: [
+      "Aircraft Maintenance Organization",
+      "Aviation Maintenance Organization",
+      "Approved Maintenance Organization",
+    ],
+  },
+  "The Minimum Equipment List is the": {
+    answer: "Equipment that may be inoperative for aircraft dispatch",
+    choices: [
+      "Equipment that may be inoperative for aircraft dispatch",
+      "Minimum equipment that an aircraft must carry",
+      "Minimum equipment to satisfy a particular role of the aircraft",
+    ],
+  },
+  "A Certificate of Registration must be carried on the aircraft": {
+    answer: "For all flights",
+    choices: [
+      "For all flights",
+      "For all international flights",
+      "On all test flights",
+    ],
+  },
+  "Who is responsible for maintenance of the aircraft in an airworthy condition?":
+    {
+      answer: "Operator/Owner of the aircraft",
+      choices: [
+        "Aviation Safety Inspector (Airworthiness)",
+        "Operator/Owner of the aircraft",
+        "CAA of state of manufacture or design",
+      ],
+    },
+  "Who shall report to the Authority any failure, malfunctions or defects that result during false fire warning, engine shutdown due to flame out and foreign object injection or icing in flight?":
+    {
+      answer: "The owner/operator of the aircraft",
+      choices: [
+        "The engine manufacturer",
+        "The captain/crew in-flight",
+        "The owner/operator of the aircraft",
+      ],
+    },
+  "Service bulletins are issued by:": {
+    answer: "The manufacturer and are mandatory when the Authority decides",
+    choices: [
+      "The NCAA and are always mandatory",
+      "The NCAA and are mandatory when the Manufacturer decides",
+      "The manufacturer and are mandatory when the Authority decides",
+    ],
+  },
+  "In the NCAR 145 rating system the rating B relates to:": {
+    answer: "Aircraft exceeding 5700=B",
+    choices: [
+      "Components",
+      "Aircraft not exceeding 5700=B",
+      "Aircraft exceeding 5700=B",
+    ],
+  },
+  "What turbine engine section provides for proper mixing of the fuel and air?":
+    {
+      answer: "Combustion section",
+      choices: ["Combustion section", "Compressor section", "Diffuser section"],
+    },
+  "In gas turbine engine, combustion occurs at a constant": {
+    answer: "Pressure",
+    choices: ["Volume", "Pressure", "Density"],
+  },
+  "Some high-volume turboprop and turbojet engines are equipped with two-spool or split compressors. When these engines are operated at high altitudes, the":
+    {
+      answer:
+        "Low pressure rotor will increase in speed as the compressor decreases in the lower density air",
+      choices: [
+        "Low pressure rotor will increase in speed as the compressor decreases in the lower density air",
+        "Throttle must be retarded to prevent overspeeding of the high pressure rotor due to the lower density air",
+        "low-pressure rotor will decrease in speed as the compressor load decreases in the lower density air",
+      ],
+    },
+  "Turbine nozzle diaphragms located on the upstream side of each turbine wheel are used In the gas turbine engine to":
+    {
+      answer:
+        "increase the velocity of the heated gases flowing past this point",
+      choices: [
+        "decrease the velocity of the heated gases flowing past this point",
+        "direct the flow of gases parallel to the vertical line of the turbine blades",
+        "increase the velocity of the heated gases flowing past this point",
+      ],
+    },
+  "An exhaust cone placed aft of the turbine in a jet engine will cause the pressure in the first part of the exhaust duct to":
+    {
+      answer: "increase and the velocity to decrease",
+      choices: [
+        "increase and the velocity to decrease",
+        "increase and the velocity to increase",
+        "decrease and the velocity to increase",
+      ],
+    },
+  "What is the function of the stator vane assembly at the discharge end of a typical axial-flow compressor?":
+    {
+      answer: "To straighten airflow to eliminate turbulence",
+      choices: [
+        "To straighten airflow to eliminate turbulence",
+        "To direct the flow of gases into the combustion chambers",
+        "To increase air swirling motion into the combustion chambers",
+      ],
+    },
+  "In the dual axial-flow or twin spool compressor system, the first stage turbine drives the":
+    {
+      answer: "N2 compressor",
+      choices: ["N1 and N2 compressors", "N2 compressor", "N1 compressor"],
+    },
+  "What are the two basic elements of the turbine section in a turbine engine":
+    {
+      answer: "Stator and rotor",
+      choices: ["Impeller and diffuser", "Hot and cold", "Stator and rotor"],
+    },
+  "The function of the exhaust cone assembly of a turbine engine is to": {
+    answer:
+      "Straighten and collect the exhaust gases into a single exhaust jet",
+    choices: [
+      "Collect the exhaust gases act as a noise suppressor",
+      "Swirl and collect the exhaust gases into a single exhaust jet",
+      "Straighten and collect the exhaust gases into a single exhaust jet",
+    ],
+  },
+  "What are the two functional elements in a centrifugal compressor?": {
+    answer: "Impeller and diffuser",
+    choices: [
+      "Turbine and compressor",
+      "Bucket and expander",
+      "Impeller and diffuser",
+    ],
+  },
+  "Some engine manufacturers of twin spool gas turbine engines identify turbine discharge pressure in their maintenance manuals as":
+    { answer: "Pt7", choices: ["Pt7", "Pt2", "Tt7"] },
+  "How does dual axial-flow compressor improve the efficiency of a turbojet engine?":
+    {
+      answer: "Higher compression ratios can be obtained",
+      choices: [
+        "More turbine wheels can be used",
+        "Higher compression ratios can be obtained",
+        "The velocity of the air entering the combustion chamber is increased",
+      ],
+    },
+  "Three types of turbine blade are": {
+    answer: "Impulse, reaction, and impulse-reaction",
+    choices: [
+      "reaction, converging and diverging",
+      "Impulse, reaction, and impulse-reaction",
+      "Impulse, vector and impulse-vector",
+    ],
+  },
+  "An advantage of the axial-flow compressor is its": {
+    answer: "high peak efficiency",
+    choices: [
+      "lowstarting power requirements",
+      "low weight",
+      "high peak efficiency",
+    ],
+  },
+  "What is one purpose of the stator blade in the compressor section of a turbine engine?":
+    {
+      answer: "Control the direction of the airflow",
+      choices: [
+        "Stabilize the pressure of the airflow",
+        "Control the direction of the airflow",
+        "Increase the velocity of the airflow",
+      ],
+    },
+  "The diffuser section of a jet engine is located between": {
+    answer: "The compressor section and the burner section",
+    choices: [
+      "The burner section and the turbine section",
+      "Station No. 7 and station No. 8",
+      "The compressor section and the burner section",
+    ],
+  },
+  "Reduced blade vibration and improved airflow characteristics in gas turbine are brought about by":
+    {
+      answer: "Shrouded turbine rotor blades",
+      choices: [
+        "Fit-free blade attachment",
+        "Impulse type blades",
+        "Shrouded turbine rotor blades",
+      ],
+    },
+  "The highest heat-to-metal contact in jet engine is the": {
+    answer: "Turbine inlet guide vanes",
+    choices: ["Burner cans", "Turbine inlet guide vanes", "Turbine blades"],
+  },
+  "The two types of centrifugal compressor impellers are": {
+    answer: "single entry and double entry",
+    choices: [
+      "single entry and double entry",
+      "rotor and stator",
+      "impeller and diffuser",
+    ],
+  },
+  "In a dual axial-flow compressor, the first stage turbine drives": {
+    answer: "N2 compressor",
+    choices: ["N2 compressor", "N1 compressor", "Low pressure compressor"],
+  },
+  "A weak fuel to air mixture along with normal airflow through a turbine engine may result in":
+    {
+      answer: "a lean die-cut",
+      choices: ["a rich flameout", "a lean die-cut", "high EGT"],
+    },
+  "In a turbine engine with a dual-spool compressor, the low speed compressor":
+    {
+      answer: "seeks its own operating speed",
+      choices: [
+        "always turn at the same speed as the high speed compressor",
+        "is connected directly to the high speed compressor",
+        "seeks its own operating speed",
+      ],
+    },
+  "What is the primary advantage of an axial-flow compressor over a centrifugal compressor?":
+    {
+      answer: "Greater pressure ratio",
+      choices: [
+        "High frontal area",
+        "Less expensive",
+        "Greater pressure ratio",
+      ],
+    },
+  "What is meant by a double entry centrifugal compressor?": {
+    answer: "A compressor with vanes on both sides of the impeller",
+    choices: [
+      "A compressor that has two intakes",
+      "A two-stage compressor independently connected to the main shaft",
+      "A compressor with vanes on both sides of the impeller",
+    ],
+  },
+  "What is the major function of the turbine assembly in a turbojet engine?": {
+    answer: "Supplies the power to turn the compressor",
+    choices: [
+      "Directs the gases in the proper direction to the tailpipe",
+      "Supplies the power to turn the compressor",
+      "Increases the temperature of the exhaust gases",
+    ],
+  },
+  "Stator blades in the compressor section of an axial-flow turbine engine": {
+    answer: "decrease the air velocity and prevent swirling",
+    choices: [
+      "increase the air velocity and prevent swirling",
+      "straighten the airflow and accelerate it",
+      "decrease the air velocity and prevent swirling",
+    ],
+  },
+  "(1) in a turbine engine axial-flow compressor, each consecutive pair of rotor and stator blades constitutes a pressure stage (2) in turbine engine axial-flow compressor, the number of rows of stages is determined by the amount of air and total pressure rise required, Regarding the above statements,":
+    {
+      answer: "Both No. 1 and No. 2 are true",
+      choices: [
+        "Only No. 1 is true",
+        "Only No. 2 is true",
+        "Both No. 1 and No. 2 are true",
+      ],
+    },
+  "The compression ratio of an axial-flow compressor is a function of the": {
+    answer: "number of compressor stages",
+    choices: [
+      "number of compressor stages",
+      "rotor diameter",
+      "air inlet velocity",
+    ],
+  },
+  "Compressor stall is caused by": {
+    answer:
+      "A high angle of attack airflow through the first stages of compression",
+    choices: [
+      "A low angle of attack airflow through the first stage of compression",
+      "A high angle of attack airflow through the first stages of compression",
+      "Rapid engine deceleration",
+    ],
+  },
+  "(1) engine pressure ratio(EPR) is a ratio of the exhaust gas pressure to the engine inlet air pressure, and indicates the thrust produced. (2) engine pressure ratio (EPR) is a ratio of the exhaust gas pressure to the engine inlet air pressure, and indicates volumetric efficiency. Regarding the above statements,":
+    {
+      answer: "Only No, 1 is true",
+      choices: [
+        "Only No, 1 is true",
+        "Only No. 2 is true",
+        "Both No. 1 and No. 2 are correct",
+      ],
+    },
+  "Engine pressure ratio is determined by": {
+    answer:
+      "dividing turbine outlet total pressure by engine inlet total pressure",
+    choices: [
+      "multiplying engine inlet total pressure by turbine outlet total pressure",
+      "dividing turbine outlet total pressure by engine inlet total pressure",
+      "dividing engine inlet total pressure by turbine outlet total pressure",
+    ],
+  },
+  "In a turbine engine. where is the turbine discharge pressure indicator sensor located?":
+    {
+      answer: "Immediately aft of the last turbine stage",
+      choices: [
+        "At the aft end of the compressor section",
+        "At a location in the exhaust cone that is determined to be subjected to the highest pressures",
+        "Immediately aft of the last turbine stage",
+      ],
+    },
+  "The oil dampened main bearing utilized in some turbine engines is used to": {
+    answer:
+      "provide an oil film between the outer race and the bearing housing in order to reduce vibration tendencies in the rotor system. and to allow for slight misalignment",
+    choices: [
+      "provide lubrication of bearings from the beginning of starting rotation until normal oil pressure is established",
+      "provide an oil film between the outer race and the bearing housing in order to reduce vibration tendencies in the rotor system. and to allow for slight misalignment",
+      "dampen surges in oil pressure to the bearings",
+    ],
+  },
+  "In an axial- flow turbine engine, compressor bleed air is sometimes used to aid in cooling the":
+    {
+      answer: "turbine, vanes, blades, and bearings",
+      choices: [
+        "fuel",
+        "inlet guide vanes",
+        "turbine, vanes, blades, and bearings",
+      ],
+    },
+  "The purpose of directing bleed air to the outer turbine case on some engines is to":
+    {
+      answer:
+        "Provide optimum turbine blade tip clearance by controlling thermal expansion",
+      choices: [
+        "Provide optimum turbine blade tip clearance by controlling thermal expansion",
+        "Provide up to 100 percent kinetic energy extraction from the flowing gases",
+        "Allow operation in a thermal environment 600 to 800oF above the temperature limits of turbine blade and vane alloys",
+      ],
+    },
+  "votex dissipaters installed on some turbine power aircraft to prevent engine FOD utilize":
+    {
+      answer:
+        "A stream of engine bleed air blown toward the ground ahead of the engine",
+      choices: [
+        "Variable inlet guide vanse (IGV) and/or variable first stage fan blade",
+        "Variable geometry inlet duct",
+        "A stream of engine bleed air blown toward the ground ahead of the engine",
+      ],
+    },
+  "Vortex dissipator systems are generally activated by": {
+    answer: "A landing gear switch",
+    choices: [
+      "A landing gear switch",
+      "A fuel pressure switch anytime an engine is operating",
+      "An engine inlet airflow sensor",
+    ],
+  },
+  "The component(s) in a turbine engine that operate(s) at the highest temperature is/are the":
+    {
+      answer: "First stage turbine nozzle guide vanes",
+      choices: [
+        "First stage turbine nozzle guide vanes",
+        "Turbine disks",
+        "Exhaust cone",
+      ],
+    },
+  "Frequently, an aircraft’s auxiliary power unit (APU) generator": {
+    answer: "Is identical to the engine-driven generators",
+    choices: [
+      "Is identical to the engine-driven generators",
+      "Supplements the aircraft’s engine-driven generators during peak loads",
+      "Has a higher load capacity than the engine-driven generators",
+    ],
+  },
+  "Fuel is normally supplied to an APU from": {
+    answer: "The airplane’s main fuel supply",
+    choices: [
+      "Its own independent fuel supply",
+      "The airplane’s reserve fuel supply",
+      "The airplane’s main fuel supply",
+    ],
+  },
+  "An APU is usually rotated during start by": {
+    answer: "An electric starter",
+    choices: [
+      "A turbine impingement system",
+      "A pneumatic starter",
+      "An electric starter",
+    ],
+  },
+  "The function of an APU air inlet plenum is to": {
+    answer: "Stabilize the pressure of the air before it enter the compressor",
+    choices: [
+      "Increase the velocity of the air before entering the compressor",
+      "Decrease the pressure of the air before entering the compressor",
+      "Stabilize the pressure of the air before it enter the compressor",
+    ],
+  },
+  "When in operation, the speed of an APU": {
+    answer: "Remains at or near rated speed regardless of the load condition",
+    choices: [
+      "Is controlled by a cockpit power lever",
+      "Remains at idle and automatically accelerate to rated speed when placed under load",
+      "Remains at or near rated speed regardless of the load condition",
+    ],
+  },
+  "Generally, when maximum APU shaft output power being used in conjunction with pneumatic power":
+    {
+      answer:
+        "Pneumatic loading will be automatically modulated to maintain a safe EGT",
+      choices: [
+        "Pneumatic loading will be automatically modulated to maintain a safe EGT",
+        "Electrical loading will be automatically modulated to maintain a safe EGT",
+        "Temperature limits and loads must be carefully monitored by the operator to maintain a safe EGT",
+      ],
+    },
+  "When necessary, APU engine cooling before shutdown may be accomplished by": {
+    answer: "Closing the bleed air valve",
+    choices: [
+      "Unloading the generator(s)",
+      "Closing the bleed air valve",
+      "Opening the bleed air valve",
+    ],
+  },
+  "Usually, most of the load placed on an APU occurs when": {
+    answer: "The bleed air valve is opened",
+    choices: [
+      "An electrical load is placed on the generator(s)",
+      "The bleed air valve is opened",
+      "The bleed air valve is closed",
+    ],
+  },
+  "Fuel scheduling during APU start and under varying pneumatic bleed and electrical loads is maintained":
+    {
+      answer: "Automatically by the APU fuel control system",
+      choices: [
+        "Manually through power control lever position",
+        "Automatically by the APU fuel control system",
+        "Automatically by an aircraft main engine fuel control unit",
+      ],
+    },
+  "If the RPM of an axial flow compressor remains constant, the angle of attack of the rotor blades can be changed by":
+    {
+      answer: "Changing the velocity of the airflow",
+      choices: [
+        "Changing the velocity of the airflow",
+        "Changing the compressor diameter",
+        "Increasing the pressure ratio",
+      ],
+    },
+  "On APU’s equipped with a free turbine and load compressor, the primary function of the load compressor is to":
+    {
+      answer: "Provide bleed air for aircraft pneumatic systems",
+      choices: [
+        "Provide air for combustion and cooling in the engine gas path",
+        "Provide bleed air for aircraft pneumatic systems",
+        "supply the turning force for operation of the APU generator(s)",
+      ],
+    },
+  "which statement is true regarding jet engines?": {
+    answer:
+      "At the higher engine speeds, thrust increase rapidly with small increases in RPM",
+    choices: [
+      "At the lower engine speeds, thrust increases rapidly with small increases in RPM",
+      "At the higher engine speeds, thrust increase rapidly with small increases in RPM",
+      "The thrust delivered per pound of air consumed is less at high altitude than at low altitude",
+    ],
+  },
+  "The pressure of subsonic air as it flows through a convergent nozzle": {
+    answer: "Decreases",
+    choices: ["Increases", "Decreases", "Remains constant"],
+  },
+  "Which of the following factor affect the thermal efficiency of a turbine engine?  1 Turbine inlet temperature  2 Compression ratio 3 Ambient temperature 4 Speed of the aircraft 5 Turbine and compressor efficiency 6 Altitude of the aircraft":
+    { answer: "1,2 and 5", choices: ["3,4 and 6", "1,2 and 5", "1,2 and 6"] },
+  "When starting a turbine engine. a hung start is indicated if the engine": {
+    answer: "fails to reach idle RPM",
+    choices: [
+      "exhaust gas temperature exceeds specified limits",
+      "fails to reach idle RPM",
+      "RPM exceeds specified operating speed",
+    ],
+  },
+  "When starting a turbine engine": {
+    answer:
+      "a hot start is indicated if the exhaust gas temperature exceeds specified limits",
+    choices: [
+      "a hot start is indicated if the exhaust gas temperature exceeds specified limits",
+      "an excessively lean mixture is likely to cause a hot start",
+      "release the starter switch as soon as indication of light-off occurs",
+    ],
+  },
+  "Compressor field cleaning on turbine engines is performed primarily in order to":
+    {
+      answer:
+        "Prevent engine performance degradation, increased fuel costs, and damage or corrosion to gas path surfaces",
+      choices: [
+        "Prevent engine oil contamination and subsequent engine bearing wear or damage",
+        "Facilitate flight line inspection of engine inlet and compressor areas for defects of FOD",
+        "Prevent engine performance degradation, increased fuel costs, and damage or corrosion to gas path surfaces",
+      ],
+    },
+  "What is the proper starting sequence for a turbojet?": {
+    answer: "Starter, ignition, fuel",
+    choices: [
+      "Ignition, starter, fuel",
+      "Starter, ignition, fuel",
+      "Starter, fuel, ignition",
+      "sif",
+    ],
+  },
+  "Generally, when starting a turbine engine, the starter should be disengaged":
+    {
+      answer: "After the engine has reached self- accelerating speed",
+      choices: [
+        "After the engine has reached self- accelerating speed",
+        "Only after the engine has reached full idle RPM",
+        "When the ignition and fuel system are activated",
+      ],
+    },
+  "The procedure for removing the accumulation of dirt deposits on compressor blades is called":
+    {
+      answer: "Field cleaning",
+      choices: ["The soak method", "Field cleaning", "The purging process"],
+    },
+  "Dirt particles in the air being introduced into the compressor of a turbine engine will form a coating on all but which of the following?":
+    {
+      answer: "Turbine blades",
+      choices: ["Turbine blades", "Casings", "Inlet guide vanes"],
+    },
+  "If a turbine engine is unable to reach take off EPR before its EGT limits is reached, this is an indication that the":
+    {
+      answer: "Compressor may be contaminated or damaged",
+      choices: [
+        "Fuel control must be replaced",
+        "EGT controller is out of adjustment",
+        "Compressor may be contaminated or damaged",
+      ],
+    },
+  "A cool-off period prior to shutdown of a turbine engine is accomplishment in order to":
+    {
+      answer:
+        "Allow the turbine wheel to cool before the case contracts around it",
+      choices: [
+        "Allow the turbine wheel to cool before the case contracts around it",
+        "Prevent vapour lock in the fuel control and/or fuel lines",
+        "Prevent seizure of the engine bearings",
+      ],
+    },
+  "(1) Accumulation of contaminates in the compressor of a turbojet engine reduces aerodynamic efficiency of the blades (2) two common methods for removing dirt deposits from turboject engine compressor blades are a fluid wash and abrasive grit blast    \nRegarding the above statements":
+    {
+      answer: "Both No. 1 and No.2 are true",
+      choices: [
+        "Only No. 1 is true",
+        "Only No. 2 is true",
+        "Both No. 1 and No.2 are true",
+      ],
+    },
+  "Jet engine thermocouples are usually constructed of": {
+    answer: "Chromel-alumel",
+    choices: ["Chromel-alumel", "Iron-constantan", "Alumel-constantan"],
+  },
+  "What is the primary purpose of the tachometer on an axial-compressor turbine engine?":
+    {
+      answer:
+        "Monitor engine RPM during starting and to indicate overspeed conditions",
+      choices: [
+        "Monitor engine RPM during cruise conditions",
+        "It is the most accurate instrument for establishing thrust settings under all conditions",
+        "Monitor engine RPM during starting and to indicate overspeed conditions",
+      ],
+    },
+  "The engine pressure ratio (EPR) indicator is a direct indication of": {
+    answer: "Engine thrust being produced",
+    choices: [
+      "Engine thrust being produced",
+      "Pressure ratio between the front and aft end of the compressor",
+      "Ratio of engine RPM to compressor pressure",
+    ],
+  },
+  "What instrument indicates the thrust of a gas turbine engine?": {
+    answer: "Engine pressure ratio indicator",
+    choices: [
+      "Exhaust gas temperature indicator",
+      "Turbine inlet temperature indicator",
+      "Engine pressure ratio indicator",
+    ],
+  },
+  "In what units are turbine engine tachometers calibrated?": {
+    answer: "Percent of engine RPM",
+    choices: [
+      "Percent of engine RPM",
+      "Actual engine RPM",
+      "Percent of engine pressure ratio",
+    ],
+  },
+  "The abbreviation Pt7 used in turbine engine terminology means": {
+    answer: "The total pressure at station No. 7",
+    choices: [
+      "The total inlet pressure",
+      "Pressure and temperature at station No. 7",
+      "The total pressure at station No. 7",
+    ],
+  },
+  "The blending of blades and vanes in a turbine engine": {
+    answer:
+      "Should be performed parallel to the length of the blade using smooth contours to minimize stress points",
+    choices: [
+      "Is usually accomplished only at engine overhaul",
+      "Should be performed parallel to the length of the blade using smooth contours to minimize stress points",
+      "May sometimes be accomplished with the engine installed ordinarily using power tools",
+    ],
+  },
+  "During inspection, turbine engine components exposed to high temperatures may only be marked with such materials as allowed by the manufacturer. These materials generally include 1. Layout dye 2. Commercial felt tip marker 3. Wax or grease pencil 4. Chalk 5. Graphite lead pencil":
+    {
+      answer: "1,2 and 4",
+      choices: ["1,2 and 4", "1,3 and 4", "2,4 and 5"],
+    },
+  "Where do stress rupture cracks usually appear on turbine blades": {
+    answer:
+      "Across the leading or trailing edge at a right angle to the edge length",
+    choices: [
+      "Cross the blade root, parallel to the fir tree",
+      "Along the leading edge, parallel to the edge",
+      "Across the leading or trailing edge at a right angle to the edge length",
+    ],
+  },
+  "When the leading edge of a first-stage turbine blade is found to have stress rupture cracks, which of the following should be suspected?":
+    {
+      answer: "Over temperature condition",
+      choices: [
+        "Faulty cooling shield",
+        "Over temperature condition",
+        "Overspeed condition",
+      ],
+    },
+  "The recurrent ingestion of dust or other fine airborne particulates into a turbine engine can result in":
+    {
+      answer: "Erosion damage to the compressor and turbine sections",
+      choices: [
+        "Foreign object damage to the compressor section",
+        "The need for less frequent abrasive grit cleaning of the engine",
+        "Erosion damage to the compressor and turbine sections",
+      ],
+    },
+  "Jet engine turbine blades removed for detailed inspection must be reinstalled in":
+    {
+      answer: "The same slot",
+      choices: [
+        "A specified slot 1800 away",
+        "A specified slot 900 away in the direction of rotation",
+        "The same slot",
+      ],
+    },
+  "Continued and/or excessive heat and centrifugal force on turbine engine rotor blades is likely to cause":
+    { answer: "Creep", choices: ["Profile", "Creep", "Galling"] },
+  "What term is used to describe a permanent and cumulative deformation of the turbine blades of a turbojet engine?":
+    { answer: "Creep", choices: ["Stretch", "Distortion", "Creep"] },
+  "Severe rubbing of turbine engine compressor blades will usually cause": {
+    answer: "Dents",
+    choices: ["Cracks", "Pits", "Dents"],
+  },
+  "What publication contains the mandatory replacement time for parts of a turbine engine?":
+    {
+      answer: "Engine manufacturer’s service instructions",
+      choices: [
+        "Engine manufacturer’s service instructions",
+        "Engine manufacturer’s maintenance manual",
+        "Federal Aviation Regulation Part 43",
+      ],
+    },
+  "The velocity of supersonic air as it flows through a divergent nozzle": {
+    answer: "Increases",
+    choices: [
+      "Increases",
+      "Decreases",
+      "In inversely proportional to the temperature",
+    ],
+  },
+  "The pressure of supersonic air as it flows through a divergent nozzle": {
+    answer: "Decreases",
+    choices: [
+      "Increases",
+      "Decreases",
+      "In inversely proportional to the temperature",
+    ],
+  },
+  "Anti-icing on jet engine air inlets is commonly accomplished by": {
+    answer: "Engine bleed air ducted through the critical areas",
+    choices: [
+      "Electrical heating elements inside the inlet guide vanes",
+      "Engine bleed air ducted through the critical areas",
+      "Electrical heating elements located within the engine air inlet cowling",
+    ],
+  },
+  "On an aircraft turbine engine, operating at a constant power, the application of engine anti-icing will result in":
+    {
+      answer: "Noticeable shift in EPR",
+      choices: [
+        "Noticeable shift in EPR",
+        "A false EPR reading",
+        "An increase in EPR",
+      ],
+    },
+  "The purpose of a bell mouth compressor inlet is to": {
+    answer: "Maximize the aerodynamic efficiency of the inlet",
+    choices: [
+      "Provide an increased ram air effect at low airspeeds",
+      "Maximize the aerodynamic efficiency of the inlet",
+      "Provide an increased pressure drop in the inlet",
+    ],
+  },
+  "What method(s) is/are used to provide clean air to the engines of helicopters and turboprop airplanes that have particle (sand and ice) separators installed?":
+    {
+      answer:
+        "Sharp airflow directional change to take advantage of inertia and/or centrifugal force, and filters or engine inlet screens",
+      choices: [
+        "Positive and negative charged areas to attract and/or repel particulates out of the airflow",
+        "Air/moisture separators and washing the air clean utilizing water droplets",
+        "Sharp airflow directional change to take advantage of inertia and/or centrifugal force, and filters or engine inlet screens",
+      ],
+    },
+  "When an engine with a subsonic divergent type inlet duct is running in place at high speed on the ground, the air pressure within the inlet is":
+    { answer: "Negative", choices: ["Positive", "Negative", "Ambient"] },
+  "What indications may shift when a turbofan engine anti-icing (bleed air) system is turned on? 1. Tachometer 2. EGT 3. EPR":
+    { answer: "1,2 and 3", choices: ["1 and 2", "1,2 and 3", "2 and 3"] },
+  "The purpose of an engine/inlet anti-ice system is primarily to": {
+    answer: "Prevent ice formation in engine and/or inlet areas",
+    choices: [
+      "Remove ice from an engine and/or inlet areas",
+      "Prevent ice formation in engine and/or inlet areas",
+      "Remove ice from engine and/or inlet areas and prevent ice formation in engine and/or inlet areas",
+    ],
+  },
+  "On turbojet powered airplanes, thrust reversers are capable of producing between?":
+    {
+      answer: "35 and 50 percent of the rated thrust in the reverse direction",
+      choices: [
+        "35 and 50 percent of the rated thrust in the reverse direction",
+        "35 and 75 percent on the rated thrust in the reverse direction",
+        "35 and 65 percent of the rated thrust in the reverse direction",
+      ],
+    },
+  "Operating thrust reversers at low ground speeds can sometimes cause 1. Sand or other foreign object ingestion 2. Hot gas re-ingestion 3. Compressor stalls":
+    {
+      answer: "1,2 and 3",
+      choices: ["1,2 and 3", "1 and 2", "2 and 3"],
+    },
+  "Engines using cold stream, or both cold and hot stream reversing include": {
+    answer: "High bypass turbofans",
+    choices: [
+      "High bypass turbofans",
+      "Turbojets",
+      "Turbojets with afterburner",
+    ],
+  },
+  "The purpose of cascade vanes in a thrust reversing system is to": {
+    answer:
+      "Turn to a forward direction the fan and/or exhaust gases that have been blocked from existing through the exhaust nozzle",
+    choices: [
+      "Form a solid blocking door in the jet exhaust path",
+      "Turn the exhaust gases forward just after exiting the exhaust nozzle",
+      "Turn to a forward direction the fan and/or exhaust gases that have been blocked from existing through the exhaust nozzle",
+    ],
+  },
+  "Turbojet and turbofan thrust reverser systems are generally powered by 1. Fuel pressure 2. Electricity 3. Hydraulic pressure 4. Pneumatic pressure":
+    {
+      answer: "2,3 and 4",
+      choices: ["1,3 and 4", "1,2 and 3", "2,3 and 4"],
+    },
+  "The rearward thrust capability of an engine with the thrust reverser system deployed is":
+    {
+      answer: "Less than its forward capability",
+      choices: [
+        "Less than its forward capability",
+        "Equal to or less than its forward capability depending on ambient conditions and system design",
+        "Equal to its forward capability",
+      ],
+    },
+  "What is the proper operating sequence when using thrust reversers to slow an aircraft landing?":
+    {
+      answer:
+        "Retard thrust levers to ground idle, raise thrust reverser levers as required, and retard thrust levers to ground idle",
+      choices: [
+        "Advance thrust levers up to takeoff position as conditions require, select thrust reverse, de-select thrust reverser, retard thrust levers to ground idle",
+        "Retard thrust levers to ground idle, raise thrust reverser levers as required, and retard thrust levers to ground idle",
+        "Select thrust reverse, advance thrust reverser levers no high than 75% N1, and retard reverser levers to idle at approximately normal taxi speed",
+      ],
+    },
+  "The exhaust section of a turbine engine is designed to": {
+    answer: "Impart a high exit velocity to the exhaust gases",
+    choices: [
+      "Impart a high exit velocity to the exhaust gases",
+      "Increase temperature, therefore increasing velocity",
+      "Decrease temperature, therefore decreasing pressure",
+    ],
+  },
+  "Thrust reverser utilizing a pneumatic actuating system usually receive operating pressure from":
+    {
+      answer: "The engine bleed air system",
+      choices: [
+        "The engine bleed air system",
+        "An on board hydraulic or electrical powered compressor",
+        "High pressure air reservoirs",
+      ],
+    },
+  "What is the purpose of the dump valve used on aircraft gas turbine engines?":
+    {
+      answer:
+        "The fuel is quickly cut off to the nozzles and the manifolds are drained preventing fuel boiling as a result of residual engine heat",
+      choices: [
+        "The fuel is quickly cut off to the nozzles and the manifolds are drained preventing fuel boiling as a result of residual engine heat",
+        "The valve controls compressor stalls by dumping compressor bleed air from the compressor discharge port under certain conditions",
+        "Maintains minimum fuel pressure to the engine fuel control unit inlet and dumps excessive fuel back to the inlet of the engine driven fuel pump",
+      ],
+    },
+  "What factor is not used in the operation of an aircraft gas turbine engine fuel control unit?":
+    {
+      answer: "Mixture control position",
+      choices: [
+        "Compressor inlet air temperature",
+        "Mixture control position",
+        "Power lever position",
+      ],
+    },
+  "In order to stabilize cams, springs and linkages within the fuel control, manufacturers generally recommend that all final turbine engine trim adjustments be made in the":
+    {
+      answer: "Increase direction",
+      choices: [
+        "Increase direction",
+        "Decrease direction",
+        "Decreases direction after over- adjustment",
+      ],
+    },
+  "When trimming a turbine engine, the fuel control is adjusted to": {
+    answer: "Set idle RPM and maximum speed or EPR",
+    choices: [
+      "Produced as much power as the engine is capable of producing",
+      "Set idle RPM and maximum speed or EPR",
+      "Allow the engine to produced maximum RPM",
+    ],
+  },
+  "A supervisory electronic engine control (EEC) is a system that receives engine operating information and":
+    {
+      answer:
+        "Adjusts a standard hydromechanical fuel control unit to obtain the most effective engine operation",
+      choices: [
+        "Adjusts a standard hydromechanical fuel control unit to obtain the most effective engine operation",
+        "Develops the commands to various actuators to control engine parameters",
+        "Controls engine operation according to ambient temperature, pressure and humidity",
+      ],
+    },
+  "A full-authority electronic engine control (EEC) is a system that receives all the necessary data for engine operation and":
+    {
+      answer:
+        "Develops the commands to various actuators to control engine parameters",
+      choices: [
+        "Adjust a standard electronic engine control unit to obtain the most effective engine operation",
+        "Develops the commands to various actuators to control engine parameters",
+        "Controls engine operation according to ambient temperature, pressure and humidity",
+      ],
+    },
+  "The generally acceptable way to obtain accurate on-site temperature prior to performing engine trimming is to":
+    {
+      answer:
+        "Hang a thermometer in the shade of the nose wheel-well until the temperature reading stabilizes",
+      choices: [
+        "Call the control tower to obtain field temperature",
+        "Observe the reading on the aircraft Outside Air Temperature (OAT) gauge",
+        "Hang a thermometer in the shade of the nose wheel-well until the temperature reading stabilizes",
+      ],
+    },
+  "An aircraft should be facing into the wind when trimming an engine. However, if the velocity of the wind blowing into the intake is excessive. it is likely to cause a":
+    {
+      answer:
+        "false high compression and turbine discharge pressure, and a subsequent low trim",
+      choices: [
+        "false low exhaust gas temperature reading",
+        "trim setting resulting in engine overspeed",
+        "false high compression and turbine discharge pressure, and a subsequent low trim",
+      ],
+    },
+  "Generally, the practice when trimming an engine is to": {
+    answer: "Turn all accessory bleed air off",
+    choices: [
+      "Turn all accessory bleed air off",
+      "Turn all accessory bleed air on",
+      "Make adjustments (as necessary) for all engines on the same aircraft with accessory bleed air settings the same- either on or off",
+    ],
+  },
+  "Which type of fuel control is used on most of today’s turbine engines?": {
+    answer: "Hydromechanical or electronic",
+    choices: [
+      "Electromechanical",
+      "Mechanical",
+      "Hydromechanical or electronic",
+    ],
+  },
+  "Which of the following is NOT an input parameter for a turbine engine fuel control unit?":
+    {
+      answer: "Ambient humidity",
+      choices: [
+        "Compressor inlet pressure",
+        "Compressor inlet temperature",
+        "Ambient humidity",
+      ],
+    },
+  "It is necessary to control acceleration and deceleration rates in turbine engines in order to":
+    {
+      answer: "prevent blowout or die-out",
+      choices: [
+        "prevent blowout or die-out",
+        "Prevent over temperature",
+        "prevent friction between turbine wheels and the case due to expansion and contraction",
+      ],
+    },
+  "What are the positions of the pressurization valve and the dump valve in a jet engine fuel system when the engine is shutdown":
+    {
+      answer: "Pressurization valve closed, dump valve open",
+      choices: [
+        "Pressurization valve closed, dump valve open",
+        "Pressurization valve open, dump valve open",
+        "Pressurization valve closed, sump valve close",
+      ],
+    },
+  "What speed must an eight-pole AC generator turn to produced 400Hertz AC?": {
+    answer: "6,000 RPM",
+    choices: ["400 RPM", "1,200 RPM", "6,000 RPM"],
+  },
+  "What type of electric motor is generally used with a direct-cranking engine starter?":
+    {
+      answer: "Direct current, series-wound motor",
+      choices: [
+        "Direct current, shunt-wound motor",
+        "Direct current, series-wound motor",
+        "Synchronous motor",
+      ],
+    },
+  "A high surge of current is required when a DC electric motor is first started. As the speed of the motor increases,":
+    {
+      answer:
+        "the counter EMF builds up and opposes the applied EMF, thus reducing the current flow through the armature",
+      choices: [
+        "the counter EMF decreases proportionally",
+        "the applied EMF increases proportionally",
+        "the counter EMF builds up and opposes the applied EMF, thus reducing the current flow through the armature",
+      ],
+    },
+  "Electric motors are often classified according to the method of connecting the field coils and armature. Aircraft engine starter motors are generally of which type?":
+    { answer: "Series", choices: ["Compound", "Series", "Shunt (parallel)"] },
+  "As a general rule, starter brushes are replaced when they are approximately":
+    {
+      answer: "one-half their original length",
+      choices: [
+        "one-half their original length",
+        "one-third their original length",
+        "two-thirds their original length",
+      ],
+    },
+  "Which of the following aircraft circuits does NOT contain a fuse/circuit breaker?":
+    {
+      answer: "Starter circuit",
+      choices: [
+        "Generator circuit",
+        "Air-conditioning circuit",
+        "Starter circuit",
+      ],
+    },
+  "What are two types of AC motors that are used to produce a relatively high torque":
+    {
+      answer: "Three-phase induction and capacitor start",
+      choices: [
+        "Shaded pole and shunt field",
+        "Shunt field and single phase",
+        "Three-phase induction and capacitor start",
+      ],
+    },
+  "When the starter switch to the aircraft gas turbine engine starter-generator is energized and the engine fails to rotate, one of the probable causes would be the":
+    {
+      answer: "starter solenoid is defective",
+      choices: [
+        "power lever switch is defective",
+        "undercurrent solenoid contacts are defective",
+        "starter solenoid is defective",
+      ],
+    },
+  "The purpose of an under current relay in a starter-generator system is to": {
+    answer:
+      "Disconnect power from the starter generator and ignition when sufficient engine speed is reached",
+    choices: [
+      "Provide a backup for the starter relay",
+      "Disconnect power from the starter generator and ignition when sufficient engine speed is reached",
+      "Keep current flow to the starter generator under the circuit capacity maximum",
+    ],
+  },
+  "A typical starter-generator system, under which of the following starting circumstances may it be necessary to use the start stop switch?":
+    {
+      answer: "Hung start",
+      choices: ["Hung start", "Hot start", "Contacts stick open"],
+    },
+  "When using an electric starter motor, current usage": {
+    answer: "Is highest at the start of motor rotation",
+    choices: [
+      "Is highest at the start of motor rotation",
+      "Remains relatively constant throughout the starting cycle",
+      "Is highest just before starter cutoff (at highest RPM)",
+    ],
+  },
+  "The primary advantage of pneumatic (air turbine) starters over comparable electric starters for turbine engines is":
+    {
+      answer: "high power-to-weight ratio",
+      choices: [
+        "a decreased fire hazard",
+        "reduction gearing not required",
+        "high power-to-weight ratio",
+      ],
+    },
+  "A clicking sound heard at engine coast- down in a pneumatic starter incorporating a spray clutch ratchet assembly is an indication of":
+    {
+      answer: "The pawls re-contacting and riding on the ratchet gear",
+      choices: [
+        "Gear tooth and/or pawl damage",
+        "One or more broken pawl springs",
+        "The pawls re-contacting and riding on the ratchet gear",
+      ],
+    },
+  "Pneumatic starters are usually designed with what types of airflow impingement system?":
+    {
+      answer: "Radial inward flow turbine and axial- flow turbine",
+      choices: [
+        "Radial inward flow turbine and axial- flow turbine",
+        "Centrifugal compressor and axial-flow compressor",
+        "Double entry centrifugal outward flow and axial-flow turbines",
+      ],
+    },
+  "Inspection of pneumatic starters by maintenance technicians usually includes checking the":
+    {
+      answer: "Oil level and magnetic drain plug condition",
+      choices: [
+        "Oil level and magnetic drain plug condition",
+        "Stator and rotor blades for FOD",
+        "Rotor alignment",
+      ],
+    },
+  "Air turbine starters are generally designed so that reduction gear distress or damage may be detected by":
+    {
+      answer: "Inspection of a magnetic chip detector",
+      choices: [
+        "Characteristic sounds from the starter assembly during engine start",
+        "Breakage of a shear section on the starter drive shaft",
+        "Inspection of a magnetic chip detector",
+      ],
+    },
+  "Airflow to the pneumatic starter from a ground unit is normally prevented from causing starter overspeed during engine start by":
+    {
+      answer: "Activation of a flyweight cutout switch",
+      choices: [
+        "Stator nozzle design that chokes airflow and stabilizes turbine wheel speed",
+        "Activation of a flyweight cutout switch",
+        "A present timed cutoff of the airflow at the source",
+      ],
+    },
+  "A safety feature usually employed in pneumatic starters that is used if the clutch does not release from the engine drive at the proper time during start is the":
+    {
+      answer: "Drive shaft shear point",
+      choices: [
+        "Flyweight cutout switch",
+        "Spring coupling release",
+        "Drive shaft shear point",
+      ],
+    },
+  "In the event a pneumatic start valve will not operate and the manual override must be used. the starter T handle must be closed at scheduled starter drop out because":
+    {
+      answer: "the starter will overspeed at a given N2",
+      choices: [
+        "the starter will overheat",
+        "the starter will overspeed at a given N2",
+        "the starter oil will be blown over board",
+      ],
+    },
+  "A safety feature usually employed in direct-cranking starters that is used to prevent the starter from reaching burst speed is the":
+    {
+      answer: "spring coupling release",
+      choices: [
+        "drive shaft shear point",
+        "stator nozzle design that chokes airflow and stabilizes turbine wheel speed",
+        "spring coupling release",
+      ],
+    },
+  "What is used to polish commutators or slip rings?": {
+    answer: "Very fine sandpaper",
+    choices: [
+      "Very fine sandpaper",
+      "Crocus cloth or fine oilstone",
+      "Aluminum oxide or garnet paper",
+    ],
+  },
+  "What precaution is usually taken to prevent electrolyte from freezing in a lead acid battery":
+    {
+      answer: "Keep the battery fully charged",
+      choices: [
+        "Place the aircraft in a hanger",
+        "Remove the battery and keep it under constant charge",
+        "Keep the battery fully charged",
+      ],
+    },
+  "How many hours will a 140 ampere-hour battery deliver 15 amperes?": {
+    answer: "9.33 hours",
+    choices: ["1.40 hours", "9.33 hours", "14.0 hours"],
+  },
+  "The constant current method of charging a ni-cad battery": {
+    answer: "Is the method most effective in maintaining cell balance",
+    choices: [
+      "Will bring it up to fully charged in the shortest amount of time",
+      "Will lead to cell imbalance over a period of time",
+      "Is the method most effective in maintaining cell balance",
+    ],
+  },
+  "The maximum number of terminals that may be connected to any one terminal stud in an aircraft electrical system is":
+    { answer: "Four", choices: ["Two", "Three", "Four"] },
+  "What is the maximum number of bonding Jumper wires that may be attached to one terminal grounded to a flatsurface?":
+    { answer: "Four", choices: ["Two", "Three", "Four"] },
+  "When installing an electrical switch, under which of the following conditions should the switch be de rated from its nominal current rating?":
+    {
+      answer: "Direct-current motor circuits",
+      choices: [
+        "Conductive circuits",
+        "Capacitive circuits",
+        "Direct-current motor circuits",
+      ],
+    },
+  "The resistance of the current return path through the aircraft is always considered negligible, provided the":
+    {
+      answer: "structure is adequately bonded",
+      choices: [
+        "voltage drop across the circuit is checked",
+        "generator is properly grounded",
+        "structure is adequately bonded",
+      ],
+    },
+  "When does current flow through the coil of a solenoid-opened electrical switch?":
+    {
+      answer: "Continually, as long as the control circuit is complete",
+      choices: [
+        "Continually, as long as the aircraft’s electrical system master switch is on",
+        "Continually, as long as the control circuit is complete",
+        "Only until the movable points contact the stationary points",
+      ],
+    },
+  "What type of lubricant may be used to aid in pulling electrical wires or cables through conduits?":
+    {
+      answer: "Soapstone talc",
+      choices: ["Silicone grease", "Soapstone talc", "Rubber lubricant"],
+    },
+  "ON-OFF two position engine electrical switches should be installed": {
+    answer: "So the ON position is reached by a forward or upward motion",
+    choices: [
+      "So that the toggle will move in the same direction as the desired motion of the unit controlled",
+      "Under a guard",
+      "So the ON position is reached by a forward or upward motion",
+    ],
+  },
+  "When selecting an electrical switch for installation in an aircraft circuit utilizing a direct current motor,":
+    {
+      answer: "a switch designed for DC should be chosen",
+      choices: [
+        "a switch designed for DC should be chosen",
+        "A derating factor should be applied",
+        "only switches with screw-type terminal connections should be used",
+      ],
+    },
+  "When installing electrical wiring parallel to a fuel line. the wiring should be":
+    {
+      answer: "above the fuel line",
+      choices: [
+        "in metal conduit",
+        "in a non-conductive fire-resistant sleeve",
+        "above the fuel line",
+      ],
+    },
+  "How many basic types of circuit breakers are used in power plant installation electrical systems?":
+    { answer: "Three", choices: ["Two", "Three", "Four"] },
+  "Which Federal Aviation Regulation specifies that each resettable circuit protective device requires a manual operation to restore service after the device has interrupted the circuit?":
+    {
+      answer: "14 CFR Part 23",
+      choices: ["14 CFR Part 23", "14 CFR Part 43", "14 CFR Part 91"],
+    },
+  "Electrical switches are rated according to the": {
+    answer: "Voltage and the current they can control",
+    choices: [
+      "Voltage and the current they can control",
+      "Resistance rating of the switch and the wiring",
+      "Resistance and the temperature rating",
+    ],
+  },
+  "Electrical circuit protection devices are installed primarily to protect the":
+    { answer: "Wiring", choices: ["Switches", "Units", "Wiring"] },
+  "(1) Electrical circuit protection devices are rated based on the amount of current that can be carried without overheating the wiring insulation (2) A 'trip-free' circuit breaker makes it Impossible to manually hold the circuit closed when excessive current is flowing. Regarding the above statements,":
+    {
+      answer: "both No. 1 and No.2 are true",
+      choices: [
+        "only No. 1 is true",
+        "onlyNo.2 is true",
+        "both No. 1 and No.2 are true",
+      ],
+    },
+  "Which of the following Federal Aviation Regulations require that all aircraft using fuses as the circuit protective devices carry one spare set of fuses, or three spare fuses of each kind required?":
+    {
+      answer: "FAR Part 91",
+      choices: ["FAR Part 23", "FAR Part 43", "FAR Part 91"],
+    },
+  "A term commonly used when two or more electrical terminals are installed on a single lug of a terminal strip is":
+    { answer: "stacking", choices: ["strapping", "stepping", "stacking"] },
+  "Aircraft electrical wire size is measured according to the": {
+    answer: "American Wire Gauge system",
+    choices: [
+      "Military Specification system",
+      "American Wire Gauge system",
+      "Technical Standard Order system",
+    ],
+  },
+  "Aircraft copper electrical wire is coated with tin, silver or nickel in order to":
+    {
+      answer: "Prevent oxidization",
+      choices: ["Improve conductivity", "Add strength", "Prevent oxidization"],
+    },
+  "What is the ampere-hour rating of a storage battery that is designed to deliver 45 amperes for 2.5 hours?":
+    {
+      answer: "112.5 ampere-hour",
+      choices: ["112.5 ampere-hour", "90.0 ampere-hour", "45.0 ampere-hour"],
+    },
+  "One way that the automatic ignition relight systems are activated on gas turbine engines is by a":
+    {
+      answer: "Drop in compressor discharge pressure",
+      choices: [
+        "Drop in compressor discharge pressure",
+        "Sensing switch located in the tailpipe",
+        "Drop in fuel flow",
+      ],
+    },
+  "The capacitor-type ignition system is used almost universally on turbine engines primarily because of its high voltage and":
+    {
+      answer: "High-heat intensity",
+      choices: ["Low amperage", "Long life", "High-heat intensity"],
+    },
+  "In a turbine engine DC capacitor discharge ignition system, where are the high- voltage pulses formed?":
+    {
+      answer: "At the triggering transformer",
+      choices: [
+        "At the breaker",
+        "At the triggering transformer",
+        "At the rectifier",
+      ],
+    },
+  "Why are turbine engine igniters less susceptible to fouling than reciprocating engine spark plugs?":
+    {
+      answer: "The high-intensity spark cleans the igniter",
+      choices: [
+        "The high-intensity spark cleans the igniter",
+        "The frequency of the spark is less for igniters",
+        "Turbine igniters operate at cooler temperatures",
+      ],
+    },
+  "Great caution should be exercised in handling damaged hermetically sealed turbine engine igniter transformer units because":
+    {
+      answer: "Some contain radioactive material",
+      choices: [
+        "Compounds in the unit may become a fire or explosion hazard when exposed to the air",
+        "Some contain radioactive material",
+        "Some contain toxic chemicals",
+      ],
+    },
+  "Igniter plugs used in turbine engines are subjected to high intensity spark discharges and yet they have a long service life because they":
+    {
+      answer: "Do not require continuous operation",
+      choices: [
+        "Operate at much lower temperatures",
+        "Are not placed directly into the combustion chamber",
+        "Do not require continuous operation",
+      ],
+    },
+  "Which statement is correct regarding the ignition system of a turbine engine?":
+    {
+      answer:
+        "The system is normally de-energized as soon as the engine starts",
+      choices: [
+        "The system is normally de-energized as soon as the engine starts",
+        "It is energized during the starting and warm-up periods only",
+        "The system generally includes a polar inductor-type magneto",
+      ],
+    },
+  "The type of ignition system used on most turbine aircraft engines is": {
+    answer: "capacitor discharge",
+    choices: ["high resistance", "low tension,", "capacitor discharge"],
+  },
+  "Which condition would be the least likely to be caused by failed or failing engine bearings?":
+    {
+      answer: "Low oil temperatures",
+      choices: [
+        "Excessive oil consumption",
+        "High oil temperatures",
+        "Low oil temperatures",
+      ],
+    },
+  "(1) Gas turbine and reciprocating engine oil can be mixed or used interchangeably. (2) Most gas turbine engine oils are synthetic. \nRegarding the above statements,":
+    {
+      answer: "only No.2 is true",
+      choices: [
+        "only No.2 is true",
+        "both No. I and No. 2 are true",
+        "neither No.1 nor No.2 is true",
+      ],
+    },
+  "The time in seconds required for exactly 60 cubic centimeters of oil to flow through an accurately calibrated orifice at a specific temperature is recorded as a measurement of the oil’s":
+    {
+      answer: "Viscosity",
+      choices: ["Flash point", "Specific gravity", "Viscosity"],
+    },
+  "Upon what quality or characteristics of a lubricating oil is its viscosity index based?":
+    {
+      answer: "Its rate of change in viscosity with temperature change",
+      choices: [
+        "Its resistance to flow at a standard temperature as compared to high grade paraffin-base oil at the same temperature",
+        "Its rate of change in viscosity with temperature change",
+        "Its rate of flow through an orifice at a standard temperature",
+      ],
+    },
+  "Lubricating oils with high viscosity index ratings are oils": {
+    answer: "In which the viscosity does not vary much with temperature change",
+    choices: [
+      "In which the viscosity does not vary much with temperature change",
+      "In which the viscosity varies considerably with temperature change",
+      "Which have high SEA numbers",
+    ],
+  },
+  "The oil used in reciprocating engines has a relatively high viscosity due to":
+    {
+      answer: "Large clearances and high operating temperatures",
+      choices: [
+        "The reduced ability of thin oils to maintain adequate film strength at altitude. (reduced atmospheric pressure)",
+        "The relatively high rotational speeds",
+        "Large clearances and high operating temperatures",
+      ],
+    },
+  "In addition to lubricating (reducing friction between moving parts), engine oil performs what functions 1. Cools 2. Seals 3. Cleans 4. Prevents corrosion 5. Cushions impact (shock) loads":
+    {
+      answer: "1,2,3,4 and 5",
+      choices: ["1,2,3, and 4", "1,2,3,4 and 5", "1,3 and 4"],
+    },
+  "Specific gravity is a comparison of the weight of a substance to the weight of an equal volume of":
+    {
+      answer: "Distilled water at a specific temperature",
+      choices: [
+        "Oil at a specific temperature",
+        "Distilled water at a specific temperature",
+        "Mercury at a specific temperature",
+      ],
+    },
+  "The recommended aircraft engine lubricants are": {
+    answer: "Mineral or synthetic based",
+    choices: [
+      "Mineral or synthetic based",
+      "Vegetable, mineral, or synthetic based",
+      "Animal, mineral or synthetic based",
+    ],
+  },
+  "High tooth pressures and high rubbing velocities, such as occur with spur-type gear, require the use of":
+    {
+      answer: "An EP lubricant",
+      choices: [
+        "An EP lubricant",
+        "Straight mineral oil",
+        "Metallic ash detergent oil",
+      ],
+    },
+  "What type of oil do most engine manufacturers recommend for new reciprocating engine break-in?":
+    {
+      answer: "Straight mineral oil",
+      choices: [
+        "Ashless-dispersant oil",
+        "Straight mineral oil",
+        "Semi-synthetic oil",
+      ],
+    },
+  "What type of oil do most engine manufacturers recommend after new reciprocating engine break-in":
+    {
+      answer: "Ashless-dispersant oil",
+      choices: [
+        "Metallic-ash detergent oil",
+        "Ashless-dispersant oil",
+        "Straight mineral oil",
+      ],
+    },
+  "From the following, identify the factor that has the least effect on the oil consumption of a specific engine":
+    {
+      answer: "Mechanical efficiency",
+      choices: [
+        "Mechanical efficiency",
+        "Engine RPM",
+        "Lubricant characteristics,",
+      ],
+    },
+  "The pumping capacity of the scavenger pump in a dry sump aircraft engine’s lubrication system":
+    {
+      answer: "Is greater than the capacity of the oil supply pump",
+      choices: [
+        "Is greater than the capacity of the oil supply pump",
+        "Is less than the capacity of the oil supply pump",
+        "Is usually equal to the capacity of the oil supply pump in order to maintain constant oiling conditions",
+      ],
+    },
+  "In which of the following situations will the oil cooler automatic bypass valve be open the greatest amount?":
+    {
+      answer: "Engine oil below normal operating temperature",
+      choices: [
+        "Engine oil above normal operating temperature",
+        "Engine oil below normal operating temperature",
+        "Engine stopped with no oil flowing after run-up",
+      ],
+    },
+  "In order to maintain a constant oil pressure as the clearances between the moving parts of an engine increase through normal wear, the supply pump output":
+    {
+      answer:
+        "Remains relatively constant (at a given RPM) with less oil being returned to the pump inlet by the relief valve",
+      choices: [
+        "Increases as the resistance offered to the flow of oil increases",
+        "Remains relatively constant (at a given RPM) with less oil being returned to the pump inlet by the relief valve",
+        "Remains relatively constant (at a given RPM) with more oil being returned to the pump inlet by the relief valve",
+      ],
+    },
+  "An engine lubrication system pressure relief valve is usually located between the":
+    {
+      answer: "Pump and the internal oil system",
+      choices: [
+        "Oil cooler and the scavenger pump",
+        "Scavenger pump and the external oil system",
+        "Pump and the internal oil system",
+      ],
+    },
+  "Under which of the following conditions is the oil cooler flow control valve open on a reciprocating engine?":
+    {
+      answer:
+        "When the temperature of the oil returning from the engine is too low",
+      choices: [
+        "When the temperature of the oil returning from the engine is too high",
+        "When the temperature of the oil returning from the engine is too low",
+        "When the scavenger pump output volume exceeds the engine pump input volume",
+      ],
+    },
+  "A drop in oil pressure may be caused by": {
+    answer: "Foreign material under the relief valve",
+    choices: [
+      "The temperature regulator sticking open",
+      "The bypass valve sticking open",
+      "Foreign material under the relief valve",
+    ],
+  },
+  "An oil tank having a capacity of 5 gallons must have an expansion space of":
+    { answer: "2 quarts", choices: ["2 quarts", "4 quarts", "5 quarts"] },
+  "Why is expansion space required in an engine oil supply tank?": {
+    answer: "For oil enlargement and collection of foam",
+    choices: [
+      "To eliminate oil foaming",
+      "For oil enlargement and collection of foam",
+      "For proper oil tank ventilation",
+    ],
+  },
+  "Compared to reciprocating engine oils, the types of oils used in turbine engines":
+    {
+      answer: "Have less tendency to produce lacquer or coke",
+      choices: [
+        "Are required to carry and disperse a higher level of combustion by-products",
+        "May permit a somewhat higher level of carbon formation in the engine",
+        "Have less tendency to produce lacquer or coke",
+      ],
+    },
+  "Manufacturers normally require turbine engine oil servicing within a short time after engine shutdown primarily to":
+    {
+      answer: "Prevent over servicing",
+      choices: [
+        "Prevent over servicing",
+        "Help dilute and neutralize any contaminants that may already be present in the engine’s oil system",
+        "Provide a better indication of any oil leaks in the system",
+      ],
+    },
+  "The type of oil pumps most commonly used on turbine engines are classified as":
+    {
+      answer: "Positive displacement",
+      choices: [
+        "Positive displacement",
+        "Variable displacement",
+        "Constant speed",
+      ],
+    },
+  "(1) Fuel may be used to cool oil in gas turbine engines (2) Ram air may be used to cool oil in gas turbine engines":
+    {
+      answer: "Both No. 1 and No. 2are true",
+      choices: [
+        "(2) Ram air may be used to cool oil in gas turbine engines",
+        "Regarding these statements",
+        "Only No. 1 is true",
+        "Only No. 2 is true",
+        "Both No. 1 and No. 2are true",
+      ],
+    },
+  "In jet engine which uses a fuel-oil heat exchanger, the oil temperature is controlled by a thermostatic valve that regulates the flow of":
+    {
+      answer: "Oil through the heat exchanger",
+      choices: [
+        "Fuel through the heat exchanger",
+        "Both fuel and oil through the heat exchanger",
+        "Oil through the heat exchanger",
+      ],
+    },
+  "Oil picks up the most heat from which of the following turbine engine components?":
+    {
+      answer: "Turbine bearing",
+      choices: ["Rotor coupling", "Compressor bearing", "Turbine bearing"],
+    },
+  "Which of the following is a function of the fuel-oil heat exchanger on a turbojet engine?":
+    {
+      answer: "Increases fuel temperature",
+      choices: [
+        "Aerates the fuel",
+        "Emulsifies the oil",
+        "Increases fuel temperature",
+      ],
+    },
+  "According to Federal Aviation Regulations (FAR’s) oil tank fillers on turbine engines must be marked with the word":
+    {
+      answer: "'oil'",
+      choices: [
+        "'oil' and the type and grade of oil specified by the manufacturer",
+        "'oil' and tank capacity",
+        "'oil'",
+      ],
+    },
+  "After making a welded repair to a pressurized-type turbine engine oil tank, the tank should be pressure checked to":
+    {
+      answer:
+        "Not less than 5 PSI plus the maximum operating pressure of the tank",
+      choices: [
+        "Not less than 5 PSI plus the maximum operating pressure of the tank",
+        "Not less than 5 PSI plus the average operating pressure of the tank",
+        "5 PSI",
+      ],
+    },
+  "The purpose of a relief valve installed in the tank venting system of a turbine engine oil tank is to":
+    {
+      answer:
+        "prevent oil pump cavitation by maintaining a constant pressure on the oil pump inlet",
+      choices: [
+        "prevent oil pump cavitation by maintaining a constant pressure on the oil pump inlet",
+        "maintain internal tank air pressure at the ambient atmospheric level regardless of altitude or rate of change in altitude",
+        "maintain a positive internal pressure in the oil tank after shutdown to prevent oil pump cavitation on engine start",
+      ],
+    },
+  "Which type valve prevents oil from entering the main accessory case when the engine is not running?":
+    { answer: "Check", choices: ["Bypass", "Relief", "Check"] },
+  "As a general rule. a small amount of small fuzzy Particles Or gray metallic paste on 11 turbine engine magnetic chip detector":
+    {
+      answer: "Is considered to be the result of normal wear",
+      choices: [
+        "Is considered to be the result of normal wear",
+        "indicates an imminent component failure",
+        "Indicates accelerated generalized wear",
+      ],
+    },
+  "The purpose of a dwell chamber in a turbine engine oil tank is to provide": {
+    answer: "separation of entrained air from scavenged oil",
+    choices: [
+      "A collection of point for sediments",
+      "For a pressurized oil supply to the oil pump inlet",
+      "separation of entrained air from scavenged oil",
+    ],
+  },
+  "What would be the probable result if the oil system pressure relief valve should stick in the open position in a turbine engine?":
+    {
+      answer: "Insufficient lubrication",
+      choices: [
+        "Increased oil pressure",
+        "Decreased oil temperature",
+        "Insufficient lubrication",
+      ],
+    },
+  "The active clearance control (ACC) portion of an EEC system aids turbine engine efficiency by":
+    {
+      answer:
+        "Ensure ring turbine blade to engine case clearances are kept to a minimum by controlling case temperatures",
+      choices: [
+        "Adjusting stator vane position according to operating conditions and power requirements",
+        "Ensure ring turbine blade to engine case clearances are kept to a minimum by controlling case temperatures",
+        "Automatically adjusting engine speed to maintain a desired EFR",
+      ],
+    },
+  "Which statement is true regarding the air passing through the combustion section of a jet engine?":
+    {
+      answer: "Most is used for engine cooling",
+      choices: [
+        "Most is used for engine cooling",
+        "Most is used to support combustion",
+        "A small percentage is frequently bled off at this point to be used for air- conditioning and/or other pneumatic powered systems",
+      ],
+    },
+  "A continuous-loop fire detector is what type of detector?": {
+    answer: "Overheat detector",
+    choices: [
+      "Spot detector",
+      "Overheat detector",
+      "Rate-of-temperature-rise detector",
+    ],
+  },
+  "What is the operating principle of the spot detector sensor in a fire detection system?":
+    {
+      answer:
+        "A bimetallic thermoswitch that closes when heated to a high temperature",
+      choices: [
+        "Resistant core material that prevents current flow at normal temperatures",
+        "A conventional thermocouple that produces a current flow",
+        "A bimetallic thermoswitch that closes when heated to a high temperature",
+      ],
+    },
+  "Which of the following is NOT used to detect fires in reciprocating engine nacelles?":
+    {
+      answer: "Smoke detectors",
+      choices: [
+        "Smoke detectors",
+        "Rate-of-temperature-rise detectors",
+        "Flame detectors",
+      ],
+    },
+  "What is the principle of operation of the continuous-loop fire detector system sensor?":
+    {
+      answer:
+        "Core resistance materials which prevents current flow at normal temperatures",
+      choices: [
+        "Fuse material which melts at high temperatures",
+        "Core resistance materials which prevents current flow at normal temperatures",
+        "A bimetallic themoswitch which closes when heated to a high temperature",
+      ],
+    },
+  "Why does one type of Fenwal fire detection system use spot detectors wired in parallel between two separate circuits?":
+    {
+      answer:
+        "So that a single fault may exist in the system without sounding a false alarm",
+      choices: [
+        "To provide an installation that is equal to two separate system: a primary system and a secondary system, or back-up system",
+        "So that as double fault may exist in the system without sounding a false alarm",
+        "So that a single fault may exist in the system without sounding a false alarm",
+      ],
+    },
+  "Which of the following fire detection systems measures temperature rise compared to a reference temperature?":
+    {
+      answer: "Thermocouple",
+      choices: ["Thermocouple", "Thermal switch", "Linberg continuous element"],
+    },
+  "A fire detection system operates on the principle of a buildup of gas pressure within a tube proportional to temperature. Which of the following systems does this statement define?":
+    {
+      answer: "Lindberg continuous-element system",
+      choices: [
+        "Kidde continuous-loop system",
+        "Lindberg continuous-element system",
+        "Themal switch system",
+      ],
+    },
+  "The fire detection system that uses a single wire surrounded by a continuous string of ceramic beads in a tube is the":
+    {
+      answer: "Fenwall system",
+      choices: ["Fenwall system", "Kiddle system", "Thermocouple system"],
+    },
+  "The fire detection system that uses two wires imbedded in a ceramic core within a tube is the":
+    {
+      answer: "Kidde system",
+      choices: ["Fenwal system", "Lindberg system", "Kidde system"],
+    },
+  "Which of the following fire detection systems uses heat in the normal testing of the system?":
+    {
+      answer: "The thermocouple system and the Lindberg system",
+      choices: [
+        "The thermocouple system and the Lindberg system",
+        "The Kidde system and the Fenwal system",
+        "The thermocouple system and the Fenwal system",
+      ],
+    },
+  "After fire is extinguished, or overheat condition removed in aircraft equipped with a Systron-Donner fire detector the detection system":
+    {
+      answer: "Automatically resets",
+      choices: [
+        "Must be manually reset",
+        "Automatically resets",
+        "Sensing component must be replaced",
+      ],
+    },
+  "How are most aircraft turbine engine fire-extinguishing systems activated?":
+    {
+      answer: "Electrically discharged cartridges",
+      choices: [
+        "Electrically discharged cartridges",
+        "Manual remote control valve",
+        "Pushrod assembly",
+      ],
+    },
+  "How does carbon dioxide (CO2) extinguish an aircraft engine": {
+    answer:
+      "Contact with the air converts the liquid into snow and gas which smothers the flame",
+    choices: [
+      "Contact with the air converts the liquid into snow and gas which smothers the flame",
+      "By lowering the temperature to a point where combustion will not tale place",
+      "The high pressure spray lowers the temperature and blows out the fire",
+    ],
+  },
+  "What retains the nitrogen charge and fire-extinguishing agent in a high rate of discharge (HRD) containers?":
+    {
+      answer: "Breakable disk and fusible disk",
+      choices: [
+        "Breakable disk and fusible disk",
+        "Pressure switch and check tee valve",
+        "Pressure gauge and cartridge",
+      ],
+    },
+  "How is the fire-extinguishing agent distributed in the engine section?": {
+    answer: "Spray nozzles and perforated tubing",
+    choices: [
+      "Spray nozzles and fluid pumps",
+      "Nitrogen pressure and slinger rings",
+      "Spray nozzles and perforated tubing",
+    ],
+  },
+  "Which of the following is the safest fire- extinguishing agent to use from a standpoint of toxicity and corrosion hazards?":
+    {
+      answer: "Bromotrifluoromethane (Halon 1301)",
+      choices: [
+        "Dibromodifluoromethane (Halon 1202)",
+        "Bromochlorodifluoromethane (Halon 1211)",
+        "Bromotrifluoromethane (Halon 1301)",
+      ],
+    },
+  "The most satisfactory extinguishing agent for a carburetor or intake fire is":
+    {
+      answer: "Carbon dioxide",
+      choices: ["Carbon dioxide", "Dry chemical", "Methyl bromide"],
+    },
+  "The explosive cartridge in the discharge valve of a fire-extinguisher container is":
+    {
+      answer: "A life-dated unit",
+      choices: [
+        "A life-dated unit",
+        "Not a life-dated unit",
+        "Mechanically fired",
+      ],
+    },
+  "A fuel or oil fire is defined as a": {
+    answer: "Class B fire",
+    choices: ["Class B fire", "Class A fire", "Class C fire"],
+  },
 };
 
 export default questionBankGTE;
