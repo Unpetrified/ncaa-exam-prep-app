@@ -2251,7 +2251,6 @@ const questionBankAut = {
     answer: "move in such a way as to help move the control surface",
     choices: [
       "enable the pilot to bring the control surface back to neutral",
-      "move in such a way as to help move the control surface",
       "provide artificial feel",
       "move in such a way as to help move the control surface",
     ],

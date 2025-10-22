@@ -3125,11 +3125,10 @@ const questionBankPMA = {
     answer: "Soap and water",
     choices: ["Unleaded gasoline or Jet A1 fuel", "Naptha", "Soap and water"],
   },
-  "Some aircrafts are protected from airframe icing by heating the leading edges of the aerofoil and intake ducts.":
+  "Some aircrafts are protected from airframe icing by heating the leading edges of the aerofoil and intake ducts. When is this of anti-icing usually operated?":
     {
       answer: "Whenever icing conditions are first expected or anticipated",
       choices: [
-        "When is this of anti-icing usually operated?",
         "Whenever icing conditions are first expected or anticipated",
         "In symmetric cycles during icing conditions to remove ice as it accumulates",
         "Continuously while the aircraft is in flight",

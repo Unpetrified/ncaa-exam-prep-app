@@ -10276,16 +10276,6 @@ const questionBankGTE = {
       "ice build up on compressor blades",
     ],
   },
-  "During acceleration, the fuel flow is increased at a controlled rate in order to:":
-    {
-      answer: "prevent surge and the risk of flame-out",
-      choices: [
-        "increase s.f",
-        "",
-        "prevent fuel pump damage",
-        "prevent surge and the risk of flame-out",
-      ],
-    },
   "Which of the following is the least likely indication of a main bearing failure?":
     {
       answer: "High oil pressure",
@@ -13146,12 +13136,7 @@ const questionBankGTE = {
   },
   "The most convenient measurement of torque is in the form of what?": {
     answer: "Inch pounds",
-    choices: [
-      "Inch pounds",
-      "Foot pounds",
-      "Pounds per square foot",
-      "Torque=force x radius",
-    ],
+    choices: ["Inch pounds", "Foot pounds", "Pounds per square foot"],
   },
   "The most widely used engine on helicopters is what series of engines?": {
     answer: "Allison 250 series",
@@ -13411,7 +13396,6 @@ const questionBankGTE = {
       "Absorb vibration in the turbine section",
       "Absorb vibration in the exhaust section",
       "Absorb vibration in the compressor",
-      "Eliminate compressors rumbling",
     ],
   },
   "Why is the fuel tank vented?": {
@@ -14112,7 +14096,6 @@ const questionBankGTE = {
       "Ignition, starter, fuel",
       "Starter, ignition, fuel",
       "Starter, fuel, ignition",
-      "sif",
     ],
   },
   "Generally, when starting a turbine engine, the starter should be disengaged":
@@ -15102,8 +15085,6 @@ const questionBankGTE = {
     {
       answer: "Both No. 1 and No. 2are true",
       choices: [
-        "(2) Ram air may be used to cool oil in gas turbine engines",
-        "Regarding these statements",
         "Only No. 1 is true",
         "Only No. 2 is true",
         "Both No. 1 and No. 2are true",
