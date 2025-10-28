@@ -51,6 +51,7 @@ function ExamForm({ setDetails, details, questions, setQuestions }) {
           <option value="aut">Auto Pilot</option>
           <option value="ele">Electric Power</option>
           <option value="gen">General</option>
+          <option value="ata">ATA Chapters Practice</option>
         </select>
         <label htmlFor="no">Number of question:</label>
         <select name="no" id="no" defaultValue="10" onChange={update}>

@@ -3,6 +3,7 @@ import questionBankGen from "./questionBank/gen";
 import questionBankGTE from "./questionBank/gte";
 import questionBankPMA from "./questionBank/pma";
 import questionBankELE from "./questionBank/ele";
+import questionBankAta from "./questionBank/ata";
 
 export default function generateQuestion(num_of_questions, category) {
   let questionBank;
@@ -19,6 +20,9 @@ export default function generateQuestion(num_of_questions, category) {
       break;
     case "ele":
       questionBank = questionBankELE;
+      break;
+    case "ata":
+      questionBank = questionBankAta;
       break;
     default:
       questionBank = questionBankGen;
