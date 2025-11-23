@@ -34,17 +34,14 @@ export default function Question({ currentQuestions, details, setDetails }) {
 function submit(e, details) {
   const no = parseInt(details["no_of_questions"]),
     finalScore = (details["score"] / no) * 100;
-
-  alert(
-    `Your score is ${finalScore}%. Click the New Exam Button to take another test.`
-  );
-  // isNaN(finalScore)
-  //   ? alert(
-  //       `Your score is extremely poor. Click the New Exam Button to take another one.`
-  //     )
-  //   : alert(
-  //       `Your score is ${finalScore}%. Click the New Exam Button to take another one.`
-  //     );
+  // console.log(`${finalScore} ${no}`);
+  isNaN(finalScore)
+    ? alert(
+        `Your score is extremely poor. Click the New Exam Button to take another one.`
+      )
+    : alert(
+        `Your score is ${finalScore}%. Click the New Exam Button to take another one.`
+      );
 }
 
 function newExam() {
