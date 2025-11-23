@@ -463,6 +463,127 @@ const questionBankAta = {
     answer: "turbines (reciprocating engines)",
     choices: ["hydraulic power", "oxygen", "turbines (reciprocating engines)"],
   },
+  "What does ATA chapter 05 talk about?": {
+    answer: "time limits/maintenance checks",
+    choices: [
+      "lifting and shoring",
+      "dimensions and area",
+      "time limits/maintenance checks",
+    ],
+  },
+  "What does ATA chapter 06 talk about?": {
+    answer: "dimensions and area",
+    choices: [
+      "lifting and shoring",
+      "dimensions and area",
+      "time limits/maintenance checks",
+    ],
+  },
+  "What does ATA chapter 07 talk about?": {
+    answer: "lifting and shoring",
+    choices: [
+      "lifting and shoring",
+      "dimensions and area",
+      "leveling and weighing",
+    ],
+  },
+  "What does ATA chapter 08 talk about?": {
+    answer: "leveling and weighing",
+    choices: [
+      "lifting and shoring",
+      "taxing and towing",
+      "leveling and weighing",
+    ],
+  },
+  "What does ATA chapter 09 talk about?": {
+    answer: "taxing and towing",
+    choices: [
+      "lifting and shoring",
+      "taxing and towing",
+      "parking, mooring, storage and return to service",
+    ],
+  },
+  "What does ATA chapter 10 talk about?": {
+    answer: "parking, mooring, storage and return to service",
+    choices: [
+      "placards and markings",
+      "taxing and towing",
+      "parking, mooring, storage and return to service",
+    ],
+  },
+  "What does ATA chapter 11 talk about?": {
+    answer: "placards and markings",
+    choices: [
+      "placards and markings",
+      "taxing and towing",
+      "parking, mooring, storage and return to service",
+    ],
+  },
+  "What does ATA chapter 12 talk about?": {
+    answer: "servicing/routine maintenance",
+    choices: [
+      "standard practices - airframe",
+      "time limit checks",
+      "servicing/routine maintenance",
+    ],
+  },
+  "What does ATA chapter 18 talk about?": {
+    answer: "vibration and noise analysis",
+    choices: [
+      "electrical installation",
+      "vibration and noise analysis",
+      "turbines",
+    ],
+  },
+  "What does ATA chapter 89 talk about?": {
+    answer: "flight test installation",
+    choices: [
+      "starting",
+      "flight test installation",
+      "turbines (reciprocating engines)",
+    ],
+  },
+  "Which ATA chapter talks about time limits/maintenance checks": {
+    answer: 5,
+    choices: [5, 6, 7],
+  },
+  "Which ATA chapter talks about dimensions and area": {
+    answer: 6,
+    choices: [6, 7, 5],
+  },
+  "Which ATA chapter talks about lifting and shoring": {
+    answer: 7,
+    choices: [6, 7, 8],
+  },
+  "Which ATA chapter talks about leveling and weighing": {
+    answer: 8,
+    choices: [7, 8, 9],
+  },
+  "Which ATA chapter talks about taxing and towing": {
+    answer: 9,
+    choices: [7, 8, 9],
+  },
+  "Which ATA chapter talks about parking, mooring, storage and return to service":
+    {
+      answer: 10,
+      choices: [8, 9, 10],
+    },
+  "Which ATA chapter talks about placards and markings": {
+    answer: 11,
+    choices: [10, 11, 9],
+  },
+  "Which ATA chapter talks about servicing/routine maintenance": {
+    answer: 12,
+    choices: [10, 11, 12],
+  },
+  "Which ATA chapter talks about vibration and noise analysis": {
+    answer: 18,
+    choices: [18, 17, 19],
+  },
+  "Which ATA chapter talks about flight test installation": {
+    answer: 89,
+    choices: [83, 86, 89],
+  },
 };
 
 export default questionBankAta;
