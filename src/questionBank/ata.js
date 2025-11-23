@@ -584,6 +584,50 @@ const questionBankAta = {
     answer: 89,
     choices: [83, 86, 89],
   },
+  "What does ATA chapter 84 talk about?": {
+    answer: "propulsion augumentation",
+    choices: [
+      "fuel cell systems",
+      "accessory gearboxes",
+      "propulsion augumentation",
+    ],
+  },
+  "What does ATA chapter 85 talk about?": {
+    answer: "fuel cell systems",
+    choices: [
+      "fuel cell systems",
+      "accessory gearboxes",
+      "propulsion augumentation",
+    ],
+  },
+  "What does ATA chapter 91 talk about?": {
+    answer: "charts",
+    choices: ["electrical system installation", "charts", "turbines"],
+  },
+  "What does ATA chapter 92 talk about?": {
+    answer: "electrical system installation",
+    choices: [
+      "electrical system installation",
+      "charts",
+      "flight test installation",
+    ],
+  },
+  "Which ATA chapter talks about propulsion augumentation": {
+    answer: 84,
+    choices: [84, 85, 83],
+  },
+  "Which ATA chapter talks about fuel cell systems": {
+    answer: 85,
+    choices: [84, 85, 83],
+  },
+  "Which ATA chapter talks about charts": {
+    answer: 91,
+    choices: [90, 91, 92],
+  },
+  "Which ATA chapter talks about electrical system installation": {
+    answer: 92,
+    choices: [91, 92, 89],
+  },
 };
 
 export default questionBankAta;
